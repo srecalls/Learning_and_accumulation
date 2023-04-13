@@ -1,0 +1,13 @@
+{
+  "editor:rename-heading": [],
+  "workspace:toggle-stacked-tabs": [],
+  "editor:toggle-code": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "C"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+HTML5规定的内容:
+setTimeout最小执行时间是4ms
+|setInterval最小执行时间是10ms
+
+最小执行时间是如果小于4ms，就会调整为4ms

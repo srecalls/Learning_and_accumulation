@@ -1,0 +1,1 @@
+Animations由两部分组成：[css动画](https://so.csdn.net/so/search?q=css%E5%8A%A8%E7%94%BB&spm=1001.2101.3001.7020)的配置，以及一系列的keyframes（用来描述动画的开始、过程、结束状态）。不需要了解任何Js技术即可完成动画的制作

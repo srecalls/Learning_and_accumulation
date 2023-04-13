@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "91ef0c9ad41cd56d",
+    "type": "split",
+    "children": [
+      {
+        "id": "37ec6ead695dba8b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9b2e10c22f4b464f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目/项目经验积累/git创建仓库.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ec6b9e06f8f7aaf0",
+    "type": "split",
+    "children": [
+      {
+        "id": "0cc21cd7ad60ce40",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a182c61920d55b1e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "git remote",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fa755e8e9b67ceed",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "51d51efeaf4fb5b4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "04524ac15b70e47e",
+    "type": "split",
+    "children": [
+      {
+        "id": "99b6ff94b9f29923",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19ea2e3a1f6e1de8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "项目/项目经验积累/git创建仓库.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9f515836fe6f447d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "项目/项目经验积累/git创建仓库.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e78d24608d276912",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "de2fa0664994cfdb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "项目/项目经验积累/git创建仓库.md"
+              }
+            }
+          },
+          {
+            "id": "74a144a9e5f4eddf",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "447ff30f2a1a19dc",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "898cb08ea16daa6a",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "51d51efeaf4fb5b4",
+  "lastOpenFiles": [
+    "面试/Git/Git如何合并、拉取代码.md",
+    "题目/JavaScript/format guide（格式）.md",
+    "面试/HTTP/防抖和节流是什么？.md",
+    "面试/HTTP/大文件上传是怎么做的.md",
+    "面试/Git/Git如何解决冲突问题.md",
+    "面试/性能优化/图片懒加载.md",
+    "面试/项目/项目开发的流程.md",
+    "Git/Git基础操作/移除文件.md",
+    "面试/HTTP/当数据没有请求过来的时候，该怎么 做？.md",
+    "面试/HTTP/从浏览器输入链接到呈现页面的过程.md",
+    "Git/Git基础操作/操作暂存区中的文件.md",
+    "Git/Git基础操作/安装并配置git.md",
+    "Git/Git基础操作/忽略文件.md",
+    "互联网原理与应用/照片/Pasted image 20221010092132.png",
+    "微信小程序/appPhoto/Pasted image 20230413111818.png",
+    "微信小程序/appPhoto/Pasted image 20230413105032.png",
+    "未命名.md",
+    "未命名 7.md",
+    "未命名 6.md",
+    "未命名 5.md",
+    "未命名 4.md",
+    "未命名 3.md",
+    "未命名 2.md",
+    "未命名 1.md",
+    "党的基本知识/党的基本路线和基本纲领是什么？党的最终目标是什么？.md",
+    "党的基本知识/党的纲领、路线、方针、政策以及中央委员会的决策；.md",
+    "党的基本知识/根本组织制度.md",
+    "党的基本知识/加入中国共产党的动机.md",
+    "党的基本知识/党的群众路线和民主集中制是什么？如何体现在实践中？.md",
+    "党的基本知识",
+    "微信小程序/appPhoto/Pasted image 20230413125450.png",
+    "微信小程序/appPhoto/Pasted image 20230413111830.png",
+    "微信小程序/appPhoto/Pasted image 20230413111741.png",
+    "微信小程序/appPhoto/Pasted image 20230413111723.png",
+    "微信小程序/appPhoto/Pasted image 20230413111707.png",
+    "微信小程序/appPhoto/Pasted image 20230413111648.png",
+    "微信小程序/appPhoto/Pasted image 20230413111617.png",
+    "微信小程序/第一个小程序/未命名",
+    "微信小程序/第一个小程序/注册小程序开发账号",
+    "微信小程序/第一个小程序",
+    "微信小程序/appPhoto",
+    "微信小程序/小程序简介",
+    "微信小程序",
+    "微前端",
+    "TypeScript.rar",
+    "Obsidian Vault.zip"
+  ]
+}

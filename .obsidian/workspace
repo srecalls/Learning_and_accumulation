@@ -1,0 +1,146 @@
+{
+  "main": {
+    "id": "b7149f394f6b5f77",
+    "type": "split",
+    "children": [
+      {
+        "id": "9347836f097109c2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "软件工程/可行性研究报告.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b6be3f7eb1dbd854",
+    "type": "split",
+    "children": [
+      {
+        "id": "84f64029a74b071d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "17f9c2d48c9a9bbc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "84f345bff7cd96d7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5cbb14a393f46750",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 311.50793838500977,
+    "collapsed": true
+  },
+  "right": {
+    "id": "b241f9ea67632879",
+    "type": "split",
+    "children": [
+      {
+        "id": "66c1468572884cbc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c4b3d07100f2b60",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "软件工程/可行性研究报告.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2e5d3ab86ffbbc01",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "软件工程/可行性研究报告.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1aa2f6cb05aaa918",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5e15b2b46e6a5bda",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "软件工程/可行性研究报告.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "9347836f097109c2",
+  "lastOpenFiles": [
+    "互联网原理与应用.md",
+    "Snipaste_2022-10-10_10-00-38.png",
+    "Pasted image 20221010104122.png",
+    "Pasted image 20221010105153.png",
+    "Snipaste_2022-10-10_10-28-32.png",
+    "Html+CSS/网页制作/PC端品优购项目/品优购项目制作/导航模块nav制作/导航模块nav制作.md",
+    "Html+CSS/网页制作/PC端品优购项目/品优购项目制作/快捷导航shortcut制作.md",
+    "Html+CSS/网页制作/PC端品优购项目/品优购项目制作/头部模块header制作/头部模块header制作.md",
+    "Html+CSS/网页制作/PC端品优购项目/品优购项目制作/头部模块header制作/search搜索模块.md",
+    "Html+CSS/网页制作/PC端品优购项目/品优购项目制作/头部模块header制作/shopcar购物车模块.md"
+  ]
+}
