@@ -4,143 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "bd055bd61b038a50",
+        "id": "caee8727e2b8ddf1",
         "type": "tabs",
         "children": [
           {
-            "id": "75eb786d5e98df76",
+            "id": "200f59f6b2a30fc5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "题目/Leetcode/简单/1.两数之和.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e248587c0a643156",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/JavaScript基础/对象/遍历对象.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "48d97d568dd96475",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "题目/JavaScript/format guide（格式）.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3d299c1feaa63d1a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "字节青训营/计算机网络概论/前言 & 课程介绍.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "710b0638ceff6f36",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "字节青训营/计算机网络概论/蟹堡王帝国.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5d20a26a6a68ac89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "字节青训营/计算机网络概论/计算机网络基础.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d04233609a13c886",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "字节青训营/计算机网络概论/Web中的网络.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b7922aa93809485b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "字节青训营/计算机网络概论/网络安全.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "26848168c52f5ddf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "题目/常见数据结构及方法/Map/Map的属性和方法.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ce84649bf107bedc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "题目/常见数据结构及方法/Map/Map的属性和方法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "12af8e4dcd1b46ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "题目/Leetcode/简单/169.多数元素.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 10
+        ]
       }
     ],
     "direction": "vertical"
@@ -169,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "MAP",
+                "query": "filter",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -206,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "题目/Leetcode/简单/169.多数元素.md",
+                "file": "uni-app/新建uni-app项目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "题目/Leetcode/简单/169.多数元素.md",
+                "file": "uni-app/新建uni-app项目.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "题目/Leetcode/简单/169.多数元素.md"
+                "file": "uni-app/新建uni-app项目.md"
               }
             }
           },
@@ -291,53 +166,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "12af8e4dcd1b46ec",
+  "active": "51d51efeaf4fb5b4",
   "lastOpenFiles": [
-    "题目/Leetcode/简单/242. 有效的字母异位词.md",
-    "题目/Leetcode/简单/387. 字符串中的第一个唯一字符.md",
-    "题目/Leetcode/简单/169.多数元素.md",
-    "字节青训营/计算机网络概论/网络安全.md",
-    "题目/常见数据结构及方法/Map/Map的属性和方法.md",
-    "题目/常见数据结构及方法/Map/JS Map的排序（sort）.md",
-    "ES6/ES6新特性/Map数据类型.md",
-    "题目/常见数据结构及方法/Map",
-    "项目/项目经验积累/我有一个页面，我点击头像的个人信息后会弹出一个浮框，那个弹窗可以修改个人头像和个人信息，我还有一个按钮是领取按钮，那个按钮点击后·也会弹出一个浮框，这个浮框属于路由吗，我可以用element-ui的什么组件来实现它.md",
-    "字节青训营/计算机网络概论/Web中的网络.md",
-    "字节青训营/计算机网络概论/计算机网络基础.md",
-    "字节青训营/计算机网络概论/蟹堡王帝国.md",
-    "字节青训营/计算机网络概论/前言 & 课程介绍.md",
-    "字节青训营/计算机网络概论.md",
-    "字节青训营/计算机网络概论",
-    "题目/JavaScript/format guide（格式）.md",
-    "字节青训营",
-    "题目/Leetcode/简单/1.两数之和.md",
-    "JavaScript/JavaScript基础/对象/遍历对象.md",
-    "ES6/ES6新特性/数组的扩展方法.md",
-    "题目/Leetcode/简单",
-    "题目/Leetcode",
-    "ES6/ES6新特性/迭代器Interator的用法.md",
-    "题目/常见数据结构及方法",
-    "微信小程序/appPhoto/Pasted image 20230414133032.png",
-    "微信小程序/appPhoto/Pasted image 20230414133002.png",
-    "微信小程序/appPhoto/Pasted image 20230414133000.png",
-    "微信小程序/appPhoto/Pasted image 20230414132816.png",
-    "微信小程序/appPhoto/Pasted image 20230414132749.png",
-    "微信小程序/appPhoto/Pasted image 20230414132650.png",
-    "微信小程序/appPhoto/Pasted image 20230414132612.png",
-    "微信小程序/appPhoto/Pasted image 20230414132521.png",
-    "微信小程序/appPhoto/Pasted image 20230414132520.png",
-    "微信小程序/appPhoto/Pasted image 20230414132452.png",
-    "微信小程序/小程序的宿主环境/组件/3.view组件的基本使用.md",
-    "微信小程序/小程序的宿主环境/组件/2.常用的视图容器类组件.md",
-    "微信小程序/小程序的宿主环境/组件/1.小程序中组件的分类.md",
-    "微信小程序/小程序的宿主环境/运行机制/6.页面渲染的过程.md",
-    "微信小程序/小程序的宿主环境/组件",
-    "微信小程序/小程序的宿主环境/运行机制/5.小程序启动的过程.md",
-    "微信小程序/小程序的宿主环境/宿主环境简介/3.小程序宿主环境包含的内容.md",
-    "微信小程序/小程序的宿主环境/运行机制",
-    "微信小程序/小程序的宿主环境/通信模型/1.通信的主题.md",
-    "微信小程序/小程序的宿主环境/通信模型/2.小程序的通信模型.md",
-    "微信小程序/小程序的宿主环境/通信模型",
-    "微信小程序/小程序的宿主环境/宿主环境简介"
+    "uni-app/HBuilderX.md",
+    "uni-app/新建uni-app项目.md",
+    "微信小程序/appPhoto/Pasted image 20230418032143.png",
+    "uni-app/uni-app好处.md",
+    "微信小程序/appPhoto/Pasted image 20230418032057.png",
+    "微信小程序/appPhoto/Pasted image 20230418032043.png",
+    "微信小程序/基础加强/总结.md",
+    "uni-app",
+    "微信小程序/appPhoto/Pasted image 20230418031922.png",
+    "微信小程序/基础加强/分包/分包预下载/3.分包预下载的限制.md",
+    "微信小程序/基础加强/案例-自定义tabBar",
+    "微信小程序/appPhoto/Pasted image 20230418031823.png",
+    "微信小程序/基础加强/分包/分包预下载/2.配置分包的预下载.md",
+    "微信小程序/appPhoto/Pasted image 20230418031719.png",
+    "微信小程序/appPhoto/Pasted image 20230418031704.png",
+    "微信小程序/基础加强/分包/使用分包/4.如何查看分包的体积.md",
+    "微信小程序/基础加强/分包/使用分包/5.打包原则.md",
+    "微信小程序/appPhoto/Pasted image 20230418031428.png",
+    "微信小程序/基础加强/分包/分包预下载/1.什么是分包预下载.md",
+    "微信小程序/appPhoto/Pasted image 20230418031255.png",
+    "微信小程序/基础加强/分包/独立分包/5.引用原则.md",
+    "微信小程序/基础加强/分包/分包预下载",
+    "微信小程序/appPhoto/Pasted image 20230418031115.png",
+    "微信小程序/基础加强/分包/独立分包/4.独立分包的配置方法.md",
+    "微信小程序/基础加强/分包/独立分包/3.独立分包的应用场景.md",
+    "微信小程序/基础加强/分包/独立分包/2.独立分包和普通分包的区别.md",
+    "微信小程序/基础加强/分包/独立分包/1.什么是独立分包.md",
+    "微信小程序/基础加强/分包/独立分包",
+    "微信小程序/基础加强/分包/使用分包/1.如何在项目中配置自己的分包.md",
+    "微信小程序/基础加强/分包/使用分包/1.配置方法.md",
+    "微信小程序/基础加强/分包/使用分包/3.如何给分包添加别名.md",
+    "微信小程序/基础加强/分包/基础概念/6.分包的体积限制.md",
+    "微信小程序/基础加强/分包/使用分包",
+    "微信小程序/基础加强/分包/基础概念/5.分包的加载规则.md",
+    "微信小程序/基础加强/分包/基础概念/4.分包后项目的构成.md",
+    "微信小程序/基础加强/分包/基础概念/3.分包前项目的构成.md",
+    "微信小程序/基础加强/分包/基础概念/2.分包的好处.md",
+    "微信小程序/基础加强/分包/基础概念/1.什么是分包.md",
+    "微信小程序/基础加强/全局数据共享/MobX/6.在组件中使用Store中的成员.md",
+    "微信小程序/基础加强/分包/基础概念",
+    "微信小程序/基础加强/分包",
+    "微信小程序/基础加强/全局数据共享/MobX/5.将Store中的成员绑定到组件中.md",
+    "微信小程序/基础加强/全局数据共享/MobX/4.在页面上使用Store中的成员.md",
+    "微信小程序/基础加强/全局数据共享/MobX",
+    "微信小程序/基础加强/全局数据共享",
+    "题目/常见数据结构及方法/Set"
   ]
 }
