@@ -11,11 +11,136 @@
             "id": "200f59f6b2a30fc5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "题目/Leetcode/简单/387. 字符串中的第一个唯一字符.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6d127ec1c805259c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "题目/Leetcode/简单/14.最长公共前缀.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4c7c8a1a1af837a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e1b7f859fbe78c42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/JavaScript进阶/构造函数/内置构造函数/Array.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f228cfbfa886cd96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/CSS/盒子水平垂直居中.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "47926f28d40097d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "题目/Leetcode/简单/2413.最小偶倍数.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "24735787a7afd75a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "uni-app/HBuilderX.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ea61d9fb2cb621e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "微信小程序/第一个小程序/1.注册小程序开发账号.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "de65e6444b3cb858",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git/Git基础操作/与远程仓库进行关联.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "64af1500248edb13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c775b7d8d9d432e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "题目/常见数据结构及方法/Map/Map的属性和方法.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -44,8 +169,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "filter",
-                "matchingCase": false,
+                "query": "git",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -65,7 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 288.5
   },
   "right": {
     "id": "04524ac15b70e47e",
@@ -81,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "uni-app/新建uni-app项目.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "uni-app/新建uni-app项目.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "uni-app/新建uni-app项目.md"
+                "file": "README.md"
               }
             }
           },
@@ -166,53 +291,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "51d51efeaf4fb5b4",
+  "active": "64af1500248edb13",
   "lastOpenFiles": [
+    "docs/install.md",
+    "docs/use.md",
+    "README.md",
+    "Git/Git基础操作/git checkout.md",
+    "Git/Git基础操作/git push -u的-u.md",
+    "Git/Git基础操作/与远程仓库进行关联.md",
+    "微信小程序/appPhoto/Pasted image 20230424011323.png",
+    "微信小程序/第一个小程序/1.注册小程序开发账号.md",
+    "微信小程序/第一个小程序/2.安装开发者工具.md",
+    "微信小程序/第一个小程序/3.创建小程序项目.md",
+    "uni-app/uni-app好处.md",
     "uni-app/HBuilderX.md",
     "uni-app/新建uni-app项目.md",
+    "项目/项目经验积累/怎么让输入框input和按钮button在同一行.md",
+    "docs",
+    "题目/Leetcode/中等/28.找出字符串中第一个匹配项的下标.md",
+    "题目/常见数据结构及方法/String/JS中字符串常用方法总结.md",
+    "题目/Leetcode/简单/2413.最小偶倍数.md",
+    "题目/Leetcode/中等",
+    "题目/Leetcode/简单/387. 字符串中的第一个唯一字符.md",
+    "面试/CSS/盒子水平垂直居中.md",
+    "Html+CSS/CSS高级技巧/过渡效果/5. transition.md",
+    "Html+CSS/移动端Web/移动端常见布局/flex布局/flex布局父项常见属性/justify-content 设置主轴上的子元素排列方式.md",
+    "Html+CSS/移动端Web/移动端常见布局/flex布局/flex布局父项常见属性/align-content 设置侧轴上的子元素排列方式（多行）.md",
+    "Html+CSS/移动端Web/移动端常见布局/flex布局/flex布局父项常见属性/flex-direction 设置主轴的方向.md",
+    "Vue/Vue/Vue组件/购物车案例.md",
+    "Vue/Vue/Vue组件/数组中的方法.md",
+    "Vue/Vue/Vue指令/v-bind 属性绑定指令.md",
+    "Vue/Vue/Vue-cil/SPA 单页面应用程序.md",
+    "微信小程序/appPhoto/Pasted image 20230420155411.png",
+    "微信小程序/appPhoto/Pasted image 20230420155351.png",
+    "题目/常见数据结构及方法/String",
+    "面试.rar",
+    "题目/常见数据结构及方法/Array",
     "微信小程序/appPhoto/Pasted image 20230418032143.png",
-    "uni-app/uni-app好处.md",
     "微信小程序/appPhoto/Pasted image 20230418032057.png",
     "微信小程序/appPhoto/Pasted image 20230418032043.png",
-    "微信小程序/基础加强/总结.md",
     "uni-app",
     "微信小程序/appPhoto/Pasted image 20230418031922.png",
-    "微信小程序/基础加强/分包/分包预下载/3.分包预下载的限制.md",
     "微信小程序/基础加强/案例-自定义tabBar",
     "微信小程序/appPhoto/Pasted image 20230418031823.png",
-    "微信小程序/基础加强/分包/分包预下载/2.配置分包的预下载.md",
     "微信小程序/appPhoto/Pasted image 20230418031719.png",
     "微信小程序/appPhoto/Pasted image 20230418031704.png",
-    "微信小程序/基础加强/分包/使用分包/4.如何查看分包的体积.md",
-    "微信小程序/基础加强/分包/使用分包/5.打包原则.md",
-    "微信小程序/appPhoto/Pasted image 20230418031428.png",
-    "微信小程序/基础加强/分包/分包预下载/1.什么是分包预下载.md",
-    "微信小程序/appPhoto/Pasted image 20230418031255.png",
-    "微信小程序/基础加强/分包/独立分包/5.引用原则.md",
     "微信小程序/基础加强/分包/分包预下载",
-    "微信小程序/appPhoto/Pasted image 20230418031115.png",
-    "微信小程序/基础加强/分包/独立分包/4.独立分包的配置方法.md",
-    "微信小程序/基础加强/分包/独立分包/3.独立分包的应用场景.md",
-    "微信小程序/基础加强/分包/独立分包/2.独立分包和普通分包的区别.md",
-    "微信小程序/基础加强/分包/独立分包/1.什么是独立分包.md",
     "微信小程序/基础加强/分包/独立分包",
-    "微信小程序/基础加强/分包/使用分包/1.如何在项目中配置自己的分包.md",
-    "微信小程序/基础加强/分包/使用分包/1.配置方法.md",
-    "微信小程序/基础加强/分包/使用分包/3.如何给分包添加别名.md",
-    "微信小程序/基础加强/分包/基础概念/6.分包的体积限制.md",
-    "微信小程序/基础加强/分包/使用分包",
-    "微信小程序/基础加强/分包/基础概念/5.分包的加载规则.md",
-    "微信小程序/基础加强/分包/基础概念/4.分包后项目的构成.md",
-    "微信小程序/基础加强/分包/基础概念/3.分包前项目的构成.md",
-    "微信小程序/基础加强/分包/基础概念/2.分包的好处.md",
-    "微信小程序/基础加强/分包/基础概念/1.什么是分包.md",
-    "微信小程序/基础加强/全局数据共享/MobX/6.在组件中使用Store中的成员.md",
-    "微信小程序/基础加强/分包/基础概念",
-    "微信小程序/基础加强/分包",
-    "微信小程序/基础加强/全局数据共享/MobX/5.将Store中的成员绑定到组件中.md",
-    "微信小程序/基础加强/全局数据共享/MobX/4.在页面上使用Store中的成员.md",
-    "微信小程序/基础加强/全局数据共享/MobX",
-    "微信小程序/基础加强/全局数据共享",
-    "题目/常见数据结构及方法/Set"
+    "微信小程序/基础加强/分包/使用分包"
   ]
 }
