@@ -1,5 +1,5 @@
 {
-  "promptDelete": false,
-  "attachmentFolderPath": "微信小程序/appPhoto",
+  "promptDelete": true,
+  "attachmentFolderPath": "面试/面试photo",
   "legacyEditor": false
 }

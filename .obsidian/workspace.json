@@ -4,143 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "caee8727e2b8ddf1",
+        "id": "9611fb23939cad07",
         "type": "tabs",
         "children": [
           {
-            "id": "200f59f6b2a30fc5",
+            "id": "43de430de503ce42",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "题目/Leetcode/简单/387. 字符串中的第一个唯一字符.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6d127ec1c805259c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "题目/Leetcode/简单/14.最长公共前缀.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4c7c8a1a1af837a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e1b7f859fbe78c42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/JavaScript进阶/构造函数/内置构造函数/Array.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f228cfbfa886cd96",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/CSS/盒子水平垂直居中.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "47926f28d40097d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "题目/Leetcode/简单/2413.最小偶倍数.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "24735787a7afd75a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "uni-app/HBuilderX.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ea61d9fb2cb621e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "微信小程序/第一个小程序/1.注册小程序开发账号.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "de65e6444b3cb858",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git/Git基础操作/与远程仓库进行关联.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "64af1500248edb13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
+                "file": "字节内部课/字节前端训练营/理解CSS/02 布局和定位/布局/常规流.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "c775b7d8d9d432e9",
+            "id": "d4a89dc593d535ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "题目/常见数据结构及方法/Map/Map的属性和方法.md",
+                "file": "面试/算法/数组去重.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "34d5a6aea0600885",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/算法/数组去重.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "db7e88f6d7f5bcd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/CSS/单行、多行文本溢出隐藏.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f82313d84381cc49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/面试/数字广东面试/数字广东前端面经.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -169,8 +97,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git",
-                "matchingCase": true,
+                "query": "请求头",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -185,12 +113,20 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "36bd12af6e47140d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 287.5
   },
   "right": {
     "id": "04524ac15b70e47e",
@@ -206,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "面试/面试/数字广东面试/数字广东前端面经.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "面试/面试/数字广东面试/数字广东前端面经.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "面试/面试/数字广东面试/数字广东前端面经.md"
               }
             }
           },
@@ -291,53 +227,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "64af1500248edb13",
+  "active": "f82313d84381cc49",
   "lastOpenFiles": [
-    "docs/install.md",
-    "docs/use.md",
-    "README.md",
-    "Git/Git基础操作/git checkout.md",
-    "Git/Git基础操作/git push -u的-u.md",
-    "Git/Git基础操作/与远程仓库进行关联.md",
-    "微信小程序/appPhoto/Pasted image 20230424011323.png",
-    "微信小程序/第一个小程序/1.注册小程序开发账号.md",
-    "微信小程序/第一个小程序/2.安装开发者工具.md",
-    "微信小程序/第一个小程序/3.创建小程序项目.md",
-    "uni-app/uni-app好处.md",
-    "uni-app/HBuilderX.md",
-    "uni-app/新建uni-app项目.md",
-    "项目/项目经验积累/怎么让输入框input和按钮button在同一行.md",
-    "docs",
-    "题目/Leetcode/中等/28.找出字符串中第一个匹配项的下标.md",
-    "题目/常见数据结构及方法/String/JS中字符串常用方法总结.md",
-    "题目/Leetcode/简单/2413.最小偶倍数.md",
-    "题目/Leetcode/中等",
-    "题目/Leetcode/简单/387. 字符串中的第一个唯一字符.md",
-    "面试/CSS/盒子水平垂直居中.md",
-    "Html+CSS/CSS高级技巧/过渡效果/5. transition.md",
-    "Html+CSS/移动端Web/移动端常见布局/flex布局/flex布局父项常见属性/justify-content 设置主轴上的子元素排列方式.md",
-    "Html+CSS/移动端Web/移动端常见布局/flex布局/flex布局父项常见属性/align-content 设置侧轴上的子元素排列方式（多行）.md",
-    "Html+CSS/移动端Web/移动端常见布局/flex布局/flex布局父项常见属性/flex-direction 设置主轴的方向.md",
-    "Vue/Vue/Vue组件/购物车案例.md",
-    "Vue/Vue/Vue组件/数组中的方法.md",
-    "Vue/Vue/Vue指令/v-bind 属性绑定指令.md",
-    "Vue/Vue/Vue-cil/SPA 单页面应用程序.md",
-    "微信小程序/appPhoto/Pasted image 20230420155411.png",
-    "微信小程序/appPhoto/Pasted image 20230420155351.png",
-    "题目/常见数据结构及方法/String",
-    "面试.rar",
-    "题目/常见数据结构及方法/Array",
-    "微信小程序/appPhoto/Pasted image 20230418032143.png",
-    "微信小程序/appPhoto/Pasted image 20230418032057.png",
-    "微信小程序/appPhoto/Pasted image 20230418032043.png",
-    "uni-app",
-    "微信小程序/appPhoto/Pasted image 20230418031922.png",
-    "微信小程序/基础加强/案例-自定义tabBar",
-    "微信小程序/appPhoto/Pasted image 20230418031823.png",
-    "微信小程序/appPhoto/Pasted image 20230418031719.png",
-    "微信小程序/appPhoto/Pasted image 20230418031704.png",
-    "微信小程序/基础加强/分包/分包预下载",
-    "微信小程序/基础加强/分包/独立分包",
-    "微信小程序/基础加强/分包/使用分包"
+    "面试/面试/广州嘉为科技/线下面试.md",
+    "面试/面试/数字广东面试/数字广东前端面试总结（1面）.md",
+    "面试/面试/广州嘉为科技",
+    "面试/面试/数字广东面试/数字广东前端面经.md",
+    "面试/Vue/对Vue生命周期的理解.md",
+    "面试/场景题/排序问题，有10万长度，都是整数，找出最大的10个数.md",
+    "面试/场景题",
+    "面试/CSS/position的属性有哪些,区别是什么.md",
+    "Ajax/Http协议加强/http响应状态码.md",
+    "面试/Axios/ajax怎么避免缓存问题.md",
+    "Ajax/Http协议加强/http请求方法.md",
+    "面试/CSS/单行、多行文本溢出隐藏.md",
+    "面试/HTTP/HTTP协议规定的协议头和请求头有什么.md",
+    "面试/面试photo/Pasted image 20230515044816.png",
+    "面试/面试photo/Pasted image 20230515044313.png",
+    "面试/面试photo/Pasted image 20230515044153.png",
+    "面试/面试photo/Pasted image 20230515044058.png",
+    "面试/面试photo/Pasted image 20230515044042.png",
+    "面试/面试photo/Pasted image 20230515043852.png",
+    "面试/面试photo/Pasted image 20230515043835.png",
+    "面试/面试photo/Pasted image 20230515043815.png",
+    "Ajax/Http协议加强/http请求消息.md",
+    "面试/HTML/浏览器的存储方式.md",
+    "面试/HTTP/浏览器（http请求的缓存）的缓存机制.md",
+    "面试/HTTP/了解过JWT吗.md",
+    "面试/Axios/get和post有什么区别.md",
+    "面试/Axios/get和post区别.md",
+    "字节内部课/字节前端训练营/理解CSS/02 布局和定位/布局/常规流.md",
+    "面试/面试photo/Pasted image 20230515042410.png",
+    "面试/面试photo/Pasted image 20230515042401.png",
+    "面试/HTTP/token存在sessionstorage还是localstorage.md",
+    "Html+CSS/CSS高级技巧/溢出的文字省略号显示/多行文字溢出省略号显示.md",
+    "面试/CSS/什么是BFC.md",
+    "字节内部课/字节前端训练营/深入浅出TypeScript/01 为什么要学习TS.md",
+    "字节内部课/字节前端训练营/理解CSS/02 布局和定位/布局/布局概述.md",
+    "面试/CSS/盒子模型.md",
+    "面试/JS/判断数组的方式有哪些.md",
+    "面试/算法/数组去重.md",
+    "面试/面试/小米面试",
+    "面试/面试/数字广东面试",
+    "面试/面试",
+    "面试/面试photo",
+    "测试报告photo/未命名",
+    "测试报告photo",
+    "日常积累",
+    "字节内部课/字节前端训练营/结营测试"
   ]
 }
