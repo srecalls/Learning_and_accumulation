@@ -1,3 +1,30 @@
+```js
+
+
+```
+![[Pasted image 20230524011930.png]]
+![[Pasted image 20230524011913.png]]
+![[Pasted image 20230524013755.png]]
+![[Pasted image 20230524015014.png]]
+
+Document.createDocumentFragment
+https://developer.mozilla.org/zh-CN/docs/Web/API/Document/createDocumentFragment
+
+append
+# Element.append()
+https://developer.mozilla.org/zh-CN/docs/Web/API/Element/append
+
+
+
+
+
+
+
+
+
+
+
+
 通过数据劫持和发布订阅者模式来实现，同时利用O
 ![[Pasted image 20230410124428.png]]
 通过数据劫持和发布订阅者模式来实现，同时利用object . defineProperty()劫持各个属性的setter和getter,
@@ -13,3 +40,6 @@
 	
 第四步: MVWM作 为数据绑定的入口，整合了observer. compile 和Iwatcher三者，通过observer来 监听自己的数据变化，
 通过compile解析模板指令，最后利用watcherbal
+
+
+

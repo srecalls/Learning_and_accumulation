@@ -11,7 +11,7 @@ array.reduce(function(total, currentValue, currentIndex, arr), initialValue)
 ## 3、参数说明
 ![[Pasted image 20230420155351.png]]
 ![[Pasted image 20230420155411.png]]
-
+total默认0
 
 ## 4、用法
 reduce() 方法接收一个函数作为累加器，数组中的每个值（从左到右）开始缩减，最终计算为一个值。

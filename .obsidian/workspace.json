@@ -4,71 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "9611fb23939cad07",
+        "id": "c1ff08b42cd00d2c",
         "type": "tabs",
         "children": [
           {
-            "id": "43de430de503ce42",
+            "id": "3c92879fe560dac2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "字节内部课/字节前端训练营/理解CSS/02 布局和定位/布局/常规流.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d4a89dc593d535ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/算法/数组去重.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "34d5a6aea0600885",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/算法/数组去重.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "db7e88f6d7f5bcd0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/CSS/单行、多行文本溢出隐藏.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f82313d84381cc49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/面试/数字广东面试/数字广东前端面经.md",
+                "file": "面试/Vue/黑马pink原型和原型链.md",
                 "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a5ba05e8852aa1ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/Vue/Vue2和Vue3有哪些区别.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2faeb39c6e7223a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "题目/Leetcode/简单/349.两个数组的交集.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "请求头",
+                "query": "vue2",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +98,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -137,29 +114,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "19ea2e3a1f6e1de8",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "面试/面试/数字广东面试/数字广东前端面经.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "9f515836fe6f447d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/面试/数字广东面试/数字广东前端面经.md",
+                "file": "面试/Vue/Vue2和Vue3有哪些区别.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/面试/数字广东面试/数字广东前端面经.md"
+                "file": "面试/Vue/Vue2和Vue3有哪些区别.md"
               }
             }
           },
@@ -227,53 +187,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f82313d84381cc49",
+  "active": "a5ba05e8852aa1ec",
   "lastOpenFiles": [
-    "面试/面试/广州嘉为科技/线下面试.md",
-    "面试/面试/数字广东面试/数字广东前端面试总结（1面）.md",
-    "面试/面试/广州嘉为科技",
-    "面试/面试/数字广东面试/数字广东前端面经.md",
-    "面试/Vue/对Vue生命周期的理解.md",
-    "面试/场景题/排序问题，有10万长度，都是整数，找出最大的10个数.md",
-    "面试/场景题",
-    "面试/CSS/position的属性有哪些,区别是什么.md",
-    "Ajax/Http协议加强/http响应状态码.md",
-    "面试/Axios/ajax怎么避免缓存问题.md",
-    "Ajax/Http协议加强/http请求方法.md",
-    "面试/CSS/单行、多行文本溢出隐藏.md",
-    "面试/HTTP/HTTP协议规定的协议头和请求头有什么.md",
-    "面试/面试photo/Pasted image 20230515044816.png",
-    "面试/面试photo/Pasted image 20230515044313.png",
-    "面试/面试photo/Pasted image 20230515044153.png",
-    "面试/面试photo/Pasted image 20230515044058.png",
-    "面试/面试photo/Pasted image 20230515044042.png",
-    "面试/面试photo/Pasted image 20230515043852.png",
-    "面试/面试photo/Pasted image 20230515043835.png",
-    "面试/面试photo/Pasted image 20230515043815.png",
-    "Ajax/Http协议加强/http请求消息.md",
-    "面试/HTML/浏览器的存储方式.md",
-    "面试/HTTP/浏览器（http请求的缓存）的缓存机制.md",
-    "面试/HTTP/了解过JWT吗.md",
-    "面试/Axios/get和post有什么区别.md",
-    "面试/Axios/get和post区别.md",
+    "面试/Vue/父子Vue如何进行组件通信.md",
+    "Vue/Vue/Vue组件/数据互传/4.兄弟组件之间的数据共享 Vue2.x.md",
+    "面试/Vue/黑马pink原型和原型链.md",
+    "微信小程序/基础加强/自定义组件/父子组件之间的通信/1.父子组件之间通信的3种方式.md",
+    "Vue/Vue/Vue组件/数据互传/1.组件之间的关系.md",
+    "Vue/Vue/Vue组件/数据互传/4.兄弟组件之间的数据共享 Vue3.x.md",
+    "面试/面试/小米面试/小米前端面试.md",
     "字节内部课/字节前端训练营/理解CSS/02 布局和定位/布局/常规流.md",
-    "面试/面试photo/Pasted image 20230515042410.png",
-    "面试/面试photo/Pasted image 20230515042401.png",
-    "面试/HTTP/token存在sessionstorage还是localstorage.md",
-    "Html+CSS/CSS高级技巧/溢出的文字省略号显示/多行文字溢出省略号显示.md",
-    "面试/CSS/什么是BFC.md",
-    "字节内部课/字节前端训练营/深入浅出TypeScript/01 为什么要学习TS.md",
-    "字节内部课/字节前端训练营/理解CSS/02 布局和定位/布局/布局概述.md",
-    "面试/CSS/盒子模型.md",
-    "面试/JS/判断数组的方式有哪些.md",
-    "面试/算法/数组去重.md",
+    "面试/JS/从浏览器输入url到呈现页面的过程.md",
+    "字节内部课/字节前端训练营/前端语言串讲/03 你不知道的HTML（5）.md",
+    "字节内部课/字节前端训练营/客户端容器/03 Chrome运行原理.md",
+    "面试/性能优化/大文件上传.md",
+    "面试/HTTP/大文件上传是怎么做的.md",
+    "面试/JS/大文件上传是怎么做的.md",
+    "面试/面试/广州嘉为科技/线下面试.md",
+    "未命名/未命名.md",
+    "题目/Leetcode/简单/349.两个数组的交集.md",
+    "面试/手写代码/比较小程序版本.md",
+    "微信小程序/起步/协同工作和发布/小程序的版本/2.小程序的版本.md",
+    "面试/Vue/蛋老师CDN.md",
+    "字节内部课/字节前端训练营/组件库的使用和自定义组件/02 组件库的使用/02_01 快速上手.md",
+    "Vue/Vue/axios/axios拦截器/4.配置请求拦截器/4.1 请求拦截器 Token认证.md",
+    "面试/Vue/路由拦截是怎么实现的.md",
+    "Vue/Vue/Vue组件/数据互传/6.Vuex.md",
+    "面试/Vue/vue对前端路由的登录权限.md",
+    "面试/HTTP/token的登录流程.md",
+    "面试/面试photo/Pasted image 20230524133011.png",
+    "面试/面试photo/Pasted image 20230524132815.png",
+    "面试/面试photo/Pasted image 20230524132708.png",
+    "面试/面试photo/Pasted image 20230524132700.png",
+    "面试/面试photo/Pasted image 20230524132643.png",
+    "面试/面试photo/Pasted image 20230524132615.png",
+    "面试/面试photo/Pasted image 20230524132605.png",
+    "面试/面试photo/Pasted image 20230524132555.png",
+    "面试/面试photo/Pasted image 20230524130503.png",
+    "面试/面试photo/Pasted image 20230524112703.png",
+    "面试/Vue/未命名",
+    "面试/手写代码",
+    "面试/JS/原型",
+    "未命名",
+    "面试/面试/广州嘉为科技",
+    "面试/场景题",
     "面试/面试/小米面试",
     "面试/面试/数字广东面试",
     "面试/面试",
-    "面试/面试photo",
-    "测试报告photo/未命名",
-    "测试报告photo",
-    "日常积累",
-    "字节内部课/字节前端训练营/结营测试"
+    "面试/面试photo"
   ]
 }
