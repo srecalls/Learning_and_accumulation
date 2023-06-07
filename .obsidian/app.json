@@ -1,5 +1,11 @@
 {
-  "promptDelete": true,
-  "attachmentFolderPath": "面试/面试photo",
-  "legacyEditor": false
+  "promptDelete": false,
+  "attachmentFolderPath": "Python/网络安全/photo",
+  "legacyEditor": false,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

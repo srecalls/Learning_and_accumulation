@@ -84,6 +84,9 @@ console.log(a);  // [5, 9, 6, 7, 8]
 var b = [5,6,7,8];
 console.log(b.splice(1,2,3));  //[6, 7]
 console.log(b); //[5, 3, 8]
+var c = [1,2,3,4];
+console.log(c.splice(0,1));  // [1]
+console.log(c) // [2,3,4]
 ```
 
 ## 九、写错了（已删除）
@@ -99,6 +102,34 @@ fruit.sort(); // ['apples', 'bananas', 'cherries']
 var scores = [1, 10, 21, 2];
 scores.sort(); // [1, 10, 2, 21]
 ```
+
+
+```js
+	// sort排序
+    const sortArr = [5,2,1,3,6,8,4,5,7,0,15];
+    const sortAns = sortArr.sort();
+    console.log(sortAns);
+    // [0, 1, 15, 2, 3, 4, 5, 5, 6, 7, 8] 
+
+    const sortArr1 = [5,2,1,3,6,8,4,5,7,0,15];
+    const sortAns1 = sortArr1.sort((a,b)=>{return a-b});
+    console.log(sortAns1);
+    // [0, 1, 2, 3, 4, 5, 5, 6, 7, 8, 15] 
+    
+    const sortArr2 = ["Banana", "Orange", "Apple", "Mango"];
+    const sortAns2 = sortArr2.sort();
+    // ['Apple', 'Banana', 'Mango', 'Orange']
+```
+sort() 方法用于对数组的元素进行排序。
+
+排序顺序可以是字母或数字，并按升序或降序。默认排序顺序为按字母升序。
+
+注意： 当数字是按字母顺序排列时"40"将排在"5"前面。因为“40”中的"4"小于“5”。
+
+使用数字排序，你必须通过一个函数作为参数来调用。函数指定数字是按照升序还是降序排列。
+
+注意： 这种方法会改变原始数组！。
+
 
 ## 十一、reverse()
 
