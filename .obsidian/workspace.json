@@ -32,6 +32,54 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d22149c08de44957",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/面试/腾讯/腾讯校招实习一面.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "184036f8a4e2b4eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/HTTP/什么是HTTP强缓存.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b4448a00edf9b027",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/HTTP/http缓存（浏览器缓存）——强缓存、协商缓存.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "803694b06e9aeb7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/面试/美团面试/美团前端实习面经.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -62,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "$nextTick",
+                "query": "缓存",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +128,17 @@
             }
           },
           {
-            "id": "36bd12af6e47140d",
+            "id": "be0c182a7a0e7be2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Date Schedule.md"
+              }
+            }
+          },
+          {
+            "id": "e791b0fa0124e833",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -91,7 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 405.5
+    "width": 336.5
   },
   "right": {
     "id": "04524ac15b70e47e",
@@ -193,53 +251,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "51d51efeaf4fb5b4",
+  "active": "d2f594b9f6a739ba",
   "lastOpenFiles": [
+    "面试/面试/美团面试/美团前端实习面经.md",
+    "面试/面试/美团面试/24暑期美团前端实习-已offer.md",
+    "面试/面试/腾讯/腾讯校招实习一面.md",
+    "面试/HTTP/什么是HTTP强缓存.md",
+    "面试/HTTP/http缓存（浏览器缓存）——强缓存、协商缓存.md",
+    "面试/HTTP/什么是HTTP协商缓存.md",
+    "Vue/Vue/路由/导航守卫.md",
+    "面试/面试/美团面试/美团美团前端实习二面面经（隐去敏感问题）.md",
+    "面试/面试/美团面试/美团3.23一面面试题目.md",
+    "Python/网络安全/photo/Pasted image 20230608175109.png",
+    "面试/性能优化/未命名.md",
+    "面试/面试/数字广东面试/数字广东前端开发实习生.md",
+    "Ajax/跨域与JSONP/防抖和节流.md",
+    "面试/Vue/蛋老师HTTP缓存.md",
+    "Vue/Vue/Vue组件/动态组件/动态组件介绍.md",
+    "面试/性能优化/前端怎么实现MD5避免文件重复上传.md",
+    "面试/性能优化/大文件上传 2.md",
+    "Python/网络安全/photo/Pasted image 20230608162612.png",
+    "面试/手写代码/实现数组的flat方法.md",
+    "面试/Vue/vue对前端路由的登录权限.md",
+    "面试/Vue/说一下vue的动态路由.md",
+    "项目/项目经验积累/路由里面的name有什么用.md",
+    "面试/项目/登录模块怎么做的.md",
+    "面试/JS/JavaScript的数据类型.md",
+    "面试/性能优化/大文件上传.md",
+    "面试/HTTP/token的登录流程.md",
+    "ES6/ES6新特性/Symbol的基本使用.md",
+    "面试/算法/数组扁平化 2.md",
+    "Python/网络安全/photo/Pasted image 20230608151842.png",
+    "Python/网络安全/photo/Pasted image 20230608151746.png",
     "闭包.html",
     "new.html",
     "main.py",
     "Register.vue",
     "Login.vue",
-    "面试/面试/美团面试/24暑期美团前端实习-已offer.md",
-    "Webpack/Webpack基本使用/了解mode.md",
-    "Vue/Vue/Vue组件/ref/ref引用DOM元素.md",
-    "面试/面试/美团面试/美团前端实习面经.md",
-    "Vue/Vue/⭐如何创建一个Vue项目/⭐第一种创建方法.md",
-    "Date Schedule.md",
-    "题目/常见数据结构及方法/Array/Array.from ()方法详解.md",
-    "题目/常见数据结构及方法/Array/创建二维数组的几种方式.md",
-    "Webpack/Webpack基本使用/创建列表隔层变色项目.md",
-    "Vue/Vue/Vue指令/v-on 事件绑定指令.md",
-    "Webpack/Webpack基本使用/Webpack安装.md",
-    "Webpack/Webpack基本使用/Webpack插件.md",
-    "Webpack/Webpack基本使用/Webpack配置.md",
-    "Webpack/打包发布.md",
-    "Webpack/实际开发中webpack.md",
-    "Webpack/Webpack概念.md",
-    "Webpack/Webpack的lorder.md",
-    "前端代码【开发日志】(1).md",
-    "前后端分离和不分离的安全问题.md",
-    "题目/Leetcode/中等/28.找出字符串中第一个匹配项的下标.md",
-    "题目/Leetcode/简单/2455.可被三整除的偶数的平均值.md",
-    "题目/Leetcode/简单/2460.对数组执行操作.md",
-    "题目/Leetcode/简单/2465. 不同的平均值数目.md",
-    "题目/Leetcode/中等/2352. 相等行列对.md",
-    "题目/Leetcode/简单/867. 转置矩阵.md",
     "Python/网络安全/photo/Pasted image 20230607002830.png",
     "Python/网络安全/photo/Pasted image 20230606160350.png",
     "Python/网络安全/photo/Pasted image 20230606153129.png",
     "Python/网络安全/photo/Pasted image 20230606153119.png",
     "Python/网络安全/photo/Pasted image 20230606152628.png",
     "Python/网络安全/photo/Pasted image 20230606152622.png",
-    "Python/网络安全/photo/Pasted image 20230606152216.png",
     "Python/网络安全/photo",
     "Python/未命名",
     "Python/网络安全作业版",
     "未命名",
-    "面试/面试photo/Pasted image 20230606113126.png",
-    "面试/面试photo/Pasted image 20230606113109.png",
-    "Python/网络安全",
-    "Python/List数组",
-    "面试/面试photo/Pasted image 20230531172543.png"
+    "Python/网络安全"
   ]
 }

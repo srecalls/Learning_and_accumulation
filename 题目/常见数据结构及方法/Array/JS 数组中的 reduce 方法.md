@@ -27,9 +27,9 @@ const array = [1, 2, 3, 4]
 const newArr = array.reduce((total, currentValue, index, arr) => {
   console.log(total, currentValue, index, arr);
 // 总共迭代三次，打印:
-// 1 2 1 (4) [1, 2, 3, 4]
-// 3 3 2 (4) [1, 2, 3, 4]
-// 6 4 3 (4) [1, 2, 3, 4]
+// 1 2 1 Array(4) [1, 2, 3, 4]
+// 3 3 2 Array(4) [1, 2, 3, 4]
+// 6 4 3 Array(4) [1, 2, 3, 4]
   return total + currentValue
 })
 console.log(newArr);// 最终求和，打印 10
@@ -41,15 +41,15 @@ console.log(newArr);// 最终求和，打印 10
 *2、设置函数的初始迭代值*
 ```js
 const array = [1, 2, 3, 4]
-const newArr = array.reduce((total, currentValue, index, arr) => {
+const newArr = array.reduce((total, currentValue, index, arr) =>{
   console.log(total, currentValue, index, arr);
 // 因为设置可初始值，所以总共迭代四次，打印:
-// 5 2 1 (4) [1, 2, 3, 4]
-// 6 3 2 (4) [1, 2, 3, 4]
-// 8 4 3 (4) [1, 2, 3, 4]
-// 11 4 4 (4) [1, 2, 3, 4]
+// 5 1 0 Array(4) [1, 2, 3, 4]
+// 6 2 1 Arra(4) [1, 2, 3, 4]
+// 8 3 2 Arra(4) [1, 2, 3, 4]
+// 11 4 3 Arra(4) [1, 2, 3, 4]
   return total + currentValue
-},5)
+}, 5)
 console.log(newArr);// 最终求和，打印 15
 ```
 分析：

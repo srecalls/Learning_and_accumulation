@@ -17,7 +17,7 @@ console.log(m.size);
 const m = new Map();
 // 它的参数为两个，第一个为键，第二个为值
 m.set('val', 'map');
-console.log(m);
+console.log(m); // {"val" => "map"}
 // 可以连缀 Set
 m.set('orange', 'fruit').set('cat', 'animal');
 console.log(m);
