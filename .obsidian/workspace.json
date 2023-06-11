@@ -8,14 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d2f594b9f6a739ba",
+            "id": "646a2fc1d137e966",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Date Schedule.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "pinned": true
@@ -75,7 +75,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/面试/美团面试/美团前端实习面经.md",
+                "file": "合并说明.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "de07ccc70fe2872a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/面试/美团面试/24暑期美团前端实习-已offer.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +122,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "缓存",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -136,20 +148,12 @@
                 "file": "Date Schedule.md"
               }
             }
-          },
-          {
-            "id": "e791b0fa0124e833",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 336.5
+    "width": 393.5
   },
   "right": {
     "id": "04524ac15b70e47e",
@@ -251,36 +255,39 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d2f594b9f6a739ba",
+  "active": "646a2fc1d137e966",
   "lastOpenFiles": [
+    "面试/HTTP/状态码/400 Bad Request.md",
+    "Date Schedule.md",
+    "面试/HTTP/状态码/4XX (Client Error)",
+    "日常积累/服务器日志.md",
+    "面试/HTTP/状态码",
+    "面试/JS/从浏览器输入url到呈现页面的过程.md",
+    "合并说明.md",
+    "题目/Leetcode/简单/136.只出现一次的数字.md",
+    "Vue/Vue/Vue组件/数组中的方法.md",
+    "题目/常见数据结构及方法/Map/Map的属性和方法.md",
+    "日常积累/深浅拷贝问题.md",
     "面试/面试/美团面试/美团前端实习面经.md",
     "面试/面试/美团面试/24暑期美团前端实习-已offer.md",
-    "面试/面试/腾讯/腾讯校招实习一面.md",
-    "面试/HTTP/什么是HTTP强缓存.md",
-    "面试/HTTP/http缓存（浏览器缓存）——强缓存、协商缓存.md",
-    "面试/HTTP/什么是HTTP协商缓存.md",
-    "Vue/Vue/路由/导航守卫.md",
-    "面试/面试/美团面试/美团美团前端实习二面面经（隐去敏感问题）.md",
-    "面试/面试/美团面试/美团3.23一面面试题目.md",
+    "题目/常见数据结构及方法/Object/JavaScript Object对象常用方法和属性.md",
+    "JavaScript/JavaScript进阶/构造函数/内置构造函数/Object.md",
+    "日常积累/组件封装.md",
+    "Python/网络安全/photo/Pasted image 20230610114947.png",
+    "Python/网络安全/photo/Pasted image 20230610114932.png",
+    "JavaScript/JavaScript进阶/高阶技巧/深浅拷贝/浅拷贝.md",
+    "JavaScript/JavaScript进阶/高阶技巧/深浅拷贝/深拷贝.md",
+    "面试/JS/如何实现一个深拷贝.md",
+    "前端代码【开发日志】(1).md",
+    "Html+CSS/CSS基础/CSS特性/优先级/权重叠加计算.md",
+    "Html+CSS/CSS基础/CSS特性/优先级/优先级.md",
+    "面试/CSS/CSS选择器的优先级.md",
+    "面试/CSS/盒子水平垂直居中.md",
+    "Html+CSS/CSS基础/背景相关属性/背景图片 background-image.md",
+    "字节内部课/字节前端训练营/理解CSS/02 布局和定位/布局/常规流.md",
+    "题目/Leetcode/中等/剑指 Offer II 085. 生成匹配的括号.md",
     "Python/网络安全/photo/Pasted image 20230608175109.png",
-    "面试/性能优化/未命名.md",
-    "面试/面试/数字广东面试/数字广东前端开发实习生.md",
-    "Ajax/跨域与JSONP/防抖和节流.md",
-    "面试/Vue/蛋老师HTTP缓存.md",
-    "Vue/Vue/Vue组件/动态组件/动态组件介绍.md",
-    "面试/性能优化/前端怎么实现MD5避免文件重复上传.md",
-    "面试/性能优化/大文件上传 2.md",
     "Python/网络安全/photo/Pasted image 20230608162612.png",
-    "面试/手写代码/实现数组的flat方法.md",
-    "面试/Vue/vue对前端路由的登录权限.md",
-    "面试/Vue/说一下vue的动态路由.md",
-    "项目/项目经验积累/路由里面的name有什么用.md",
-    "面试/项目/登录模块怎么做的.md",
-    "面试/JS/JavaScript的数据类型.md",
-    "面试/性能优化/大文件上传.md",
-    "面试/HTTP/token的登录流程.md",
-    "ES6/ES6新特性/Symbol的基本使用.md",
-    "面试/算法/数组扁平化 2.md",
     "Python/网络安全/photo/Pasted image 20230608151842.png",
     "Python/网络安全/photo/Pasted image 20230608151746.png",
     "闭包.html",
@@ -292,12 +299,8 @@
     "Python/网络安全/photo/Pasted image 20230606160350.png",
     "Python/网络安全/photo/Pasted image 20230606153129.png",
     "Python/网络安全/photo/Pasted image 20230606153119.png",
-    "Python/网络安全/photo/Pasted image 20230606152628.png",
-    "Python/网络安全/photo/Pasted image 20230606152622.png",
     "Python/网络安全/photo",
     "Python/未命名",
-    "Python/网络安全作业版",
-    "未命名",
-    "Python/网络安全"
+    "Python/网络安全作业版"
   ]
 }
