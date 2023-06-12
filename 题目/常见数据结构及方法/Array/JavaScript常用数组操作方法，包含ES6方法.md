@@ -77,6 +77,12 @@ console.log(arr);  //[2,3,4,5]
 
 splice() 方法可删除从 index 处开始的零个或多个元素，并且用参数列表中声明的一个或多个值来替换那些被删除的元素。如果从 arrayObject 中删除了元素，则返回的是含有被删除的元素的数组。splice() 方法会直接对数组进行修改。
 
+`splice()` 方法接受三个或更多参数，它们的含义如下：
+
+1. `start`（必需）**是包含start的（关键）**：指定要修改的起始位置的索引，可以是负数，表示从数组末尾向前计算的位置。如果 `start` 大于或等于数组的长度，则不会删除任何元素，但可以插入新元素。
+2. `deleteCount`（可选）：指定要删除的元素的数量。如果省略此参数或其值大于或等于数组中从 `start` 位置开始的元素数量，则删除从 `start` 位置开始的所有元素。如果 `deleteCount` 的值为 0，则不会删除任何元素。
+3. `item1, item2, ...`（可选）：要添加到数组的新元素，从 `start` 位置开始插入。如果省略所有 `item` 参数，则 `splice()` 方法将仅删除元素并不添加新元素。
+
 ```js
 var a = [5,6,7,8];
 console.log(a.splice(1,0,9)); //[]
@@ -92,7 +98,7 @@ console.log(c) // [2,3,4]
 ## 九、写错了（已删除）
 
 ## 十、sort 排序
-
+[[JS数组的排序（sort方法）]]
 按照 Unicode code 位置排序，默认升序
 
 ```js
@@ -179,6 +185,25 @@ function isBigEnough(element, index, array) {
 [2, 5, 8, 3, 4].every(isBigEnough);   // true
 ```
 
+```js
+arr= [2, 5, 8, 3, 4]  
+console.log(arr.every((item,index) => {  
+	item++  
+	return item < 10  
+})) // true  
+console.log(arr); // [2, 5, 8, 3, 4]
+```
+在这个例子中，`arr.every()` 方法传递给回调函数的参数 `item` 是数组中每个元素的值的副本，它的值被复制到新的变量中，并在回调函数中被修改。这些修改不会影响原始数组中元素的值，因此 `arr` 数组的值不会受到影响。
+
+回调函数接受三个参数：
+
+- `currentValue`：当前元素的值。
+- `index`：当前元素的索引。
+- `array`：原始数组。
+
+`every()` 方法会遍历数组中的每个元素，并依次调用回调函数进行测试。如果回调函数返回 `false`，则 `every()` 方法立即返回 `false`，不再继续测试数组中的其他元素；否则继续测试下一个元素，直到遍历完整个数组或发现不满足条件的元素为止。
+
+**原理: 每一项都调用回调函数，如果全部return true则为true，有一个为false则为false**
 ## 十四、some
 
 对数组的每一项都运行给定的函数，任意一项都返回 ture,则返回 true
@@ -190,7 +215,7 @@ function compare(element, index, array) {
 [2, 5, 8, 1, 4].some(compare);  // false
 [12, 5, 8, 1, 4].some(compare); // true
 ```
-
+**原理：每一项都调用回调函数，有一项返回true则返回true，否则就返回false**
 ## 十五、filter
 
 对数组的每一项都运行给定的函数，返回 结果为 ture 的项组成的数组
@@ -217,6 +242,15 @@ var doubles = numbers.map(function(x) {
 // numbers is still [1, 5, 10, 15]
 ```
 
+```js
+var numbers = [1, 5, 10, 15];
+var doubles = numbers.map(function(x) {
+    x = x
+});
+console.log(doubles) 
+// [undefinded, undefinded, undefinded, undefinded]
+```
+**原理：每一项都调用回调函数，每一项执行的回调函数返回的数存入数组中，如果不返回则为undefinded**
 ## 十七、forEach 数组遍历
 
 ```js
@@ -226,7 +260,7 @@ items.forEach(function(item){
   copy.push(item)
 });
 ```
-
+**原理：每一项都调用回调函数**
 ## ES6新增新操作数组的方法
 
 ## 1、find()：
@@ -236,8 +270,9 @@ items.forEach(function(item){
 
 const arr = [1, "2", 3, 3, "2"]
 console.log(arr.find(n => typeof n === "number")) // 1
+console.log(arr.find(n => n === "4")) // undefined
 ```
-
+**原理： 每一项都调用回调函数，如果有一项返回true，则返回传入的那项，否则则为undefined。当为true时返回的是那一项的拷贝，所以不是对原数进行操作**
 ## 2、findIndex()：
 
 传入一个回调函数，找到数组中符合当前搜索规则的第一个元素，返回它的下标，终止搜索。
@@ -245,8 +280,9 @@ console.log(arr.find(n => typeof n === "number")) // 1
 ```js
 const arr = [1, "2", 3, 3, "2"]
 console.log(arr.findIndex(n => typeof n === "number")) // 0
+console.log(arr.findIndex(n =>  n === 4)) // -1
 ```
-
+**原理： 每一项都调用回调函数，如果有一项返回对应下标，否则返回-1**
 ## 3、fill()：
 
 用新元素替换掉数组内的元素，可以指定替换下标范围。
@@ -258,24 +294,24 @@ arr.fill(value, start, end)
 ## 4、copyWithin()：
 
 选择数组的某个下标，从该位置开始复制数组元素，默认从0开始复制。也可以指定要复制的元素范围。
-
+**start和end 左开右闭**
 ```js
 arr.copyWithin(target, start, end)
 const arr = [1, 2, 3, 4, 5]
 console.log(arr.copyWithin(3))
- // [1,2,3,1,2] 从下标为3的元素开始，复制数组，所以4, 5被替换成1, 2
+ // [1,2,3,1,2] 从下标为3的元素开始(包括下标为3)，复制数组，所以4, 5被替换成1, 2
 const arr1 = [1, 2, 3, 4, 5]
 console.log(arr1.copyWithin(3, 1)) 
-// [1,2,3,2,3] 从下标为3的元素开始，复制数组，指定复制的第一个元素下标为1，所以4, 5被替换成2, 3
+// [1,2,3,2,3] 从下标为3的元素开始(包括下标为3)，复制数组，指定复制的第一个元素下标为1，所以4, 5被替换成2, 3
 const arr2 = [1, 2, 3, 4, 5]
 console.log(arr2.copyWithin(3, 1, 2)) 
-// [1,2,3,2,5] 从下标为3的元素开始，复制数组，指定复制的第一个元素下标为1，结束位置为2，所以4被替换成2
+// [1,2,3,2,5] 从下标为3的元素开始(包括下标为3)，复制数组，指定复制的第一个元素下标为1，结束位置为2，所以4被替换成2
 ```
 
 ## 5、from
 
-将类似数组的对象（array-like object）和可遍历（iterable）的对象转为真正的数组
-
+将类似数组的对象（array-like object）**类数组**和可遍历（iterable）**迭代器**的对象转为真正的数组
+[[Array.from ()方法详解]]
 ```js
 const bar = ["a", "b", "c"];
 Array.from(bar);
@@ -291,12 +327,14 @@ Array.from('foo');
 
 ```js
 Array() // []
-Array(3) // [, , ,]
-Array(3, 11, 8) // [3, 11, 8]
-Array.of(7);       // [7]
-Array.of(1, 2, 3); // [1, 2, 3]
 
+Array(3) // [, , ,]    // [空属性 × 3]
+Array(3, 11, 8) // [3, 11, 8]
+
+Array.of(7);       // [7]
 Array(7);          // [ , , , , , , ]
+
+Array.of(1, 2, 3); // [1, 2, 3]
 Array(1, 2, 3);    // [1, 2, 3]
 ```
 

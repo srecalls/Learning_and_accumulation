@@ -22,24 +22,12 @@
             }
           },
           {
-            "id": "4049cc66927165dc",
+            "id": "d0cadc2e99406270",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/面试/美团面试/24暑期美团前端实习-已offer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d22149c08de44957",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/面试/腾讯/腾讯校招实习一面.md",
+                "file": "面试/手写代码/数据处理/实现双向数据绑定.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,37 +51,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/HTTP/http缓存（浏览器缓存）——强缓存、协商缓存.md",
+                "file": "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "803694b06e9aeb7b",
+            "id": "669678d6c1cc60b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "合并说明.md",
+                "file": "面试/面试/前端学长模拟面试/模拟面试.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "de07ccc70fe2872a",
+            "id": "b7831dda8f20888b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/面试/美团面试/24暑期美团前端实习-已offer.md",
+                "file": "面试/面试/广州嘉为科技/线下面试.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +111,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "匿名函数",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -145,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Date Schedule.md"
+                "file": "面试/手写代码/数据处理/实现双向数据绑定.md"
               }
             }
           }
@@ -153,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 393.5
+    "width": 349.5
   },
   "right": {
     "id": "04524ac15b70e47e",
@@ -169,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Date Schedule.md",
+                "file": "面试/手写代码/数据处理/实现双向数据绑定.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Date Schedule.md"
+                "file": "面试/手写代码/数据处理/实现双向数据绑定.md"
               }
             }
           },
@@ -226,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Date Schedule.md",
+                "file": "面试/手写代码/数据处理/实现双向数据绑定.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,52 +244,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "646a2fc1d137e966",
+  "active": "d0cadc2e99406270",
   "lastOpenFiles": [
-    "面试/HTTP/状态码/400 Bad Request.md",
+    "面试/手写代码/数据处理/实现jsonp.md",
+    "面试/手写代码/数据处理/实现双向数据绑定.md",
+    "面试/手写代码/数据处理/交换a,b的值，不能用临时变量.md",
+    "题目/Leetcode/中等/面试题 16.01. 交换数字.md",
+    "面试/手写代码/数据处理/实现日期格式化函数.md",
+    "面试/手写代码/apply、call、bind/手写apply函数.md",
+    "面试/手写代码/apply、call、bind/手写bind函数.md",
+    "面试/手写代码/apply、call、bind/手写call函数.md",
     "Date Schedule.md",
-    "面试/HTTP/状态码/4XX (Client Error)",
-    "日常积累/服务器日志.md",
-    "面试/HTTP/状态码",
-    "面试/JS/从浏览器输入url到呈现页面的过程.md",
-    "合并说明.md",
-    "题目/Leetcode/简单/136.只出现一次的数字.md",
-    "Vue/Vue/Vue组件/数组中的方法.md",
-    "题目/常见数据结构及方法/Map/Map的属性和方法.md",
-    "日常积累/深浅拷贝问题.md",
-    "面试/面试/美团面试/美团前端实习面经.md",
+    "题目/Leetcode/中等/剑指 Offer II 085. 生成匹配的括号.md",
+    "面试/手写代码/数据处理",
+    "JavaScript/JavaScript进阶/高阶技巧/处理this/改变this(apply、call、bind).md",
+    "面试/HTTP/什么是HTTP强缓存.md",
+    "JavaScript/JavaScript基础/函数/匿名函数.md",
     "面试/面试/美团面试/24暑期美团前端实习-已offer.md",
-    "题目/常见数据结构及方法/Object/JavaScript Object对象常用方法和属性.md",
-    "JavaScript/JavaScript进阶/构造函数/内置构造函数/Object.md",
-    "日常积累/组件封装.md",
+    "面试/面试/美团面试/美团实习前端一面经验帖.md",
+    "面试/面试/美团面试/美团前端实习面经.md",
+    "面试/面试/美团面试/美团美团前端实习二面面经（隐去敏感问题）.md",
+    "面试/面试/美团面试/美团3.23一面面试题目.md",
+    "面试/面试/前端学长模拟面试/模拟面试.md",
+    "面试/面试/腾讯/腾讯校招实习一面.md",
+    "字节内部课/字节前端训练营/结营测试/27. 以下代码的输出结果是.md",
+    "面试/JS/call，apply，bind三者有什么区别.md",
+    "日常积累/对象的value的获取和key命名的关系.md",
+    "日常积累/函数参数传递问题.md",
+    "日常积累/传入的参数与this的关系.md",
+    "日常积累/Math.max和Math.min的传参.md",
+    "面试/手写代码/apply、call、bind",
+    "面试/手写代码/防抖和节流",
+    "面试/手写代码/深拷贝和浅拷贝",
+    "面试/手写代码/深拷贝和浅拷贝/实现深拷贝",
+    "面试/手写代码/深拷贝和浅拷贝/实现浅拷贝",
+    "面试/面试/前端学长模拟面试",
+    "面试/JS/异步编程",
+    "面试/HTTP/状态码/4XX (Client Error)",
+    "面试/HTTP/状态码",
     "Python/网络安全/photo/Pasted image 20230610114947.png",
     "Python/网络安全/photo/Pasted image 20230610114932.png",
-    "JavaScript/JavaScript进阶/高阶技巧/深浅拷贝/浅拷贝.md",
-    "JavaScript/JavaScript进阶/高阶技巧/深浅拷贝/深拷贝.md",
-    "面试/JS/如何实现一个深拷贝.md",
-    "前端代码【开发日志】(1).md",
-    "Html+CSS/CSS基础/CSS特性/优先级/权重叠加计算.md",
-    "Html+CSS/CSS基础/CSS特性/优先级/优先级.md",
-    "面试/CSS/CSS选择器的优先级.md",
-    "面试/CSS/盒子水平垂直居中.md",
-    "Html+CSS/CSS基础/背景相关属性/背景图片 background-image.md",
-    "字节内部课/字节前端训练营/理解CSS/02 布局和定位/布局/常规流.md",
-    "题目/Leetcode/中等/剑指 Offer II 085. 生成匹配的括号.md",
     "Python/网络安全/photo/Pasted image 20230608175109.png",
     "Python/网络安全/photo/Pasted image 20230608162612.png",
     "Python/网络安全/photo/Pasted image 20230608151842.png",
     "Python/网络安全/photo/Pasted image 20230608151746.png",
-    "闭包.html",
-    "new.html",
-    "main.py",
-    "Register.vue",
-    "Login.vue",
     "Python/网络安全/photo/Pasted image 20230607002830.png",
     "Python/网络安全/photo/Pasted image 20230606160350.png",
     "Python/网络安全/photo/Pasted image 20230606153129.png",
-    "Python/网络安全/photo/Pasted image 20230606153119.png",
-    "Python/网络安全/photo",
-    "Python/未命名",
-    "Python/网络安全作业版"
+    "Python/网络安全/photo/Pasted image 20230606153119.png"
   ]
 }
