@@ -22,12 +22,36 @@
             }
           },
           {
+            "id": "58e427d0ee9ea8ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "题目/Leetcode/简单/20. 有效的括号.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d0cadc2e99406270",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/手写代码/数据处理/实现双向数据绑定.md",
+                "file": "面试/Vue/Vuex/Vuex和localStorage的区别.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "99c6b7aa9ab9d441",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/Vue/组件通信/组件通信.md",
                 "mode": "source",
                 "source": false
               }
@@ -39,7 +63,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/HTTP/什么是HTTP强缓存.md",
+                "file": "面试/计算机网络/HTTP/什么是HTTP强缓存.md",
                 "mode": "preview",
                 "source": false
               }
@@ -51,7 +75,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md",
+                "file": "题目/常见数据结构及方法/Stack和Queue/数组实现Stack和Queue.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,9 +104,68 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1e4101e54322b650",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/计算机网络/HTTP/HTTP协议规定的协议头和请求头有什么.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "70c6aa4ede0e4dc0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/面试/美团面试/24暑期美团前端实习-已offer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2159fbba764dda88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/JS/基本数据类型和引用数据类型的区别.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8fa5ec229e451911",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vue/Vue/axios/Vue3.x中全局配置axios/1.为什么要全局配置axios.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d4e463df32a85075",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/JS/Object.is()与比较符 === 、==的区别.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +194,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "匿名函数",
+                "query": "Object.is",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/手写代码/数据处理/实现双向数据绑定.md"
+                "file": "Date Schedule.md"
               }
             }
           }
@@ -142,7 +225,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.5
+    "width": 431.5
   },
   "right": {
     "id": "04524ac15b70e47e",
@@ -158,7 +241,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/手写代码/数据处理/实现双向数据绑定.md",
+                "file": "Date Schedule.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +264,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/手写代码/数据处理/实现双向数据绑定.md"
+                "file": "Date Schedule.md"
               }
             }
           },
@@ -215,7 +298,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面试/手写代码/数据处理/实现双向数据绑定.md",
+                "file": "Date Schedule.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,44 +327,46 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d0cadc2e99406270",
+  "active": "51d51efeaf4fb5b4",
   "lastOpenFiles": [
-    "面试/手写代码/数据处理/实现jsonp.md",
-    "面试/手写代码/数据处理/实现双向数据绑定.md",
-    "面试/手写代码/数据处理/交换a,b的值，不能用临时变量.md",
-    "题目/Leetcode/中等/面试题 16.01. 交换数字.md",
-    "面试/手写代码/数据处理/实现日期格式化函数.md",
-    "面试/手写代码/apply、call、bind/手写apply函数.md",
-    "面试/手写代码/apply、call、bind/手写bind函数.md",
-    "面试/手写代码/apply、call、bind/手写call函数.md",
+    "面试/JS/Object.is()与比较符 === 、==的区别.md",
+    "Python/网络安全/photo/Pasted image 20230614194810.png",
+    "面试/面试/字节/字节前端青训营直播.md",
+    "面试/手写代码/实现输入数字转化成金额格式.md",
+    "面试/算法/数组扁平化（数组拍平）.md",
+    "面试/手写代码/比较小程序版本.md",
+    "题目/Leetcode/简单/191.位1的个数.md",
+    "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md",
+    "题目/常见数据结构及方法/Array/操作hash数组里面的每一个元素.md",
+    "JavaScript/JavaScript基础/变量/变量扩展--数组.md",
     "Date Schedule.md",
-    "题目/Leetcode/中等/剑指 Offer II 085. 生成匹配的括号.md",
+    "Vue/Vue/axios/Vue3.x中全局配置axios/1.为什么要全局配置axios.md",
+    "Vue/Vue/axios/Vue3.x中全局配置axios/2.如何全局配置axios.md",
+    "Vue/Vue/axios/1.使用axios发起基本的GET请求.md",
+    "Vue/Vue/axios/3.使用解构赋值.md",
+    "Vue/Vue/axios/4.基于axios.get和axios.post发起请求.md",
+    "Vue/Vue/axios/6.把axios挂在到Vue的原型上并配置请求根路径.md",
+    "题目/Leetcode/简单/20. 有效的括号.md",
+    "题目/Leetcode/简单/14.最长公共前缀.md",
+    "题目/常见数据结构及方法/Map/Map的属性和方法.md",
+    "题目/常见数据结构及方法/Map/JS Map的排序（sort）.md",
+    "面试/JS/typeof null的结果是什么,为什么.md",
+    "面试/JS/基本数据类型和引用数据类型的区别.md",
+    "JavaScript/JavaScript基础/数据类型/基本数据类型/布尔类型 （boolean）.md",
+    "题目/Leetcode/简单/242. 有效的字母异位词.md",
+    "字节内部课/字节前端训练营/深入浅出TypeScript/02 TS基础.md",
+    "字节内部课/字节前端训练营/深入理解JS/01 JS基本概念.md",
+    "题目/常见数据结构及方法/Stack和Queue",
+    "Python/网络安全/photo/Pasted image 20230613150302.png",
+    "面试/浏览器原理",
+    "Vue/Vuex/未命名",
+    "面试/计算机网络",
+    "新建文件夹",
+    "面试/Vue/路由",
+    "面试/Vue/组件通信/props, $emit",
+    "面试/Vue/组件通信",
+    "面试/手写代码/Promise",
     "面试/手写代码/数据处理",
-    "JavaScript/JavaScript进阶/高阶技巧/处理this/改变this(apply、call、bind).md",
-    "面试/HTTP/什么是HTTP强缓存.md",
-    "JavaScript/JavaScript基础/函数/匿名函数.md",
-    "面试/面试/美团面试/24暑期美团前端实习-已offer.md",
-    "面试/面试/美团面试/美团实习前端一面经验帖.md",
-    "面试/面试/美团面试/美团前端实习面经.md",
-    "面试/面试/美团面试/美团美团前端实习二面面经（隐去敏感问题）.md",
-    "面试/面试/美团面试/美团3.23一面面试题目.md",
-    "面试/面试/前端学长模拟面试/模拟面试.md",
-    "面试/面试/腾讯/腾讯校招实习一面.md",
-    "字节内部课/字节前端训练营/结营测试/27. 以下代码的输出结果是.md",
-    "面试/JS/call，apply，bind三者有什么区别.md",
-    "日常积累/对象的value的获取和key命名的关系.md",
-    "日常积累/函数参数传递问题.md",
-    "日常积累/传入的参数与this的关系.md",
-    "日常积累/Math.max和Math.min的传参.md",
-    "面试/手写代码/apply、call、bind",
-    "面试/手写代码/防抖和节流",
-    "面试/手写代码/深拷贝和浅拷贝",
-    "面试/手写代码/深拷贝和浅拷贝/实现深拷贝",
-    "面试/手写代码/深拷贝和浅拷贝/实现浅拷贝",
-    "面试/面试/前端学长模拟面试",
-    "面试/JS/异步编程",
-    "面试/HTTP/状态码/4XX (Client Error)",
-    "面试/HTTP/状态码",
     "Python/网络安全/photo/Pasted image 20230610114947.png",
     "Python/网络安全/photo/Pasted image 20230610114932.png",
     "Python/网络安全/photo/Pasted image 20230608175109.png",
@@ -289,8 +374,6 @@
     "Python/网络安全/photo/Pasted image 20230608151842.png",
     "Python/网络安全/photo/Pasted image 20230608151746.png",
     "Python/网络安全/photo/Pasted image 20230607002830.png",
-    "Python/网络安全/photo/Pasted image 20230606160350.png",
-    "Python/网络安全/photo/Pasted image 20230606153129.png",
-    "Python/网络安全/photo/Pasted image 20230606153119.png"
+    "Python/网络安全/photo/Pasted image 20230606160350.png"
   ]
 }
