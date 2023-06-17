@@ -8,164 +8,79 @@
         "type": "tabs",
         "children": [
           {
-            "id": "646a2fc1d137e966",
+            "id": "a49cf80c44b68813",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Date Schedule.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
+              }
             }
           },
           {
-            "id": "58e427d0ee9ea8ae",
+            "id": "a3354e1d8dc31e2c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "题目/Leetcode/简单/20. 有效的括号.md",
+                "file": "面试/代码输出/异步&事件循环/6.代码输出结果.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d0cadc2e99406270",
+            "id": "514d8eb14a6ac7e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/Vue/Vuex/Vuex和localStorage的区别.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "99c6b7aa9ab9d441",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/Vue/组件通信/组件通信.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "184036f8a4e2b4eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/计算机网络/HTTP/什么是HTTP强缓存.md",
+                "file": "面试/Vue/Promise链式调用的实现.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "b4448a00edf9b027",
+            "id": "86ffebc79c06335a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "题目/常见数据结构及方法/Stack和Queue/数组实现Stack和Queue.md",
+                "file": "面试/代码输出/异步&事件循环/2.代码输出结果.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "669678d6c1cc60b3",
+            "id": "138d9902089fafa6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/面试/前端学长模拟面试/模拟面试.md",
-                "mode": "source",
+                "file": "Vue/知识铺垫/Promise/Promise基本概念.md",
+                "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "b7831dda8f20888b",
+            "id": "70a173f82118ef26",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/面试/广州嘉为科技/线下面试.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1e4101e54322b650",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/计算机网络/HTTP/HTTP协议规定的协议头和请求头有什么.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "70c6aa4ede0e4dc0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/面试/美团面试/24暑期美团前端实习-已offer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2159fbba764dda88",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/JS/基本数据类型和引用数据类型的区别.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8fa5ec229e451911",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vue/Vue/axios/Vue3.x中全局配置axios/1.为什么要全局配置axios.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d4e463df32a85075",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/JS/Object.is()与比较符 === 、==的区别.md",
+                "file": "JavaScript/JavaScript进阶/函数进阶/箭头函数.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Object.is",
+                "query": "箭头",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -217,8 +132,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Date Schedule.md"
+                "file": "面试/代码输出/异步&事件循环/6.代码输出结果.md"
               }
+            }
+          },
+          {
+            "id": "f302d90d1f58e520",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
             }
           }
         ]
@@ -241,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Date Schedule.md",
+                "file": "面试/代码输出/异步&事件循环/6.代码输出结果.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -264,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Date Schedule.md"
+                "file": "面试/代码输出/异步&事件循环/6.代码输出结果.md"
               }
             }
           },
@@ -298,7 +221,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Date Schedule.md",
+                "file": "面试/代码输出/异步&事件循环/6.代码输出结果.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -329,51 +252,51 @@
   },
   "active": "51d51efeaf4fb5b4",
   "lastOpenFiles": [
-    "面试/JS/Object.is()与比较符 === 、==的区别.md",
-    "Python/网络安全/photo/Pasted image 20230614194810.png",
-    "面试/面试/字节/字节前端青训营直播.md",
-    "面试/手写代码/实现输入数字转化成金额格式.md",
-    "面试/算法/数组扁平化（数组拍平）.md",
-    "面试/手写代码/比较小程序版本.md",
-    "题目/Leetcode/简单/191.位1的个数.md",
-    "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md",
-    "题目/常见数据结构及方法/Array/操作hash数组里面的每一个元素.md",
-    "JavaScript/JavaScript基础/变量/变量扩展--数组.md",
+    "面试/Vue/Promise链式调用的实现.md",
     "Date Schedule.md",
-    "Vue/Vue/axios/Vue3.x中全局配置axios/1.为什么要全局配置axios.md",
-    "Vue/Vue/axios/Vue3.x中全局配置axios/2.如何全局配置axios.md",
-    "Vue/Vue/axios/1.使用axios发起基本的GET请求.md",
-    "Vue/Vue/axios/3.使用解构赋值.md",
-    "Vue/Vue/axios/4.基于axios.get和axios.post发起请求.md",
-    "Vue/Vue/axios/6.把axios挂在到Vue的原型上并配置请求根路径.md",
-    "题目/Leetcode/简单/20. 有效的括号.md",
-    "题目/Leetcode/简单/14.最长公共前缀.md",
-    "题目/常见数据结构及方法/Map/Map的属性和方法.md",
-    "题目/常见数据结构及方法/Map/JS Map的排序（sort）.md",
-    "面试/JS/typeof null的结果是什么,为什么.md",
-    "面试/JS/基本数据类型和引用数据类型的区别.md",
-    "JavaScript/JavaScript基础/数据类型/基本数据类型/布尔类型 （boolean）.md",
-    "题目/Leetcode/简单/242. 有效的字母异位词.md",
-    "字节内部课/字节前端训练营/深入浅出TypeScript/02 TS基础.md",
-    "字节内部课/字节前端训练营/深入理解JS/01 JS基本概念.md",
-    "题目/常见数据结构及方法/Stack和Queue",
-    "Python/网络安全/photo/Pasted image 20230613150302.png",
-    "面试/浏览器原理",
-    "Vue/Vuex/未命名",
-    "面试/计算机网络",
-    "新建文件夹",
-    "面试/Vue/路由",
-    "面试/Vue/组件通信/props, $emit",
-    "面试/Vue/组件通信",
-    "面试/手写代码/Promise",
-    "面试/手写代码/数据处理",
-    "Python/网络安全/photo/Pasted image 20230610114947.png",
-    "Python/网络安全/photo/Pasted image 20230610114932.png",
-    "Python/网络安全/photo/Pasted image 20230608175109.png",
-    "Python/网络安全/photo/Pasted image 20230608162612.png",
-    "Python/网络安全/photo/Pasted image 20230608151842.png",
-    "Python/网络安全/photo/Pasted image 20230608151746.png",
-    "Python/网络安全/photo/Pasted image 20230607002830.png",
-    "Python/网络安全/photo/Pasted image 20230606160350.png"
+    "面试/代码输出/异步&事件循环/6.代码输出结果.md",
+    "JavaScript/JavaScript进阶/函数进阶/箭头函数.md",
+    "Vue/知识铺垫/Promise/Promise基本概念.md",
+    "面试/代码输出/异步&事件循环/2.代码输出结果.md",
+    "面试/Vue/Promise的内部原理是什么？优缺点是什么.md",
+    "Vue/知识铺垫/宏任务&微任务/宏任务&微任务介绍.md",
+    "面试/代码输出/异步&事件循环/3.代码输出结果.md",
+    "面试/代码输出/异步&事件循环/1.代码输出结果.md",
+    "面试/计算机网络/HTTP/发起http请求的api/⭐发起http的api有哪些.md",
+    "面试/手写代码/Promise/手写Promise.md",
+    "面试/计算机网络/HTTP/发起http请求的api/axios发起http请求.md",
+    "面试/Vue/Promise",
+    "面试/代码输出/异步&事件循环/5.代码输出结果.md",
+    "面试/代码输出/异步&事件循环/4.代码输出结果.md",
+    "面试/代码输出/作用域&变量提示&闭包/2.代码输出结果.md",
+    "面试/代码输出/作用域&变量提示&闭包/1.代码输出结果.md",
+    "面试/代码输出/作用域&变量提示&闭包/3.代码输出结果.md",
+    "面试/代码输出/异步&事件循环/今日头条输出题.md",
+    "Vue/Vue/axios/2.结合async和await调用axios.md",
+    "Vue/知识铺垫/async&await/async&await介绍.md",
+    "面试/代码输出/this/1.代码输出结果.md",
+    "README.md",
+    "《网络工程设计》20202132038黄润.md",
+    "Python/网络安全/photo/Pasted image 20230616144326.png",
+    "Python/网络安全/photo/Pasted image 20230616144502.png",
+    "Python/网络安全/photo/Pasted image 20230616144020.png",
+    "Python/网络安全/photo/Pasted image 20230616144605.png",
+    "Python/网络安全/photo/Pasted image 20230616144343.png",
+    "Python/网络安全/photo/Pasted image 20230616144127.png",
+    "Python/网络安全/photo/Pasted image 20230616144016.png",
+    "Python/网络安全/photo/Pasted image 20230616143858.png",
+    "Python/网络安全/photo/Pasted image 20230616143839.png",
+    "面试/面试/美团面试/24暑期美团前端实习-已offer.md",
+    "面试/计算机网络/HTTP/发起http请求的api/XMLHttpRequest发起http请求.md",
+    "Python/网络安全/photo/Pasted image 20230615235600.png",
+    "面试/手写代码/AJAX请求",
+    "面试/计算机网络/HTTP/发起http请求的api/未命名",
+    "面试/计算机网络/HTTP/发起http请求的api",
+    "面试/计算机网络/HTTP/跨域",
+    "面试/面试/中科软",
+    "面试/代码输出/this",
+    "面试/代码输出/作用域&变量提示&闭包",
+    "面试/代码输出/异步&事件循环",
+    "面试/面试/读代码/未命名"
   ]
 }

@@ -1,5 +1,8 @@
 [[Promise基本概念]]
 [[Promise的内部原理是什么？优缺点是什么]]
+[[⭐发起http的api有哪些]]
+[[Promise链式调用的实现]]
+# Main
 ```js
 const PENDING = 'pending'
 const RESOLVED = 'resolved'
@@ -10,8 +13,8 @@ function MyPromise(fn) {
 	let self = this
 	// 初始化状态
 	this.state = PENDING
-	// 用于保存 resolve 或者 rejected 传入的值
-	this.value = null;
+	// 用于保存 resolve 或者 reject 传入的值
+	this.value = null
 	// 用于保存 resolve 的回调函数
 	this.resolvedCallbacks = []
 	// 用于保存 reject 的回调函数
@@ -64,3 +67,7 @@ function MyPromise(fn) {
 
 MyPromise.prototype.then
 ```
+
+⭐记住： resolve和reject只改变状态，.then的时候才执行对应的函数
+
+
