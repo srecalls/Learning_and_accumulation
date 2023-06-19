@@ -8,72 +8,26 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a49cf80c44b68813",
+            "id": "514d8eb14a6ac7e5",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Date Schedule.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
-            "id": "a3354e1d8dc31e2c",
+            "id": "91b663d8fedede75",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/代码输出/异步&事件循环/6.代码输出结果.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "514d8eb14a6ac7e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/Vue/Promise链式调用的实现.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "86ffebc79c06335a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/代码输出/异步&事件循环/2.代码输出结果.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "138d9902089fafa6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vue/知识铺垫/Promise/Promise基本概念.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "70a173f82118ef26",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/JavaScript进阶/函数进阶/箭头函数.md",
+                "file": "面试/Vue/蛋老师vue的双向数据绑定原理是什么.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "箭头",
+                "query": "大文件",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -132,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/代码输出/异步&事件循环/6.代码输出结果.md"
+                "file": "面试/Vue/蛋老师vue的双向数据绑定原理是什么.md"
               }
             }
           },
@@ -164,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/代码输出/异步&事件循环/6.代码输出结果.md",
+                "file": "面试/Vue/蛋老师vue的双向数据绑定原理是什么.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/代码输出/异步&事件循环/6.代码输出结果.md"
+                "file": "面试/Vue/蛋老师vue的双向数据绑定原理是什么.md"
               }
             }
           },
@@ -200,28 +154,12 @@
             }
           },
           {
-            "id": "447ff30f2a1a19dc",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {}
-            }
-          },
-          {
-            "id": "898cb08ea16daa6a",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "4cb5f1527d9231a6",
+            "id": "2fcaa80971acfcf8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面试/代码输出/异步&事件循环/6.代码输出结果.md",
+                "file": "面试/Vue/蛋老师vue的双向数据绑定原理是什么.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -233,7 +171,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -250,53 +188,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "51d51efeaf4fb5b4",
+  "active": "91b663d8fedede75",
   "lastOpenFiles": [
-    "面试/Vue/Promise链式调用的实现.md",
+    "面试/手写代码/场景应用/5.实现发布-订阅模式.md",
     "Date Schedule.md",
-    "面试/代码输出/异步&事件循环/6.代码输出结果.md",
-    "JavaScript/JavaScript进阶/函数进阶/箭头函数.md",
-    "Vue/知识铺垫/Promise/Promise基本概念.md",
-    "面试/代码输出/异步&事件循环/2.代码输出结果.md",
+    "面试/Vue/路由拦截是怎么实现的.md",
+    "面试/Vue/如何搭建脚手架.md",
+    "面试/Vue/如何解决刷新后二次加载路由.md",
+    "面试/Vue/说一下vue的动态路由.md",
     "面试/Vue/Promise的内部原理是什么？优缺点是什么.md",
-    "Vue/知识铺垫/宏任务&微任务/宏任务&微任务介绍.md",
-    "面试/代码输出/异步&事件循环/3.代码输出结果.md",
-    "面试/代码输出/异步&事件循环/1.代码输出结果.md",
-    "面试/计算机网络/HTTP/发起http请求的api/⭐发起http的api有哪些.md",
-    "面试/手写代码/Promise/手写Promise.md",
-    "面试/计算机网络/HTTP/发起http请求的api/axios发起http请求.md",
-    "面试/Vue/Promise",
-    "面试/代码输出/异步&事件循环/5.代码输出结果.md",
-    "面试/代码输出/异步&事件循环/4.代码输出结果.md",
-    "面试/代码输出/作用域&变量提示&闭包/2.代码输出结果.md",
-    "面试/代码输出/作用域&变量提示&闭包/1.代码输出结果.md",
-    "面试/代码输出/作用域&变量提示&闭包/3.代码输出结果.md",
-    "面试/代码输出/异步&事件循环/今日头条输出题.md",
-    "Vue/Vue/axios/2.结合async和await调用axios.md",
-    "Vue/知识铺垫/async&await/async&await介绍.md",
-    "面试/代码输出/this/1.代码输出结果.md",
-    "README.md",
-    "《网络工程设计》20202132038黄润.md",
-    "Python/网络安全/photo/Pasted image 20230616144326.png",
-    "Python/网络安全/photo/Pasted image 20230616144502.png",
-    "Python/网络安全/photo/Pasted image 20230616144020.png",
-    "Python/网络安全/photo/Pasted image 20230616144605.png",
-    "Python/网络安全/photo/Pasted image 20230616144343.png",
-    "Python/网络安全/photo/Pasted image 20230616144127.png",
-    "Python/网络安全/photo/Pasted image 20230616144016.png",
-    "Python/网络安全/photo/Pasted image 20230616143858.png",
-    "Python/网络安全/photo/Pasted image 20230616143839.png",
+    "面试/Vue/Promise和async&await的区别是什么？.md",
+    "面试/Vue/V-for中key值的作用是什么.md",
+    "面试/Vue/v-if和v-show的区别？.md",
+    "面试/Vue/Vue2和Vue3有哪些区别.md",
+    "面试/Vue/蛋老师vue的双向数据绑定原理是什么.md",
+    "面试/Vue/了解diff算法和虚拟DOM吗.md",
+    "面试/Vue/黑马pink原型和原型链.md",
+    "面试/Vue/黑马pink节流和防抖.md",
+    "面试/Vue/黑马pink闭包.md",
+    "面试/Vue/封装一个可复用的组件，需要满足什么条件.md",
+    "面试/Vue/父子Vue如何进行组件通信.md",
+    "面试/Vue/对Vue生命周期的理解.md",
+    "面试/Vue/对React和Vue的理解，他们的异同.md",
+    "面试/Vue/蛋老师HTTP缓存.md",
+    "面试/Vue/蛋老师CDN.md",
+    "面试/Vue/蛋老师箭头函数宇普通函数的区别.md",
+    "面试/Vue/蛋老师文件关系和作用.md",
+    "面试/Vue/蛋老师闭包.md",
     "面试/面试/美团面试/24暑期美团前端实习-已offer.md",
-    "面试/计算机网络/HTTP/发起http请求的api/XMLHttpRequest发起http请求.md",
-    "Python/网络安全/photo/Pasted image 20230615235600.png",
+    "面试/手写代码/场景应用",
+    "面试/浏览器原理/浏览器同源策略/2.如何解决跨域问题",
+    "面试/浏览器原理/浏览器同源策略",
+    "面试/浏览器原理/l浏览器本地存储方式及使用场景/1",
+    "面试/浏览器原理/浏览器本地存储方式及使用场景",
+    "面试/浏览器原理/浏览器缓存",
+    "Python/网络安全/photo/Pasted image 20230619155458.png",
+    "Python/网络安全/photo/Pasted image 20230619155442.png",
+    "Python/网络安全/photo/Pasted image 20230619155427.png",
+    "Python/网络安全/photo/Pasted image 20230619155412.png",
+    "Python/网络安全/photo/Pasted image 20230619155408.png",
+    "Python/网络安全/photo/Pasted image 20230619155328.png",
+    "Python/网络安全/photo/Pasted image 20230619155323.png",
+    "Python/网络安全/photo/Pasted image 20230619155304.png",
+    "Python/网络安全/photo/Pasted image 20230619154959.png",
+    "Python/网络安全/photo/Pasted image 20230619154744.png",
+    "面试/浏览器原理/浏览器安全",
+    "面试/Vue/Promise",
     "面试/手写代码/AJAX请求",
-    "面试/计算机网络/HTTP/发起http请求的api/未命名",
-    "面试/计算机网络/HTTP/发起http请求的api",
-    "面试/计算机网络/HTTP/跨域",
-    "面试/面试/中科软",
-    "面试/代码输出/this",
-    "面试/代码输出/作用域&变量提示&闭包",
-    "面试/代码输出/异步&事件循环",
-    "面试/面试/读代码/未命名"
+    "面试/计算机网络/HTTP/发起http请求的api/未命名"
   ]
 }

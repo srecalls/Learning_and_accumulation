@@ -1,4 +1,4 @@
-[[Promise基本概念]]
+[[⭐Promise基本概念]]
 [[Promise的内部原理是什么？优缺点是什么]]
 [[⭐发起http的api有哪些]]
 [[Promise链式调用的实现]]
