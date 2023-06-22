@@ -22,6 +22,7 @@ class MyClass {
 console.log(MyClass.myStaticProperty); // 输出：This is a static property.
 ```
 
+是的， `static` 关键字只能在 `class` 中使用。它不适用于普通函数和对象字面量中的方法或属性。
 需要注意的是，`static` 关键字只能用于类中，不能用于对象的方法或属性。并且在使用 `static` 关键字定义静态方法或属性时，您不需要使用 `function` 关键字，直接定义方法或属性即可。
 
 ```javascript
@@ -33,3 +34,35 @@ class MyClass {
   static myStaticProperty = 'This is a static property.';
 }
 ```
+
+
+
+好的，以下是使用 `static` 关键字在普通函数和对象字面量中定义静态方法和静态属性的示例：
+
+```javascript
+// 在普通函数中定义静态方法
+function myFunction() {
+  myFunction.info = "This is a static method";
+  myFunction.getInfo = function() {
+    console.log(myFunction.info);
+  };
+}
+
+// 在对象字面量中定义静态方法和静态属性
+let myObject = {
+  myProperty: "This is a static property",
+  myMethod: function() {
+    console.log("This is a static method");
+  }
+};
+
+myFunction.getInfo(); // 输出 "This is a static method"
+myObject.myMethod(); // 输出 "This is a static method"
+console.log(myObject.myProperty); // 输出 "This is a static property"
+```
+
+在上面的示例中，我们首先在一个普通函数 `myFunction()` 中使用 `myFunction.info` 和 `myFunction.getInfo()` 定义了一个静态属性和一个静态方法。然后我们在 `myFunction()` 函数外部调用了 `myFunction.getInfo()` 方法，输出了静态属性的值。
+
+接着，我们使用对象字面量语法创建了一个对象 `myObject`，并在其内部使用 `myObject.myProperty` 和 `myObject.myMethod()` 定义了一个静态属性和一个静态方法。最后，我们通过调用对象的方法和属性来输出它们的值。
+
+总之，`static` 关键字可以用于各种不同的情况中，用于定义静态方法和静态属性，不仅局限于 `class` 中使用。但是在 `class` 中使用 `static` 关键字可以更好地体现出面向对象编程的思想，使代码更加易读易懂。

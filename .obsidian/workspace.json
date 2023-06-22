@@ -22,19 +22,91 @@
             }
           },
           {
-            "id": "91b663d8fedede75",
+            "id": "330358a89a92743f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/Vue/蛋老师vue的双向数据绑定原理是什么.md",
+                "file": "面试/算法/数组扁平化（数组拍平）.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0afe5506b11e711b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ES6/ES6新特性/class类的用法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3e9ac09479a60f09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/手写代码/JavaScript基础/手写Object.create.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "26ee1efc423b918e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/手写代码/JavaScript基础/手写new操作符.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c72cbb5ca38ca942",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/手写代码/apply、call、bind/手写call函数.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "34c257eddf110cec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ES6/ES6新特性/module模块的使用.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6757295abb41d387",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -63,7 +135,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "大文件",
+                "query": "扁平",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/Vue/蛋老师vue的双向数据绑定原理是什么.md"
+                "file": "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md"
               }
             }
           },
@@ -118,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/Vue/蛋老师vue的双向数据绑定原理是什么.md",
+                "file": "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/Vue/蛋老师vue的双向数据绑定原理是什么.md"
+                "file": "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md"
               }
             }
           },
@@ -159,7 +231,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面试/Vue/蛋老师vue的双向数据绑定原理是什么.md",
+                "file": "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,53 +260,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "91b663d8fedede75",
+  "active": "6757295abb41d387",
   "lastOpenFiles": [
-    "面试/手写代码/场景应用/5.实现发布-订阅模式.md",
-    "Date Schedule.md",
-    "面试/Vue/路由拦截是怎么实现的.md",
-    "面试/Vue/如何搭建脚手架.md",
-    "面试/Vue/如何解决刷新后二次加载路由.md",
-    "面试/Vue/说一下vue的动态路由.md",
-    "面试/Vue/Promise的内部原理是什么？优缺点是什么.md",
-    "面试/Vue/Promise和async&await的区别是什么？.md",
-    "面试/Vue/V-for中key值的作用是什么.md",
-    "面试/Vue/v-if和v-show的区别？.md",
-    "面试/Vue/Vue2和Vue3有哪些区别.md",
+    "面试/手写代码/数据处理/15.使用reduce求和.md",
+    "题目/常见数据结构及方法/Array/JS 数组中的 reduce 方法.md",
+    "面试/算法/数组扁平化 2.md",
+    "面试/算法/数组扁平化（数组拍平）.md",
+    "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md",
+    "ES6/ES6新特性/module模块的使用.md",
+    "题目/Leetcode/中等/2625.扁平化嵌套数组.md",
+    "面试/手写代码/实现数组的flat方法.md",
     "面试/Vue/蛋老师vue的双向数据绑定原理是什么.md",
-    "面试/Vue/了解diff算法和虚拟DOM吗.md",
-    "面试/Vue/黑马pink原型和原型链.md",
-    "面试/Vue/黑马pink节流和防抖.md",
-    "面试/Vue/黑马pink闭包.md",
-    "面试/Vue/封装一个可复用的组件，需要满足什么条件.md",
-    "面试/Vue/父子Vue如何进行组件通信.md",
-    "面试/Vue/对Vue生命周期的理解.md",
-    "面试/Vue/对React和Vue的理解，他们的异同.md",
-    "面试/Vue/蛋老师HTTP缓存.md",
-    "面试/Vue/蛋老师CDN.md",
-    "面试/Vue/蛋老师箭头函数宇普通函数的区别.md",
-    "面试/Vue/蛋老师文件关系和作用.md",
-    "面试/Vue/蛋老师闭包.md",
-    "面试/面试/美团面试/24暑期美团前端实习-已offer.md",
+    "Date Schedule.md",
+    "面试/手写代码/数据处理/16.将js对象转化为树状结构.md",
+    "Markdown使用/空格，换行符和空字符的表示.md",
+    "题目/常见数据结构及方法/Object/JavaScript Object对象常用方法和属性.md",
+    "题目/常见数据结构及方法/Array/Array.from ()方法详解.md",
+    "题目/常见数据结构及方法/Array/创建二维数组的几种方式.md",
+    "面试/JS/操作数组的方法有哪些.md",
+    "Vue/Vue/Vue组件/数组中的方法.md",
+    "JavaScript/JavaScript基础/数组/操作数组.md",
+    "JavaScript/JavaScript基础/变量/变量扩展--数组.md",
+    "Markdown使用/创建表格.md",
+    "JavaScript/Web APIs/DOM事件进阶/综合案例.md",
+    "Markdown使用/未命名",
+    "Markdown使用.md",
+    "Markdown使用",
+    "面试/Vue/虚拟DOM/2.虚拟DOM的解析过程.md",
+    "Python/网络安全/photo/Pasted image 20230621192314.png",
+    "Python/网络安全/photo/Pasted image 20230621191934.png",
+    "Python/网络安全/photo/Pasted image 20230621191847.png",
+    "面试/Vue/虚拟DOM/1.对虚拟DOM的理解.md",
+    "面试/Vue/虚拟DOM/5.DIFF算法的原理.md",
+    "面试/Vue/虚拟DOM/4.虚拟DOM真的比真实的DOM性能好吗.md",
+    "面试/Vue/虚拟DOM",
+    "Python/网络安全/photo/Pasted image 20230621181114.png",
+    "Python/网络安全/photo/Pasted image 20230621181109.png",
+    "Python/网络安全/photo/Pasted image 20230621181054.png",
+    "Python/网络安全/photo/Pasted image 20230621181044.png",
+    "Python/网络安全/photo/Pasted image 20230621181036.png",
+    "Python/网络安全/photo/Pasted image 20230621181015.png",
+    "Python/网络安全/photo/Pasted image 20230621181009.png",
+    "面试/浏览器原理/浏览器垃圾回收机制",
+    "面试/计算机网络/TCP与UDP",
+    "面试/浏览器原理/浏览器本地存储",
+    "面试/面试/蔚来面试",
+    "面试/手写代码/JavaScript基础",
     "面试/手写代码/场景应用",
-    "面试/浏览器原理/浏览器同源策略/2.如何解决跨域问题",
-    "面试/浏览器原理/浏览器同源策略",
-    "面试/浏览器原理/l浏览器本地存储方式及使用场景/1",
-    "面试/浏览器原理/浏览器本地存储方式及使用场景",
-    "面试/浏览器原理/浏览器缓存",
-    "Python/网络安全/photo/Pasted image 20230619155458.png",
-    "Python/网络安全/photo/Pasted image 20230619155442.png",
-    "Python/网络安全/photo/Pasted image 20230619155427.png",
-    "Python/网络安全/photo/Pasted image 20230619155412.png",
-    "Python/网络安全/photo/Pasted image 20230619155408.png",
-    "Python/网络安全/photo/Pasted image 20230619155328.png",
-    "Python/网络安全/photo/Pasted image 20230619155323.png",
-    "Python/网络安全/photo/Pasted image 20230619155304.png",
-    "Python/网络安全/photo/Pasted image 20230619154959.png",
-    "Python/网络安全/photo/Pasted image 20230619154744.png",
-    "面试/浏览器原理/浏览器安全",
-    "面试/Vue/Promise",
-    "面试/手写代码/AJAX请求",
-    "面试/计算机网络/HTTP/发起http请求的api/未命名"
+    "面试/浏览器原理/浏览器同源策略/2.如何解决跨域问题"
   ]
 }

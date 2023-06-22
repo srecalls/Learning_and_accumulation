@@ -137,7 +137,8 @@ console.log(window.age); // undefined
 ```
 
 ## 4. for循环中的var、let声明
-
+### for循环中的变量定义
+#### var
 for循环中var定义的迭代变量会渗透到循环体外部：
 
 ```js
@@ -148,6 +149,7 @@ for (var i = 0; i < 5; ++i) {
 console.log(i); // 5
 ```
 
+#### let
 改成使用let之后，这个问题就消失了，因为迭代变量的作用域仅限于for循环块内部：
 
 ```js
@@ -157,20 +159,62 @@ for (let i = 0; i < 5; ++i) {
 console.log(i); // ReferenceError: i没有定义
 ```
 
+### for循环中的seTimeout
 使用var和let定义for循环中的变量，循环里使用定时器setTimeout后循环结果如下代码：
-
+#### var
 ```js
 for (var i = 0; i < 5; ++i) {
     setTimeout(() => console.log(i), 0)
 }
 
 // 输出5、5、5、5、5
+```
 
+**相当于**
+```js
+var i = 1
+setTimeout(() => console.log(i), i * 1000)
+i = 2
+setTimeout(() => console.log(i), i * 1000)
+i = 3
+setTimeout(() => console.log(i), i * 1000)
+i = 4
+setTimeout(() => console.log(i), i * 1000)
+i = 5
+setTimeout(() => console.log(i), i * 1000)
+```
+
+#### let
+```js
 for (let i = 0; i < 5; ++i) {
     setTimeout(() => console.log(i), 0)
 }
 
 // 输出0、1、2、3、4
+```
+
+**相当于**
+```js
+{
+	let i = 1
+	setTimeout(() => console.log(i), i * 1000)
+}
+{
+	let i = 2
+	setTimeout(() => console.log(i), i * 1000)
+}
+{
+	let i = 3
+	setTimeout(() => console.log(i), i * 1000)
+}
+{
+	let i = 4
+	setTimeout(() => console.log(i), i * 1000)
+}
+{
+	let i = 5
+	setTimeout(() => console.log(i), i * 1000)
+}
 ```
 
 let 是在代码块内有效，var 是在全局范围内有效。let 只能声明一次 ，var 可以声明多次。
@@ -179,7 +223,8 @@ let 是在代码块内有效，var 是在全局范围内有效。let 只能声�
 
 变量 j 是用 let 声明的，当前的 i 只在本轮循环中有效，每次循环的 j 其实都是一个新的变量，所以 setTimeout 定时器里面的 j 其实是不同的变量，即最后输出0-4。
 
-# const声明
+
+## const声明
 const的行为与let基本相同，唯一一个重要的区别是：
 
 const是用来定义常量的，而且定义的时候必须赋值，不赋值会报错，定义之后是不允许被修改的，修改const声明的变量会导致运行时错误。

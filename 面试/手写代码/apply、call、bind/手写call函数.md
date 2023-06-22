@@ -20,6 +20,8 @@ Function.prototype.myCall = function(context) {
 	// 看是否存在上下文
 	context = context || windows
 	// 在context创建多一个fn属性用以改变this的指向
+	// console.log(this)
+	// getDate(month, day) { return this.year + '-' + month + '-' + day }
 	context.fn = this
 	result = context.fn(args)
 	delete context.fn
@@ -39,6 +41,39 @@ let obj = {year: 2022}
 getDate.myCall(obj, 8, 7)
 ```
 
+注意，如果这里obj里有fn选项，则会被删除
+```js
+var year = 2021
+function getDate(month, day) {
+  return this.year + '-' + month + '-' + day
+}
+
+let obj = {
+    year: 2022,
+    fn: function() {
+        console.log(111)
+    }
+}
+
+console.log(getDate.myCall(obj, 8, 7))
+obj.fn()
+```
+![[Pasted image 20230621015814.png]]
+![[Pasted image 20230621015744.png]]
+
+如果是getDate则没事
+```js
+let obj = {
+    year: 2022,
+    getDate: function() {
+        console.log(111)
+    }
+}
+console.log(getDate.myCall(obj, 8, 7))
+obj.getDate()
+```
+![[Pasted image 20230621015911.png]]
+因为前面mycall把fn删了
 
  其他例子，用以认识this
 ```js
