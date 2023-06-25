@@ -87,13 +87,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md",
-                "mode": "source",
+                "file": "JavaScript/JavaScript进阶/高阶技巧/深浅拷贝/深拷贝.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -122,7 +123,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "扁平",
+                "query": "深拷贝",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -145,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Date Schedule.md"
+                "file": "JavaScript/JavaScript进阶/高阶技巧/深浅拷贝/深拷贝.md"
               }
             }
           },
@@ -158,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -178,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Date Schedule.md",
+                "file": "JavaScript/JavaScript进阶/高阶技巧/深浅拷贝/深拷贝.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Date Schedule.md"
+                "file": "JavaScript/JavaScript进阶/高阶技巧/深浅拷贝/深拷贝.md"
               }
             }
           },
@@ -219,7 +220,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Date Schedule.md",
+                "file": "JavaScript/JavaScript进阶/高阶技巧/深浅拷贝/深拷贝.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -256,15 +257,24 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "514d8eb14a6ac7e5",
+  "active": "34c257eddf110cec",
   "lastOpenFiles": [
+    "面试/JS/如何实现一个深拷贝.md",
+    "面试/面试/美团面试/24暑期美团前端实习-已offer.md",
+    "Vue/Vue/axios/4.基于axios.get和axios.post发起请求.md",
+    "Vue/Vue/axios/axios拦截器/2.在vue2的项目中全局配置axios.md",
+    "面试/计算机网络/HTTP/发起http请求的api/⭐发起http的api有哪些.md",
+    "Vue/Vue/⭐如何创建一个Vue项目/⭐第一种创建方法.md",
+    "面试/浏览器原理/浏览器同源策略/2.如何解决跨域问题/（2）JSONP.md",
+    "README.md",
+    "中期检查报告.md",
     "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md",
+    "Date Schedule.md",
     "题目/Leetcode/简单/27. 移除元素.md",
     "题目/Leetcode/简单/26. 删除有序数组中的重复项.md",
     "题目/Leetcode/简单/2496. 数组中字符串的最大值.md",
     "题目/Leetcode/简单/剑指 Offer 50. 第一个只出现一次的字符.md",
     "题目/常见数据结构及方法/String/JS怎么判断字符串是否是数字.md",
-    "Date Schedule.md",
     "电脑变更注意点.md",
     "微信小程序/第一个小程序/3.创建小程序项目.md",
     "微信小程序/第一个小程序/2.安装开发者工具.md",
@@ -276,15 +286,6 @@
     "网络安全/利用aircrack-ng工具集进行WPA2破解.md",
     "网络安全/基于Snort配置IDS系统.md",
     "面试/手写代码/数据处理/15.使用reduce求和.md",
-    "题目/常见数据结构及方法/Array/JS 数组中的 reduce 方法.md",
-    "面试/算法/数组扁平化 2.md",
-    "面试/算法/数组扁平化（数组拍平）.md",
-    "ES6/ES6新特性/module模块的使用.md",
-    "题目/Leetcode/中等/2625.扁平化嵌套数组.md",
-    "面试/手写代码/实现数组的flat方法.md",
-    "面试/Vue/蛋老师vue的双向数据绑定原理是什么.md",
-    "面试/手写代码/数据处理/16.将js对象转化为树状结构.md",
-    "Markdown使用/空格，换行符和空字符的表示.md",
     "Markdown使用/未命名",
     "Markdown使用",
     "Python/网络安全/photo/Pasted image 20230621192314.png",
