@@ -51,50 +51,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/手写代码/JavaScript基础/手写Object.create.md",
+                "file": "面试/面试/美团面试/2022.5.19 美团前端一面.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "26ee1efc423b918e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/手写代码/JavaScript基础/手写new操作符.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c72cbb5ca38ca942",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/手写代码/apply、call、bind/手写call函数.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "34c257eddf110cec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/JavaScript进阶/高阶技巧/深浅拷贝/深拷贝.md",
-                "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -123,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "深拷贝",
+                "query": "querySelector",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/JavaScript进阶/高阶技巧/深浅拷贝/深拷贝.md"
+                "file": "面试/面试/美团面试/2022.5.19 美团前端一面.md"
               }
             }
           },
@@ -158,8 +122,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -179,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/JavaScript进阶/高阶技巧/深浅拷贝/深拷贝.md",
+                "file": "面试/面试/美团面试/2022.5.19 美团前端一面.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/JavaScript进阶/高阶技巧/深浅拷贝/深拷贝.md"
+                "file": "面试/面试/美团面试/2022.5.19 美团前端一面.md"
               }
             }
           },
@@ -220,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/JavaScript进阶/高阶技巧/深浅拷贝/深拷贝.md",
+                "file": "面试/面试/美团面试/2022.5.19 美团前端一面.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,35 +220,35 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "34c257eddf110cec",
+  "active": "3e9ac09479a60f09",
   "lastOpenFiles": [
-    "面试/JS/如何实现一个深拷贝.md",
-    "面试/面试/美团面试/24暑期美团前端实习-已offer.md",
-    "Vue/Vue/axios/4.基于axios.get和axios.post发起请求.md",
-    "Vue/Vue/axios/axios拦截器/2.在vue2的项目中全局配置axios.md",
-    "面试/计算机网络/HTTP/发起http请求的api/⭐发起http的api有哪些.md",
-    "Vue/Vue/⭐如何创建一个Vue项目/⭐第一种创建方法.md",
-    "面试/浏览器原理/浏览器同源策略/2.如何解决跨域问题/（2）JSONP.md",
-    "README.md",
-    "中期检查报告.md",
-    "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md",
-    "Date Schedule.md",
-    "题目/Leetcode/简单/27. 移除元素.md",
-    "题目/Leetcode/简单/26. 删除有序数组中的重复项.md",
-    "题目/Leetcode/简单/2496. 数组中字符串的最大值.md",
-    "题目/Leetcode/简单/剑指 Offer 50. 第一个只出现一次的字符.md",
-    "题目/常见数据结构及方法/String/JS怎么判断字符串是否是数字.md",
-    "电脑变更注意点.md",
-    "微信小程序/第一个小程序/3.创建小程序项目.md",
-    "微信小程序/第一个小程序/2.安装开发者工具.md",
-    "微信小程序/第一个小程序/1.注册小程序开发账号.md",
-    "Mac使用方法/文件管理.md",
-    "网络安全/Web安全课程实验.md",
-    "Mac使用方法/菜单栏.md",
+    "面试/Vue/对Vue生命周期的理解.md",
+    "面试/Vue/v-if和v-show的区别？.md",
+    "面试/Vue/未命名.md",
+    "ES6/ES6新特性/class类的用法.md",
+    "面试/面试/美团面试/2022.5.19 美团前端一面.md",
+    "面试/面试/美团面试/2022.6.17 美团前端.md",
+    "面试/JS/类方法和实例方法有什么不同.md",
+    "面试/手写代码/JavaScript基础/手写Object.create.md",
+    "面试/项目/统计网站的PV和UV.md",
+    "题目/常见数据结构及方法/Object/JavaScript Object对象常用方法和属性.md",
+    "面试/项目/如何获取输入链接到页面显示的全部时间？.md",
+    "面试/项目/页面出现长时间的白屏要怎样排查问题？.md",
+    "面试/代码输出/this/this的四种绑定方式.md",
+    "面试/手写代码/无需列表将第一个li放到最后的位置.md",
+    "JavaScript/Web APIs/DOM获取元素/获取DOM对象.md",
+    "面试/JS/操作事件的方法.md",
+    "JavaScript/Web APIs/DOM节点操作/节点操作/查找节点.md",
+    "JavaScript/Web APIs/DOM节点操作/节点操作/增加节点.md",
+    "JavaScript/Web APIs/DOM节点操作/节点操作/DOM节点.md",
+    "JavaScript/Web APIs/DOM事件基础/事件对象.md",
+    "JavaScript/Web APIs/DOM事件进阶/事件流/解绑事件.md",
+    "JavaScript/Web APIs/DOM事件进阶/事件流/事件捕获.md",
+    "JavaScript/Web APIs/DOM事件基础/事件监听（绑定）.md",
+    "JavaScript/Web APIs/DOM节点操作/日期对象/事件对象方法.md",
+    "面试/手写代码/JavaScript基础/手写new操作符.md",
+    "面试/手写代码/apply、call、bind/手写call函数.md",
     "Mac使用方法",
-    "网络安全/利用aircrack-ng工具集进行WPA2破解.md",
-    "网络安全/基于Snort配置IDS系统.md",
-    "面试/手写代码/数据处理/15.使用reduce求和.md",
     "Markdown使用/未命名",
     "Markdown使用",
     "Python/网络安全/photo/Pasted image 20230621192314.png",
