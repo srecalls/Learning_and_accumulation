@@ -134,8 +134,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -233,7 +232,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9d84ecd8c1ae0001",
+  "active": "51d51efeaf4fb5b4",
   "lastOpenFiles": [
     "面试/面试/🌟简历自面/🌟面试模拟（包括遇到的面试题）.md",
     "面试/JS/原型/一个对象原型链上的数据不想被遍历可以怎么办.md",
