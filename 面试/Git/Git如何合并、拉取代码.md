@@ -5,15 +5,15 @@
 查看状态
 
 	git status
-	
+
 提交到本地缓存区
 
 	git add .
-	
+
 提交本地仓库
 
 	git commit -m '修改描述'
-	
+
 提交到远程仓库
 
 	git push ' 仓库地址’ master

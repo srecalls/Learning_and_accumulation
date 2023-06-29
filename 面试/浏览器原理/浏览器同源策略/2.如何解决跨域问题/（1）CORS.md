@@ -18,6 +18,10 @@ CORS需要浏览器和服务器同时支持，整个CORS过程都是浏览器完
 - Content-Language
 - Last-Event-ID
 - Content-Type:只限于三个值application/x-www-form-urlencoded、multipart/form-data、text/plain若不满足以上条件，就属于非简单请求了。
+	
+		1. text/plain：表示普通文本格式，即纯文本数据，没有任何格式和样式。在HTTP请求中，通常用于向服务器传递少量的简单数据，比如一些参数或者配置信息等。
+		2. multipart/form-data：表示多部分表单数据，通常用于文件上传，或者提交表单数据中包含二进制数据的情况。在multipart/form-data格式中，请求体中的数据被划分为多个部分，每个部分都有自己的Content-Type和Content-Disposition头信息，用于描述该部分数据的类型和名称等属性。
+		3. application/x-www-form-urlencoded：表示URL编码表单数据，通常用于提交表单数据中的简单文本数据。在application/x-www-form-urlencoded格式中，请求体中的数据被编码成键值对的形式，使用等号（=）连接键和值，使用&符号分隔不同的键值对。
 
 ### （1）简单请求过程
 对于简单请求，浏览器会直接发出CORS请求，它会在请求的头信息中增加一个Orign字段，该字段用来说明本次请求来自哪个源（协议+端口+域名)，服务器会根据这个值来决定是否同意这次请求。如果Orign指定的域名在许可范围之内，**服务器返回的响应**就会多出以下信息头:

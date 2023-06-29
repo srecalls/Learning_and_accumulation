@@ -59,7 +59,7 @@ console. log(({}) . constructor === Object); // true
 
 例如，以下代码将一个数字类型的值转换成 `Number` 包装对象，并检测其 `constructor` 属性：
 
-```
+```js
 let num = 123;
 let numObj = new Number(num);
 console.log(numObj.constructor === Number); // true
@@ -69,7 +69,7 @@ console.log(numObj.constructor === Number); // true
 
 需要注意的是，对于基本数据类型的值，`constructor` 属性只能用于检测其对应的包装对象的构造函数，而不能用于检测基本数据类型本身的类型。例如，以下代码将会返回 `false`：
 
-```
+```js
 let num = 123;
 console.log(num.constructor === Number); // true
 console.log(num.constructor === Number.prototype.constructor); // false

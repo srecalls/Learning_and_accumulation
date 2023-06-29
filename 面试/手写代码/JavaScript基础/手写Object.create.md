@@ -14,25 +14,24 @@ function create(obj) {
 ## 例子1
 ```js
 var obj = {
-    a: 1
+	a: 1
 }
-var o = Object.create(obj)
-console.log(o)
-console.log(o.__proto__)
-console.log(o.__proto__.constructor)
 
 function create(obj) {
-    function F() {}
-    F.prototype = obj
-    return new F()
+	function F() {}
+	F.prototype = obj
+	return new F()
 }
-
+console.log('obj', obj)
+console.log('obj.__proto__', obj.__proto__)
+console.log('obj.__proto__.constructor', obj.__proto__.constructor)
 let b = create(obj)
-console.log(b)
-console.log(b.__proto__)
-console.log(b.__proto__.constructor)
+
+console.log('b', b)
+console.log('b.__proto__', b.__proto__)
+console.log('b.__proto__.constructor', b.__proto__.constructor)
 ```
-![[Pasted image 20230621003417.png]]
+![[Pasted image 20230628213736.png]]
 
 在你的代码中，`create` 函数接受一个 `obj` 参数，然后创建一个新的函数 `F`，并将 `F.prototype` 属性设置为 `obj`，最后返回通过 `new F()` 创建的新对象。由于 `F.prototype` 属性被设置为 `obj`，因此新对象的原型链会指向 `obj`。
 

@@ -22,19 +22,19 @@
             }
           },
           {
-            "id": "0afe5506b11e711b",
+            "id": "5176645245a79960",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/浏览器原理/浏览器缓存/1.对浏览器缓存的理解 （强缓存、协商缓存）.md",
+                "file": "面试/面试/美团面试/2022.6.17 美团前端.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3e9ac09479a60f09",
+            "id": "06e393aaaa613eec",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -46,19 +46,31 @@
             }
           },
           {
-            "id": "d6f9b46fa272d0bf",
+            "id": "6f94a6bfa703ed3d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/浏览器原理/浏览器同源策略/2.如何解决跨域问题/（3）postMessage跨域.md",
+                "file": "面试/性能优化/大文件上传 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9d84ecd8c1ae0001",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/Vue/Vue2和Vue3有哪些区别.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -87,7 +99,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "事件捕获",
+                "query": "暂时性",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/面试/美团面试/美团实习前端一面经验帖.md"
+                "file": "面试/Vue/Vue2和Vue3有哪些区别.md"
               }
             }
           },
@@ -122,11 +134,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 341.5
+    "width": 344.5
   },
   "right": {
     "id": "04524ac15b70e47e",
@@ -142,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/面试/美团面试/美团实习前端一面经验帖.md",
+                "file": "面试/Vue/Vue2和Vue3有哪些区别.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/面试/美团面试/美团实习前端一面经验帖.md"
+                "file": "面试/Vue/Vue2和Vue3有哪些区别.md"
               }
             }
           },
@@ -183,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面试/面试/美团面试/美团实习前端一面经验帖.md",
+                "file": "面试/Vue/Vue2和Vue3有哪些区别.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,53 +233,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3e9ac09479a60f09",
+  "active": "9d84ecd8c1ae0001",
   "lastOpenFiles": [
-    "面试/面试/广州嘉为科技/线下面试.md",
-    "面试/操作系统/冯诺伊曼体系结构在计算机中的体现.md",
-    "面试/Vue/蛋老师vue的响应式原理是什么.md",
-    "面试/Vue/Vue的优点.md",
-    "面试/浏览器原理/浏览器同源策略/2.如何解决跨域问题/（2）JSONP.md",
+    "面试/面试/🌟简历自面/🌟面试模拟（包括遇到的面试题）.md",
+    "面试/JS/原型/一个对象原型链上的数据不想被遍历可以怎么办.md",
+    "面试/Vue/使用Objec.defineProperty来进行数据劫持有什么缺点.md",
+    "字节内部课/字节前端训练营/理解CSS/05 响应式设计/05_03 相对长度的使用.md",
     "面试/面试/美团面试/2022.6.17 美团前端.md",
-    "面试/浏览器原理/浏览器同源策略/2.如何解决跨域问题/（3）postMessage跨域.md",
-    "面试/浏览器原理/浏览器同源策略/2.如何解决跨域问题/（1）CORS.md",
-    "面试/浏览器原理/浏览器同源策略/1. 什么是同源策略.md",
-    "面试/Node.js/node.js用来做什么，安装依赖，npm i时 -D，-g，-s有什么区别 开发依赖，和上线依赖有什么，代码层面如何体现的？.md",
-    "面试/Node.js",
-    "面试/CSS/px、em、rem的区别及使用场景.md",
-    "面试/面试/美团面试/美团3.23一面面试题目.md",
-    "面试/面试/美团面试/美团前端实习面经.md",
-    "面试/面试/美团面试/美团美团前端实习二面面经（隐去敏感问题）.md",
-    "面试/浏览器原理/浏览器缓存/1.对浏览器缓存的理解 （强缓存、协商缓存）.md",
-    "面试/计算机网络/HTTP/http缓存（浏览器缓存）——强缓存、协商缓存.md",
     "面试/面试/美团面试/美团实习前端一面经验帖.md",
-    "JavaScript/Web APIs/DOM节点操作/节点操作/增加节点.md",
-    "JavaScript/Web APIs/DOM获取元素/Web API基本认知.md",
-    "面试/JS/三、JavaScript基础/20.常见的DOM操作有哪些.md",
-    "面试/面试/小鹅通/前端笔试题-2023实习生.md",
-    "面试/面试/前端学长模拟面试/模拟面试.md",
+    "面试/性能优化/大文件上传 2.md",
+    "面试/Vue/蛋老师vue的响应式原理是什么.md",
+    "面试/JS/JS对数据类的检测方式有哪些.md",
+    "Date Schedule.md",
+    "面试/浏览器原理/浏览器缓存/1.对浏览器缓存的理解 （强缓存、协商缓存）.md",
+    "面试/性能优化/前端怎么实现MD5避免文件重复上传.md",
+    "面试/JS/var、let、const的使用及区别，什么是暂时性死区？.md",
+    "面试/项目/统计网站的PV和UV.md",
+    "面试/JS/call，apply，bind三者有什么区别.md",
+    "面试/JS/从浏览器输入url到呈现页面的过程.md",
+    "面试/浏览器原理/浏览器同源策略/2.如何解决跨域问题/（1）CORS.md",
+    "面试/计算机网络/HTTP/跨域/CORS.md",
+    "面试/面试/美团面试/美团3.23一面面试题目.md",
+    "面试/面试/小鹅通/小鹅通前端实习日常一面.md",
+    "面试/JS/script标签如何做异步加载.md",
+    "面试/性能优化/为什么文件上传要转换为md5，用时间戳不可以吗？（以网盘举例）.md",
+    "面试/面试/美团面试/美团前端实习面经.md",
+    "面试/面试/小鹅通/小鹅通-前端实习面试凉经.md",
+    "面试/Vue/虚拟DOM/5.DIFF算法的原理.md",
+    "面试/面试/小鹅通/深圳小鹅通oc.md",
+    "Python/网络安全/photo/Pasted image 20230629100422.png",
+    "面试/面试/🌟简历自面",
+    "Python/网络安全/photo/Pasted image 20230628213736.png",
+    "Python/网络安全/photo/Pasted image 20230628181451.png",
+    "Python/网络安全/photo/Pasted image 20230628181443.png",
+    "Python/网络安全/photo/Pasted image 20230628181432.png",
+    "Python/网络安全/photo/Pasted image 20230628181426.png",
+    "Python/网络安全/photo/Pasted image 20230628181413.png",
+    "Python/网络安全/photo/Pasted image 20230628181404.png",
+    "Python/网络安全/photo/Pasted image 20230628181357.png",
+    "Python/网络安全/photo/Pasted image 20230628181349.png",
+    "面试/ES6/未命名",
+    "面试/Node.js",
     "面试/JS/三、JavaScript基础",
-    "面试/项目/有直播间聊天室页面，同时可支撑1w人同时在线，用户进去后可实时聊天，请分析需要用到什么技术？实现过程中需要注意什么问题？（可列举技术点及问题或者解决思路).md",
-    "Python/网络安全/photo/Pasted image 20230627153705.png",
-    "面试/项目/页面出现长时间的白屏要怎样排查问题？.md",
-    "面试/操作系统/操作系统为什么要分成分成栈和堆.md",
-    "面试/操作系统/堆和栈的使用情况.md",
     "面试/操作系统",
     "面试/面试/小鹅通",
     "Mac使用方法",
     "Markdown使用/未命名",
     "Markdown使用",
-    "Python/网络安全/photo/Pasted image 20230621192314.png",
-    "Python/网络安全/photo/Pasted image 20230621191934.png",
-    "Python/网络安全/photo/Pasted image 20230621191847.png",
-    "面试/Vue/虚拟DOM",
-    "Python/网络安全/photo/Pasted image 20230621181114.png",
-    "Python/网络安全/photo/Pasted image 20230621181109.png",
-    "Python/网络安全/photo/Pasted image 20230621181054.png",
-    "Python/网络安全/photo/Pasted image 20230621181044.png",
-    "Python/网络安全/photo/Pasted image 20230621181036.png",
-    "Python/网络安全/photo/Pasted image 20230621181015.png",
-    "面试/浏览器原理/浏览器垃圾回收机制",
-    "面试/计算机网络/TCP与UDP"
+    "面试/Vue/虚拟DOM"
   ]
 }

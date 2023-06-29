@@ -20,6 +20,11 @@
 	- text/plain
 	- multipart/form-data
 	- application/x-www-form-urlencoded
+这几个是常见的HTTP请求的Content-Type类型，表示请求体中的数据格式。下面分别介绍一下它们的含义：
+	
+	1. text/plain：表示普通文本格式，即纯文本数据，没有任何格式和样式。在HTTP请求中，通常用于向服务器传递少量的简单数据，比如一些参数或者配置信息等。
+	2. multipart/form-data：表示多部分表单数据，通常用于文件上传，或者提交表单数据中包含二进制数据的情况。在multipart/form-data格式中，请求体中的数据被划分为多个部分，每个部分都有自己的Content-Type和Content-Disposition头信息，用于描述该部分数据的类型和名称等属性。
+	3. application/x-www-form-urlencoded：表示URL编码表单数据，通常用于提交表单数据中的简单文本数据。在application/x-www-form-urlencoded格式中，请求体中的数据被编码成键值对的形式，使用等号（=）连接键和值，使用&符号分隔不同的键值对。
 
 请求中的任意 XMLHttpRequestUpload 对象均没有注册任何事件监听器； XMLHttpRequestUpload 对象可以使用 XMLHttpRequest.upload 属性访问。
 
