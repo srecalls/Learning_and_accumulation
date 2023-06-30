@@ -7,3 +7,6 @@ key属性是DOM元素的唯一标识
 1.提高虚拟DOM的更新
 2.若不设置key，可能哙触发一些bug
 3.为了触发过度效果
+
+
+https://www.bilibili.com/video/BV14s4y1x7kA/?spm_id_from=333.337.search-card.all.click&vd_source=8d6fb7b59b6cb13b7bf0f3383fc26f3f
