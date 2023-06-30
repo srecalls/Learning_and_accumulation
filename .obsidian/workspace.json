@@ -51,7 +51,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/面试/🌟简历自面/🌟面试模拟（包括遇到的面试题）.md",
+                "file": "面试/Node.js/node.js用来做什么，安装依赖，npm i时 -D，-g，-s有什么区别 开发依赖，和上线依赖有什么，代码层面如何体现的？.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -122,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/面试/美团面试/2022.6.17 美团前端.md"
+                "file": "面试/Node.js/node.js用来做什么，安装依赖，npm i时 -D，-g，-s有什么区别 开发依赖，和上线依赖有什么，代码层面如何体现的？.md"
               }
             }
           },
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/面试/美团面试/2022.6.17 美团前端.md",
+                "file": "面试/Node.js/node.js用来做什么，安装依赖，npm i时 -D，-g，-s有什么区别 开发依赖，和上线依赖有什么，代码层面如何体现的？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/面试/美团面试/2022.6.17 美团前端.md"
+                "file": "面试/Node.js/node.js用来做什么，安装依赖，npm i时 -D，-g，-s有什么区别 开发依赖，和上线依赖有什么，代码层面如何体现的？.md"
               }
             }
           },
@@ -196,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面试/面试/美团面试/2022.6.17 美团前端.md",
+                "file": "面试/Node.js/node.js用来做什么，安装依赖，npm i时 -D，-g，-s有什么区别 开发依赖，和上线依赖有什么，代码层面如何体现的？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -233,10 +233,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "db80e629de99e804",
+  "active": "55ab21add41da1b3",
   "lastOpenFiles": [
     "面试/面试/🌟简历自面/🌟面试模拟（包括遇到的面试题）.md",
     "面试/面试/美团面试/2022.6.17 美团前端.md",
+    "面试/浏览器原理/浏览器同源策略/2.如何解决跨域问题/（1）CORS.md",
+    "Date Schedule.md",
+    "面试/Webpack/Webpack有哪几大部分.md",
     "面试/项目/如何获取输入链接到页面显示的全部时间？.md",
     "面试/面试/美团面试/2022.5.19 美团前端一面.md",
     "面试/面试/美团面试/24暑期美团前端实习-已offer.md",
@@ -245,9 +248,7 @@
     "面试/Git/git pull和git fetch的区别.md",
     "面试/手写代码/JavaScript基础/手写new操作符.md",
     "面试/Vue/v-if和v-show的区别？.md",
-    "面试/Webpack/Webpack有哪几大部分.md",
     "面试/Vue/使用Objec.defineProperty来进行数据劫持有什么缺点.md",
-    "Date Schedule.md",
     "面试/浏览器原理/浏览器垃圾回收机制/1.V8的垃圾回收机制是怎么样的.md",
     "面试/浏览器原理/浏览器垃圾回收机制/2.哪些操作会造成内存泄漏.md",
     "面试/Webpack/webpack的构建流程.md",
@@ -260,7 +261,6 @@
     "题目/Leetcode/简单/2490. 回环句.md",
     "面试/代码输出/this/1.代码输出结果.md",
     "面试/计算机网络/HTTP/HTTP协议规定的协议头和请求头有什么.md",
-    "题目/常见数据结构及方法/Object/JavaScript Object对象常用方法和属性.md",
     "面试/Webpack/未命名",
     "Python/网络安全/photo/Pasted image 20230629100422.png",
     "面试/面试/🌟简历自面",
