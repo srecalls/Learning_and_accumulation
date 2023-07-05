@@ -22,31 +22,31 @@
             }
           },
           {
-            "id": "84e29203d10c8514",
+            "id": "d7a260cbd1897f0e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/浏览器原理/进程与线程/8.对Service Worker的理解.md",
-                "mode": "source",
+                "file": "面试/Vue/Vue基础/13.v-if和v-show的区别.md",
+                "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "3c8ec6e3d59c2227",
+            "id": "0ab1f887bf56a383",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "题目/Leetcode/中等/2679. 矩阵中的和.md",
+                "file": "面试/面试/🌟简历自面/🌟面试模拟（包括遇到的面试题）.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "进程与",
+                "query": "面向对象编程",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "题目/Leetcode/中等/2679. 矩阵中的和.md"
+                "file": "面试/Vue/Vue基础/13.v-if和v-show的区别.md"
               }
             }
           },
@@ -114,7 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 364.5
+    "width": 326.5
   },
   "right": {
     "id": "04524ac15b70e47e",
@@ -125,18 +125,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9f515836fe6f447d",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "题目/Leetcode/中等/2679. 矩阵中的和.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "e78d24608d276912",
             "type": "leaf",
             "state": {
@@ -144,16 +132,6 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "de2fa0664994cfdb",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "题目/Leetcode/中等/2679. 矩阵中的和.md"
               }
             }
           },
@@ -171,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "题目/Leetcode/中等/2679. 矩阵中的和.md",
+                "file": "面试/Vue/Vue基础/13.v-if和v-show的区别.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,9 +167,20 @@
               "type": "todo",
               "state": {}
             }
+          },
+          {
+            "id": "e55753cdbdf6e845",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "面试/Vue/Vue基础/13.v-if和v-show的区别.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -208,53 +197,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3c8ec6e3d59c2227",
+  "active": "d7a260cbd1897f0e",
   "lastOpenFiles": [
-    "题目/Leetcode/中等/2625.扁平化嵌套数组.md",
-    "题目/Leetcode/中等/2679. 矩阵中的和.md",
-    "题目/常见数据结构及方法/Array/创建二维数组的几种方式.md",
-    "题目/常见数据结构及方法/Window/JS的Location,Navigator,History.md",
-    "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md",
-    "题目/常见数据结构及方法/Window/javaScript之Location,Navigator,History",
-    "题目/常见数据结构及方法/Window",
-    "面试/浏览器原理/进程与线程/8.对Service Worker的理解.md",
-    "面试/浏览器原理/进程与线程/7.如何实现浏览器内多个标签页之间的通信？.md",
-    "面试/浏览器原理/进程与线程/6.死锁产生的原因? 如果解决死锁的问题?.md",
-    "面试/浏览器原理/进程与线程/5.僵尸进程和孤儿进程是什么.md",
-    "面试/浏览器原理/进程与线程/4.进程之间通信的方式.md",
-    "面试/浏览器原理/进程与线程/3.浏览器渲染进程的线程有哪些.md",
-    "Python/网络安全/photo/Pasted image 20230703221341.png",
-    "面试/浏览器原理/进程与线程/2.进程与线程的区别.md",
-    "面试/浏览器原理/进程与线程/1.进程与线程的概念.md",
-    "Python/网络安全/photo/Pasted image 20230703220553.png",
-    "面试/面试/数字广东面试/数字广东前端一面.md",
-    "面试/面试/腾讯/😢腾讯校招实习一面.md",
-    "面试/面试/小鹅通/小鹅通前端实习日常一面.md",
-    "面试/面试/蔚来面试/蔚来bilibili努力的但丁面试题.md",
-    "面试/面试/中科软/前端日常实习一面凉经40min.md",
-    "面试/面试/美团面试/美团美团前端实习二面面经（隐去敏感问题）.md",
-    "面试/浏览器原理/进程与线程",
-    "题目/Leetcode/简单/剑指 Offer II 072. 求平方根.md",
-    "题目/Leetcode/简单/704.二分查找.md",
-    "题目/Leetcode/代码题：开方，精确到e的负8次方（二分）.md",
-    "题目/Leetcode/简单/35. 搜索插入位置未命名.md",
-    "题目/Leetcode/简单/13.罗马数字转整数.md",
-    "题目/JavaScript/format guide（格式）.md",
-    "题目/Leetcode/简单/27. 移除元素.md",
-    "题目/常见数据结构及方法/Date",
-    "Python/网络安全/photo/Pasted image 20230703134252.png",
-    "面试/Webpack/未命名",
-    "Python/网络安全/photo/Pasted image 20230629100422.png",
-    "面试/面试/🌟简历自面",
-    "Python/网络安全/photo/Pasted image 20230628213736.png",
-    "Python/网络安全/photo/Pasted image 20230628181451.png",
-    "Python/网络安全/photo/Pasted image 20230628181443.png",
-    "Python/网络安全/photo/Pasted image 20230628181432.png",
-    "Python/网络安全/photo/Pasted image 20230628181426.png",
-    "Python/网络安全/photo/Pasted image 20230628181413.png",
-    "面试/ES6/未命名",
-    "面试/Node.js",
-    "面试/JS/三、JavaScript基础",
-    "面试/操作系统"
+    "面试/Vue/Vue基础/14.v-model是如何实现的，语法糖实际是什么.md",
+    "面试/Vue/Vue基础/15.v-model可以被用在自定义组件上吗？如果可以，如何使用.md",
+    "面试/Vue/Vue基础/13.v-if和v-show的区别.md",
+    "面试/Vue/v-if和v-show的区别？.md",
+    "面试/Vue/Vue基础/11.v-if、v-show、v-html的原理.md",
+    "面试/Vue/Vue基础/10. 常见的时间修饰符及作用.md",
+    "面试/Vue/Vue基础/9.如何保存页面的当前的状态.md",
+    "面试/Vue/Vue基础/8.过滤器的作用.md",
+    "面试/Vue/Vue基础/7.slot是什么？有什么作用？原理是什么？.md",
+    "面试/Vue/Vue基础/6.Computed和Methods的区别.md",
+    "面试/Vue/Vue基础/5.Computed 和 Watch的区别.md",
+    "面试/Vue/Vue基础/4.MVVM、MVC、MVP的区别.md",
+    "Python/网络安全/photo/Pasted image 20230705094653.png",
+    "Python/网络安全/photo/Pasted image 20230705094540.png",
+    "面试/Vue/Vue基础/3.使用Object.defineProperty()来进行数据劫持有什么缺点.md",
+    "面试/Vue/Vue基础/2.双向数据绑定的原理.md",
+    "面试/Vue/蛋老师vue的响应式原理是什么.md",
+    "Date Schedule.md",
+    "面试/面试/🌟简历自面/🌟面试模拟（包括遇到的面试题）.md",
+    "Python/网络安全/photo/Pasted image 20230705093318.png",
+    "面试/Vue/Vue基础/1.Vue基础.md",
+    "Python/网络安全/photo/Pasted image 20230705093130.png",
+    "面试/Vue/Vue基础",
+    "面试/计算机网络/HTTP状态码/HTTP状态码.md",
+    "面试/计算机网络/TCP与UDP/11.为什么Udp不会粘包.md",
+    "面试/计算机网络/TCP与UDP/10.TCP粘包书怎么回事，如何处理.md",
+    "面试/计算机网络/TCP与UDP/9.TCP的三次握手和四次挥手.md",
+    "面试/计算机网络/TCP与UDP/8.TCP的可靠传输.md",
+    "面试/计算机网络/TCP与UDP/7.TCP的流量控制机制.md",
+    "面试/计算机网络/TCP与UDP/6.TCP的拥塞控制机制.md",
+    "Python/网络安全/photo/Pasted image 20230705023428.png",
+    "Python/网络安全/photo/Pasted image 20230705022932.png",
+    "面试/计算机网络/TCP与UDP/5.TCP的重传机制.md",
+    "Python/网络安全/photo/Pasted image 20230705020355.png",
+    "面试/计算机网络/TCP与UDP/未命名",
+    "面试/计算机网络/TCP",
+    "面试/浏览器原理/TCP",
+    "实习收获/嘉为科技有限公司/目录结构",
+    "实习收获/嘉为科技有限公司/天翼数字生活代码学习",
+    "实习收获/嘉为科技有限公司",
+    "Python/网络安全/photo/Pasted image 20230704162723.png",
+    "面试/计算机网络/HTTPS协议",
+    "Python/网络安全/photo/Pasted image 20230704160637.png",
+    "Python/网络安全/photo/Pasted image 20230704154229.png",
+    "面试/计算机网络/HTTP协议",
+    "题目/常见数据结构及方法/Window/javaScript之Location,Navigator,History"
   ]
 }
