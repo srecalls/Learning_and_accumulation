@@ -51,7 +51,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/JS/三、JavaScript基础/1.new操作符的实现原理.md",
+                "file": "题目/常见数据结构及方法/String/JS怎么判断字符串是否是数字.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/JS/三、JavaScript基础/1.new操作符的实现原理.md"
+                "file": "题目/常见数据结构及方法/String/JS怎么判断字符串是否是数字.md"
               }
             }
           },
@@ -161,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面试/JS/三、JavaScript基础/1.new操作符的实现原理.md",
+                "file": "题目/常见数据结构及方法/String/JS怎么判断字符串是否是数字.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/JS/三、JavaScript基础/1.new操作符的实现原理.md",
+                "file": "题目/常见数据结构及方法/String/JS怎么判断字符串是否是数字.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,39 +211,40 @@
   },
   "active": "426449a720ab6473",
   "lastOpenFiles": [
+    "题目/常见数据结构及方法/String/JS中字符串常用方法总结.md",
+    "题目/常见数据结构及方法/String/JS 字符串转换成数字的三种方法.md",
+    "题目/常见数据结构及方法/String/JS怎么判断字符串是否是数字.md",
+    "题目/常见数据结构及方法/String/正则表达式中模式修正符作用详解（i、g、m、s、x、e）.md",
+    "题目/常见数据结构及方法/String/正则表达式语法.md",
+    "题目/常见数据结构及方法/String/正则表达式大全.md",
+    "题目/常见数据结构及方法/String/去除字符串前的空字符.md",
+    "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md",
+    "面试/JS/三、JavaScript基础/17.JavaScript为什么要进行变量提升，它导致了什么问题.md",
+    "面试/JS/三、JavaScript基础/16.对AJAX的理解，实现一个AJAX请求.md",
+    "面试/JS/三、JavaScript基础/15.escape、encodeURI、endodeURIComponent的区别.md",
+    "面试/JS/三、JavaScript基础/14.对类数组对象的理解，如何转化为数组.md",
     "面试/JS/三、JavaScript基础/20.常见的DOM操作有哪些.md",
+    "面试/JS/三、JavaScript基础/8.JavaScrip类数组对象的定义.md",
+    "面试/JS/三、JavaScript基础/12.为什么函数的arguments参数是类数组不是数组，如何遍历类数组.md",
+    "面试/JS/三、JavaScript基础/13.什么是DOM和BOM.md",
+    "面试/JS/三、JavaScript基础/6.对JSON的理解.md",
+    "面试/JS/三、JavaScript基础/7.JavaScript脚本延迟加载的方式有哪些.md",
+    "面试/JS/三、JavaScript基础/数组有哪些原生方法.md",
+    "面试/JS/三、JavaScript基础/5.常用的正则表达式有哪些？.md",
+    "面试/JS/三、JavaScript基础/4.JavaScript有哪些内置对象.md",
+    "面试/JS/三、JavaScript基础/3.map和weakMap的区别.md",
+    "面试/JS/三、JavaScript基础/2.map和Object的区别.md",
+    "Python/网络安全/photo/Pasted image 20230706220524.png",
     "面试/JS/三、JavaScript基础/1.new操作符的实现原理.md",
     "面试/JS/ES6/10.ES6中模版语法与字符串处理.md",
     "面试/JS/ES6/9.对rest参数的理解.md",
-    "面试/JS/ES6/8.如何提取高度嵌套的对象的指定属性.md",
-    "面试/JS/ES6/7.对对象与数组的结构解构的理解.md",
-    "面试/面试/树根互联股份有限公司/树根互联股份有限公司前端实习生笔试2023(2)部分摘选.md",
     "Python/网络安全/photo/Pasted image 20230706183448.png",
     "Python/网络安全/photo/Pasted image 20230706182930.png",
     "Python/网络安全/photo/Pasted image 20230706182929.png",
     "Python/网络安全/photo/Pasted image 20230706182815.png",
-    "面试/JS/ES6/5.箭头函数的this指向哪里.md",
-    "面试/JS/ES6/6.扩展运算符的作用及使用场景.md",
-    "面试/JS/ES6/4.箭头函数与普通函数的区别.md",
-    "面试/JS/ES6/3.如果一个箭头函数会怎么样.md",
-    "面试/JS/ES6/2.const对象的属性可以修改吗.md",
-    "面试/JS/ES6/1.let、const、var的区别.md",
     "Python/网络安全/photo/Pasted image 20230706145141.png",
-    "面试/JS/一、数据类型/21.如何判断一个对象是空对象.md",
     "面试/JS/ES6",
-    "面试/JS/一、数据类型/20.object.assign和拓展运算法是深拷贝还是浅拷贝，两者区别.md",
-    "面试/JS/一、数据类型/19.为什么会有BigInt的提案.md",
-    "面试/JS/一、数据类型/18.+操作符什么时候用于字符串的拼接.md",
-    "面试/JS/一、数据类型/17.JavaScript中如何进行隐式类型转换.md",
-    "面试/JS/一、数据类型/16.什么是JavaScript中的包装类型.md",
-    "面试/面试/🌟简历自面/🌟面试模拟（包括遇到的面试题）.md",
-    "面试/面试/快手面试/快手前端 一面.md",
-    "B.md",
     "面试/面试/快手面试",
-    "面试/CSS/盒子模型.md",
-    "Html+CSS/移动端Web/移动端技术解决方案.md",
-    "Html+CSS/HTML5和CSS3提高/CSS3的新特性/CSS3盒子模型.md",
-    "面试/H5C3/H5C3有哪些新特性.md",
     "面试/JS/一、数据类型",
     "Python/网络安全/photo/Pasted image 20230706101256.png",
     "Python/网络安全/photo/Pasted image 20230706101233.png",
@@ -251,7 +252,6 @@
     "面试/Vue/Vue3.0",
     "Python/网络安全/photo/Pasted image 20230705160417.png",
     "Python/网络安全/photo/Pasted image 20230705094653.png",
-    "Python/网络安全/photo/Pasted image 20230705094540.png",
     "面试/Vue/Vue基础",
     "面试/计算机网络/TCP与UDP/未命名",
     "面试/计算机网络/TCP",
