@@ -39,26 +39,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/面试/树根互联股份有限公司/树根互联股份有限公司前端实习生笔试2023(2)部分摘选.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "426449a720ab6473",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "题目/常见数据结构及方法/String/JS怎么判断字符串是否是数字.md",
+                "file": "面试/JS/原型与原型链/4.原型链的终点是什么？如何打印出原型链的终点.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "题目/常见数据结构及方法/String/JS怎么判断字符串是否是数字.md"
+                "file": "面试/JS/原型与原型链/4.原型链的终点是什么？如何打印出原型链的终点.md"
               }
             }
           },
@@ -161,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "题目/常见数据结构及方法/String/JS怎么判断字符串是否是数字.md",
+                "file": "面试/JS/原型与原型链/4.原型链的终点是什么？如何打印出原型链的终点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "题目/常见数据结构及方法/String/JS怎么判断字符串是否是数字.md",
+                "file": "面试/JS/原型与原型链/4.原型链的终点是什么？如何打印出原型链的终点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,35 +197,38 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "426449a720ab6473",
+  "active": "3afa2f3f3745aebe",
   "lastOpenFiles": [
-    "题目/常见数据结构及方法/String/JS中字符串常用方法总结.md",
-    "题目/常见数据结构及方法/String/JS 字符串转换成数字的三种方法.md",
-    "题目/常见数据结构及方法/String/JS怎么判断字符串是否是数字.md",
-    "题目/常见数据结构及方法/String/正则表达式中模式修正符作用详解（i、g、m、s、x、e）.md",
-    "题目/常见数据结构及方法/String/正则表达式语法.md",
-    "题目/常见数据结构及方法/String/正则表达式大全.md",
-    "题目/常见数据结构及方法/String/去除字符串前的空字符.md",
-    "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md",
-    "面试/JS/三、JavaScript基础/17.JavaScript为什么要进行变量提升，它导致了什么问题.md",
-    "面试/JS/三、JavaScript基础/16.对AJAX的理解，实现一个AJAX请求.md",
-    "面试/JS/三、JavaScript基础/15.escape、encodeURI、endodeURIComponent的区别.md",
-    "面试/JS/三、JavaScript基础/14.对类数组对象的理解，如何转化为数组.md",
-    "面试/JS/三、JavaScript基础/20.常见的DOM操作有哪些.md",
-    "面试/JS/三、JavaScript基础/8.JavaScrip类数组对象的定义.md",
-    "面试/JS/三、JavaScript基础/12.为什么函数的arguments参数是类数组不是数组，如何遍历类数组.md",
-    "面试/JS/三、JavaScript基础/13.什么是DOM和BOM.md",
-    "面试/JS/三、JavaScript基础/6.对JSON的理解.md",
-    "面试/JS/三、JavaScript基础/7.JavaScript脚本延迟加载的方式有哪些.md",
-    "面试/JS/三、JavaScript基础/数组有哪些原生方法.md",
-    "面试/JS/三、JavaScript基础/5.常用的正则表达式有哪些？.md",
-    "面试/JS/三、JavaScript基础/4.JavaScript有哪些内置对象.md",
-    "面试/JS/三、JavaScript基础/3.map和weakMap的区别.md",
-    "面试/JS/三、JavaScript基础/2.map和Object的区别.md",
+    "面试/JS/原型与原型链/5.如何获得对象非原型链上的属性？.md",
+    "面试/JS/原型与原型链/4.原型链的终点是什么？如何打印出原型链的终点.md",
+    "面试/JS/原型与原型链/2.原型修改、 重写.md",
+    "面试/JS/原型与原型链/1.对原型、原型链的理解.md",
+    "面试/JS/原型与原型链/3.原型链指向.md",
+    "Python/网络安全/photo/Pasted image 20230708182944.png",
+    "面试/JS/原型/一个对象原型链上的数据不想被遍历可以怎么办.md",
+    "面试/JS/原型/说一下原型链.md",
+    "面试/JS/三、JavaScript基础/30.addEventListener()方法的参数和使用.md",
+    "面试/JS/原型与原型链",
+    "面试/JS/三、JavaScript基础/29.forEach和map方法有什么区别.md",
+    "面试/JS/三、JavaScript基础/28.数组遍历的方法有哪些.md",
+    "Python/网络安全/photo/Pasted image 20230708102914.png",
+    "面试/JS/三、JavaScript基础/27.ajax、axios、fetch的区别.md",
+    "面试/JS/三、JavaScript基础/26.如何利用for...of遍历对象.md",
+    "面试/JS/三、JavaScript基础/25.for...in和for...of的区别.md",
+    "面试/JS/三、JavaScript基础/24.解释性语言和编译性语言的区别.md",
+    "面试/JS/三、JavaScript基础/23.强类型语言和弱类型语言.md",
+    "面试/JS/三、JavaScript基础/22.如何判断一个对象是否属于某个类.md",
+    "面试/JS/三、JavaScript基础/9.数组有哪些原生方法.md",
+    "面试/JS/一、数据类型/21.如何判断一个对象是空对象.md",
+    "面试/JS/一、数据类型/17.JavaScript中如何进行隐式类型转换.md",
+    "面试/JS/一、数据类型/18.+操作符什么时候用于字符串的拼接.md",
+    "面试/JS/一、数据类型/19.为什么会有BigInt的提案.md",
+    "面试/JS/一、数据类型/20.object.assign和拓展运算法是深拷贝还是浅拷贝，两者区别.md",
+    "面试/JS/一、数据类型/6.instanceof 操作符的实现原理及实现.md",
+    "题目/Leetcode/中等/167. 两数之和 II - 输入有序数组.md",
+    "题目/Leetcode/中等/34. 在排序数组中查找元素的第一个和最后一个位置.md",
+    "面试/JS/三、JavaScript基础/21.use strict是什么意思？使用它区别是什么.md",
     "Python/网络安全/photo/Pasted image 20230706220524.png",
-    "面试/JS/三、JavaScript基础/1.new操作符的实现原理.md",
-    "面试/JS/ES6/10.ES6中模版语法与字符串处理.md",
-    "面试/JS/ES6/9.对rest参数的理解.md",
     "Python/网络安全/photo/Pasted image 20230706183448.png",
     "Python/网络安全/photo/Pasted image 20230706182930.png",
     "Python/网络安全/photo/Pasted image 20230706182929.png",
@@ -250,12 +241,9 @@
     "Python/网络安全/photo/Pasted image 20230706101233.png",
     "面试/面试/树根互联股份有限公司",
     "面试/Vue/Vue3.0",
-    "Python/网络安全/photo/Pasted image 20230705160417.png",
-    "Python/网络安全/photo/Pasted image 20230705094653.png",
     "面试/Vue/Vue基础",
     "面试/计算机网络/TCP与UDP/未命名",
     "面试/计算机网络/TCP",
-    "面试/浏览器原理/TCP",
-    "实习收获/嘉为科技有限公司/目录结构"
+    "面试/浏览器原理/TCP"
   ]
 }
