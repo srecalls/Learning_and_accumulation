@@ -34,19 +34,18 @@
             }
           },
           {
-            "id": "3afa2f3f3745aebe",
+            "id": "19f239b737991da9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/JS/原型与原型链/4.原型链的终点是什么？如何打印出原型链的终点.md",
+                "file": "面试/计算机网络/网络模型/1.OSI七层模型.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -75,7 +74,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "box-sizing",
+                "query": "无法取消",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/JS/原型与原型链/4.原型链的终点是什么？如何打印出原型链的终点.md"
+                "file": "Date Schedule.md"
               }
             }
           },
@@ -114,7 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5
+    "width": 317.5
   },
   "right": {
     "id": "04524ac15b70e47e",
@@ -149,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面试/JS/原型与原型链/4.原型链的终点是什么？如何打印出原型链的终点.md",
+                "file": "Date Schedule.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/JS/原型与原型链/4.原型链的终点是什么？如何打印出原型链的终点.md",
+                "file": "Date Schedule.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,53 +196,52 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3afa2f3f3745aebe",
+  "active": "514d8eb14a6ac7e5",
   "lastOpenFiles": [
-    "面试/JS/原型与原型链/5.如何获得对象非原型链上的属性？.md",
-    "面试/JS/原型与原型链/4.原型链的终点是什么？如何打印出原型链的终点.md",
-    "面试/JS/原型与原型链/2.原型修改、 重写.md",
-    "面试/JS/原型与原型链/1.对原型、原型链的理解.md",
-    "面试/JS/原型与原型链/3.原型链指向.md",
-    "Python/网络安全/photo/Pasted image 20230708182944.png",
-    "面试/JS/原型/一个对象原型链上的数据不想被遍历可以怎么办.md",
-    "面试/JS/原型/说一下原型链.md",
-    "面试/JS/三、JavaScript基础/30.addEventListener()方法的参数和使用.md",
-    "面试/JS/原型与原型链",
-    "面试/JS/三、JavaScript基础/29.forEach和map方法有什么区别.md",
-    "面试/JS/三、JavaScript基础/28.数组遍历的方法有哪些.md",
-    "Python/网络安全/photo/Pasted image 20230708102914.png",
-    "面试/JS/三、JavaScript基础/27.ajax、axios、fetch的区别.md",
-    "面试/JS/三、JavaScript基础/26.如何利用for...of遍历对象.md",
-    "面试/JS/三、JavaScript基础/25.for...in和for...of的区别.md",
-    "面试/JS/三、JavaScript基础/24.解释性语言和编译性语言的区别.md",
-    "面试/JS/三、JavaScript基础/23.强类型语言和弱类型语言.md",
-    "面试/JS/三、JavaScript基础/22.如何判断一个对象是否属于某个类.md",
-    "面试/JS/三、JavaScript基础/9.数组有哪些原生方法.md",
-    "面试/JS/一、数据类型/21.如何判断一个对象是空对象.md",
-    "面试/JS/一、数据类型/17.JavaScript中如何进行隐式类型转换.md",
-    "面试/JS/一、数据类型/18.+操作符什么时候用于字符串的拼接.md",
-    "面试/JS/一、数据类型/19.为什么会有BigInt的提案.md",
-    "面试/JS/一、数据类型/20.object.assign和拓展运算法是深拷贝还是浅拷贝，两者区别.md",
-    "面试/JS/一、数据类型/6.instanceof 操作符的实现原理及实现.md",
-    "题目/Leetcode/中等/167. 两数之和 II - 输入有序数组.md",
-    "题目/Leetcode/中等/34. 在排序数组中查找元素的第一个和最后一个位置.md",
-    "面试/JS/三、JavaScript基础/21.use strict是什么意思？使用它区别是什么.md",
-    "Python/网络安全/photo/Pasted image 20230706220524.png",
-    "Python/网络安全/photo/Pasted image 20230706183448.png",
-    "Python/网络安全/photo/Pasted image 20230706182930.png",
-    "Python/网络安全/photo/Pasted image 20230706182929.png",
-    "Python/网络安全/photo/Pasted image 20230706182815.png",
-    "Python/网络安全/photo/Pasted image 20230706145141.png",
-    "面试/JS/ES6",
-    "面试/面试/快手面试",
-    "面试/JS/一、数据类型",
-    "Python/网络安全/photo/Pasted image 20230706101256.png",
-    "Python/网络安全/photo/Pasted image 20230706101233.png",
-    "面试/面试/树根互联股份有限公司",
-    "面试/Vue/Vue3.0",
-    "面试/Vue/Vue基础",
-    "面试/计算机网络/TCP与UDP/未命名",
-    "面试/计算机网络/TCP",
-    "面试/浏览器原理/TCP"
+    "面试/计算机网络/网络模型/1.OSI七层模型.md",
+    "面试/面试/广州卓动信息科技有限公司",
+    "面试/面试/北京纷扬科技有限责任公司",
+    "面试/面试/广州中科院软件所",
+    "面试/计算机网络/DNS协议介绍/1.DNS协议是什么.md",
+    "面试/计算机网络/网络模型/2.TCPIP五层协议.md",
+    "Python/网络安全/photo/Pasted image 20230709211214.png",
+    "Python/网络安全/photo/Pasted image 20230709211202.png",
+    "Python/网络安全/photo/Pasted image 20230709211149.png",
+    "Python/网络安全/photo/Pasted image 20230709210851.png",
+    "Python/网络安全/photo/Pasted image 20230709202744.png",
+    "面试/计算机网络/网络模型",
+    "面试/JS/九、垃圾回收与内存泄漏/2.哪些情况会导致内存泄漏.md",
+    "面试/计算机网络/DNS协议介绍",
+    "面试/浏览器原理/浏览器垃圾回收机制/2.哪些操作会造成内存泄漏.md",
+    "面试/JS/九、垃圾回收与内存泄漏/1.浏览器的垃圾回收机制.md",
+    "面试/JS/八、面向对象/2.对象继承的方式有哪些.md",
+    "面试/JS/九、垃圾回收与内存泄漏",
+    "面试/JS/八、面向对象/1.对象创建的方式有哪些.md",
+    "题目/常见数据结构及方法/Web API/Console - Web API 接口参考.md",
+    "面试/JS/八、面向对象",
+    "Python/网络安全/photo/Pasted image 20230709173943.png",
+    "Python/网络安全/photo/Pasted image 20230709173922.png",
+    "Python/网络安全/photo/Pasted image 20230709173907.png",
+    "Python/网络安全/photo/Pasted image 20230709173836.png",
+    "Python/网络安全/photo/Pasted image 20230709173819.png",
+    "题目/常见数据结构及方法/Web API/JS的Location,Navigator,History.md",
+    "面试/JS/七、异步编程/11.async&await如何捕获异常.md",
+    "面试/JS/七、异步编程/10.async&await对比Promise的优势.md",
+    "面试/JS/七、异步编程/4.Promise的基本用法.md",
+    "面试/JS/七、异步编程/5.Promise解决了什么问题.md",
+    "面试/JS/七、异步编程/6.Promise.all和Promise.race的区别和使用场景.md",
+    "面试/JS/七、异步编程/9.async&await的优势.md",
+    "面试/JS/七、异步编程/8.await到底在等啥？.md",
+    "面试/JS/七、异步编程/7.对async&await的理解.md",
+    "面试/JS/七、异步编程/3.对Promise的理解.md",
+    "面试/JS/七、异步编程/2.setTimeout、Promise、Async&Await的区别.md",
+    "面试/Vue/Promise的内部原理是什么？优缺点是什么.md",
+    "面试/Vue/Promise/Promise整理总结.md",
+    "面试/JS/七、异步编程/1.异步编程的实现方式.md",
+    "面试/JS/六、this、call、apply、bind/3.实现call、apply及bind函数.md",
+    "面试/JS/七、异步编程",
+    "面试/JS/六、this、call、apply、bind/2.call() 和 apply()的区别.md",
+    "面试/JS/六、this、call、apply、bind",
+    "面试/JS/五、执行上下文、作用域链、闭包"
   ]
 }
