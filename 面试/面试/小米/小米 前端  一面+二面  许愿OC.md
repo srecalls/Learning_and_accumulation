@@ -18,7 +18,6 @@
 > 
 > **面试感受：**挺好的，小哥哥很和蔼
 
-**开场**
 
 1. 自我介绍
 2. 为什么会选择前端呐？
@@ -34,8 +33,10 @@
         （补充：增强表单、Canvas、SVG、地理位置、拖放API、WebWorker、WebStorage、WebSocket）
         
     2. 说说localStorage和SessionStorage应用
-        
-    3. localStorage什么情况下会被清空？如何手动清空
+        [[蛋老师cookie、localStorage 和 sessionStorage的区别及应用实例]]
+        [[localStorage和sessionStorage的应用场景]]
+        [[1.浏览器本地存储方式及使用场景]]
+    1. localStorage什么情况下会被清空？如何手动清空
         
         （忘了，尴尬）
         
@@ -44,30 +45,34 @@
         - 删除单个数据：localStorage.removeItem(key);
         - 删除所有数据：localStorage.clear();
         - 得到某个索引的key：localStorage.key(index);
-    4. ##### SessionStorage什么情况下会被清空？如何手动清空
-        
-        > SessionStorage：用于临时保存同一窗口(或标签页)的数据，在关闭窗口或标签页之后将会删除这些数据。
-        
+
+	[[localStorage什么情况下会被清空？]]
+	[[localStorage什么情况下会被清空？如何手动清空]]
+    1.  SessionStorage什么情况下会被清空？如何手动清空
+
+        > SessionStorage：用于临时保存同一窗口(或标签页)的数据，在关闭窗口或标签页之后将会删除这些数据。    
         (关闭当前页面数据的销毁与否有两种情况：①如果它的页面中没有其他的超链接，或者没有打开，那么关闭当前页面，数据就会被销毁。②而如果通过当前这个页面，打开了其他的页面，那么只有当这些页面都关闭了，数据才会销毁。)
         
-    5. 块级元素和行内元素区别
-        
-    6. img是块状元素还是行内元素
-        
+	1. 块级元素和行内元素区别
+        [[块级元素和行内元素的区别]]
+	1. img是块状元素还是行内元素
+	[[img是块状元素还是行内元素]]
         （尴尬，这个也忘了，img是行内块元素）
-        
-    7. 定位position
-        
-    8. 了解fixed吗
-        
+
+	1. 定位position
+        [[position有哪些属性]]
+        [[position的属性有哪些,区别是什么]]
+	1. 了解fixed吗
+
         （回答的不太好
-        
         - static，默认值。处于文档流的位置。
         - inherit，从父元素继承 position 属性的值。
         - fixed，生成绝对定位的元素。可定位于**相对于浏览器窗口**的指定坐标。但当祖先元素具有transform属性且不为none时，就会**相对于祖先元素**指定坐标，而不是浏览器窗口。
         - absolute，**相对于距该元素最近的已定位的祖先元素**进行定位。
         - relative，**相对于该元素在文档中的初始位置进行定位**。
-    9. 了解sticky吗
+
+
+    1. 了解sticky吗
         
     10. 默认定位是什么定位
         
@@ -96,7 +101,7 @@
         （some和every）
         
     5. 检测一个空对象
-        
+        [[21.如何判断一个对象是空对象]]
         （for in、Json.stringtyfy与''比较、Object.keys）
         
 - HTTP
@@ -155,7 +160,10 @@
             }]
         }]
         ```
-        
+        **通过数组方法map（）修改属性名。**
+```js
+
+```
 
 - 反问
     

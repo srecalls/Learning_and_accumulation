@@ -19,6 +19,29 @@ position: inherit inherit 值如同其他 css 属性的 inherit 值，即**继�
 
 在这种情况下，子元素的 `position` 属性值不会继承父级元素的定位方式。子元素的 `position` 属性值将会默认为 `static`，即不做特殊定位处理，不会影响到父级元素的定位方式。
 
+
+- sticky
+`position` 是 CSS 属性之一，用于设置元素的定位方式。其取值包括 `static`、`relative`、`absolute`、`fixed` 和 `sticky`。其中 `sticky` 是相对较新的定位方式，它的作用是在元素滚动到特定位置时将元素固定在屏幕上。
+
+`sticky` 定位方式类似于 `fixed` 定位，但是它不会一直固定在屏幕的某个位置，而是在满足特定条件时生效。具体来说，当元素滚动到容器的顶部或底部时，`sticky` 定位会触发，将元素固定在容器的顶部或底部。当容器滚动过程中，元素会保持固定的位置，直到滚动到容器的顶部或底部，才会解除固定状态，继续随着容器滚动。
+
+使用 `sticky` 定位方式需要设置 `position: sticky`，并指定 `top`、`bottom`、`left` 或 `right` 等值。例如，下面的代码将元素固定在容器的顶部，当滚动到容器底部时解除固定状态：
+
+```css
+.container {
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.element {
+  position: sticky;
+  top: 0;
+}
+```
+
+在上述代码中，`.container` 是容器元素，`.element` 是要进行 `sticky` 定位的元素。当 `.element` 元素滚动到 `.container` 的顶部时，它会固定在顶部，直到滚动到 `.container` 的底部时，才会解除固定状态。
+
+需要注意的是，`sticky` 定位方式在一些老的浏览器中可能不被支持。此外，使用 `sticky` 定位时还需要注意元素所处的上下文环境和滚动容器的大小等因素，以确保效果正确。
 前三者定位方式如下
 ![[Pasted image 20230515042350.png]]
 

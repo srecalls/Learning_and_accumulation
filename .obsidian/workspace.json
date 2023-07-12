@@ -22,31 +22,43 @@
             }
           },
           {
-            "id": "5ddd08446f9a6fe3",
+            "id": "e24b5eaf4dc02bd1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/面试/北京纷扬科技有限责任公司/北京纷扬科技有限责任公司一面.md",
+                "file": "面试/面试/🌟简历自面/🌟面试模拟（包括遇到的面试题）.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ce429a5d98276f08",
+            "id": "3e57718a25f97f20",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md",
+                "file": "面试/CSS/position的属性有哪些,区别是什么.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "56d2edaa756e0fe6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/浏览器原理/浏览器本地存储/1.浏览器本地存储方式及使用场景.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/面试/北京纷扬科技有限责任公司/北京纷扬科技有限责任公司一面.md"
+                "file": "面试/CSS/position的属性有哪些,区别是什么.md"
               }
             }
           },
@@ -114,7 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 300.50130462646484
   },
   "right": {
     "id": "04524ac15b70e47e",
@@ -149,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面试/面试/北京纷扬科技有限责任公司/北京纷扬科技有限责任公司一面.md",
+                "file": "面试/CSS/position的属性有哪些,区别是什么.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/面试/北京纷扬科技有限责任公司/北京纷扬科技有限责任公司一面.md",
+                "file": "面试/CSS/position的属性有哪些,区别是什么.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,35 +209,36 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5ddd08446f9a6fe3",
+  "active": "51d51efeaf4fb5b4",
   "lastOpenFiles": [
-    "题目/Leetcode/中等/15. 三数之和.md",
-    "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md",
-    "题目/常见数据结构及方法/Array/js判断两个数组相等的5种方法实例.md",
-    "题目/常见数据结构及方法/Number/JavaScript实现保留两位小数，不足则自动补零.md",
-    "题目/常见数据结构及方法/Date/JavaScript 实现日期自动补零的几种写法梳理.md",
-    "题目/常见数据结构及方法/Date/js中获取一个月有多少天数的方法.md",
-    "面试/手写代码/实现输入数字转化成金额格式.md",
-    "面试/HTML/6.HTML5有哪些更新.md",
-    "面试/H5C3/H5C3有哪些新特性.md",
-    "Html+CSS/HTML5和CSS3提高/HTML5的新特性/HTML5新增的多媒体标签/新增视频标签 video.md",
-    "字节内部课/字节前端训练营/前端语言串讲/03 你不知道的HTML（5）.md",
+    "面试/面试/🌟简历自面/🌟面试模拟（包括遇到的面试题）.md",
+    "面试/CSS/position的属性有哪些,区别是什么.md",
     "面试/浏览器原理/浏览器本地存储/1.浏览器本地存储方式及使用场景.md",
-    "Html+CSS/HTML标签学习/语义化标签/有语义的布局标签 header nav footer.md",
-    "Html+CSS/HTML5和CSS3提高/HTML5的新特性/HTML5新增的多媒体标签/HTML5新增的表单属性.md",
-    "面试/算法/数组乱序之洗牌算法.md",
-    "面试/面试/小米/小米 前端  一面+二面  许愿OC.md",
-    "面试/面试/北京纷扬科技有限责任公司/北京纷扬科技有限责任公司一面.md",
-    "面试/Vue/Vuex/6.Vuex有哪些属性？.md",
-    "面试/面试/北京纷扬科技有限责任公司/纷享逍客前端开发实习面试心得.md",
-    "面试/Vue/虚拟DOM/2.虚拟DOM的解析过程.md",
+    "OMI-前端框架跨平台框架项目申请书.md",
     "Date Schedule.md",
-    "题目/常见数据结构及方法/Number/js取绝对值的两种方法.md",
+    "面试/CSS/position有哪些属性.md",
+    "面试/面试/小米/小米 前端  一面+二面  许愿OC.md",
+    "面试/CSS/img是块状元素还是行内元素.md",
+    "面试/CSS/块级元素和行内元素的区别.md",
+    "面试/浏览器原理/浏览器本地存储/localStorage什么情况下会被清空？如何手动清空.md",
+    "面试/HTML/localStorage什么情况下会被清空？.md",
+    "面试/浏览器原理/浏览器本地存储/3.Cookie、LocalStorage、SessionStorage区别.md",
+    "面试/浏览器原理/浏览器本地存储/2.Cookie有哪些字段，作用分别是什么.md",
+    "面试/浏览器原理/浏览器本地存储/4.前端存储的方式有哪些.md",
+    "面试/浏览器原理/浏览器本地存储/5.IndexedDB有哪些特点.md",
+    "面试/HTML/localStorage和sessionStorage的应用场景.md",
+    "面试/Vue/蛋老师cookie、localStorage 和 sessionStorage的区别及应用实例.md",
+    "面试/JS/一、数据类型/21.如何判断一个对象是空对象.md",
+    "题目/常见数据结构及方法/Object/JavaScript Object对象常用方法和属性.md",
+    "题目/常见数据结构及方法/JSON/JSON.stringify()扩展.md",
+    "题目/常见数据结构及方法/JSON",
+    "题目/常见数据结构及方法/String/JSON.md",
+    "题目/Leetcode/简单/2544. 交替数字和.md",
+    "面试/面试/北京纷扬科技有限责任公司/北京纷扬科技有限责任公司一面.md",
+    "题目/Leetcode/简单/2600.K件物品的最大值.md",
+    "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md",
     "面试/项目/我有一个echarts折线图，上面有两条折线，x轴是周一到周日，我的第一条折线从周一到周三，第二条折线从周四到周日，怎么实现.md",
-    "面试/Vue/Vue基础/46.常见的Vue性能优化方法.md",
-    "面试/计算机网络/HTTP/当数据没有请求过来的时候，该怎么 做？.md",
     "面试/面试/小米",
-    "面试/计算机网络/HTTP/大文件上传是怎么做的.md",
     "Python/网络安全/photo/Pasted image 20230710005532.png",
     "Python/网络安全/photo/Pasted image 20230710005504.png",
     "面试/面试/广州卓动信息科技有限公司",
@@ -243,7 +256,6 @@
     "Python/网络安全/photo/Pasted image 20230709173943.png",
     "Python/网络安全/photo/Pasted image 20230709173922.png",
     "Python/网络安全/photo/Pasted image 20230709173907.png",
-    "面试/JS/七、异步编程",
-    "面试/JS/六、this、call、apply、bind"
+    "面试/JS/七、异步编程"
   ]
 }
