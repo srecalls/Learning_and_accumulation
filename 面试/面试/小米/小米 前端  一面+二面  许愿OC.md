@@ -77,19 +77,20 @@
     10. 默认定位是什么定位
         
     11. CSS画三角形
-        
+        [[1.实现一个三角形]]
     12. flex实现左上角元素移动到左下角
         
     13. flex-shrink
-        
+        [[flex：1 完整写法]]
     14. align-item和align-content区别
-        
+        [[flex布局常见父项属性]]
+        [[flex布局子项常见属性]]
 - **JS**
     
     1. let和var
-        
-    2. 原型链
-        
+	[[var、let、const的使用及区别，什么是暂时性死区？]]
+    1. 原型链
+        [[原型链]]
     3. map和forEach区别
         
         （map有返回值（返回一个新数组，原数组不变），forEach返回undefined）
@@ -107,13 +108,14 @@
 - HTTP
     
     1. 状态码
-        
+        [[HTTP状态码]]
     2. 同源策略
-        
+        [[说一下什么是同源策略]]
         （为什么要同源没回答好）
-        
+        [[为什么需要同源策略]]
     3. 跨域解决方案
-        
+        [[（1）CORS]]
+        [[（2）JSONP]]
 - 项目
     
     1. 接触过webpack相关的吗
@@ -121,23 +123,23 @@
     2. 双绑原理
         
     3. v-if和v-show
-        
+        [[v-if和v-show的区别？]]
     4. v-if怎么实现的？
-        
+        [[11.v-if、v-show、v-html的原理]]
     5. display:none和visibility:hidden区别
-        
+        [[8.display：none与visibility：hidden的区别]]
         （按照我的理解，display:none是不会被继承的，否则子元素可以改为display:block之后就能显示。反之visibility:hidden可以继承，子元素也可以通过改变visibility:visible显示）
         
     6. vue组件传值/通讯
-        
+        [[组件通信]]
     7. 用过vuex
         
     8. 说说vuex的api
-        
+        [[6.Vuex有哪些属性？]]
     9. 说说vuex的action和mutation
-        
+[[2.Vuex中action和mutation的区别]]
     10. vue-router了解吗
-        
+        [[2.路由的hash和history模式的区别]]
     11. 路由原理了解吗
         
 - 手撕

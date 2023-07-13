@@ -12,6 +12,8 @@ position有以下属性值:
 - static
 默认值，没有定位,元素出现在正常的文档流中，会忽略top, bottom, left, right 或者z-index声明,块级元素从上往下纵向排布，行级元素从左向右排序。
 
+在 CSS 中，如果没有明确指定一个元素的定位方式（position 属性），则该元素的默认定位方式是“静态定位”（static position）。静态定位表示元素按照正常的文档流排列，不受 top、bottom、left、right 等属性的影响。同时，静态定位的元素也不会受到 z-index 属性的影响，无法与其他元素重叠或遮挡。
+
 - inherit
 规定从父元素继承position属性的值
 position: inherit inherit 值如同其他 css 属性的 inherit 值，即**继承父元素的 position 值**。
