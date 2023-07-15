@@ -22,43 +22,67 @@
             }
           },
           {
-            "id": "e24b5eaf4dc02bd1",
+            "id": "0100536bedcb2bce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/面试/🌟简历自面/🌟面试模拟（包括遇到的面试题）.md",
+                "file": "OMI-前端框架跨平台框架项目申请书.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3e57718a25f97f20",
+            "id": "073e2b17a260d631",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/面试/小米/小米 前端  一面+二面  许愿OC.md",
+                "file": "面试/面试/小米/小米二面.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "56d2edaa756e0fe6",
+            "id": "022cee3149689cf7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/浏览器原理/浏览器本地存储/1.浏览器本地存储方式及使用场景.md",
+                "file": "面试/手写代码/js修改对象数组中的对象属性名.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5401f386197eaf8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/手写代码/实现输入数字转化成金额格式.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "821b7fa352bc4383",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "电脑变更注意点.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -87,7 +111,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "@import",
+                "query": "生命周期",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/面试/🌟简历自面/🌟面试模拟（包括遇到的面试题）.md"
+                "file": "电脑变更注意点.md"
               }
             }
           },
@@ -161,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面试/面试/🌟简历自面/🌟面试模拟（包括遇到的面试题）.md",
+                "file": "电脑变更注意点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/面试/🌟简历自面/🌟面试模拟（包括遇到的面试题）.md",
+                "file": "电脑变更注意点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,52 +233,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e24b5eaf4dc02bd1",
+  "active": "821b7fa352bc4383",
   "lastOpenFiles": [
-    "面试/Vue/如何统一监听vue组件的报错.md",
+    "经验.md",
+    "hr.md",
+    "赚钱/webpack.md",
+    "赚钱/vue.md",
+    "赚钱/js手写.md",
+    "赚钱/js排序.md",
+    "赚钱/js.md",
+    "赚钱/html.md",
+    "赚钱/git.md",
+    "赚钱/css.md",
+    "赚钱/项目.md",
+    "赚钱/上班.md",
+    "赚钱/浏览器原理.md",
+    "赚钱/安全.md",
+    "面试/面试/广州嘉为科技/😢线下面试.md",
+    "日常积累_副本/函数传参与函数内声明参数名称冲突.md",
+    "日常积累_副本/对象的value的获取和key命名的关系.md",
+    "日常积累_副本/函数参数传递问题.md",
+    "日常积累_副本/js里面static 修饰函数是什么.md",
+    "日常积累_副本/服务器日志.md",
+    "日常积累_副本/深浅拷贝问题.md",
+    "日常积累_副本/Math.max和Math.min的传参.md",
+    "日常积累_副本/组件封装.md",
+    "日常积累_副本",
+    "赚钱/计算机网络.md",
+    "赚钱",
+    "面试/手写代码/实现输入数字转化成金额格式.md",
+    "面试/手写代码/js修改对象数组中的对象属性名.md",
+    "Python/网络安全/photo/Pasted image 20230714134625.png",
+    "Python/网络安全/photo/Pasted image 20230714134445.png",
+    "面试/面试/百度实习",
+    "Python/网络安全/photo/Pasted image 20230714062024.png",
+    "Python/网络安全/photo/Pasted image 20230713154213.png",
+    "Python/网络安全/photo/Pasted image 20230713152034.png",
+    "Python/网络安全/photo/Pasted image 20230713151944.png",
+    "Python/网络安全/photo/Pasted image 20230713151905.png",
     "Python/网络安全/photo/Pasted image 20230713112348.png",
-    "面试/面试/🌟简历自面/🌟面试模拟（包括遇到的面试题）.md",
-    "面试/ES6/ES6新特性有哪些.md",
-    "面试/JS/var、let、const的使用及区别，什么是暂时性死区？.md",
-    "面试/ES6/ES8的新特性.md",
-    "面试/面试/小米/小米 前端  一面+二面  许愿OC.md",
-    "Date Schedule.md",
-    "面试/Vue/Vue基础/11.v-if、v-show、v-html的原理.md",
-    "面试/Vue/路由/2.路由的hash和history模式的区别.md",
-    "面试/Vue/v-if和v-show的区别？.md",
-    "面试/计算机网络/HTTP/说一下什么是同源策略.md",
-    "面试/计算机网络/HTTP/为什么需要同源策略.md",
-    "面试/面试/广州中科院软件所/广州中科软研究所前端一面.md",
-    "面试/浏览器原理/浏览器本地存储/1.浏览器本地存储方式及使用场景.md",
-    "JavaScript/JavaScript基础/变量/变量扩展--let和var的区别.md",
-    "面试/JS/ES6/1.let、const、var的区别.md",
-    "Html+CSS/移动端Web/移动端常见布局/flex布局/flex布局子项常见属性/flex布局子项常见属性.md",
-    "Html+CSS/移动端Web/移动端常见布局/flex布局/flex布局父项常见属性/flex布局常见父项属性.md",
-    "Html+CSS/移动端Web/移动端常见布局/flex布局/flex布局父项常见属性/我有一个el-button，当我的值为1时按钮可以点击，当我的值不为1时 ，按钮多一个disabled状态.md",
-    "Html+CSS/移动端Web/移动端常见布局/flex布局/flex布局父项常见属性/align-content 设置侧轴上的子元素排列方式（多行）.md",
-    "Html+CSS/移动端Web/移动端常见布局/flex布局/flex布局父项常见属性/align-content和align-items区别.md",
-    "Html+CSS/移动端Web/移动端常见布局/flex布局/flex布局父项常见属性/align-items设置侧轴上的子元素排列方式（单行）.md",
-    "Html+CSS/移动端Web/移动端常见布局/flex布局/flex布局父项常见属性/flex-direction 设置主轴的方向.md",
-    "Html+CSS/移动端Web/移动端常见布局/flex布局/flex布局父项常见属性/flex-flow.md",
-    "Html+CSS/移动端Web/移动端常见布局/flex布局/flex布局父项常见属性/flex-wrap设置子元素是否换行.md",
     "Python/网络安全/photo/Pasted image 20230713012236.png",
     "面试/CSS/一、CSS基础",
     "Python/网络安全/photo/Pasted image 20230712225817.png",
-    "Python/网络安全/photo/Pasted image 20230712225729.png",
-    "Python/网络安全/photo/Pasted image 20230712225720.png",
-    "Python/网络安全/photo/Pasted image 20230712225645.png",
-    "Python/网络安全/photo/Pasted image 20230712225633.png",
-    "Python/网络安全/photo/Pasted image 20230712225631.png",
-    "Python/网络安全/photo/Pasted image 20230712225550.png",
-    "Python/网络安全/photo/Pasted image 20230712225545.png",
     "面试/CSS/四、场景运用",
     "题目/常见数据结构及方法/JSON",
     "面试/面试/小米",
     "面试/面试/广州卓动信息科技有限公司",
     "面试/面试/北京纷扬科技有限责任公司",
-    "面试/面试/广州中科院软件所",
-    "面试/计算机网络/网络模型",
-    "面试/计算机网络/DNS协议介绍",
-    "面试/JS/九、垃圾回收与内存泄漏"
+    "面试/面试/广州中科院软件所"
   ]
 }
