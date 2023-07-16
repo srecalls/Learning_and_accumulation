@@ -22,67 +22,51 @@
             }
           },
           {
-            "id": "0100536bedcb2bce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OMI-前端框架跨平台框架项目申请书.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "073e2b17a260d631",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/面试/小米/小米二面.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "022cee3149689cf7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/手写代码/js修改对象数组中的对象属性名.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5401f386197eaf8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/手写代码/实现输入数字转化成金额格式.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "821b7fa352bc4383",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "电脑变更注意点.md",
+                "file": "面试/JS/三、JavaScript基础/3.map和weakMap的区别.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5fa26a64adddd0a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/JS/一、数据类型/21.如何判断一个对象是空对象.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "24fa5a6d125f413b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "3f21699e12cc1950",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "赚钱/上班.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -111,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "生命周期",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "电脑变更注意点.md"
+                "file": "Date Schedule.md"
               }
             }
           },
@@ -150,7 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 378.50130462646484
+    "width": 298.50130462646484
   },
   "right": {
     "id": "04524ac15b70e47e",
@@ -185,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "电脑变更注意点.md",
+                "file": "Date Schedule.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "电脑变更注意点.md",
+                "file": "Date Schedule.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -233,8 +217,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "821b7fa352bc4383",
+  "active": "51d51efeaf4fb5b4",
   "lastOpenFiles": [
+    "7.14百度提前批前端一面.md",
+    "面试/JS/三、JavaScript基础/20.常见的DOM操作有哪些.md",
+    "面试/CSS/一、CSS基础/14.CSS3中有哪些新特性.md",
+    "Html+CSS/HTML5和CSS3提高/HTML5的新特性/HTML5新增的多媒体标签/HTML5新增的语义化标签.md",
+    "面试/HTML/6.HTML5有哪些更新.md",
+    "面试/JS/三、JavaScript基础/3.map和weakMap的区别.md",
+    "Date Schedule.md",
+    "面试/手写代码/实现输入数字转化成金额格式.md",
+    "面试/JS/一、数据类型/21.如何判断一个对象是空对象.md",
+    "电脑变更注意点.md",
     "经验.md",
     "hr.md",
     "赚钱/webpack.md",
@@ -251,18 +245,8 @@
     "赚钱/安全.md",
     "面试/面试/广州嘉为科技/😢线下面试.md",
     "日常积累_副本/函数传参与函数内声明参数名称冲突.md",
-    "日常积累_副本/对象的value的获取和key命名的关系.md",
-    "日常积累_副本/函数参数传递问题.md",
-    "日常积累_副本/js里面static 修饰函数是什么.md",
-    "日常积累_副本/服务器日志.md",
-    "日常积累_副本/深浅拷贝问题.md",
-    "日常积累_副本/Math.max和Math.min的传参.md",
-    "日常积累_副本/组件封装.md",
     "日常积累_副本",
-    "赚钱/计算机网络.md",
     "赚钱",
-    "面试/手写代码/实现输入数字转化成金额格式.md",
-    "面试/手写代码/js修改对象数组中的对象属性名.md",
     "Python/网络安全/photo/Pasted image 20230714134625.png",
     "Python/网络安全/photo/Pasted image 20230714134445.png",
     "面试/面试/百度实习",
