@@ -138,6 +138,8 @@ Content-Type: text/html
 
 307 会遵守浏览器标准，**不会从 POST 变成 GET**。但是对于处理请求的行为时，不同浏览器还是会出现不同的情况。规范要求浏览器继续向 Location 的地址 POST 内容。规范要求浏览器继续向 Location 的地址 POST 内容
 
+
+
 ## 三. 4XX (Client Error 客户端错误状态码）
 4XX 的响应结果表明客户端是发生错误的原因所在
 
