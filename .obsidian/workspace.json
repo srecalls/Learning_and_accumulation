@@ -22,51 +22,43 @@
             }
           },
           {
-            "id": "821b7fa352bc4383",
+            "id": "2abce380888cd2e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/JS/三、JavaScript基础/3.map和weakMap的区别.md",
+                "file": "JavaScript/Web APIs/DOM获取元素/操作元素属性/操作元素样式属性.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5fa26a64adddd0a7",
+            "id": "19a7b5e700d5a3fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/JS/一、数据类型/21.如何判断一个对象是空对象.md",
+                "file": "赚钱/css.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "24fa5a6d125f413b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "3f21699e12cc1950",
+            "id": "1ac425ac766d8d13",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/Git/git 仓库的指针实现原理.md",
+                "file": "面试/JS/用递归的时候有没有遇到什么问题.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -95,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "0.1+0.2",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/Git/git 仓库的指针实现原理.md"
+                "file": "面试/JS/用递归的时候有没有遇到什么问题.md"
               }
             }
           },
@@ -134,7 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.50130462646484
+    "width": 365.50130462646484
   },
   "right": {
     "id": "04524ac15b70e47e",
@@ -169,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面试/Git/git 仓库的指针实现原理.md",
+                "file": "面试/JS/用递归的时候有没有遇到什么问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/Git/git 仓库的指针实现原理.md",
+                "file": "面试/JS/用递归的时候有没有遇到什么问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,53 +209,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3f21699e12cc1950",
+  "active": "1ac425ac766d8d13",
   "lastOpenFiles": [
-    "题目/Leetcode/简单/斐波那契数列.md",
-    "面试/计算机网络/HTTP协议/说说http发展史.md",
-    "面试/计算机网络/HTTP/介绍一下什么是HTTP.md",
-    "面试/浏览器原理/进程与线程/浏览器里的所有线程.md",
-    "面试/个人情况/你觉得前端哪些地方需要抠细节.md",
-    "面试/Vue/路由/vue路由原理.md",
-    "面试/Vue/说一下vue初始化过程.md",
-    "面试/CSS/说一下rgba透明度，opacity透明度.md",
-    "面试/Git/如果我在远程分支上添加，但是本地没有添加，这时候我能push吗.md",
-    "面试/Git/git 仓库的指针实现原理.md",
+    "赚钱/css.md",
     "Date Schedule.md",
-    "7.14百度提前批前端一面.md",
-    "面试/JS/三、JavaScript基础/20.常见的DOM操作有哪些.md",
+    "面试/Vue/如何统一监听vue组件的报错.md",
+    "面试/JS/用递归的时候有没有遇到什么问题.md",
+    "面试/手写代码/js编写一个函数,返回字符串里面出现次数最多的那个字符,以及它出现的次数.md",
+    "面试/手写代码/Promise/Promise.all怎么把成功的和失败的都返回.md",
+    "面试/面试/字节/字节前端一二三面.md",
+    "面试/面试/字节/字节跳动 前端一面 面经 日常实习.md",
+    "面试/CSS/为什么一般 Css 放在开头，JS 放在结尾.md",
+    "面试/CSS/浮动和 BFC 了解吗？说一下 BFC哪些场景下会生成 BFC.md",
     "面试/CSS/一、CSS基础/14.CSS3中有哪些新特性.md",
-    "Html+CSS/HTML5和CSS3提高/HTML5的新特性/HTML5新增的多媒体标签/HTML5新增的语义化标签.md",
-    "面试/HTML/6.HTML5有哪些更新.md",
-    "面试/JS/三、JavaScript基础/3.map和weakMap的区别.md",
+    "面试/JS/一、数据类型/7.为什么0.1+0.2  !== 0.3，如何使其相等.md",
+    "赚钱/js.md",
+    "Python/网络安全/photo/Pasted image 20230717153827.png",
+    "面试/手写代码/未命名.md",
+    "面试/JS/未命名.md",
+    "面试/Vue/vue相比原生的js有什么优点.md",
+    "面试/Vue/Vue基础/29.Vue的优点.md",
+    "面试/Vue/Vue基础/vue.md",
+    "面试/代码输出/数组方法/为什么1.toString会报错.md",
+    "面试/项目/登录模块怎么做的.md",
+    "面试/面试/🌟简历自面/🌟面试模拟（包括遇到的面试题）.md",
+    "面试/浏览器原理/浏览器本地存储/1.浏览器本地存储方式及使用场景.md",
+    "面试/面试/广州中科院软件所/广州中科软研究所前端一面.md",
+    "面试/面试/小米/小米二面.md",
+    "面试/手写代码/一串数字转成xxx,xxx有间隔的方法是什么？.md",
     "面试/手写代码/实现输入数字转化成金额格式.md",
-    "面试/JS/一、数据类型/21.如何判断一个对象是空对象.md",
-    "电脑变更注意点.md",
-    "经验.md",
-    "hr.md",
-    "赚钱/webpack.md",
-    "赚钱/vue.md",
-    "赚钱/js手写.md",
-    "赚钱/js排序.md",
+    "Python/网络安全/photo/Pasted image 20230717125938.png",
+    "Python/网络安全/photo/Pasted image 20230717124833.png",
+    "Python/网络安全/photo/Pasted image 20230717124744.png",
+    "Python/网络安全/photo/Pasted image 20230717124000.png",
+    "Python/网络安全/photo/Pasted image 20230717113100.png",
+    "Python/网络安全/photo/Pasted image 20230717113023.png",
+    "面试/代码输出/数组方法",
+    "面试/手写代码/CSS",
+    "Python/网络安全/photo/Pasted image 20230716232742.png",
+    "面试/浏览器原理/浏览器的渲染原理",
+    "题目/常见数据结构及方法/DOM",
+    "面试/代码输出/vue生命周期",
     "日常积累_副本",
     "赚钱",
     "Python/网络安全/photo/Pasted image 20230714134625.png",
     "Python/网络安全/photo/Pasted image 20230714134445.png",
     "面试/面试/百度实习",
-    "Python/网络安全/photo/Pasted image 20230714062024.png",
-    "Python/网络安全/photo/Pasted image 20230713154213.png",
-    "Python/网络安全/photo/Pasted image 20230713152034.png",
-    "Python/网络安全/photo/Pasted image 20230713151944.png",
-    "Python/网络安全/photo/Pasted image 20230713151905.png",
-    "Python/网络安全/photo/Pasted image 20230713112348.png",
-    "Python/网络安全/photo/Pasted image 20230713012236.png",
     "面试/CSS/一、CSS基础",
-    "Python/网络安全/photo/Pasted image 20230712225817.png",
-    "面试/CSS/四、场景运用",
-    "题目/常见数据结构及方法/JSON",
-    "面试/面试/小米",
-    "面试/面试/广州卓动信息科技有限公司",
-    "面试/面试/北京纷扬科技有限责任公司",
-    "面试/面试/广州中科院软件所"
+    "面试/CSS/四、场景运用"
   ]
 }

@@ -219,7 +219,7 @@ inherit：继承。
 2. 语义化更好的支持读屏软件，方便其它设备解析；
 3. 便于团队开发和维护，代码更具有可读性。
 
-常见的语义化标签：<header>头部、<nav>导航栏、<section>区块、<main>主要区域、<article>主要内容、<aside>侧边栏、<footer>底部
+`常见的语义化标签：<header>头部、<nav>导航栏、<section>区块、<main>主要区域、<article>主要内容、<aside>侧边栏、<footer>底部`
 
 ### 21. 如何实现元素水平垂直居中
 
@@ -227,23 +227,23 @@ inherit：继承。
 
 1. 已知父子元素的宽高，父元素相对定位，子元素绝对定位，子元素的top、bottom、left、right设置为0，margin设置为auto；
 
-   ```css
-   .parent{
-       position: relative;
-       width: 200px;
-       height: 200px;
-   }
-   .child{
-       position: absolute;
-       width: 100px;
-       height: 100px;
-       top: 0;
-       bottom: 0;
-       left: 0;
-       right: 0;
-       margin: auto;
-   }
-   ```
+```css
+.parent{
+   position: relative;
+   width: 200px;
+   height: 200px;
+}
+.child{
+   position: absolute;
+   width: 100px;
+   height: 100px;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin: auto;
+}
+```
 
 2. 已知子元素的宽高
 
@@ -454,6 +454,59 @@ inherit：继承。
    transform: scale(0.5,0.5); //缩放
    transform: skew(10deg); //倾斜
    ```
+
+
+以下是一些使用 CSS transform 属性实现的例子：
+
+1. 位移：
+
+```css
+.box {
+  transform: translate(20px, 20px);
+}
+```
+
+上述代码将元素向右和向下移动了 20 像素。
+
+2. 旋转：
+
+```css
+.box {
+  transform: rotate(45deg);
+}
+```
+
+上述代码将元素顺时针旋转了 45 度。
+
+3. 缩放：
+
+```css
+.box {
+  transform: scale(0.8, 0.8);
+}
+```
+
+上述代码将元素水平方向和垂直方向缩小了 20%。
+
+4. 倾斜：
+
+```css
+.box {
+  transform: skew(10deg);
+}
+```
+
+上述代码将元素向右倾斜了 10 度。
+
+这些变换属性还可以组合使用，例如：
+
+```css
+.box {
+  transform: rotate(45deg) scale(0.8, 0.8) translate(20px, 20px);
+}
+```
+
+上述代码将元素先顺时针旋转 45 度，然后水平方向和垂直方向缩小 20%，最后向右和向下移动了 20 像素。
 
 7. animation
 
