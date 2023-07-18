@@ -22,43 +22,67 @@
             }
           },
           {
-            "id": "2abce380888cd2e8",
+            "id": "76d65a2ce717cd2d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Web APIs/DOM获取元素/操作元素属性/操作元素样式属性.md",
+                "file": "面试/面试/🌟简历自面/🌟面试模拟（包括遇到的面试题）.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "19a7b5e700d5a3fe",
+            "id": "27031c3616c44614",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "赚钱/css.md",
+                "file": "字节新业务部前端实习一面.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1ac425ac766d8d13",
+            "id": "46e721272e291ebb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/JS/用递归的时候有没有遇到什么问题.md",
+                "file": "面试/面试/字节/字节青训营前端进阶营笔试.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "73ca2ec2db70fbe5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/面试/小米/小米二面.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b29c64ec44306d93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "字节新业务部前端实习一面.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -87,7 +111,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "0.1+0.2",
+                "query": "xml",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/JS/用递归的时候有没有遇到什么问题.md"
+                "file": "字节新业务部前端实习一面.md"
               }
             }
           },
@@ -161,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面试/JS/用递归的时候有没有遇到什么问题.md",
+                "file": "字节新业务部前端实习一面.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/JS/用递归的时候有没有遇到什么问题.md",
+                "file": "字节新业务部前端实习一面.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,35 +233,36 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1ac425ac766d8d13",
+  "active": "b29c64ec44306d93",
   "lastOpenFiles": [
-    "赚钱/css.md",
-    "Date Schedule.md",
-    "面试/Vue/如何统一监听vue组件的报错.md",
-    "面试/JS/用递归的时候有没有遇到什么问题.md",
-    "面试/手写代码/js编写一个函数,返回字符串里面出现次数最多的那个字符,以及它出现的次数.md",
-    "面试/手写代码/Promise/Promise.all怎么把成功的和失败的都返回.md",
+    "面试/面试/字节/字节前端青训营直播.md",
     "面试/面试/字节/字节前端一二三面.md",
+    "面试/面试/字节/字节青训营前端进阶营笔试.md",
     "面试/面试/字节/字节跳动 前端一面 面经 日常实习.md",
-    "面试/CSS/为什么一般 Css 放在开头，JS 放在结尾.md",
-    "面试/CSS/浮动和 BFC 了解吗？说一下 BFC哪些场景下会生成 BFC.md",
-    "面试/CSS/一、CSS基础/14.CSS3中有哪些新特性.md",
-    "面试/JS/一、数据类型/7.为什么0.1+0.2  !== 0.3，如何使其相等.md",
-    "赚钱/js.md",
-    "Python/网络安全/photo/Pasted image 20230717153827.png",
-    "面试/手写代码/未命名.md",
-    "面试/JS/未命名.md",
-    "面试/Vue/vue相比原生的js有什么优点.md",
-    "面试/Vue/Vue基础/29.Vue的优点.md",
-    "面试/Vue/Vue基础/vue.md",
-    "面试/代码输出/数组方法/为什么1.toString会报错.md",
-    "面试/项目/登录模块怎么做的.md",
-    "面试/面试/🌟简历自面/🌟面试模拟（包括遇到的面试题）.md",
-    "面试/浏览器原理/浏览器本地存储/1.浏览器本地存储方式及使用场景.md",
-    "面试/面试/广州中科院软件所/广州中科软研究所前端一面.md",
     "面试/面试/小米/小米二面.md",
-    "面试/手写代码/一串数字转成xxx,xxx有间隔的方法是什么？.md",
-    "面试/手写代码/实现输入数字转化成金额格式.md",
+    "面试/面试/小米/小米一面.md",
+    "面试/面试/小米/小米前端面试.md",
+    "面试/面试/小米/小米 前端  一面+二面  许愿OC.md",
+    "面试/手写代码/实现大数相乘（非负大整数相乘）.md",
+    "面试/手写代码/实现大数相加（非负大整数相加）.md",
+    "题目/Leetcode/简单/415. 字符串相加.md",
+    "本科评估项目/jest.config.js.md",
+    "本科评估项目/jsconfig.json.md",
+    "前端代码【开发日志】(1).md",
+    "本科评估项目",
+    "电脑变更注意点.md",
+    "字节新业务部前端实习一面.md",
+    "Date Schedule.md",
+    "面试/手写代码/解析url参数为对象.md",
+    "面试/面试/🌟简历自面/🌟面试模拟（包括遇到的面试题）.md",
+    "面试/浏览器原理/浏览器缓存/1.对浏览器缓存的理解 （强缓存、协商缓存）.md",
+    "面试/计算机网络/HTTP协议/7.HTTP 1.0和 HTTP 1.1 之间有哪些区别？.md",
+    "面试/计算机网络/HTTP协议/8.HTTP 1.1 和 HTTP 2.0的区别.md",
+    "面试/浏览器原理/浏览器同源策略/2.如何解决跨域问题/（1）CORS.md",
+    "面试/手写代码/JavaScript基础/手写new操作符.md",
+    "面试/Vue/对Vue生命周期的理解.md",
+    "面试/Vue/虚拟DOM/5.DIFF算法的原理.md",
+    "Python/网络安全/photo/Pasted image 20230717153827.png",
     "Python/网络安全/photo/Pasted image 20230717125938.png",
     "Python/网络安全/photo/Pasted image 20230717124833.png",
     "Python/网络安全/photo/Pasted image 20230717124744.png",
@@ -255,7 +280,6 @@
     "Python/网络安全/photo/Pasted image 20230714134625.png",
     "Python/网络安全/photo/Pasted image 20230714134445.png",
     "面试/面试/百度实习",
-    "面试/CSS/一、CSS基础",
-    "面试/CSS/四、场景运用"
+    "面试/CSS/一、CSS基础"
   ]
 }

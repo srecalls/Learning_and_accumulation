@@ -3,22 +3,14 @@
 - [ ] 了解怎么保存当前组件的状态
 - [ ] 腾讯开源项目申请 7.18日结束
 - [ ] ⚠️ ⚠️ ⚠️ ⚠️ ⚠️7.20日非学历培训系统开发
-- [ ] 字节青训营
-
-开考时间： 2023-07-16 00:00 至 2023-07-18 00:00  
-链接： [https://www.showmebug.com/written_pads/IUINBY](https://sctrack.sendcloud.net/track/click2/eNpFj7tuAyEQRf8FJR1mGQbz6GJ3blJEShFFEWKBta2sWcuwoojy7yFxEeke3eLMSDPvAi1yRZESUMbCFpQ0QlgH0grUDrlB6YwUipWwAe660R2rN-c8LmuO_KG8pODnuTyBQhaWC6GcklOt1_KIu2ForbFyWtoljevx1w_tdq41ZXf1sQyH18Pz_u1vZ_JzSaRfwhXTWwYCO0D-RU9MIUY7crCBT1oL3VugVBri5LmR96kS6s2HT1ZSjmFe1shyqoR-fdP7Xx8_dbNGkg==.html)  考试时长： 90 分钟
-
-- [ ] 字节面试 2023-07-17 晚七点
-![[Pasted image 20230714062024.png]]
-
+- [x] 字节青训营
 
 #### 每日任务
 - [ ] gitee博客贡献
 - [ ] leetcode每日一题
 
 #### 嘉为公司任务
-- [x] 成本概览
-- [x] 负载报表
+
 
 ##### 重要事件节点
 https://www.yuque.com/alipayqvfd0cfvgl/daimasuixianglu/vzfw7b5gpm2f74c1?singleDoc#6Coq 
