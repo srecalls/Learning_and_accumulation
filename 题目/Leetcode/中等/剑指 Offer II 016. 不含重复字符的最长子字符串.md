@@ -59,9 +59,3 @@ var lengthOfLongestSubstring = function(s) {
 	执行用时：72 ms, 在所有 JavaScript 提交中击败了95.13%的用户
 	内存消耗：44.2 MB, 在所有 JavaScript 提交中击败了70.35%的用户
 	通过测试用例：987 / 987
-
-
-## 我的提交
-```js
-
-```
