@@ -16,6 +16,8 @@
 https://www.yuque.com/alipayqvfd0cfvgl/daimasuixianglu/vzfw7b5gpm2f74c1?singleDoc#6Coq 
 
 https://tkp2elyahw.feishu.cn/share/base/view/shrcnQvCblWPxrqjz4HDzhyTnSb
+
+https://docs.qq.com/sheet/DRnBoeW5BUk5KWGR1?tab=BB08J2&u=1de5f86cab974e9f958b3f50e776b34f
 - [ ] 米哈游校招投递 07/05 - 08
 - [ ] oppo校招投递  06/28 - 07/28
 - [ ] 小红书校招投递 07/10  - 07/24

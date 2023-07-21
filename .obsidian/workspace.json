@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/面试/字节/字节新业务部前端实习一面.md",
+                "file": "Vue/Vue/Vue组件/数据互传/5.后代关系组件之间的数据共享.md",
                 "mode": "source",
                 "source": false
               }
@@ -58,31 +58,19 @@
             }
           },
           {
-            "id": "79ea4ffab12e5961",
+            "id": "3107d9d83e38f6ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/面试/广州嘉为科技/😢线下面试.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e62604c9a8a5ebaa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Markdown使用/空格，换行符和空字符的表示.md",
+                "file": "题目/常见数据结构及方法/Number/JavaScript实现保留两位小数，不足则自动补零.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -111,7 +99,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "空格",
+                "query": "Math.round",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Markdown使用/空格，换行符和空字符的表示.md"
+                "file": "题目/Leetcode/简单/136.只出现一次的数字.md"
               }
             }
           },
@@ -146,8 +134,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -186,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Markdown使用/空格，换行符和空字符的表示.md",
+                "file": "题目/Leetcode/简单/136.只出现一次的数字.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Markdown使用/空格，换行符和空字符的表示.md",
+                "file": "题目/Leetcode/简单/136.只出现一次的数字.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,53 +221,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e62604c9a8a5ebaa",
+  "active": "952ee2e7d10aaa28",
   "lastOpenFiles": [
-    "前端代码【开发日志】(1).md",
-    "面试/CSS/CSS选择器的优先级.md",
-    "赚钱/css.md",
-    "Html+CSS/CSS基础/CSS特性/优先级/优先级.md",
-    "Html+CSS/CSS基础/CSS特性/优先级/权重叠加计算.md",
-    "实习收获/嘉为科技有限公司/样式处理.md",
-    "JavaScript/Web APIs/DOM获取元素/操作元素属性/操作元素样式属性.md",
-    "微信小程序/基础加强/使用npm包/Vant Weapp/5.定制全局主题样式.md",
-    "微信小程序/基础加强/使用npm包/Vant Weapp/4.定制全局主题样式.md",
-    "微信小程序/模板与配置/WXSS模板样式/全局样式和局部样式/2.局部样式.md",
-    "微信小程序/基础加强/自定义组件/样式/2.组件样式隔离的注意点.md",
-    "字节内部课/字节前端训练营/组件库的使用和自定义组件/02 组件库的使用/02_02 主题定制.md",
-    "实习收获/嘉为科技有限公司/数据处理.md",
-    "Python/网络安全/photo/Pasted image 20230719154410.png",
-    "Python/网络安全/photo/Pasted image 20230719154408.png",
-    "面试/面试/广州嘉为科技/😢线下面试.md",
-    "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md",
-    "题目/常见数据结构及方法/Array/js判断两个数组相等的5种方法实例.md",
-    "题目/常见数据结构及方法/Array/JS 数组中的 reduce 方法.md",
-    "面试/JS/一、数据类型/3.判断数组的方式有哪些.md",
+    "题目/常见数据结构及方法/Number/JavaScript实现保留两位小数，不足则自动补零.md",
+    "题目/常见数据结构及方法/Number/js的Math常用方法.md",
+    "题目/常见数据结构及方法/Number/Math向上和向下取整.md",
+    "赚钱/上班.md",
+    "题目/常见数据结构及方法/Date/JS常见的Date方法.md",
+    "题目/常见数据结构及方法/Date/JavaScript 实现日期自动补零的几种写法梳理.md",
+    "面试/HTML/6.HTML5有哪些更新.md",
+    "Date Schedule.md",
+    "Vue/Vue/Vue组件/数据互传/5.后代关系组件之间的数据共享.md",
     "题目/Leetcode/简单/剑指 Offer 25. 合并两个排序的链表.md",
+    "Python/网络安全/photo/Pasted image 20230721043413.png",
+    "Python/网络安全/photo/Pasted image 20230721043404.png",
+    "Python/网络安全/photo/Pasted image 20230721043343.png",
+    "Python/网络安全/photo/Pasted image 20230721043300.png",
+    "Python/网络安全/photo/Pasted image 20230721043258.png",
+    "Python/网络安全/photo/Pasted image 20230721043241.png",
+    "Python/网络安全/photo/Pasted image 20230721043208.png",
+    "Python/网络安全/photo/Pasted image 20230721043129.png",
+    "Python/网络安全/photo/Pasted image 20230721043108.png",
+    "Python/网络安全/photo/Pasted image 20230721043107.png",
     "题目/Leetcode/简单/剑指 Offer 42. 连续子数组的最大和.md",
-    "题目/Leetcode/简单/674. 最长连续递增序列.md",
-    "题目/Leetcode/简单/415. 字符串相加.md",
-    "题目/Leetcode/简单/387. 字符串中的第一个唯一字符.md",
     "题目/Leetcode/简单/剑指 Offer 50. 第一个只出现一次的字符.md",
-    "题目/Leetcode/简单/136.只出现一次的数字.md",
-    "面试/面试/字节/字节新业务部前端实习一面.md",
-    "Python/网络安全/photo/Pasted image 20230719040557.png",
-    "Python/网络安全/photo/Pasted image 20230719035547.png",
-    "Python/网络安全/photo/Pasted image 20230719034749.png",
-    "Python/网络安全/photo/Pasted image 20230719034643.png",
-    "Python/网络安全/photo/Pasted image 20230719034617.png",
+    "面试/性能优化/三、回流与重绘/4.documentFragment 是什么? 用它跟直接操作 DOM 的区别是什么?.md",
+    "题目/常见数据结构及方法/DOM/常见的DOM元素属性.md",
+    "面试/Vue/蛋老师vue的响应式原理是什么.md",
+    "面试/性能优化/三、回流与重绘/3.如何优化动画.md",
+    "面试/性能优化/三、回流与重绘/2.如何避免回流和重绘.md",
+    "面试/性能优化/三、回流与重绘/1.回流与重绘的概念及触发条件.md",
+    "字节内部课/字节前端训练营/客户端容器/03 Chrome运行原理.md",
+    "面试/性能优化/三、回流与重绘",
+    "面试/性能优化/未命名.md",
+    "面试/项目/有直播间聊天室页面，同时可支撑1w人同时在线，用户进去后可实时聊天，请分析需要用到什么技术？实现过程中需要注意什么问题？（可列举技术点及问题或者解决思路).md",
+    "面试/面试/小鹅通/小鹅通-前端实习面试凉经.md",
+    "面试/CSS/为什么一般 Css 放在开头，JS 放在结尾.md",
+    "字节内部课/字节前端训练营/客户端容器/课程介绍.md",
+    "面试/Vue/Vue基础/46.常见的Vue性能优化方法.md",
+    "面试/面试/🌟简历自面/🌟面试模拟（包括遇到的面试题）.md",
+    "面试/面试/未知名公司面试",
     "题目/常见数据结构及方法/Bigint",
-    "Python/网络安全/photo/Pasted image 20230719014953.png",
-    "Python/网络安全/photo/Pasted image 20230718211955.png",
-    "Python/网络安全/photo/Pasted image 20230718211751.png",
     "本科评估项目",
     "面试/代码输出/数组方法",
     "面试/手写代码/CSS",
     "面试/浏览器原理/浏览器的渲染原理",
     "题目/常见数据结构及方法/DOM",
     "面试/代码输出/vue生命周期",
-    "日常积累_副本",
-    "赚钱",
-    "面试/面试/百度实习"
+    "日常积累_副本"
   ]
 }
