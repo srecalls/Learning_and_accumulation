@@ -31,6 +31,8 @@
 	0 <= s.length <= 5 * 10^4
 	s 由英文字母、数字、符号和空格组成
 
+与第3题一样
+
 来源：力扣（LeetCode）
 链接：https://leetcode.cn/problems/wtcaE1
 
@@ -47,7 +49,7 @@ var lengthOfLongestSubstring = function(s) {
         if (map.has(s[j])) { // 如果当前字符在 Map 中已经存在
             i = Math.max(i, map.get(s[j])); // 移动左边界，确保左边界不会向右移动
         }
-		// abbac*bcad*
+		// abbac/bcad/
 		// abba
         res = Math.max(res, j - i); // 更新最长的无重复字符的子串长度
         map.set(s[j], j); // 将字符和它的索引存入 Map 中

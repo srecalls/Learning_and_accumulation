@@ -149,7 +149,7 @@ console.log(arr);  //[4, 3, 2]
 
 ## 十二、indexOf 和 lastIndexOf 查找值
 
-都接受两个参数：查找的值、查找起始位置  
+都接受两个参数：**查找的值、查找起始位置**  
 不存在，返回 -1 ；存在，返回位置。indexOf 是从前往后查找， lastIndexOf 是从后往前查找。  
 **indexOf**
 

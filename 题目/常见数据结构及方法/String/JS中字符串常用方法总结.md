@@ -185,7 +185,9 @@ search() 方法用于检索字符串中指定的子字符串，或检索与正�
 ```js
 let str = "Hello";
 let s = str.search("lo");
+let l = str.search("lol");
 console.log(s); // 4
+console.log(l); // -1
 ```
 
 语法：

@@ -43,6 +43,7 @@ console.log(Object.entries(obj));
   [ ["name", "zhang"], ["age", 100], ["sex", "male"] ]
 */
 ```
+**可以配合Map**
 
 ## 四、Object.freeze()
 4. `Object.freeze()`方法可以冻结一个对象。一个被冻结的对象再也不能被修改，也不能添加新属性，不能删除新属性，也不能修改其`数据属性`,该对象的原型也不能修改。`freeze()`返回和传入的参数相同的对象。
@@ -174,3 +175,5 @@ console.log(obj.eat.water.hasOwnProperty('watername'))  //true
 
 链接：https://www.jianshu.com/p/3d0c39b179fd  
 来源：简书  
+
+

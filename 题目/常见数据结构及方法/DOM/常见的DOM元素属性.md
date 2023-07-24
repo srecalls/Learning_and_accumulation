@@ -3,136 +3,138 @@
 1. `id`: 返回或设置元素的 id 属性值。
 
 2. `className` 或 `classList`: 返回或设置元素的类名。
+   
+3. `document.documentElement` 是文档元素对象，它代表整个 HTML 页面。它是 `document` 对象的一个属性，可以通过 `document.documentElement` 来访问。
 
-3. `nodeName` 或 `tagName`: 返回元素的标签名。
+4. `nodeName` 或 `tagName`: 返回元素的标签名。
 
-4. `nodeValue`: 返回或设置元素的节点值。
+5. `nodeValue`: 返回或设置元素的节点值。
 
-5. `textContent`: 返回或设置元素的文本内容。
+6. `textContent`: 返回或设置元素的文本内容。
 
-6. `style`: 返回一个表示元素样式的 CSSStyleDeclaration 对象。
+7. `style`: 返回一个表示元素样式的 CSSStyleDeclaration 对象。
 
-7. `attributes`: 返回一个表示元素属性的 NamedNodeMap 对象。
+8. `attributes`: 返回一个表示元素属性的 NamedNodeMap 对象。
 
-8. `parentElement`: 返回元素的父元素。
+9. `parentElement`: 返回元素的父元素。
 
-9. `childNodes`: 返回元素的所有子节点，是一个 NodeList 对象。
+10. `childNodes`: 返回元素的所有子节点，是一个 NodeList 对象。
 
-10. `firstChild`: 返回元素的第一个子节点。
+11. `firstChild`: 返回元素的第一个子节点。
 
-11. `lastChild`: 返回元素的最后一个子节点。
+12. `lastChild`: 返回元素的最后一个子节点。
 
-12. `nextSibling`: 返回元素的下一个兄弟节点。
+13. `nextSibling`: 返回元素的下一个兄弟节点。
 
-13. `previousSibling`: 返回元素的上一个兄弟节点。
+14. `previousSibling`: 返回元素的上一个兄弟节点。
 
-14. `offsetParent`: 返回最近的已定位祖先元素，通常是父元素。
+15. `offsetParent`: 返回最近的已定位祖先元素，通常是父元素。
 
-15. `offsetLeft`: 返回元素的左边界到 offsetParent 元素的左边界之间的像素距离。
+16. `offsetLeft`: 返回元素的左边界到 offsetParent 元素的左边界之间的像素距离。
 
-16. `offsetTop`: 返回元素的上边界到 offsetParent 元素的上边界之间的像素距离。
+17. `offsetTop`: 返回元素的上边界到 offsetParent 元素的上边界之间的像素距离。
 
-17. `clientWidth`: 返回元素的可见宽度，包括内边距但不包括滚动条和边框。
+18. `clientWidth`: 返回元素的可见宽度，包括内边距但不包括滚动条和边框。
 
-18. `clientHeight`: 返回元素的可见高度，包括内边距但不包括滚动条和边框。
+19. `clientHeight`: 返回元素的可见高度，包括内边距但不包括滚动条和边框。
 
-19. `offsetWidth`: 返回元素的宽度，包括内边距、滚动条和边框。
+20. `offsetWidth`: 返回元素的宽度，包括内边距、滚动条和边框。
 
-20. `offsetHeight`: 返回元素的高度，包括内边距、滚动条和边框。
+21. `offsetHeight`: 返回元素的高度，包括内边距、滚动条和边框。
 
-21. `scrollWidth`: 返回元素的内容区域宽度，包括未显示的内容。
+22. `scrollWidth`: 返回元素的内容区域宽度，包括未显示的内容。
 
-22. `scrollHeight`: 返回元素的内容区域高度，包括未显示的内容。
+23. `scrollHeight`: 返回元素的内容区域高度，包括未显示的内容。
 
-23. `scrollTop`: 返回元素内容区域顶部隐藏的像素数。
+24. `scrollTop`: 返回元素内容区域顶部隐藏的像素数。
 
-24. `scrollLeft`: 返回元素内容区域左侧隐藏的像素数。
+25. `scrollLeft`: 返回元素内容区域左侧隐藏的像素数。
 
-25. `disabled`: 返回或设置元素是否被禁用，通常用于表单元素。
+26. `disabled`: 返回或设置元素是否被禁用，通常用于表单元素。
 
-26. `checked`: 返回或设置元素是否被选中，通常用于单选框和复选框元素。
+27. `checked`: 返回或设置元素是否被选中，通常用于单选框和复选框元素。
 
-27. `innerHTML`: 获取或设置元素的 HTML 内容。
+28. `innerHTML`: 获取或设置元素的 HTML 内容。
 
-28. `outerHTML`: 获取或设置元素及其所有子元素的 HTML 内容。
+29. `outerHTML`: 获取或设置元素及其所有子元素的 HTML 内容。
 
-29. `focus()`: 让元素获得焦点。
+30. `focus()`: 让元素获得焦点。
 
-30. `blur()`: 让元素失去焦点。
+31. `blur()`: 让元素失去焦点。
 
-31. `addEventListener()`: 用于为元素添加事件监听器。
+32. `addEventListener()`: 用于为元素添加事件监听器。
 
-32. `removeEventListener()`: 用于移除元素的事件监听器。
+33. `removeEventListener()`: 用于移除元素的事件监听器。
 
-33. `getBoundingClientRect()`: 返回元素的大小及其相对于视口的位置。
+34. `getBoundingClientRect()`: 返回元素的大小及其相对于视口的位置。
 
-34. `contains()`: 用于检查一个元素是否是另一个元素的后代节点。
+35. `contains()`: 用于检查一个元素是否是另一个元素的后代节点。
 
-35. `setAttribute()`: 设置元素的属性值。
+36. `setAttribute()`: 设置元素的属性值。
 
-36. `getAttribute()`: 获取元素的属性值。
+37. `getAttribute()`: 获取元素的属性值。
 
-37. `removeAttribute()`: 移除元素的属性。
+38. `removeAttribute()`: 移除元素的属性。
 
-38. `querySelector()`: 返回第一个匹配选择器的元素。
+39. `querySelector()`: 返回第一个匹配选择器的元素。
 
-39. `querySelectorAll()`: 返回所有匹配选择器的元素列表。
+40. `querySelectorAll()`: 返回所有匹配选择器的元素列表。
 
-40. `dataset`: 返回一个表示元素自定义数据属性的 DOMStringMap 对象。
+41. `dataset`: 返回一个表示元素自定义数据属性的 DOMStringMap 对象。
 
-41. `getElementsByClassName()`: 返回所有具有指定类名的元素的集合。
+42. `getElementsByClassName()`: 返回所有具有指定类名的元素的集合。
 
-42. `getElementsByTagName()`: 返回所有具有指定标签名的元素的集合。
+43. `getElementsByTagName()`: 返回所有具有指定标签名的元素的集合。
 
-43. `createElement()`: 创建一个新的元素节点。
+44. `createElement()`: 创建一个新的元素节点。
 
-44. `appendChild()`: 将一个新的子元素添加到元素的子节点列表的末尾。
+45. `appendChild()`: 将一个新的子元素添加到元素的子节点列表的末尾。
 
-45. `removeChild()`: 从元素的子节点列表中移除一个子节点。
+46. `removeChild()`: 从元素的子节点列表中移除一个子节点。
 
-46. `replaceChild()`: 用一个新的子节点替换元素的子节点列表中的一个子节点。
+47. `replaceChild()`: 用一个新的子节点替换元素的子节点列表中的一个子节点。
 
-47. `insertBefore()`: 在元素的子节点列表中的指定位置插入一个新的子节点。
+48. `insertBefore()`: 在元素的子节点列表中的指定位置插入一个新的子节点。
 
-48. `classList`: 返回一个表示元素类名的 DOMTokenList 对象，可以用于添加、删除和查找类名。
+49. `classList`: 返回一个表示元素类名的 DOMTokenList 对象，可以用于添加、删除和查找类名。
 
-49. `scrollIntoView()`: 让元素滚动到可见区域。
+50. `scrollIntoView()`: 让元素滚动到可见区域。
 
-50. `scrollBy()`: 将元素滚动指定的偏移量。
+51. `scrollBy()`: 将元素滚动指定的偏移量。
 
-51. `scrollTo()`: 将元素滚动到指定的坐标。
+52. `scrollTo()`: 将元素滚动到指定的坐标。
 
-52. `getComputedStyle()`: 返回一个表示元素最终计算样式的 CSSStyleDeclaration 对象。
+53. `getComputedStyle()`: 返回一个表示元素最终计算样式的 CSSStyleDeclaration 对象。
 
-53. `offset()`: 返回一个包含元素的位置和尺寸信息的对象。
+54. `offset()`: 返回一个包含元素的位置和尺寸信息的对象。
 
-54. `clientX` 和 `clientY`: 返回鼠标事件的客户端坐标，即相对于视口的坐标。
+55. `clientX` 和 `clientY`: 返回鼠标事件的客户端坐标，即相对于视口的坐标。
 
-55. `pageX` 和 `pageY`: 返回鼠标事件的页面坐标，即相对于文档的坐标。
+56. `pageX` 和 `pageY`: 返回鼠标事件的页面坐标，即相对于文档的坐标。
 
-56. `offsetX` 和 `offsetY`: 返回鼠标事件的相对坐标，即相对于事件目标的坐标。
+57. `offsetX` 和 `offsetY`: 返回鼠标事件的相对坐标，即相对于事件目标的坐标。
 
-57. `contentEditable`：设置元素是否可编辑。
+58. `contentEditable`：设置元素是否可编辑。
 
-58. `document`：返回文档对象，可以用于访问和操作整个文档。
+59. `document`：返回文档对象，可以用于访问和操作整个文档。
 
-59. `window`：返回窗口对象，可以用于访问和操作浏览器窗口。
+60. `window`：返回窗口对象，可以用于访问和操作浏览器窗口。
 
-60. `localStorage`：返回一个表示本地存储的 Storage 对象，可以用于存储和读取数据。
+61. `localStorage`：返回一个表示本地存储的 Storage 对象，可以用于存储和读取数据。
 
-61. `sessionStorage`：返回一个表示会话存储的 Storage 对象，可以用于存储和读取数据。
+62. `sessionStorage`：返回一个表示会话存储的 Storage 对象，可以用于存储和读取数据。
 
-62. `requestAnimationFrame()`：用于在下一次重绘之前执行指定的动画函数。
+63. `requestAnimationFrame()`：用于在下一次重绘之前执行指定的动画函数。
 
-63. `cancelAnimationFrame()`：用于取消之前通过 requestAnimationFrame() 方法添加的动画函数。
+64. `cancelAnimationFrame()`：用于取消之前通过 requestAnimationFrame() 方法添加的动画函数。
 
-64. `setTimeout()`：用于在指定的时间后执行指定的函数。
+65. `setTimeout()`：用于在指定的时间后执行指定的函数。
 
-65. `clearTimeout()`：用于取消之前通过 setTimeout() 方法添加的函数。
+66. `clearTimeout()`：用于取消之前通过 setTimeout() 方法添加的函数。
 
-66. `setInterval()`：用于每隔指定的时间执行指定的函数。
+67. `setInterval()`：用于每隔指定的时间执行指定的函数。
 
-67. `clearInterval()`：用于取消之前通过 setInterval() 方法添加的函数。
+68. `clearInterval()`：用于取消之前通过 setInterval() 方法添加的函数。
 
 这些属性和方法是进行 DOM 操作时常用的工具，可以用于创建、添加、删除、替换和查找元素，或者操作元素的类名、样式、位置、尺寸、属性、事件、滚动、内容等。需要注意的是，某些属性和方法可能只在特定的浏览器中受支持，因此在使用时需要进行兼容性处理
 
