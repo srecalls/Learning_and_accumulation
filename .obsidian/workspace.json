@@ -51,7 +51,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "题目/Leetcode/中等/718. 最长重复子数组.md",
+                "file": "题目/常见数据结构及方法/Number/js的Math常用方法.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,31 +70,31 @@
             }
           },
           {
-            "id": "7be32490488698af",
+            "id": "69ee08216e2a581d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "题目/Leetcode/简单/459. 重复的子字符串.md",
+                "file": "面试/Vue/Vue基础/sync修饰符作用.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c1c4c40f270f2db9",
+            "id": "529f7b7c2709ca1e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "题目/常见数据结构及方法/String/正则表达式语法.md",
+                "file": "面试/面试/货拉拉/【面试复盘】货拉拉前端日常实习面经（已offer）.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -123,7 +123,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "线程",
+                "query": "Object.keys",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "题目/Leetcode/中等/718. 最长重复子数组.md"
+                "file": "面试/面试/货拉拉/【面试复盘】货拉拉前端日常实习面经（已offer）.md"
               }
             }
           },
@@ -197,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "题目/Leetcode/中等/718. 最长重复子数组.md",
+                "file": "面试/面试/货拉拉/【面试复盘】货拉拉前端日常实习面经（已offer）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,18 +222,18 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "题目/Leetcode/中等/718. 最长重复子数组.md",
+                "file": "面试/面试/货拉拉/【面试复盘】货拉拉前端日常实习面经（已offer）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,53 +247,53 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "952ee2e7d10aaa28",
+  "active": "529f7b7c2709ca1e",
   "lastOpenFiles": [
+    "面试/JS/JavaScript的数据类型.md",
+    "面试/面试/货拉拉/【面试复盘】货拉拉前端日常实习面经（已offer）.md",
+    "面试/手写代码/深拷贝和浅拷贝/深浅拷贝的区别.md",
+    "面试/手写代码/深拷贝和浅拷贝/实现浅拷贝.md",
+    "面试/手写代码/深拷贝和浅拷贝/实现深拷贝.md",
+    "面试/JS/JS对数据类的检测方式有哪些.md",
+    "面试/Vue/Vue基础/sync修饰符作用.md",
+    "JavaScript/JavaScript基础/数据类型/数据类型.md",
+    "JavaScript/JavaScript基础/对象/基本数据类型和引用数据类型.md",
+    "题目/Leetcode/简单/1.两数之和.md",
+    "题目/Leetcode/简单/20. 有效的括号.md",
     "赚钱/git.md",
-    "面试/面试/小米/【2022】小米秋招笔试-前端-卷1.md",
+    "题目/常见数据结构及方法/算法/辗转相除法.md",
+    "题目/Leetcode/中等/365. 水壶问题.md",
+    "题目/Leetcode/中等/316. 去除重复字母.md",
+    "题目/常见数据结构及方法/Number/js的Math常用方法.md",
+    "题目/常见数据结构及方法/Number/Math向上和向下取整.md",
+    "题目/常见数据结构及方法/代码规范/如何写出逻辑清晰简洁，好维护的Javascript代码？.md",
     "题目/Leetcode/简单/459. 重复的子字符串.md",
+    "面试/面试/货拉拉",
     "题目/常见数据结构及方法/String/正则表达式语法.md",
-    "题目/常见数据结构及方法/Set/Set的属性和方法.md",
-    "面试/浏览器原理/进程与线程/浏览器里的所有进程.md",
-    "面试/浏览器原理/进程与线程/3.浏览器渲染进程的线程有哪些.md",
-    "面试/面试/树根互联股份有限公司/树根互联股份有限公司前端实习生笔试2023(2)部分摘选.md",
-    "面试/面试/🌟简历自面/🌟面试模拟（包括遇到的面试题）.md",
-    "字节内部课/字节前端训练营/客户端容器/02 渲染进程.md",
-    "字节内部课/字节前端训练营/客户端容器/01 浏览器架构.md",
-    "字节内部课/字节前端训练营/编程范式/03 编程范式/03_04 面向对象编程.md",
-    "字节内部课/字节前端训练营/编程范式/03 编程范式/03_05 函数式编程.md",
-    "字节内部课/字节前端训练营/编程范式/03 编程范式/03_03 过程式编程.md",
-    "Python/网络安全/photo/【2022】小米秋招笔试-前端-卷1.png",
-    "面试/算法/排序算法的时间与空间复杂度.md",
-    "题目/Leetcode/简单/771. 宝石与石头.md",
-    "题目/常见数据结构及方法/String/JS中字符串常用方法总结.md",
-    "Python/网络安全/photo/771. 宝石与石头-2.png",
-    "Python/网络安全/photo/771. 宝石与石头-1.png",
-    "Python/网络安全/photo/771. 宝石与石头.png",
-    "题目/常见数据结构及方法/String/JS中遍历字符串的方法.md",
-    "题目/常见数据结构及方法/String/JS怎么判断字符串是否是数字.md",
-    "题目/常见数据结构及方法/String/JS 字符串转换成数字的三种方法.md",
-    "题目/常见数据结构及方法/String/正则表达式中模式修正符作用详解（i、g、m、s、x、e）.md",
-    "题目/常见数据结构及方法/String/去除字符串前的空字符.md",
-    "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md",
-    "题目/常见数据结构及方法/Array/JS 数组中的 reduce 方法.md",
-    "题目/常见数据结构及方法/Array/操作hash数组里面的每一个元素.md",
-    "题目/常见数据结构及方法/Number/JavaScript实现保留两位小数，不足则自动补零.md",
-    "Python/网络安全/photo/排序算法的时间与空间复杂度.png",
+    "实习汇总.md",
+    "题目/常见数据结构及方法/Object/JavaScript Object对象常用方法和属性.md",
+    "题目/Leetcode/简单/2465. 不同的平均值数目.md",
+    "面试/JS/三、JavaScript基础/26.如何利用for...of遍历对象.md",
+    "赚钱/上班.md",
+    "面试/Vue/蛋老师vue的响应式原理是什么.md",
+    "Python/网络安全/photo/企业微信截图_16823176881910.png",
+    "Python/网络安全/photo/企业微信截图_16849939362057.png",
+    "Python/网络安全/photo/企业微信截图_16849938725458.png",
+    "Python/网络安全/photo/企业微信截图_16849856584362.png",
+    "Python/网络安全/photo/企业微信截图_16849856513197.png",
+    "Python/网络安全/photo/企业微信截图_16849837871944.png",
+    "Python/网络安全/photo/企业微信截图_16849827788623.png",
+    "Python/网络安全/photo/实习汇总-2.png",
+    "Python/网络安全/photo/实习汇总-1.png",
+    "Python/网络安全/photo/实习汇总.png",
+    "题目/常见数据结构及方法/代码规范",
     "题目/常见数据结构及方法/SCSS",
     "面试/面试/喜马拉雅面试",
-    "Python/网络安全/photo/js遍历对象获得其键和值-1.png",
-    "Python/网络安全/photo/js遍历对象获得其键和值.png",
-    "Python/网络安全/photo/剑指 Offer 42. 连续子数组的最大和.png",
-    "Python/网络安全/photo/Pasted image 20230722090719.png",
     "面试/性能优化/未命名",
-    "Python/网络安全/photo/Pasted image 20230721225617.png",
     "面试/性能优化/二、懒加载",
     "面试/性能优化/三、回流与重绘",
     "面试/面试/未知名公司面试",
     "题目/常见数据结构及方法/Bigint",
-    "本科评估项目",
-    "面试/代码输出/数组方法",
-    "面试/手写代码/CSS"
+    "本科评估项目"
   ]
 }
