@@ -184,31 +184,6 @@
             }
           },
           {
-            "id": "74a144a9e5f4eddf",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "2fcaa80971acfcf8",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "面试/面试/货拉拉/【面试复盘】货拉拉前端日常实习面经（已offer）.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "54e1701f18449ab2",
             "type": "leaf",
             "state": {
@@ -229,11 +204,12 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -249,43 +225,43 @@
   },
   "active": "529f7b7c2709ca1e",
   "lastOpenFiles": [
-    "面试/JS/JavaScript的数据类型.md",
+    "面试/CSS/精灵图的原理.md",
+    "面试/CSS/精灵图的优缺点.md",
     "面试/面试/货拉拉/【面试复盘】货拉拉前端日常实习面经（已offer）.md",
-    "面试/手写代码/深拷贝和浅拷贝/深浅拷贝的区别.md",
-    "面试/手写代码/深拷贝和浅拷贝/实现浅拷贝.md",
-    "面试/手写代码/深拷贝和浅拷贝/实现深拷贝.md",
-    "面试/JS/JS对数据类的检测方式有哪些.md",
-    "面试/Vue/Vue基础/sync修饰符作用.md",
-    "JavaScript/JavaScript基础/数据类型/数据类型.md",
-    "JavaScript/JavaScript基础/对象/基本数据类型和引用数据类型.md",
-    "题目/Leetcode/简单/1.两数之和.md",
-    "题目/Leetcode/简单/20. 有效的括号.md",
-    "赚钱/git.md",
-    "题目/常见数据结构及方法/算法/辗转相除法.md",
-    "题目/Leetcode/中等/365. 水壶问题.md",
-    "题目/Leetcode/中等/316. 去除重复字母.md",
-    "题目/常见数据结构及方法/Number/js的Math常用方法.md",
-    "题目/常见数据结构及方法/Number/Math向上和向下取整.md",
-    "题目/常见数据结构及方法/代码规范/如何写出逻辑清晰简洁，好维护的Javascript代码？.md",
-    "题目/Leetcode/简单/459. 重复的子字符串.md",
+    "面试/计算机网络/HTTP协议/多路复用解决了什么问题？.md",
+    "面试/计算机网络/HTTP协议/8.HTTP 1.1 和 HTTP 2.0的区别.md",
+    "面试/计算机网络/HTTP协议/HPACK的原理.md",
+    "面试/计算机网络/HTTP协议/12.对keep-alive对理解.md",
+    "面试/计算机网络/HTTP协议/11.当在浏览器中输入Google.com并且按下回车之后发生了什么.md",
+    "面试/计算机网络/HTTP协议/10.GET方法URL长度限制的原因.md",
+    "面试/计算机网络/HTTP协议/9.HTTP和HTTPS协议的区别.md",
+    "面试/计算机网络/HTTP协议/蛋老师HTTP1.1、HTTP2.0、HTTP3.0.md",
+    "面试/计算机网络/HTTP协议/蛋老师什么是HTTP？.md",
+    "Python/网络安全/photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0-33.png",
+    "Python/网络安全/photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0-32.png",
+    "Python/网络安全/photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0-31.png",
+    "Python/网络安全/photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0-30.png",
+    "Python/网络安全/photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0-29.png",
+    "Python/网络安全/photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0-28.png",
+    "Python/网络安全/photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0-27.png",
+    "Python/网络安全/photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0-26.png",
+    "Python/网络安全/photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0-25.png",
+    "Python/网络安全/photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0-24.png",
+    "面试/JS/六、this、call、apply、bind/1.对this对象的理解.md",
+    "面试/计算机网络/HTTP协议/乐哥什么是长链接、短链接？.md",
+    "面试/计算机网络/HTTP协议/7.HTTP 1.0和 HTTP 1.1 之间有哪些区别？.md",
+    "面试/浏览器原理/浏览器缓存/1.对浏览器缓存的理解 （强缓存、协商缓存）.md",
+    "面试/浏览器原理/浏览器同源策略/2.如何解决跨域问题/（1）CORS.md",
+    "面试/计算机网络/HTTP/http缓存（浏览器缓存）——强缓存、协商缓存.md",
+    "面试/Vue/组件通信/vue组件通信--注意事项及经验总结.md",
+    "面试/Vue/组件通信/组件通信.md",
+    "面试/Vue/Vue基础/5.Computed 和 Watch的区别.md",
+    "面试/JS/ES6/4.箭头函数与普通函数的区别.md",
+    "面试/手写代码/JavaScript基础/手写new操作符.md",
+    "面试/JS/ES6/5.箭头函数的this指向哪里.md",
+    "面试/代码输出/this/15. 代码输出结果.md",
+    "面试/代码输出/this/14. 代码输出结果.md",
     "面试/面试/货拉拉",
-    "题目/常见数据结构及方法/String/正则表达式语法.md",
-    "实习汇总.md",
-    "题目/常见数据结构及方法/Object/JavaScript Object对象常用方法和属性.md",
-    "题目/Leetcode/简单/2465. 不同的平均值数目.md",
-    "面试/JS/三、JavaScript基础/26.如何利用for...of遍历对象.md",
-    "赚钱/上班.md",
-    "面试/Vue/蛋老师vue的响应式原理是什么.md",
-    "Python/网络安全/photo/企业微信截图_16823176881910.png",
-    "Python/网络安全/photo/企业微信截图_16849939362057.png",
-    "Python/网络安全/photo/企业微信截图_16849938725458.png",
-    "Python/网络安全/photo/企业微信截图_16849856584362.png",
-    "Python/网络安全/photo/企业微信截图_16849856513197.png",
-    "Python/网络安全/photo/企业微信截图_16849837871944.png",
-    "Python/网络安全/photo/企业微信截图_16849827788623.png",
-    "Python/网络安全/photo/实习汇总-2.png",
-    "Python/网络安全/photo/实习汇总-1.png",
-    "Python/网络安全/photo/实习汇总.png",
     "题目/常见数据结构及方法/代码规范",
     "题目/常见数据结构及方法/SCSS",
     "面试/面试/喜马拉雅面试",
