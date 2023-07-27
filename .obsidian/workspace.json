@@ -87,7 +87,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/面试/货拉拉/【面试复盘】货拉拉前端日常实习面经（已offer）.md",
+                "file": "面试/性能优化/三、回流与重绘/1.回流与重绘的概念及触发条件.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Object.keys",
+                "query": "重绘",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/面试/货拉拉/【面试复盘】货拉拉前端日常实习面经（已offer）.md"
+                "file": "面试/性能优化/三、回流与重绘/1.回流与重绘的概念及触发条件.md"
               }
             }
           },
@@ -158,7 +158,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -197,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/面试/货拉拉/【面试复盘】货拉拉前端日常实习面经（已offer）.md",
+                "file": "面试/性能优化/三、回流与重绘/1.回流与重绘的概念及触发条件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,18 +226,34 @@
   },
   "active": "529f7b7c2709ca1e",
   "lastOpenFiles": [
+    "面试/面试/货拉拉/【面试复盘】货拉拉前端日常实习面经（已offer）.md",
+    "面试/Webpack/Loader和Plugin的不同.md",
+    "面试/性能优化/二、懒加载/路由懒加载原理.md",
+    "面试/CSS/什么是外边距塌陷？如何解决？.md",
+    "Html+CSS/CSS布局/盒子模型/外边框 margin/外边距折叠现象.md",
+    "面试/Vue/Vue基础/18.$nextTick原理及作用.md",
+    "面试/Vue/Vue基础/Vue this.$nextTick的作用和原理.md",
+    "面试/Vue/对Vue生命周期的理解.md",
+    "面试/Vue/Vue2和Vue3有哪些区别.md",
+    "面试/代码输出/vue生命周期/1.生命周期.md",
+    "面试/面试/美团面试/❤️美团前端实习2023-06-30.md",
+    "面试/面试/广州中科院软件所/广州中科软研究所前端一面.md",
+    "面试/面试/百度实习/1.md",
+    "题目/Leetcode/简单/2500. 删除每行中的最大值.md",
+    "题目/Leetcode/简单/2496. 数组中字符串的最大值.md",
+    "Python/网络安全/photo/2500. 删除每行中的最大值-1.png",
+    "Python/网络安全/photo/2500. 删除每行中的最大值.png",
+    "Html+CSS/CSS布局/盒子模型/外边框 margin/行内元素的margin和padding无效情况.md",
+    "面试/CSS/一、CSS基础/5.隐藏元素的方法有那些.md",
+    "面试/CSS/浮动和 BFC 了解吗？说一下 BFC哪些场景下会生成 BFC.md",
+    "面试/JS/三、JavaScript基础/19.ES6 Module（ESM）与CommonJS模块有什么异同.md",
+    "面试/计算机网络/HTTP协议/7.HTTP 1.0和 HTTP 1.1 之间有哪些区别？.md",
+    "面试/计算机网络/HTTP协议/8.HTTP 1.1 和 HTTP 2.0的区别.md",
+    "面试/计算机网络/HTTP协议/蛋老师HTTP1.1、HTTP2.0、HTTP3.0.md",
+    "面试/JS/原型/说一下原型链.md",
+    "面试/JS/原型/原型链的终点.md",
     "面试/CSS/精灵图的原理.md",
     "面试/CSS/精灵图的优缺点.md",
-    "面试/面试/货拉拉/【面试复盘】货拉拉前端日常实习面经（已offer）.md",
-    "面试/计算机网络/HTTP协议/多路复用解决了什么问题？.md",
-    "面试/计算机网络/HTTP协议/8.HTTP 1.1 和 HTTP 2.0的区别.md",
-    "面试/计算机网络/HTTP协议/HPACK的原理.md",
-    "面试/计算机网络/HTTP协议/12.对keep-alive对理解.md",
-    "面试/计算机网络/HTTP协议/11.当在浏览器中输入Google.com并且按下回车之后发生了什么.md",
-    "面试/计算机网络/HTTP协议/10.GET方法URL长度限制的原因.md",
-    "面试/计算机网络/HTTP协议/9.HTTP和HTTPS协议的区别.md",
-    "面试/计算机网络/HTTP协议/蛋老师HTTP1.1、HTTP2.0、HTTP3.0.md",
-    "面试/计算机网络/HTTP协议/蛋老师什么是HTTP？.md",
     "Python/网络安全/photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0-33.png",
     "Python/网络安全/photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0-32.png",
     "Python/网络安全/photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0-31.png",
@@ -245,22 +262,6 @@
     "Python/网络安全/photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0-28.png",
     "Python/网络安全/photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0-27.png",
     "Python/网络安全/photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0-26.png",
-    "Python/网络安全/photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0-25.png",
-    "Python/网络安全/photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0-24.png",
-    "面试/JS/六、this、call、apply、bind/1.对this对象的理解.md",
-    "面试/计算机网络/HTTP协议/乐哥什么是长链接、短链接？.md",
-    "面试/计算机网络/HTTP协议/7.HTTP 1.0和 HTTP 1.1 之间有哪些区别？.md",
-    "面试/浏览器原理/浏览器缓存/1.对浏览器缓存的理解 （强缓存、协商缓存）.md",
-    "面试/浏览器原理/浏览器同源策略/2.如何解决跨域问题/（1）CORS.md",
-    "面试/计算机网络/HTTP/http缓存（浏览器缓存）——强缓存、协商缓存.md",
-    "面试/Vue/组件通信/vue组件通信--注意事项及经验总结.md",
-    "面试/Vue/组件通信/组件通信.md",
-    "面试/Vue/Vue基础/5.Computed 和 Watch的区别.md",
-    "面试/JS/ES6/4.箭头函数与普通函数的区别.md",
-    "面试/手写代码/JavaScript基础/手写new操作符.md",
-    "面试/JS/ES6/5.箭头函数的this指向哪里.md",
-    "面试/代码输出/this/15. 代码输出结果.md",
-    "面试/代码输出/this/14. 代码输出结果.md",
     "面试/面试/货拉拉",
     "题目/常见数据结构及方法/代码规范",
     "题目/常见数据结构及方法/SCSS",
