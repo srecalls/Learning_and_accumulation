@@ -10,15 +10,13 @@
           {
             "id": "514d8eb14a6ac7e5",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Date Schedule.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
+              }
             }
           },
           {
@@ -92,9 +90,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "749045ead69d9bea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "货拉拉面试.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ef04c2609a3088f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/代码输出/this/代码输出.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -123,7 +145,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "重绘",
+                "query": "splice",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/性能优化/三、回流与重绘/1.回流与重绘的概念及触发条件.md"
+                "file": "面试/代码输出/this/代码输出.md"
               }
             }
           },
@@ -158,8 +180,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -198,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/性能优化/三、回流与重绘/1.回流与重绘的概念及触发条件.md",
+                "file": "面试/代码输出/this/代码输出.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,44 +245,44 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "529f7b7c2709ca1e",
+  "active": "51d51efeaf4fb5b4",
   "lastOpenFiles": [
-    "面试/面试/货拉拉/【面试复盘】货拉拉前端日常实习面经（已offer）.md",
-    "面试/Webpack/Loader和Plugin的不同.md",
-    "面试/性能优化/二、懒加载/路由懒加载原理.md",
-    "面试/CSS/什么是外边距塌陷？如何解决？.md",
-    "Html+CSS/CSS布局/盒子模型/外边框 margin/外边距折叠现象.md",
-    "面试/Vue/Vue基础/18.$nextTick原理及作用.md",
-    "面试/Vue/Vue基础/Vue this.$nextTick的作用和原理.md",
-    "面试/Vue/对Vue生命周期的理解.md",
-    "面试/Vue/Vue2和Vue3有哪些区别.md",
-    "面试/代码输出/vue生命周期/1.生命周期.md",
+    "货拉拉面试.md",
+    "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md",
+    "题目/常见数据结构及方法/Array/Javascript数组方法总结.md",
+    "题目/Leetcode/简单/144. 二叉树的前序遍历.md",
+    "Python/网络安全/photo/144. 二叉树的前序遍历-2.png",
+    "Python/网络安全/photo/144. 二叉树的前序遍历-1.png",
+    "Python/网络安全/photo/144. 二叉树的前序遍历.png",
+    "题目/Leetcode/简单/141. 环形链表.md",
+    "题目/Leetcode/简单/26. 删除有序数组中的重复项.md",
+    "题目/Leetcode/简单/20. 有效的括号.md",
+    "题目/Leetcode/简单/14.最长公共前缀.md",
+    "题目/Leetcode/简单/13.罗马数字转整数.md",
+    "题目/Leetcode/简单/剑指 Offer 42. 连续子数组的最大和.md",
+    "题目/Leetcode/简单/剑指 Offer 25. 合并两个排序的链表.md",
+    "题目/Leetcode/简单/剑指 Offer II 075. 数组相对排序.md",
+    "题目/Leetcode/简单/剑指 Offer II 072. 求平方根.md",
+    "题目/Leetcode/简单/674. 最长连续递增序列.md",
+    "题目/Leetcode/简单/459. 重复的子字符串.md",
+    "题目/Leetcode/简单/415. 字符串相加.md",
+    "题目/Leetcode/简单/387. 字符串中的第一个唯一字符.md",
+    "题目/Leetcode/简单/349.两个数组的交集.md",
+    "题目/Leetcode/简单/88.合并两个有序数组.md",
+    "题目/Leetcode/简单/27. 移除元素.md",
+    "Python/网络安全/photo/Pasted image 20230728180635.png",
+    "Python/网络安全/photo/88.合并两个有序数组-5.png",
+    "Python/网络安全/photo/88.合并两个有序数组-4.png",
+    "Python/网络安全/photo/88.合并两个有序数组-3.png",
+    "Python/网络安全/photo/88.合并两个有序数组-2.png",
+    "Python/网络安全/photo/88.合并两个有序数组-1.png",
+    "Python/网络安全/photo/88.合并两个有序数组.png",
+    "JavaScript/JavaScript基础/数组/操作数组.md",
+    "面试/代码输出/this/代码输出.md",
+    "题目/Leetcode/简单/2460.对数组执行操作.md",
+    "面试/JS/三、JavaScript基础/9.数组有哪些原生方法.md",
     "面试/面试/美团面试/❤️美团前端实习2023-06-30.md",
-    "面试/面试/广州中科院软件所/广州中科软研究所前端一面.md",
-    "面试/面试/百度实习/1.md",
-    "题目/Leetcode/简单/2500. 删除每行中的最大值.md",
-    "题目/Leetcode/简单/2496. 数组中字符串的最大值.md",
-    "Python/网络安全/photo/2500. 删除每行中的最大值-1.png",
-    "Python/网络安全/photo/2500. 删除每行中的最大值.png",
-    "Html+CSS/CSS布局/盒子模型/外边框 margin/行内元素的margin和padding无效情况.md",
-    "面试/CSS/一、CSS基础/5.隐藏元素的方法有那些.md",
-    "面试/CSS/浮动和 BFC 了解吗？说一下 BFC哪些场景下会生成 BFC.md",
-    "面试/JS/三、JavaScript基础/19.ES6 Module（ESM）与CommonJS模块有什么异同.md",
-    "面试/计算机网络/HTTP协议/7.HTTP 1.0和 HTTP 1.1 之间有哪些区别？.md",
-    "面试/计算机网络/HTTP协议/8.HTTP 1.1 和 HTTP 2.0的区别.md",
-    "面试/计算机网络/HTTP协议/蛋老师HTTP1.1、HTTP2.0、HTTP3.0.md",
-    "面试/JS/原型/说一下原型链.md",
-    "面试/JS/原型/原型链的终点.md",
-    "面试/CSS/精灵图的原理.md",
-    "面试/CSS/精灵图的优缺点.md",
-    "Python/网络安全/photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0-33.png",
-    "Python/网络安全/photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0-32.png",
-    "Python/网络安全/photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0-31.png",
-    "Python/网络安全/photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0-30.png",
-    "Python/网络安全/photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0-29.png",
-    "Python/网络安全/photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0-28.png",
-    "Python/网络安全/photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0-27.png",
-    "Python/网络安全/photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0-26.png",
+    "题目/Leetcode/简单/剑指 Offer 03. 数组中重复的数字.md",
     "面试/面试/货拉拉",
     "题目/常见数据结构及方法/代码规范",
     "题目/常见数据结构及方法/SCSS",

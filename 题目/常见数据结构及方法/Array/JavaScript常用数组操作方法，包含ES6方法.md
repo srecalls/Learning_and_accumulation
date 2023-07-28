@@ -65,7 +65,25 @@ console.log(arr); //[3, 6, 2, 3, 4, 5]
 
 ## 七、slice() 生成 不改变
 
-返回一个新的数组，包含从 start 到 end （不包括该元素）的 arrayObject 中的元素。返回选定的元素，该方法不会修改原数组。
+返回一个新的数组，包含从 start 到 end （不包括该元素）的 arrayObject 中的元素。返回选定的元素，该方法不会修改原数组。截取当前数组中一段元素（左闭右开）[begin,end) 组合成一个新数组并返回。
+
+```js
+// 如果参数为负数， 则它表示在原数组中的倒数第几个元素结束抽取。   
+// slice(-2, -1)表示抽取了原数组中的倒数第二个元素到最后一个元素（不包含最后一个元素，也就是只有倒数第二个元素）。  
+// 如果 end 被省略，则slice 会一直提取到原数组末尾。  
+// 如果 end 大于数组长度，slice 也会一直提取到原数组末尾。  
+  
+let animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];  
+  
+console.log(animals.slice(2));  
+// expected output: Array ["camel", "duck", "elephant"]  
+  
+console.log(animals.slice(2, 4));  
+// expected output: Array ["camel", "duck"]  
+  
+console.log(animals.slice(1, 5));  
+// expected output: Array ["bison", "camel", "duck", "elephant"]
+```
 
 ```js
 var arr = [2,3,4,5];
@@ -84,6 +102,27 @@ splice() 方法可删除从 index 处开始的零个或多个元素，并且用�
 3. `item1, item2, ...`（可选）：要添加到数组的新元素，从 `start` 位置开始插入。如果省略所有 `item` 参数，则 `splice()` 方法将仅删除元素并不添加新元素。
 
 ```js
+// 参数：  
+// 1.指定修改的开始位置（从0计数）  
+// 2.整数，表示要移除的数组元素的个数。   
+// 3.要添加进数组的元素, 从start 位置开始。如果不指定，则 splice() 将只删除数组元素。  
+  
+let months = ['Jan', 'March', 'April', 'June'];  
+  
+// inserts at 1st index position  
+months.splice(1, 0, 'Feb');  
+console.log(months); // ['Jan', 'Feb', 'March', 'April', 'June']  
+  
+// replaces 1 element at 4th index  
+months.splice(4, 1, 'May');  
+console.log(months); // ['Jan', 'Feb', 'March', 'April', 'May']  
+  
+// 从第 2 位开始删除所有元素  
+months.splice(2);  
+console.log(months); // ['Jan', 'March']
+```
+
+```js
 var a = [5,6,7,8];
 console.log(a.splice(1,0,9)); //[]
 console.log(a);  // [5, 9, 6, 7, 8]
@@ -95,7 +134,27 @@ console.log(c.splice(0,1));  // [1]
 console.log(c) // [2,3,4]
 ```
 
-## 九、写错了（已删除）
+## 九、isArray
+> Array.isArray() 用于确定传递的值是否是一个 Array。如果对象是 Array，则为true; 否则为false。
+
+
+```js
+function f() {  
+    console.log(arguments) // { '0': 1, '1': 2, '2': 3 }  
+    console.log(arguments.length) // 3  
+    console.log(Array.isArray(arguments)) // 类数组，false  
+    console.log(Array.isArray(Array.from(arguments))) // 数组，true  
+}  
+f(1, 2, 3)  
+  
+// Polyfill  
+  
+if (!Array.isArray) {  
+  Array.isArray = function(arg) {  
+    return Object.prototype.toString.call(arg) === '[object Array]';  
+  };  
+}
+```
 
 ## 十、sort 排序 生成 不改变
 [[JS数组的排序（sort方法）]]
@@ -254,12 +313,68 @@ console.log(doubles)
 ## 十七、forEach 数组遍历
 
 ```js
+let arr = [2,4,6,8,10]  
+  
+for(let i = 0;i<arr.length;i++){  
+    console.log(arr[i]) // 2 4 6 8 10   
+}  
+  
+arr.forEach((element,index) => {  
+    console.log(`${index} - ${element}`)  
+    // 0 - 2  
+    // 1 - 4  
+    // 2 - 6  
+    // 3 - 8  
+    // 4 - 10  
+});  
+  
+// 注意： 没有办法中止或者跳出 forEach() 循环，除了抛出一个异常。如果你需要这样，使用 forEach() 方法是错误的。  
+// 若你需要提前终止循环，你可以使用：every()、some()、find()等，这些数组方法可以对数组元素判断，以便确定是否需要继续遍历  
+// 若条件允许，也可以使用 filter() 提前过滤出需要遍历的部分，再用 forEach() 处理。
+```
+
+```js
 const items = ['item1', 'item2', 'item3'];
 const copy = [];    
 items.forEach(function(item){
   copy.push(item)
 });
 ```
+
+## 十八、reduce
+从左到右为每个数组元素执行一次回调函数，并把上次回调函数的返回值放在一个暂存器中传给下次回调函数，并返回最后一次回调函数的返回值。
+```js
+// 一、将数组中的值累乘  
+let arr = [1, 2, 3, 4];  
+  
+const res = arr.reduce((accumulator,element) =>{  
+    return accumulator * element  
+})  
+  
+console.log(res); // expected output: 24  
+  
+// 二、计算数组中每个元素出现的次数  
+  
+let names = ['Alice', 'Bob', 'Tiff', 'Bruce', 'Alice'];  
+  
+const countedNames = names.reduce((allNames, name) =>{  
+    if (name in allNames) {  
+        allNames[name]++;  
+    }  
+    else {  
+        allNames[name] = 1;  
+    }  
+    return allNames;  
+},{});  
+console.log(countedNames) // { 'Alice': 2, 'Bob': 1, 'Tiff': 1, 'Bruce': 1 }  
+  
+// initialValue可选，此例中initialValue为{}  
+// 作为第一次调用 callback函数时的第一个参数的值。 如果没有提供初始值，则将使用数组中的第一个元素。在没有初始值的空数组上调用 reduce 将报错。
+```
+
+## 十九、reduceRight()
+同上，不过遍历顺序变成了从右到左
+
 **原理：每一项都调用回调函数**
 ## ES6新增新操作数组的方法
 
@@ -339,6 +454,24 @@ Array.from('foo');
 // ["f", "o", "o"]
 ```
 
+> 从类数组对象或者可迭代对象中创建一个新的数组实例。
+
+```js
+// 从类数组对象中创建一个新的数组实例  
+  
+function f() {  
+    console.log(arguments) // { '0': 1, '1': 2, '2': 3 }  
+    console.log(arguments.length) // 3  
+    return Array.from(arguments);  
+}  
+console.log(f(1, 2, 3)); // [1, 2, 3]  
+  
+// 从可迭代对象中创建一个新的数组实例,可以获取对象中的元素,如 Map和 Set 等,并进行一定操作  
+  
+let arr = Array.from([1, 2, 3], x => x + x)  
+console.log(arr) // expected output: [2, 4, 6]
+```
+
 ## 6、of
 
 用于将一组值，转换为数组。这个方法的主要目的，是弥补数组构造函数 Array() 的不足。因为参数个数的不同，会导致 Array() 的行为有差异。
@@ -354,6 +487,24 @@ Array(7);          // [ , , , , , , ]
 
 Array.of(1, 2, 3); // [1, 2, 3]
 Array(1, 2, 3);    // [1, 2, 3]
+```
+
+> 根据一组参数来创建新的数组实例，支持任意的参数数量和类型。这个方法的主要目的，是弥补数组构造函数Array()的不足。因为参数个数的不同，会导致Array()的行为有差异。
+
+```js
+Array.of(7);       // [7]   
+Array.of(1, 2, 3); // [1, 2, 3]  
+  
+Array() // []  
+Array(7);          // [ , , , , , , ]
+Array(1, 2, 3);    // [1, 2, 3]  
+  
+// -----------------------------------  
+  
+Array.of() // []  
+Array.of(undefined) // [undefined]  
+Array.of(1) // [1]  
+Array.of(1, 2) // [1, 2]
 ```
 
 ## 7、entries() 返回迭代器：返回键值对
@@ -446,3 +597,33 @@ var a = [1, 2, 3];
 a.includes(2); // true
 a.includes(4); // false
 ```
+
+
+
+
+## 11. flat()
+
+`Array.prototype.flat()`方法可以将嵌套的数组“展平”，变成一维数组。例如，假设我们有一个嵌套数组，如下所示：
+
+```js
+const arr = [1, 2, [3, 4, [5, 6]]];
+```
+
+我们可以使用`flat()`方法将其展平：
+
+```js
+const flatArr = arr.flat();
+console.log(flatArr); // [1, 2, 3, 4, 5, 6]
+```
+
+## 12. flatMap()
+
+`Array.prototype.flatMap()`方法可以遍历数组并对每个元素执行映射函数，然后将结果“展平”成一维数组。例如，假设我们有一个数组，每个元素都是一个字符串，我们想要将每个字符串转换为一个单词数组并将所有单词组合成一个大数组。我们可以使用`flatMap()`方法来实现：
+
+```js
+const arr = ['hello world', 'welcome to OpenAI'];
+const words = arr.flatMap(str => str.split(' '));
+console.log(words); // ['hello', 'world', 'welcome', 'to', 'OpenAI']
+```
+
+在上面的例子中，我们将`flatMap()`方法应用于`arr`数组，并传递一个回调函数作为参数。回调函数`str => str.split(' ')`将每个字符串拆分成单词数组，并返回一个新的一维数组。最后，`flatMap()`方法将所有的一维数组“展平”成一个大数组，并返回该数组作为结果。
