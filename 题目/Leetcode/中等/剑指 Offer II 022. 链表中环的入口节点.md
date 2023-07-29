@@ -55,9 +55,7 @@
 var detectCycle = function(head) {
     let map = new Map()
     while (head) {
-        if (map.has(head)) {
-            return head
-        }
+        if (map.has(head)) return head
         map.set(head, true)
         head = head.next;
     }
@@ -86,9 +84,7 @@ var detectCycle = function(head) {
 var detectCycle = function(head) {
     const visited = new Set();
     while (head !== null) {
-        if (visited.has(head)) {
-            return head;
-        }
+        if (visited.has(head)) return head;
         visited.add(head);
         head = head.next;
     }
@@ -96,6 +92,8 @@ var detectCycle = function(head) {
 };
 
 ```
+执行用时：76 ms, 在所有 JavaScript 提交中击败了61.47%的用户
+内存消耗：43.9 MB, 在所有 JavaScript 提交中击败了18.81%的用户
 
 ### 快慢指针
 我们使用两个指针，fast与 slow。它们起始都位于链表的头部。随后，slow 指针每次向后移动一个位置，而fast 指针向后移动两个位置。如果链表中存在环，则 fast 指针最终将再次与 slow 指针在环中相遇如下图所示，设链表中环外部分的长度为a。slow 指针进入环后，又走了b 的距离与 fast 相遇。此时，fast指针已经走完了环的n圈，因此它走过的总距离为 a+n(b +c)+b= a+(n+1)b+nc。
@@ -136,6 +134,44 @@ var detectCycle = function(head) {
 时间复杂度: O(N)，其中 N 为链表中节点的数目。在最初判断快慢指针是否相遇时，slow 指针走过的距离不会超过链表的总长度，随后寻找入环点时，走过的距离也不会超过链表的总长度。因此，总的执行时间为 O(N) + O(N)= O(N)。
 空间复杂度: O(1)。我们只使用了 slow,fast,ptr 三个指针
 
+
+### version2
+```js
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val) {
+ *     this.val = val;
+ *     this.next = null;
+ * }
+ */
+
+/**
+ * @param {ListNode} head
+ * @return {ListNode}
+ */
+var detectCycle = function(head) {
+    if (head === null || head.next === null) return null
+    let fast = head
+    let slow = head
+    while (fast && slow) {
+        if (fast.next && fast.next.next) {
+            fast = fast.next.next
+            slow = slow.next
+        } else {
+            return null
+        }
+        if (fast === slow) {
+            let ptr = head
+            while(ptr !== slow) {
+                ptr = ptr.next
+                slow = slow.next
+            }
+            return ptr
+        }
+    }
+    return null
+};
+```
 
 ## 如果未说明不能修改链表
 ### 标记法

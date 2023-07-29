@@ -405,3 +405,11 @@ var strHtml1 = `<ul>
 </ul>`;    // 反引号的方式
 document.body.appendChild(strHtml)
 ```
+
+## ES2017
+### 17.padStart()
+补全
+
+
+### 18.toFixed()
+保留几位小数
