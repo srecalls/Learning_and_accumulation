@@ -13,7 +13,11 @@ console.log(typeof {}); // object
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
 ```
-其中数组、对象、null都会被判断为object, 其他判断都正确。
+
+
+其中`数组、对象、null都会被判断为object`, 其他判断都正确。
+[[9.typeof NaN的结果]]
+[[5.typeof null的结果是什么,为什么]]
 `typeof` 运算符只能用于检测基本数据类型，而不能用于检测对象类型，是因为 `typeof` 运算符是 JavaScript 语言的一种设计决策。
 
 `typeof` 运算符将值的二进制表示与 JavaScript 中的类型标识进行比较，根据比较结果返回一个表示数据类型的字符串。

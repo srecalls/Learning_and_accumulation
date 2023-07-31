@@ -80,31 +80,19 @@
             }
           },
           {
-            "id": "278bdb6a31b50006",
+            "id": "3b4c0cf051d550c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/手写代码/数据处理/14.实现非负大整数相加或相乘.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d2773ffa7a8ea736",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "题目/Leetcode/简单/415. 字符串相加.md",
+                "file": "题目/常见数据结构及方法/String/去除字符串前的空字符.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -133,7 +121,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "日期",
+                "query": "children",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -156,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "题目/Leetcode/简单/415. 字符串相加.md"
+                "file": "题目/常见数据结构及方法/String/去除字符串前的空字符.md"
               }
             }
           },
@@ -207,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "题目/Leetcode/简单/415. 字符串相加.md",
+                "file": "题目/常见数据结构及方法/String/去除字符串前的空字符.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -233,44 +221,45 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "d2773ffa7a8ea736",
+  "active": "3b4c0cf051d550c5",
   "lastOpenFiles": [
-    "面试/手写代码/数据处理/14.实现非负大整数相加或相乘.md",
-    "面试/手写代码/数据处理/8.实现数组push方法.md",
-    "面试/手写代码/数据处理/4.实现数组元素求和.md",
-    "货拉拉面试.md",
-    "题目/Leetcode/简单/94.二叉树的中序遍历.md",
-    "面试/手写代码/数据处理/1.实现日期格式化函数.md",
-    "面试/Vue/Vue基础/sync修饰符作用.md",
-    "面试/面试/🌟简历自面/🌟面试模拟（包括遇到的面试题）.md",
-    "Date Schedule.md",
-    "题目/常见数据结构及方法/Array/JS 数组中的 reduce 方法.md",
-    "面试/手写代码/数据处理/15.使用reduce求和.md",
-    "面试/手写代码/数据处理/2.交换a,b的值，不能用临时变量.md",
-    "面试/手写代码/数据处理/6.实现数组去重.md",
-    "题目/常见数据结构及方法/Date/JavaScript 实现日期自动补零的几种写法梳理.md",
+    "题目/Leetcode/简单/349.两个数组的交集.md",
+    "题目/常见数据结构及方法/String/去除字符串前的空字符.md",
     "题目/常见数据结构及方法/String/JS中字符串常用方法总结.md",
-    "赚钱/项目.md",
-    "JavaScript/Web APIs/DOM节点操作/日期对象/实例化.md",
-    "面试/JS/三、JavaScript基础/4.JavaScript有哪些内置对象.md",
-    "面试/JS/三、JavaScript基础/5.常用的正则表达式有哪些？.md",
-    "面试/手写代码/apply、call、bind/手写apply函数.md",
-    "面试/手写代码/JavaScript基础/手写防抖函数.md",
-    "题目/常见数据结构及方法/算法/树的归纳总结.md",
-    "题目/Leetcode/简单/26. 删除有序数组中的重复项.md",
-    "题目/Leetcode/简单/144. 二叉树的前序遍历.md",
-    "Vue/Vue/Vue组件/数据互传/5.后代关系组件之间的数据共享.md",
-    "题目/常见数据结构及方法/Number/js的Math常用方法.md",
+    "题目/Leetcode/简单/求一个数组的交集、并集、差集.md",
+    "面试/面试/小米/小米前端面试.md",
+    "面试/Vue/组件通信/组件通信.md",
+    "面试/面试/小米/小米一面.md",
+    "赚钱/vue.md",
+    "面试/Vue/虚拟DOM/十分详细的diff算法原理解析.md",
+    "赚钱/上班.md",
+    "面试/手写代码/数据处理/16.将js对象转化为树状结构.md",
+    "面试/CSS/CSS一般怎么去统一不同浏览器之间的差异.md",
+    "面试/Vue/Vue基础/sync修饰符作用.md",
+    "面试/面试/麦风科技/麦风科技前端开发实习生笔试题.md",
+    "面试/CSS/经典的媒体查询断点.md",
+    "面试/性能优化/性能优化手段.md",
+    "面试/CSS/CSS+DIV开发Web页面的优势有哪些.md",
+    "面试/HTML/浏览器的存储方式.md",
+    "面试/浏览器原理/浏览器本地存储/1.浏览器本地存储方式及使用场景.md",
+    "面试/CSS/块级元素和行内元素的区别.md",
+    "Html+CSS/移动端Web/移动端常见布局/rem适配布局/媒体查询基础/媒体查询语法简介.md",
+    "Html+CSS/移动端Web/移动端常见布局/rem适配布局/媒体查询基础/引入资源.md",
+    "Html+CSS/移动端Web/移动端常见布局/rem适配布局/媒体查询基础/媒体查询+rem实现元素动态大小变化.md",
+    "Html+CSS/移动端Web/移动端常见布局/rem适配布局/rem适配方案/rem实际开发适配方案1.md",
+    "Html+CSS/移动端Web/移动端常见布局/rem适配布局/rem适配方案/rem实际开发适配方案2.md",
+    "Html+CSS/移动端Web/移动端基础.md",
+    "Python/网络安全/photo/麦风科技前端开发实习生笔试题.png",
+    "Python/网络安全/photo/@import的用法-1.png",
+    "Python/网络安全/photo/@import的用法.png",
+    "Python/网络安全/photo/142. 环形链表 II.png",
+    "面试/面试/麦风科技",
     "Python/网络安全/photo/94.二叉树的中序遍历.png",
     "Python/网络安全/photo/144. 二叉树的前序遍历-2.png",
     "Python/网络安全/photo/144. 二叉树的前序遍历-1.png",
     "Python/网络安全/photo/144. 二叉树的前序遍历.png",
     "Python/网络安全/photo/Pasted image 20230728180635.png",
     "Python/网络安全/photo/88.合并两个有序数组-5.png",
-    "Python/网络安全/photo/88.合并两个有序数组-4.png",
-    "Python/网络安全/photo/88.合并两个有序数组-3.png",
-    "Python/网络安全/photo/88.合并两个有序数组-2.png",
-    "Python/网络安全/photo/88.合并两个有序数组-1.png",
     "面试/面试/货拉拉",
     "题目/常见数据结构及方法/代码规范",
     "题目/常见数据结构及方法/SCSS",
@@ -279,7 +268,6 @@
     "面试/性能优化/二、懒加载",
     "面试/性能优化/三、回流与重绘",
     "面试/面试/未知名公司面试",
-    "题目/常见数据结构及方法/Bigint",
-    "本科评估项目"
+    "题目/常见数据结构及方法/Bigint"
   ]
 }
