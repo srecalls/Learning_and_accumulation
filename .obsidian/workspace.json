@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/面试/百度提前批/百度前端提前批一面面经.md",
+                "file": "面试/面试/快手面试/快手前端一面.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,9 +78,57 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "147748135c93790e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端代码【开发日志】(1).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "87bc1ca7f92d46f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/Vue/Vue基础/30道vue面试题/14. v-model 的原理？.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d73210cfd075c3be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "货拉拉面试.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2be7758c996a4ee2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/Vue/Vue基础/30道vue面试题/15、Vue 组件间通信有哪几种方式？.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -109,7 +157,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "规范",
+                "query": "自定义组件",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -132,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/面试/百度提前批/百度前端提前批一面面经.md"
+                "file": "面试/Vue/Vue基础/30道vue面试题/15、Vue 组件间通信有哪几种方式？.md"
               }
             }
           },
@@ -183,14 +231,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/面试/百度提前批/百度前端提前批一面面经.md",
+                "file": "面试/Vue/Vue基础/30道vue面试题/15、Vue 组件间通信有哪几种方式？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -209,53 +257,53 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "749045ead69d9bea",
+  "active": "2be7758c996a4ee2",
   "lastOpenFiles": [
-    "面试/JS/防抖节流原理.md",
-    "面试/手写代码/JavaScript基础/手写节流函数.md",
-    "面试/面试/百度提前批/百度前端提前批一面面经.md",
+    "面试/Vue/Vue基础/30道vue面试题/14. v-model 的原理？.md",
+    "面试/Vue/Vue基础/30道vue面试题/15、Vue 组件间通信有哪几种方式？.md",
+    "面试/Vue/Vue基础/14.v-model是如何实现的，语法糖实际是什么.md",
+    "面试/Vue/Vue基础/15.v-model可以被用在自定义组件上吗？如果可以，如何使用.md",
+    "面试/面试/麦风科技/麦风科技前端开发实习生笔试题.md",
+    "面试/Vue/Vue基础/30道vue面试题/13. 为什么组件中的 data 必须是一个函数，然后 return 一个对象，而 new Vue 实例里，data 可以直接是一个对象？.md",
+    "面试/Vue/Vue基础/30道vue面试题/12、谈谈你对 keep-alive 的了解？.md",
+    "面试/Vue/Vue基础/30道vue面试题/11、父组件可以监听到子组件的生命周期吗？.md",
+    "面试/Vue/Vue基础/30道vue面试题/9、在哪个生命周期内调用异步请求？.md",
+    "面试/Vue/Vue基础/30道vue面试题/10、在什么阶段才能访问操作DOM？.md",
+    "面试/Vue/Vue基础/30道vue面试题/8、Vue 的父组件和子组件生命周期钩子函数执行顺序？.md",
     "货拉拉面试.md",
-    "面试/Vue/Vue基础/16.为什么组件中的 data 必须是一个函数，然后 return 一个对象，而 new Vue 实例里，data 可以直接是一个对象？.md",
-    "面试/CSS/盒子水平垂直居中.md",
-    "题目/常见数据结构及方法/代码规范/揭秘 JavaScript 代码整洁技巧，让你的项目更出众.md",
+    "面试/面试/货拉拉/【面试复盘】货拉拉前端日常实习面经（已offer）.md",
+    "前端代码【开发日志】(1).md",
+    "Python/网络安全/photo/10、在什么阶段才能访问操作DOM？.png",
+    "面试/Vue/Vue基础/30道vue面试题/7、谈谈你对 Vue 生命周期的理解？.md",
+    "Python/网络安全/photo/7、谈谈你对 Vue 生命周期的理解？-1.png",
+    "Python/网络安全/photo/7、谈谈你对 Vue 生命周期的理解？.png",
+    "面试/Vue/Vue基础/30道vue面试题/6、直接给一个数组项赋值，Vue 能检测到变化吗？.md",
+    "面试/Vue/蛋老师vue的响应式原理是什么.md",
+    "面试/Vue/Vue基础/30道vue面试题/5、computed 和 watch 的区别和运用的场景？.md",
+    "面试/Vue/Vue基础/30道vue面试题/3.  Class 与 Style 如何动态绑定？.md",
+    "面试/Vue/Vue基础/5.Computed 和 Watch的区别.md",
+    "面试/Vue/Vuex/computed和watch的区别.md",
+    "面试/Vue/Vue基础/30道vue面试题/4、怎样理解 Vue 的单向数据流？.md",
+    "面试/Vue/Vue基础/30道vue面试题/2、v-show 与 v-if 有什么区别？.md",
+    "面试/Vue/v-if和v-show的区别？.md",
+    "面试/Vue/Vue基础/30道vue面试题",
+    "面试/手写代码/一串数字转成xxx,xxx有间隔的方法是什么？.md",
+    "题目/常见数据结构及方法/Date/JS常见的Date方法.md",
+    "Python/网络安全/photo/【2022】小米秋招笔试-前端-卷2.png",
+    "Python/网络安全/photo/11.常见的位运算符有哪些？其计算规则是什么？.png",
+    "面试/面试/未命名",
     "面试/面试/百度提前批",
-    "面试/手写代码/实现输入数字转化成金额格式.md",
-    "题目/常见数据结构及方法/String/去除字符串前的空字符.md",
-    "面试/Vue/Vue基础/sync修饰符作用.md",
-    "面试/手写代码/数据处理/数组里有children，如何获取数组中所有对象某个key对应的值，组成新的值存在数组里面.md",
-    "Html+CSS/HTML标签学习/列表标签/无序列表 ul li.md",
-    "TypeScript/TypeScript高级类型/class/class的构造函数.md",
-    "题目/常见数据结构及方法/代码规范/如何写出逻辑清晰简洁，好维护的Javascript代码？.md",
-    "项目/项目经验积累/前端项目可以怎么写.md",
-    "面试/个人情况/如何协同工作.md",
-    "Html+CSS/网页制作/具体项目/PC端品优购项目/品优购代码规范.md",
-    "面试/浏览器原理/浏览器本地存储/3.Cookie、LocalStorage、SessionStorage区别.md",
-    "面试/代码输出/this/3.代码输出结果.md",
-    "面试/浏览器原理/浏览器同源策略/2.如何解决跨域问题/（3）postMessage跨域.md",
-    "面试/H5C3/语义化的理解.md",
-    "TypeScript/TypeScript高级类型/高级类型概述.md",
-    "TypeScript/TypeScript高级类型/class/class类的可见修饰符.md",
-    "TypeScript/TypeScript高级类型/class/class的实例方法.md",
-    "TypeScript/TypeScript高级类型/class/class的继承方法.md",
-    "TypeScript/TypeScript高级类型/class/class的基本使用.md",
     "Python/网络安全/photo/sync修饰符作用-4.png",
     "Python/网络安全/photo/sync修饰符作用-3.png",
     "Python/网络安全/photo/sync修饰符作用-2.png",
     "Python/网络安全/photo/sync修饰符作用-1.png",
     "Python/网络安全/photo/sync修饰符作用.png",
-    "Python/网络安全/photo/你为什么想要加入我们公司？.png",
-    "Python/网络安全/photo/你认为一个优秀的前端开发工程师应该具备哪些能力.png",
     "面试/手写代码/未命名",
-    "Python/网络安全/photo/数组里有children，如何获取数组中所有对象某个key对应的值，组成新的值存在数组里面.png",
-    "Python/网络安全/photo/143. 重排链表-1.png",
-    "Python/网络安全/photo/143. 重排链表.png",
     "面试/面试/麦风科技",
     "面试/面试/货拉拉",
     "题目/常见数据结构及方法/代码规范",
     "题目/常见数据结构及方法/SCSS",
     "面试/面试/喜马拉雅面试",
-    "面试/性能优化/未命名",
-    "面试/性能优化/二、懒加载",
-    "面试/性能优化/三、回流与重绘"
+    "面试/性能优化/未命名"
   ]
 }

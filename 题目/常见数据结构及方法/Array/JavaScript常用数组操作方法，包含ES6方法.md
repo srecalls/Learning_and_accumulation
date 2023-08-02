@@ -233,6 +233,36 @@ numbers.lastIndexOf(2, -2); // 0
 numbers.lastIndexOf(2, -1); // 3
 ```
 
+`indexOf` 和 `lastIndexOf` 是 JavaScript 字符串对象的方法，用于在字符串中查找指定的值，并返回其位置。它们的区别在于查找的方向不同。
+
+`indexOf` 方法从前往后查找字符串中**指定值第一次出现**的位置，如果找到了则返回其位置，否则返回 -1。`indexOf` 方法可以接受两个参数，第一个参数是要查找的子字符串，第二个参数是开始查找的位置。如果省略第二个参数，则默认从字符串的开头开始查找。
+
+以下是 `indexOf` 方法的使用示例：
+
+```javascript
+const str = 'hello world!';
+const pos1 = str.indexOf('o'); // 返回 4
+const pos2 = str.indexOf('o', 5); // 返回 7
+const pos3 = str.indexOf('z'); // 返回 -1
+```
+
+在这个示例中，`indexOf` 方法从字符串中查找第一个字母 o 的位置，第一个例子中省略了第二个参数，因此从字符串的开头开始查找；第二个例子中指定了第二个参数为 5，因此从字符串的第 5 个位置开始查找；第三个例子中查找了一个不存在的值，因此返回 -1。
+
+`lastIndexOf` 方法与 `indexOf` 方法类似，不同之处在于它从后往前查找字符串中**指定值最后一次出现的位置**，如果找到了则返回其位置，否则返回 -1。`lastIndexOf` 方法也可以接受两个参数，第一个参数是要查找的子字符串，第二个参数是开始查找的位置。如果省略第二个参数，则默认从字符串的末尾开始查找。
+
+以下是 `lastIndexOf` 方法的使用示例：
+
+```javascript
+const str = 'hello world!';
+const pos1 = str.lastIndexOf('o'); // 返回 7
+const pos2 = str.lastIndexOf('o', 5); // 返回 4
+const pos3 = str.lastIndexOf('z'); // 返回 -1
+```
+
+在这个示例中，`lastIndexOf` 方法从字符串中查找最后一个字母 o 的位置，第一个例子中省略了第二个参数，因此从字符串的末尾开始查找；第二个例子中指定了第二个参数为 5，因此从字符串的第 5 个位置开始往前查找；第三个例子中查找了一个不存在的值，因此返回 -1。
+
+需要注意的是，`indexOf` 和 `lastIndexOf` 方法都是区分大小写的，如果要进行不区分大小写的查找，则可以使用 `toLowerCase` 或 `toUpperCase` 方法将字符串转换为小写或大写后再进行查找。
+
 ## 十三、every
 
 对数组的每一项都运行给定的函数，每一项都返回 ture,则返回 true
