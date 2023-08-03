@@ -1,21 +1,28 @@
 Vue 的父组件和子组件生命周期钩子函数执行顺序可以归类为以下 4 部分：
 
 - 加载渲染过程
-    
+
     父 beforeCreate -> 父 created -> 父 beforeMount -> 子 beforeCreate -> 子 created -> 子 beforeMount -> 子 mounted -> 父 mounted
-    
+
+- 父组件的ref状态值有更新，且作为参数传给子组件时，更新时
+	beforeUpdate -> 子 beforeUpdate -> 子 updated -> 父 updated
+
 - 子组件更新过程
-    
-    父 beforeUpdate -> 子 beforeUpdate -> 子 updated -> 父 updated
-    
+
+   子 beforeUpdate -> 子 updated
+
 - 父组件更新过程
-    
+
     父 beforeUpdate -> 父 updated
-    
+
 - 销毁过程
-    
+
     父 beforeDestroy -> 子 beforeDestroy -> 子 destroyed -> 父 destroyed
-    
+
+
+
+对此我也是专门写了父子两个组件做测试，发现当父组件的ref状态值有更新，且作为参数传给子组件时，更新时就会执行父 beforeUpdate -> 子 beforeUpdate -> 子 updated -> 父 updated，  
+当没有给子组件传参时，父组件更新时就只会执行父 beforeUpdate -> 父 updated，当然在子组件更新时，只会执行子 beforeUpdate -> 子 updated，子组件更新怎么可能执行父组件的生命周期呢。
 
 子的生命周期都会被先结束，父的才结束。先由父到子，再从子到父。  
 生命周期遵从“从外到内，再从内到外，mixins先于组件”的原则。  
