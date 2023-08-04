@@ -121,7 +121,7 @@ son.getAge();//son里只有一个age,没有getAge方法，去原型Son.prototype
 
 如果把题目改成如下形式，就必须知道Father.call(this);的作用才能答对了
 
-![[JavaScript题目.png]]
+![[Python/网络安全/photo/JavaScript题目.png]]
 
 
 ## 2.以下哪个选项的描述是错误的
@@ -223,7 +223,7 @@ D、
 isNaN() 函数用于检查其参数是否是非数字值。
 如果参数值为 NaN 或字符串、对象、undefined等非数字值则返回 true, 否则返回 false。
 
-![[JavaScript题目-1.png]]
+![[Python/网络安全/photo/JavaScript题目-1.png]]
 
 
 ## 3.执行以下程序，要求当用户点击按钮1秒后禁用按钮，以下选项的做法，不符合要求的是（）
@@ -289,7 +289,7 @@ btn.onclick = function(){
 - Math.round 把一个数字舍入为最接近的整数
 - toPrecision 把数字格式化为指定的长度
   
-![[JavaScript题目-2.png]]
+![[Python/网络安全/photo/JavaScript题目-2.png]]
 
 
 ## 3.以下代码执行后， num 的值是？
@@ -438,7 +438,7 @@ console.log(res.num1);
 console.log(y);
 ```
 
-![[JavaScript题目-3.png]]
+![[Python/网络安全/photo/JavaScript题目-3.png]]
 
 官方解析：
 
@@ -453,24 +453,24 @@ let obj = { num1: 117 } 
 
 > 把res放在栈里，把res也指向堆里的 { num1:117 }     
 
-![[JavaScript题目-4.png]]
+![[Python/网络安全/photo/JavaScript题目-4.png]]
     obj.child  =  obj  =  { num2: 935 };
 重点：赋值操作先定义变量(从左到右)，再进行赋值（从右到左）        
 定义变量    obj.child，给堆里的{ num1:117 }加一个child属性，得{num1:117，child:undefined}      
 定义变量    obj,之前在栈里的obj  
 
-![[JavaScript题目-5.png]]
+![[Python/网络安全/photo/JavaScript题目-5.png]]
 
 赋值    obj = { num2: 935 }，把{ num2: 935 }放在堆里，把栈里的obj指向堆里的{ num2: 935 }   
 
 
-![[JavaScript题目-6.png]]  
+![[Python/网络安全/photo/JavaScript题目-6.png]]  
 
 
 
 赋值    obj.child = obj，把堆里的 {num1:117，child:undefined} 的child指向  {num2: 935}       
 
-![[JavaScript题目-7.png]]         
+![[Python/网络安全/photo/JavaScript题目-7.png]]         
 
 
 从最后一张图可看出此时：     
@@ -591,4 +591,175 @@ D. split操作数必需为正则或字符串，结果为TypeError
 ![[JavaScript题目-8.png]]
 
   
+## 1.下面有关 JavaScript 常见事件的触发情况，描述错误的是？
+- [ ] A.onmousedown：某个鼠标按键被按下
+- [ ] B.onkeypress：某个键盘的键被按下或按住
+- [x] C.onblur：元素获得焦点
+- [ ] D.onchange：用户改变域的内容
+
+### 鼠标事件
+![[React/Photo/JavaScript题目.png]]
+
+onmousemove、onmouseover、onmouseout、onmouseenter、onmouseleave都是JavaScript中的事件，它们都与鼠标的移动和位置有关，但它们之间有一些区别。
+
+1. onmousemove事件在鼠标在元素上移动时触发，无论鼠标是否进入或离开元素。
+2. onmouseover事件在鼠标进入元素时触发。
+3. onmouseout事件在鼠标离开元素时触发。
+4. onmouseenter事件在鼠标进入元素时触发，与onmouseover事件类似，但不会冒泡。
+5. onmouseleave事件在鼠标离开元素时触发，与onmouseout事件类似，但不会冒泡。
+
+因此，onmouseenter和onmouseleave与onmouseover和onmouseout的区别主要在于它们是否冒泡。当鼠标进入或离开元素时，onmouseenter和onmouseleave事件不会冒泡到父元素或其他元素，而onmouseover和onmouseout事件会冒泡到父元素或其他元素。
+
+### 键盘事件
+![[React/Photo/JavaScript题目-2.png]]
+
+
+### 焦点事件
+![[React/Photo/JavaScript题目-3.png]]
+
+
+### 触摸事件
+![[React/Photo/JavaScript题目-4.png]]
+
+### 滚轮事件
+![[React/Photo/JavaScript题目-5.png]]
+
+### 提交事件
+![[React/Photo/JavaScript题目-6.png]]
+
+### 更改表单元素Select触发事件
+![[React/Photo/JavaScript题目-7.png]]
+
+
+
+## 2.以下哪一项不属于浏览器Response Headers字段：
+
+- [x] A.Referer
+- [ ] B.Connection
+- [ ] C.Content-Type
+- [ ] D.Server
+
+答案：a 
+
+  解析：
+  说一说常见的请求头和相应头都有什么呢？ 
+
+###   1)请求(客户端->服务端`[request]`)
+  
+
+      GET(请求的方式)
+    /newcoder/hello.html(请求的目标资源) HTTP/1.1(请求采用的协议和版本号)
+      Accept: */*(客户端能接收的资源类型)
+      Accept-Language: en-us(客户端接收的语言类型)
+      Connection: Keep-Alive(维护客户端和服务端的连接关系)
+      Host: localhost:8080(连接的目标主机和端口号)
+      Referer: http://localhost/links.asp(告诉服务器我来自于哪里)
+      User-Agent: Mozilla/4.0(客户端版本号的名字)
+      Accept-Encoding: gzip, deflate(客户端能接收的压缩数据的类型)
+      If-Modified-Since: Tue, 11 Jul 2000 18:23:51 GMT(缓存时间) 
+      Cookie(客户端暂存服务端的信息)
+       Date: Tue, 11 Jul 2000 18:23:51 GMT(客户端请求服务端的时间)  
+
+  
+   ### 2)响应(服务端->客户端`[response]`)
+
+	HTTP/1.1(响应采用的协议和版本号) 200(状态码) OK(描述信息)
+	Location:http://www.baidu.com(服务端需要客户端访问的页面路径) 
+	Server:apache
+	tomcat(服务端的Web服务端名)
+	Content-Encoding:
+	gzip(服务端能够发送压缩编码类型) 
+	Content-Length: 80(服务端发送的压缩数据的长度) 
+	Content-Language: zh-cn(服务端发送的语言类型) 
+	Content-Type: text/html; charset=GB2312(服务端发送的类型及采用的编码方式)
+	Last-Modified:Tue, 11 Jul 2000 18:23:51 GMT(服务端对该资源最后修改的时间)
+	Refresh: url=http://www.it315.org(服务端要求客户端1秒钟后，刷新，然后访问指定的页面路径)
+	Content-Disposition: attachment;
+	filename=aaa.zip(服务端要求客户端以下载文件的方式打开该文件)
+	Transfer-Encoding:
+	chunked(分块传递数据到客户端）  
+	Set-Cookie:SS=Q0=5Lb_nQ;
+	path=/search(服务端发送到客户端的暂存数据)
+	Expires:-1//3种(服务端禁止客户端缓存页面数据)
+	Cache-Control:
+	no-***(服务端禁止客户端缓存页面数据)  
+	Pragma: no-***(服务端禁止客户端缓存页面数据) 
+	Connection: close(1.0)/(1.1)Keep-Alive(维护客户端和服务端的连接关系)  
+	Date: Tue, 11 Jul 2000 18:23:51 GMT(服务端响应客户端的时间)   
+
+    在服务器响应客户端的时候，带上Access-Control-Allow-Origin头信息，解决跨域的一种方法。
+
+## 3.执行以下程序，下列选项中，说法错误的是（）
+```js
+class Phone{
+  constructor(brand){
+    this.brand = brand;
+}
+  call(){}...①
+}
+function playGame(){console.log("我可以打游戏")};
+function photo(){console.log("我可以拍照")};
+console.log(typeof Phone);...②
+var p = new Phone('华为');
+console.log(p.brand);...③
+```
+
+- [ ] A.①式的call方法是定义在类Phone的prototype对象上
+- [x] B.②式输出结果为Object
+- [ ] C.③式输出结果为华为
+- [ ] D.若想一次性给类添加playGame和photo两个实例方法，可以使用Object.assign(Phone.prototype,{playGame,photo})
+
+官方解析：
+
+**类的所有实例方法均定义在类的原型对象**上，因此，在**类内定义的实例方法和在类的原型对象上定义方法是等价的**，call()是实例方法，故A选项说法正确，不符合题意；类的本质是函数，实际上，**ES6中的类可以视为ES5中构造函数的另一种写法**，所以②式的输出结果为function而不是Object，B选项说法错误，符合题意；p为类的实例对象，该对象有一个属性brand，属性值为华为，C选项说法正确，不符合题意；Object.assign(target, source)可将source源对象所有可枚举的属性（或方法）分配给target对象，所以可以使用Object.assign(Phone.prototype,{playGame,photo})为类一次性添加playGame和photo两个实例方法，D选项说法正确，不符合题意。
+
+
+## 5.如何阻止IE和各大浏览器默认行为（      ）
+- [ ] A.window.event.cancelBubble = true;
+- [x] B.window.event.returnValue = false;
+- [ ] C.event.stopPropagation();
+- [x] D.event.preventDefault();
+
+阻止默认事件：
+e.preventDefault()
+e.returnValue = false  (IE)
+
+阻止冒泡：
+e.stopPropagation()
+e.cancelBubble = true (IE)
+
+
+
+## 5.NOSCRIPT标签是做什么用的？
+
+- [ ] A.制止脚本的运行
+- [ ] B.防止区域脚本被js修改<br>(例如aDiv.innerHTML = 'something' 将会不起作用)
+- [x] C.用来定义在脚本未被执行时的替代内容
+- [ ] D.NOSCRIPT 标签并不存在
+
+```Js
+noscript 元素用来定义在脚本未被执行时的替代内容（文本）。  
+
+<body>  
+...
+  ...
+
+  <script type="text/javascript">
+    <!--
+    document.write("Hello World!")
+    //-->
+  </script><noscript>Your browser does not support JavaScript!</noscript>...
+  ...
+</body> 
+```
+
+
+定义：NOSCRIPT标签用来定义在脚本未被执行时的替代内容。
+
+作用：**可以用在检测浏览器是否支持脚本，若不支持脚本则可以显示NOSCRIPT标签里的innerText**
+
+noscript元素的内容得以显示的两种情况：
+
+**1.浏览器不支持脚本  
+2.浏览器支持脚本，但脚本被禁用**  
   

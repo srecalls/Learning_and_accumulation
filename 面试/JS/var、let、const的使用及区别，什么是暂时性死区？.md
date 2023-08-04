@@ -20,7 +20,7 @@ console.log(message);  // 报错
 
 ```js
 function test() {
-  message = "hello world";   // 局部变量
+  message = "hello world";   // 全局变量
 }
 
 test();
@@ -35,7 +35,7 @@ console.log(message);  // hello world
 ```js
 function test() {
 
-  message = "hello world";   // 局部变量
+  message = "hello world";   // 全局变量
 
 }
 
