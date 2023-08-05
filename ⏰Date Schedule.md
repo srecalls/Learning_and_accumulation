@@ -1,15 +1,13 @@
 >	当前日期：2023/7/14
 ##### 当前急事
 - [ ] 了解怎么保存当前组件的状态
-- [ ] 腾讯开源项目申请 7.18日结束
-- [ ] ⚠️ ⚠️ ⚠️ ⚠️ ⚠️7.20日非学历培训系统开发
 - [x] 字节青训营
 
 #### 每日任务
-- [ ] gitee博客贡献
-- [ ] leetcode每日一题
+- [x] gitee博客贡献
+- [x] leetcode每日一题
 
-#### 嘉为公司任务
+#### 小米公司任务
 
 
 ##### 重要事件节点
@@ -27,7 +25,6 @@ https://docs.qq.com/sheet/DRnBoeW5BUk5KWGR1?tab=BB08J2&u=1de5f86cab974e9f958b3f5
 
 [https://lexiangla.com/teams/k100046/exams/ad8cc71227ac11ee826366ad617a5aaa?company_from=79350bd4d06911ea91f05254002f1020](https://lexiangla.com/teams/k100046/exams/ad8cc71227ac11ee826366ad617a5aaa?company_from=79350bd4d06911ea91f05254002f1020)
 开源社区测试 7.24-8.6
-
 
 ## 比赛项目
 - [ ]  互联网+"童心同行"

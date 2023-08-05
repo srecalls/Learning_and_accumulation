@@ -13,10 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Date Schedule.md",
+                "file": "⏰Date Schedule.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "246baf1bef63b273",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📖学习问题保留.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
             }
           },
           {
@@ -26,30 +40,6 @@
               "type": "markdown",
               "state": {
                 "file": "面试/面试/🌟简历自面/🌟面试模拟（包括遇到的面试题）.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "749045ead69d9bea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/面试/快手面试/快手前端一面.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9948a84d976f3836",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/手写代码/实现输入数字转化成金额格式.md",
                 "mode": "source",
                 "source": false
               }
@@ -74,18 +64,6 @@
               "type": "markdown",
               "state": {
                 "file": "面试/JS/防抖节流原理.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "147748135c93790e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "前端代码【开发日志】(1).md",
                 "mode": "source",
                 "source": false
               }
@@ -128,24 +106,12 @@
             }
           },
           {
-            "id": "8b2b45e9e5604882",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "题目/Leetcode/中等/695.岛屿的最大面积.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6edb0112ded9095d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/React组件进阶/组件的生命周期/6.1 组件的生命周期概述.md",
+                "file": "React/5.React原理揭秘/4.组件性能优化/3.纯组件.md",
                 "mode": "source",
                 "source": false
               }
@@ -157,14 +123,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "题目/牛客/JavaScript题目.md",
+                "file": "微信小程序/起步/小程序代码的构成/JSON配置文件/7.修改项目首页.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "89e2d1d2686208e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "微信小程序/起步/小程序代码的构成/项目结构/2.小程序页面的组成部分.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -193,7 +171,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "document.write",
+                "query": "小程序",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -216,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/React组件进阶/组件的生命周期/6.1 组件的生命周期概述.md"
+                "file": "面试/Vue/Vue基础/16.为什么组件中的 data 必须是一个函数，然后 return 一个对象，而 new Vue 实例里，data 可以直接是一个对象？.md"
               }
             }
           },
@@ -267,7 +245,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/React组件进阶/组件的生命周期/6.1 组件的生命周期概述.md",
+                "file": "面试/Vue/Vue基础/16.为什么组件中的 data 必须是一个函数，然后 return 一个对象，而 new Vue 实例里，data 可以直接是一个对象？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -287,7 +265,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/React组件进阶/组件的生命周期/6.1 组件的生命周期概述.md",
+                "file": "面试/Vue/Vue基础/16.为什么组件中的 data 必须是一个函数，然后 return 一个对象，而 new Vue 实例里，data 可以直接是一个对象？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -318,53 +296,53 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "6edb0112ded9095d",
+  "active": "55465bcb5ae436e5",
   "lastOpenFiles": [
-    "React/React组件进阶/props深入/5.4 props的默认值.md",
-    "React/React组件进阶/组件的生命周期/6.1 组件的生命周期概述.md",
-    "React/React组件进阶/组件的生命周期",
-    "React/Photo/5.4 props的默认值-2.png",
-    "React/Photo/5.4 props的默认值-1.png",
-    "React/Photo/5.4 props的默认值.png",
-    "React/React组件进阶/props深入/5.3 props校验--约束规则.md",
-    "React/Photo/5.3props校验--约束规则-2.png",
-    "React/Photo/5.3props校验--约束规则-1.png",
-    "React/Photo/5.3props校验--约束规则.png",
-    "React/React组件进阶/props深入/5.2 props校验.md",
-    "React/Photo/5.2 props校验-4.png",
-    "React/Photo/5.2 props校验-3.png",
-    "React/Photo/5.2 props校验-2.png",
-    "React/Photo/5.2 props校验-1.png",
-    "React/React组件进阶/props深入/5.1 Child属性.md",
-    "React/React组件进阶/Context/2.Context的基本使用.md",
-    "React/React组件进阶/props深入",
-    "React/React组件进阶/未命名.md",
-    "React/React组件进阶/Context/1.为什么要Context.md",
-    "React/React组件进阶/组件的三种通讯方式/3.3兄弟组件之间的通讯.md",
-    "React/React组件进阶/Context",
-    "React/React组件基础/2.React组件的两种创建方式/2.1 使用函数创建组件.md",
-    "React/React组件基础/2.React组件的两种创建方式/2.2 使用类创建组件.md",
-    "React/React组件基础/4.有状态组件和无状态组件/有状态组件和无状态组件.md",
-    "React/React组件进阶/组件的三种通讯方式/3.2子组件传递数据给父组件.md",
-    "React/React组件进阶/组件的三种通讯方式/3.1父组件传递数据给自组件.md",
-    "React/React组件进阶/组件的props/2.props的特点.md",
-    "React/React组件进阶/组件的三种通讯方式",
-    "React/React组件进阶/组件的props/1.传递props的方法（基本使用）.md",
-    "React/React组件进阶/组件通讯介绍/组件通讯介绍.md",
-    "React/React组件进阶/组件的props",
-    "React/React组件进阶/目标.md",
-    "React/React组件进阶/组件通讯介绍",
-    "React/React组件基础/7.表单处理/2.非受控组件.md",
-    "React/React组件进阶",
-    "React/React组件基础/7.表单处理/1.受控组件/4.多表单元素优化.md",
-    "React/React组件基础/7.表单处理/1.受控组件/3.受控组件的实例.md",
-    "React/React组件基础/7.表单处理/1.受控组件/2.受控组件使用步骤.md",
-    "React/React组件基础/7.表单处理/1.受控组件/1.受控组件概念.md",
-    "React/React组件基础/6.事件绑定this指向/3.class的实例方法.md",
-    "React/React组件基础/6.事件绑定this指向/2.Function.prototype.bind().md",
-    "React/React组件基础/6.事件绑定this指向/1.箭头函数.md",
-    "React/React组件基础/7.表单处理/1.受控组件",
-    "React/React组件基础/7.表单处理",
-    "React/React组件基础/6.事件绑定this指向"
+    "面试/JS/防抖节流原理.md",
+    "面试/Vue/Vue基础/30道vue面试题/14. v-model 的原理？.md",
+    "题目/Leetcode/简单/代金券组合（DP）.md",
+    "实习汇总.md",
+    "React/5.React原理揭秘/4.组件性能优化/3.纯组件.md",
+    "微信小程序/起步/小程序代码的构成/项目结构/2.小程序页面的组成部分.md",
+    "微信小程序/起步/小程序代码的构成/JSON配置文件/7.修改项目首页.md",
+    "微信小程序/起步/小程序代码的构成/JSON配置文件/6.新建小程序页面.md",
+    "微信小程序/起步/小程序代码的构成/JSON配置文件/5.页面的.json配置文件.md",
+    "微信小程序/起步/小程序代码的构成/JSON配置文件/4.sitemap.json.md",
+    "微信小程序/起步/小程序代码的构成/JSON配置文件/3.project.config.json文件.md",
+    "微信小程序/起步/小程序代码的构成/JSON配置文件/2.app.json.md",
+    "微信小程序/起步/小程序代码的构成/JSON配置文件/1.JSON配置文件的作用.md",
+    "微信小程序/起步/小程序代码的构成/WXML模板/1.什么是WXML.md",
+    "微信小程序/起步/小程序代码的构成/WXML模板/2.WXML和HTML的区别.md",
+    "微信小程序/起步/小程序代码的构成/WXSS样式/2.WXSS和CSS的区别.md",
+    "微信小程序/起步/小程序代码的构成/WXSS样式/1.什么是WXSS.md",
+    "微信小程序/起步/小程序的宿主环境/宿主环境简介/1.什么是宿主环境.md",
+    "微信小程序/起步/小程序的宿主环境/组件/1.小程序中组件的分类.md",
+    "微信小程序/起步/小程序的宿主环境/组件/13.image组件的mode属性.md",
+    "微信小程序/起步/小程序的宿主环境/组件/12.image组件的基本使用.md",
+    "微信小程序/起步/小程序的宿主环境/组件/11.button按钮的基本使用.md",
+    "微信小程序/起步/小程序的宿主环境/组件/10.其他常用组件.md",
+    "微信小程序/起步/小程序的宿主环境/组件/9.rich-text组件的基本使用.md",
+    "微信小程序/起步/小程序的宿主环境/组件/8.text组件的基本使用.md",
+    "微信小程序/起步/小程序的宿主环境/组件/7.常用的基础内容组件.md",
+    "React/Photo/694.不同岛屿的数量-1.png",
+    "React/Photo/694.不同岛屿的数量.png",
+    "React/Photo/3.纯组件-5.png",
+    "React/Photo/3.纯组件-4.png",
+    "React/Photo/3.纯组件-3.png",
+    "React/Photo/3.纯组件-2.png",
+    "React/Photo/3.纯组件-1.png",
+    "React/Photo/3.纯组件.png",
+    "React/Photo/2.避免不必要的重新渲染-2.png",
+    "React/Photo/2.避免不必要的重新渲染-1.png",
+    "React/5.React原理揭秘/4.组件性能优化",
+    "React/5.React原理揭秘/1.setState()的说明",
+    "React/5.React原理揭秘",
+    "React/4.React组件进阶/7.render props和高阶组件/3.高阶组件",
+    "React/4.React组件进阶/7.render props和高阶组件/2.render propsm模式",
+    "React/4.React组件进阶/7.render props和高阶组件",
+    "React/4.React组件进阶/6.组件的生命周期/6.2 生命周期的三个阶段",
+    "React/4.React组件进阶/6.组件的生命周期",
+    "React/4.React组件进阶/5.props深入",
+    "React/4.React组件进阶/4.Context"
   ]
 }

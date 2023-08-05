@@ -762,4 +762,55 @@ noscript元素的内容得以显示的两种情况：
 
 **1.浏览器不支持脚本  
 2.浏览器支持脚本，但脚本被禁用**  
-  
+
+
+## 3.请问以下JS代码的输出结果会是什么
+```js
+var a = 'w' 
+let obj = {
+  a: 'o',
+  print: function() {
+    console.log(this.a)
+  },
+  print2: () => {
+    console.log(this.a)
+  }
+}
+let p = obj.print
+let p2 = obj.print2
+obj.print()
+obj.print2()
+p()
+p2()
+```
+- [ ] A.o、 undefined、 undefined、undefined
+- [ ] B.o、 w、 undefined、 undefined
+- [ ] C.o、 w、 w、 undefined
+- [ ] D.o、 w、 w、 w
+
+第一个函数执行时this是执行obj所以值为obj里面a变量的值即o，其余函数的this都指向了window，由于变量a是用var声明的，所以window下面有这个变量，那么就输出了w。
+
+## 4.请问以下JS代码的输出顺序是？
+```js
+let date = new Date()
+setTimeout(() => {
+    console.log('1')
+}, 2000)
+setTimeout('console.log(2)',1000);
+setTimeout(function() {
+  console.log('3')
+}, 1500);
+while((new Date() - date) < 3000) {}
+```
+- [ ] A. 报错
+- [ ] B. 3秒以后同时输出2 3 1
+- [ ] C. 1秒后输出2，1.5秒后输出3，2秒后输出1
+- [ ] D. 4秒后输出2，4.5秒后输出3，5秒后输出1
+
+
+## 5.下面关注this对象的理解正确的是 ()
+- [ ] A.非箭头函数，在不改变this指向的前提下，this总是指向函数的直接调用者
+- [ ] B.如果有new关键字，this指向new出来的那个对象
+- [ ] C.this总是指向函数的非间接调用者
+- [ ] D.IE中attachEvent中的this总是指向全局对象Window
+
