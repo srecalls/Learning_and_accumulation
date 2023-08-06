@@ -109,7 +109,7 @@ export default {
 ```
 
 ## 7. beforeDestroy：
-在这个阶段，Vue实例即将被销毁，在这里可以清理定时器，取消事件监听等等。**此时实例还可以使用，但是已经不能访问DOM节点。**
+在这个阶段，Vue实例即将被销毁，在这里可以清理定时器，取消事件监听等等。**此时实例还可以使用，而且还可以访问DOM节点。**
 
 ```javascript
 export default {
@@ -184,7 +184,7 @@ export default {
 
 - `updated`函数：当组件更新之后调用。在这个阶段，**组件的数据和DOM都已经被更新，并且可以进行访问和操作**。
 
-- `beforeDestroy`函数：在组件销毁之前调用，**此时Vue实例不可以访问DOM节点。
+- `beforeDestroy`函数：在组件销毁之前调用，**此时Vue实例可以访问DOM节点。
 
 - `destroyed`函数：在组件销毁之后调用，**此时Vue实例已经被销毁，无法访问或操作DOM节点**。
 

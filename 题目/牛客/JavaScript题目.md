@@ -588,7 +588,7 @@ D. split操作数必需为正则或字符串，结果为TypeError
 - back() 加载 history列表中的**前一个URL**。
 - forward() 加载  history  列表中的**下一个URL**。
 - go()  加载history列表中的**某个具体页面**。**所以B的表述刷新当前页面是错误的。**
-![[JavaScript题目-8.png]]
+![[Python/网络安全/photo/JavaScript题目-8.png]]
 
   
 ## 1.下面有关 JavaScript 常见事件的触发情况，描述错误的是？
@@ -786,7 +786,7 @@ p2()
 - [ ] A.o、 undefined、 undefined、undefined
 - [ ] B.o、 w、 undefined、 undefined
 - [ ] C.o、 w、 w、 undefined
-- [ ] D.o、 w、 w、 w
+- [x] D.o、 w、 w、 w
 
 第一个函数执行时this是执行obj所以值为obj里面a变量的值即o，其余函数的this都指向了window，由于变量a是用var声明的，所以window下面有这个变量，那么就输出了w。
 
@@ -803,14 +803,269 @@ setTimeout(function() {
 while((new Date() - date) < 3000) {}
 ```
 - [ ] A. 报错
-- [ ] B. 3秒以后同时输出2 3 1
+- [x] B. 3秒以后同时输出2 3 1
 - [ ] C. 1秒后输出2，1.5秒后输出3，2秒后输出1
 - [ ] D. 4秒后输出2，4.5秒后输出3，5秒后输出1
+官方解析：
 
+需要明确一点的是setTimeout可以将字符串当成代码执行，类比eval函数。前3秒后在执行while函数，setTimeout函数虽然在各自对应时间后插入了队列，但是由于属于宏任务所以暂时还没有执行，直到while微任务完成，才按顺序输出。
 
 ## 5.下面关注this对象的理解正确的是 ()
-- [ ] A.非箭头函数，在不改变this指向的前提下，this总是指向函数的直接调用者
-- [ ] B.如果有new关键字，this指向new出来的那个对象
+- [x] A.非箭头函数，在不改变this指向的前提下，this总是指向函数的直接调用者
+- [x] B.如果有new关键字，this指向new出来的那个对象
 - [ ] C.this总是指向函数的非间接调用者
-- [ ] D.IE中attachEvent中的this总是指向全局对象Window
+- [x] D.IE中attachEvent中的this总是指向全局对象Window
 
+1、**在不改变this指向的前提下**，this总是指向函数的直接调用者。（对）
+
+2、非间接调用者就是直接调用者，但是说：this总是指向函数的直接调用者就是错的，**因为要有前提this的指向不能改变**
+
+例如：    fn.call(obj)   fn是非间接调用者即直接调用者，但是this指向的是obj
+
+## 1.执行以下程序，下列说法中，正确的是（）
+```js
+var arr = new Array(3); ...①
+arr[0] = 1;
+arr.b  = 0;
+console.log(arr.length); ...② // 3
+
+arr.forEach(value=>{
+	console.log(value); ...③ // 1
+})
+
+for(var i in arr){
+	console.log(arr[i]); ...④ // 1 0
+}
+for(var i of arr){
+	console.log(i);  // 1 undefined undefiend
+}
+
+console.log(arr)
+```
+![[React/Photo/JavaScript题目-8.png]]
+
+- [x] A.①式创建一个长度为3的数组
+- [ ] B.②式输出结果为4
+- [ ] C.③式输出结果为1 0
+- [ ] D.④式输出结果为1
+
+上面的代码展示了JavaScript中数组和对象的一些特性以及不同的迭代方式。下面我将详细解释为什么`for...of` 和 `for...in` 结果会不同：
+
+在JavaScript中，数组是特殊的对象，你可以为其添加属性，就像你在上面的代码中为数组`arr`添加了属性`b`。然而，这些属性不会被计入数组的长度（`length`），并且它们也不会被标准的数组迭代方法（如`forEach`或`for...of`）遍历。
+
+1. `for...in`循环：这个循环会遍历所有可枚举的属性，包括数组的索引和你添加的所有额外的属性。因此，它首先打印数组元素`arr[0]`的值（`1`），然后打印你添加的属性`arr.b`的值（`0`）。这就是为什么在`for...in`循环中你会看到两个输出：`1`和`0`。
+
+2. `for...of`循环：这个循环会遍历所有的数组元素，但不包括你添加的属性。它仅仅迭代数组的元素，而不考虑这些元素是否已经被定义。因此，对于数组`arr`，它迭代了三次，第一次打印了`arr[0]`的值（`1`），然后因为`arr[1]`和`arr[2]`并未被定义，所以它们的值为`undefined`。这就是为什么在`for...of`循环中你会看到输出：`1 undefined undefined`。
+
+所以，`for...in`和`for...of`之间的主要区别在于他们遍历的内容。`for...in`遍历对象的所有可枚举属性，包括原型链上的属性（如果没有用`hasOwnProperty`过滤），而`for...of`则专门用来遍历可迭代对象的元素，如数组、Map、Set等。
+
+官方解析：
+
+A选项，当new Array()括号内只有一个参数时，该参数表示数组的长度，A正确；B选项，数组的长度仍为3，这是**因为arr.b = 0;实际上是为变量arr赋予属性b，该属性不是数组元素，所以arr.length值不变**，仍为3；C选项，**forEach函数只遍历数组元素，由于arr数组的数组元素只有1，因此输出结果为1**；D选项，**for...in...会遍历数组以及数组的可枚举属性，因此输出结果为1 0**
+
+```js
+
+var arr = new Array(3); ...①    //结果是【empty ，empty ，empty  】
+arr[0] = 1;                                //结果是【1，empty ，empty 】
+arr.b  = 0;                                //结果是【1，empty ，empty ，b:0】 
+                                                //**通过点操作符（.）添加的****属性和length属性处于同一层级，不会影响length的值**。
+
+console.log(arr.length); ...②    //结果是3
+
+arr.forEach(value=>{
+	console.log(value); ...③   //结果是1 ，因为此时遍历的是【1，empty ，empty ，b:0】 
+})                                              //**通过点操作符（.）添加的属性可以用for...in...循环遍历，但不能用foreach循环遍历。**
+  
+for(var i in arr){
+  console.log(arr[i]); ...④    //结果是1，0 ，因为此时遍历的是【1，empty ，empty ，b:0】
+}                                             //**通过点操作符（.）添加的属性可以用for...in...循环遍历**
+                                             //for in既能遍历数组，也能遍历对象；
+                                             //for in遍历数组时i是下标，遍历对象时i是对象的key，
+                                            //对于数组来说arr[i]是1，对于键值对来说arr[i]是0
+
+```
+
+
+## 2.下面代码获取 input 节点的正确方法是( )  
+```js
+<form class="file" name="upload">
+<input id="file" name="file" class="file"/>
+</form>
+```
+
+- [ ] A.document.querySelectorAll('file')[0]
+- [ ] B.document.getElementById('file')[0]
+- [ ] C.document.getElementByTagName('file')[0]
+- [x] D.document.getElementById('file')
+
+如果忽略D选项的标点符号错误，那么正确答案确实是D
+
+A: querySelectorAll **接收一个选择器做参数**，正确用法：
+document.querySelectorAll(".file")[1];
+
+B: **会返回undefined，因为getElementById 只返回符合id的那一个节点，而不是一个列表不能使用下标**，正确写法
+document.getElementById("file");
+
+C: file 根本不是一个tag，会出错, 正确用法：
+document.getElementsByTagName("input")[0];
+
+
+D: 仔细看选项 包裹file的引号，仔细看发现根本不是个引号，更正后：
+document.getElementsByClassName("file")[1];
+
+
+## .以上代码输出结果为（      ）
+```js
+var str1=new RegExp("e");
+document.write(str1.exec("hello"));
+```
+
+- [x] A.e
+- [ ] B.null
+- [ ] C.1
+- [ ] D.其他几项都不对
+
+如果匹配成功，exec() 方法返回一个数组，并更新正则表达式对象的属性。返回的数组将完全匹配成功的文本作为第一项，将正则括号里匹配成功的作为数组填充到后面。
+
+如果匹配失败，exec() 方法返回 [null](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/null)。
+
+> [https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec)
+
+
+	var str1=new RegExp("e");  
+	str1.exec("hello")  
+	["e", index: 1, input: "hello", groups: undefined]  
+
+	var str1=new RegExp("l");  
+	str1.exec("hello")  
+	["l", index: 2, input: "hello", groups: undefined]
+为什么不是显示数组？
+
+
+因为document.write是接收字符串参数的方法，隐性调用性toString()后的数据
+
+## 5.已知arr = `[1,2,NaN,1,4,2,NaN]`，现为输出arr的不重复元素（重复元素只输出一次），则下列程序中的①处，可以作为判断条件的是（）
+```js
+var newArr = [];
+for(var i = 0 ;i<arr.length;i++){
+  if(①){
+    newArr.push(arr[i]);
+  }
+}
+console.log(newArr);
+```
+
+- [ ] A.newArr.indexOf(arr[i]) == -1
+- [ ] B.!newArr.indexOf(arr[i]) == -1
+- [ ] C.newArr.includes(arr[i])
+- [ ] D.!newArr.includes(arr[i])
+
+官方解析：**indexOf()方法与includes()方法的一个重要区别在于indexOf()并不能判断数组的NaN元素**，换句话说，**不管数组arr是否有NaN元素，arr.indexOf(NaN)返回值都是-1**，所以AB选项不能对NaN进行去重，不符合题意；如果newArr数组不含有arr数组的某个元素，就应该把该元素添加到newArr数组中，如果含有，则不能添加，这样才能达到去重的目的，即newArr.includes(arr[i])返回值为false时，就应该执行if内的语句，所以应该使用“!”对条件取反，D选项符合题意，C选项不符合题意。
+
+
+### NaN 相关：
+```js
+NaN == NaN // false  
+NaN === NaN // false  
+  
+// indexOf方法无法识别数组的NaN成员  
+[NaN].indexOf(NaN) // -1  
+  
+// 向 Set 数据结构中加入值时认为NaN等于自身  
+let set = new Set();  
+set.add(NaN);  
+set.add(NaN);  
+console.log(set); // Set {NaN}  
+  
+// Object.is()方法认为NaN等于NaN  
+Object.is(NaN, NaN) // true  
++0 === -0 //true  
+Object.is(+0, -0) // false  
+  
+// ES7中新增的数组实例方法，includes()方法认为NaN等于自身  
+[1, 2, NaN].includes(NaN) // true
+```
+
+### 区别
+```js
+ indexOf()判断是否相等使用的是严格相等运算符 === ,所以
+ [NaN].indexOf(NaN)值为-1。     
+  
+   includes()判断是否相等使用的是sameValueZero判断算法,所以
+ [NaN].includes(NaN)值为true。
+
+  js中的相等比较算法有以下四种：  
+ 
+  
+   1.        The Abstract Equality Comparison Algorithm (==)              
+  
+   2.        The Strict Equality Comparison Algorithm (===)                 
+  
+   3.        SameValue (Object.is())                (附：这里NaN和NaN相等，0和-0不相等)  
+  
+   4.        SameValueZero (暂未提供API)     (附：这里NaN和NaN相等，0和-0和+0都是相等的)   
+
+   最常见的就是第一种和第二种，大家应该都知道了（==只比较值，不比较值的类型；===既比较值，又比较值的类型）  
+  
+   下面我们主要说第三种和第四种。  
+  
+   SameValue (Object.is())    
+      
+Object.is(NaN,NaN);  //true
+Object.is(0,-0);     //false
+Object.is(0,+0);     //true
+Object.is(+0,-0);    //false
+   
+ 1）我们知道NaN==NaN是false，NaN===NaN也是false，  但是SameValue算法里，NaN和NaN是相等的。   
+  
+   2）SameValue算法里0默认是+0，同时 0 和 -0 是不相等的（+0和-0也不相等）。
+ 
+   SameValueZero (暂未提供API)   
+  
+   SameValueZero算法和SameValue算法的区别在于对0的处理（认为0、+0以及-0三者是相等的），其他的和SameValue一样（例如NaN和NaN是相等的）  
+  
+ 
+例一： 
+[NaN].includes(NaN);  //true 
+[0].includes(-0);  //true 
+[0].includes(+0);  //true  
+
+
+例二：
+const a = new Set();
+a.add(0);
+a.add(NaN);
+ 
+a.has(-0);  //true
+a.has(+0);  //true
+a.has(NaN); //true
+
+```
+
+  ## 3.请问以下两次检测对象constructor是否拥有属性名1的结果分别是什么？
+  ```js
+1 in Object(1.0).constructor
+Number[1] = 123;
+1 in Object(1.0).constructor
+  ```
+- [ ] A.false、false
+- [ ] B.false、true
+- [ ] C.true、true
+- [ ] D.true、false
+  
+实际上Object（1.0）就是将数字“1.0”封装成它对应的包装类的一个对象实例比如Number（1.0），所以目的是为了检测1是否在Number上。一开始1并不在Number原型链上所以返回false，直到添加了“`Number[1]`”这个下标属性之后才让1处于Number的原型链上，也因此返回了true。
+
+
+-  constructor 是构造函数属性。它是谁的属性？它**是原型属性 prototype 所指向的那个对象的属性**。
+- Object(1.0).constructor 的原型是 Number 对象。  
+    
+- Number 对象本身可作为构造函数，所以 Object(1.0).constructor 就是 Number 对象本身。
+
+1. 在浏览器控制可以看到 Object(1.0).constructor 的原型上的 constructor 属性指向的构造函数即 Number 对象 最初没有 属性 1 ；  
+  
+![[JavaScript题目-9.png]]
+2. 通过 Object[key] = value; 形式给 constructor 对象添加 key = 1 属性,对应的 value = 123 ；
+
+3. 第二次 检测对象 constructor 时就有了属性 1 。
+
+![[JavaScript题目-10.png]]

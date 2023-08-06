@@ -140,9 +140,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c3ba1efacd1789a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "题目/Leetcode/中等/24. 两两交换链表中的节点.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "db93a94aee528d84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "题目/Leetcode/简单/2032. 至少在两个数组中出现的值.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "be2579bbb007047a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "题目/牛客/Vue题目.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -171,7 +207,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "小程序",
+                "query": "操作DOM",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -194,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/Vue/Vue基础/16.为什么组件中的 data 必须是一个函数，然后 return 一个对象，而 new Vue 实例里，data 可以直接是一个对象？.md"
+                "file": "题目/牛客/Vue题目.md"
               }
             }
           },
@@ -206,7 +242,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -245,7 +282,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/Vue/Vue基础/16.为什么组件中的 data 必须是一个函数，然后 return 一个对象，而 new Vue 实例里，data 可以直接是一个对象？.md",
+                "file": "题目/牛客/Vue题目.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +302,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面试/Vue/Vue基础/16.为什么组件中的 data 必须是一个函数，然后 return 一个对象，而 new Vue 实例里，data 可以直接是一个对象？.md",
+                "file": "题目/牛客/Vue题目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -296,44 +333,44 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "55465bcb5ae436e5",
+  "active": "be2579bbb007047a",
   "lastOpenFiles": [
+    "面试/Vue/对Vue生命周期的理解.md",
+    "题目/Leetcode/简单/2032. 至少在两个数组中出现的值.md",
+    "题目/牛客/Vue题目.md",
+    "赚钱/css.md",
+    "面试/Vue/路由/4.$route和$router的区别.md",
+    "题目/牛客/JavaScript题目.md",
+    "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md",
+    "React/Photo/JavaScript题目-10.png",
+    "React/Photo/JavaScript题目-9.png",
+    "面试/JS/严格模式和非严格模式的区别.md",
+    "面试/JS/eval语句和with语句.md",
+    "React/Photo/2032. 至少在两个数组中出现的值-1.png",
+    "React/Photo/2032. 至少在两个数组中出现的值.png",
+    "题目/Leetcode/简单/136.只出现一次的数字.md",
+    "面试/手写代码/CSS/实现一个轮播图组件.md",
+    "JavaScript/Web APIs/DOM获取元素/获取DOM对象.md",
+    "题目/常见数据结构及方法/DOM/常见的DOM元素属性.md",
+    "React/Photo/JavaScript题目-8.png",
+    "题目/常见数据结构及方法/Number/JavaScript实现保留两位小数，不足则自动补零.md",
+    "题目/常见数据结构及方法/String/JS中字符串常用方法总结.md",
+    "题目/常见数据结构及方法/String/正则表达式语法.md",
+    "题目/常见数据结构及方法/String/正则表达式中模式修正符作用详解（i、g、m、s、x、e）.md",
+    "题目/常见数据结构及方法/String/正则表达式大全.md",
+    "面试/面试/🌟简历自面/🌟面试模拟（包括遇到的面试题）.md",
+    "面试/Vue/Vue基础/16.为什么组件中的 data 必须是一个函数，然后 return 一个对象，而 new Vue 实例里，data 可以直接是一个对象？.md",
     "面试/JS/防抖节流原理.md",
     "面试/Vue/Vue基础/30道vue面试题/14. v-model 的原理？.md",
     "题目/Leetcode/简单/代金券组合（DP）.md",
     "实习汇总.md",
     "React/5.React原理揭秘/4.组件性能优化/3.纯组件.md",
-    "微信小程序/起步/小程序代码的构成/项目结构/2.小程序页面的组成部分.md",
     "微信小程序/起步/小程序代码的构成/JSON配置文件/7.修改项目首页.md",
-    "微信小程序/起步/小程序代码的构成/JSON配置文件/6.新建小程序页面.md",
-    "微信小程序/起步/小程序代码的构成/JSON配置文件/5.页面的.json配置文件.md",
-    "微信小程序/起步/小程序代码的构成/JSON配置文件/4.sitemap.json.md",
-    "微信小程序/起步/小程序代码的构成/JSON配置文件/3.project.config.json文件.md",
-    "微信小程序/起步/小程序代码的构成/JSON配置文件/2.app.json.md",
-    "微信小程序/起步/小程序代码的构成/JSON配置文件/1.JSON配置文件的作用.md",
-    "微信小程序/起步/小程序代码的构成/WXML模板/1.什么是WXML.md",
-    "微信小程序/起步/小程序代码的构成/WXML模板/2.WXML和HTML的区别.md",
-    "微信小程序/起步/小程序代码的构成/WXSS样式/2.WXSS和CSS的区别.md",
-    "微信小程序/起步/小程序代码的构成/WXSS样式/1.什么是WXSS.md",
-    "微信小程序/起步/小程序的宿主环境/宿主环境简介/1.什么是宿主环境.md",
-    "微信小程序/起步/小程序的宿主环境/组件/1.小程序中组件的分类.md",
-    "微信小程序/起步/小程序的宿主环境/组件/13.image组件的mode属性.md",
-    "微信小程序/起步/小程序的宿主环境/组件/12.image组件的基本使用.md",
-    "微信小程序/起步/小程序的宿主环境/组件/11.button按钮的基本使用.md",
-    "微信小程序/起步/小程序的宿主环境/组件/10.其他常用组件.md",
-    "微信小程序/起步/小程序的宿主环境/组件/9.rich-text组件的基本使用.md",
-    "微信小程序/起步/小程序的宿主环境/组件/8.text组件的基本使用.md",
-    "微信小程序/起步/小程序的宿主环境/组件/7.常用的基础内容组件.md",
-    "React/Photo/694.不同岛屿的数量-1.png",
-    "React/Photo/694.不同岛屿的数量.png",
-    "React/Photo/3.纯组件-5.png",
-    "React/Photo/3.纯组件-4.png",
-    "React/Photo/3.纯组件-3.png",
-    "React/Photo/3.纯组件-2.png",
-    "React/Photo/3.纯组件-1.png",
-    "React/Photo/3.纯组件.png",
-    "React/Photo/2.避免不必要的重新渲染-2.png",
-    "React/Photo/2.避免不必要的重新渲染-1.png",
+    "React/Photo/24. 两两交换链表中的节点-4.png",
+    "React/Photo/24. 两两交换链表中的节点-3.png",
+    "React/Photo/24. 两两交换链表中的节点-2.png",
+    "React/Photo/24. 两两交换链表中的节点-1.png",
+    "React/Photo/24. 两两交换链表中的节点.png",
     "React/5.React原理揭秘/4.组件性能优化",
     "React/5.React原理揭秘/1.setState()的说明",
     "React/5.React原理揭秘",
