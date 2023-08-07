@@ -140,9 +140,126 @@ Vue的特点可以总结如下：
 - [ ] C.可以给v-model添加trim修饰符,自动过滤用户输入的首尾空白字符
 - [x] D.v-model添加number修饰符,如果这个值无法被parseFloat()解析，则会返回null
 
+
+让我们逐个检查每个选项并提供相应的例子：
+
+### A. lazy 修饰符让内容在 "change" 事件时而非 "input" 事件时更新。
+
+这个说法是正确的。使用 `v-model` 默认情况下会在 "input" 事件时即时更新绑定的数据，但是可以通过 `lazy` 修饰符来改变更新的时机为 "change" 事件。
+
+```html
+<template>
+  <input v-model.lazy="message" />
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      message: ""
+    };
+  }
+};
+</script>
+```
+
+在上述示例中，`v-model.lazy` 修饰符会在输入框失去焦点或按下回车键时才更新 `message` 的值。
+
+### B. v-model 添加 number 修饰符，可以自动将用户的输入值转为数值类型。
+
+这个说法是正确的。使用 `v-model.number` 修饰符可以将用户的输入值自动转换为数值类型。
+
+```html
+<template>
+  <input v-model.number="quantity" type="number" />
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      quantity: 0
+    };
+  }
+};
+</script>
+```
+
+在上述示例中，`v-model.number` 修饰符将用户在输入框中输入的值自动转换为数值类型，并将其绑定到 `quantity` 变量上。
+
+### C. 可以给 v-model 添加 trim 修饰符，自动过滤用户输入的首尾空白字符。
+
+这个说法是正确的。使用 `v-model.trim` 修饰符可以自动去除用户输入内容的首尾空白字符。
+
+```html
+<template>
+  <input v-model.trim="name" />
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      name: ""
+    };
+  }
+};
+</script>
+```
+
+在上述示例中，`v-model.trim` 修饰符会自动过滤用户在输入框中输入的内容的首尾空白字符。
+
+### D. v-model 添加 number 修饰符，如果这个值无法被 parseFloat() 解析，则会返回 null。
+
+这个说法是错误的。`v-model.number` 修饰符在无法被 parseFloat() 解析的情况下，并不会返回 null，而是会将输入值绑定为 NaN（Not a Number）。
+
+```html
+<template>
+  <input v-model.number="price" type="number" />
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      price: 0
+    };
+  }
+};
+</script>
+```
+
+在上述示例中，如果用户输入的值无法被解析为有效的数值，`price` 的值将被绑定为 NaN。
+
+因此，选项 D 是说法错误的。
+
 官方解析：v-model添加number修饰符,如果这个值无法被parseFloat()解析，则会返回原始的值。
 
 在默认情况下，v-model 在每次 input 事件触发后将输入框的值与数据进行同步 。你可以添加 lazy 修饰符，从而转为在 change 事件_之后_进行同步：
 
 如果想自动将用户的输入值转为数值类型，可以给 v-model 添加 number 修饰符：如果这个值无法被 parseFloat() 解析，则会返回原始的值。
 
+## 5.关于路由守卫说法错误的是（   ）
+
+- [ ] A.Vue路由守卫分为全局路由、单个路由守卫、组件内部路由
+- [x] B.全局路由守卫的钩子函数有：beforeRouteEach（全局前置守卫）、beforeRouteResolve（全局解析守卫）、afterRouteEach（全局后置守卫）
+- [ ] C.单个路由独享的钩子函数只有一个：beforeEnter
+- [ ] D.组件路由守卫相关的钩子函数：beforeRouteEnter、 beforeRouteUpdate、beforeRouteLeave
+
+官方解析：全局路由守卫的钩子函数有： beforeEach（全局前置守卫）、beforeResolve（全局解析守卫）、afterEach（全局后置守卫）
+
+全局路由守卫的钩子函数有：beforeEach（全局前置守卫）、beforeResolve（全局解析守卫）、afterEach（全局后置守卫） 名字中间没有“Route”， 组件级路由守卫的钩子函数才有“Route”  
+
+- 路由导航守卫分为 3 种：全局路由守卫、路由独享的守卫、组件内的守卫
+### 全局路由守卫：
+- 全局前置守卫：beforeEach
+- 全局解析守卫：beforeResolve
+- 全局后置钩子：afterEach
+
+### 路由独享的守卫：
+- beforeEnter
+
+### 组件内的守卫：
+- beforeRouteEnter
+- beforeRouteUpdate
+- beforeRouteLeave
