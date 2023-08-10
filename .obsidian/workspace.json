@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9a80fcc1130953b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "⏰Date Schedule.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "246baf1bef63b273",
             "type": "leaf",
             "pinned": true,
@@ -99,7 +87,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实习汇总.md",
+                "file": "嘉为实习汇总.md",
                 "mode": "source",
                 "source": false
               }
@@ -183,19 +171,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/浏览器原理/浏览器缓存/浏览器缓存，一般缓存的时效怎么进行设置呢，当资源更新之后，怎么刷新用户的缓存.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2a675820d3584507",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/面试/快手面试/快手秋招前端一面凉经.md",
+                "file": "面试/React/Hooks/7.React Hooks和生命周期的关系.md",
                 "mode": "source",
                 "source": false
               }
@@ -207,14 +183,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/Vue/路由/5.如何定义动态路由？如何获取传过来的动态参数？.md",
+                "file": "React/柴柴_前端教书匠/React基础/7.Hooks基础/3.useEffect/4. 清理副作用.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "631e153c92305c80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/React/Hooks/7.React Hooks和生命周期的关系.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5b7b2916b0494cd7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/柴柴_前端教书匠/React基础/6.React原理揭秘/1.setState()的说明/1.更新数据.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c9b9a2624fb6b89a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "嘉为实习汇总.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2e4e3114a8fdb733",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "小米实习汇总.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 18
       }
     ],
     "direction": "vertical"
@@ -243,7 +267,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "标记",
+                "query": "阴影",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -266,7 +290,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/Vue/路由/5.如何定义动态路由？如何获取传过来的动态参数？.md"
+                "file": "小米实习汇总.md"
               }
             }
           },
@@ -317,7 +341,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/Vue/路由/5.如何定义动态路由？如何获取传过来的动态参数？.md",
+                "file": "小米实习汇总.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -337,7 +361,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面试/Vue/路由/5.如何定义动态路由？如何获取传过来的动态参数？.md",
+                "file": "小米实习汇总.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -368,53 +392,52 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "92ae87a9944b1e47",
+  "active": "2e4e3114a8fdb733",
   "lastOpenFiles": [
-    "面试/Vue/路由/6.Vue-router 路由钩子在生命周期的体现.md",
-    "面试/Vue/路由/5.如何定义动态路由？如何获取传过来的动态参数？.md",
-    "面试/Vue/路由/4.$route和$router的区别.md",
-    "面试/Vue/路由/7.Vue-router跳转和location.href有什么区别.md",
-    "面试/Vue/路由/8.params和query的区别.md",
-    "面试/Vue/路由/2.路由的hash和history模式的区别.md",
-    "面试/面试/快手面试/快手秋招前端一面凉经.md",
-    "面试/Vue/路由/1.Vue-Router的懒加载如何实现.md",
-    "面试/面试/货拉拉/货拉拉面试.md",
-    "面试/Vue/Vue基础/有了解过vue3里面proxy这个api吗.md",
-    "面试/计算机网络/TCP与UDP/9.TCP的三次握手和四次挥手.md",
-    "面试/CSS/盒子水平垂直居中.md",
-    "面试/JS/七、异步编程/7.对async&await的理解.md",
-    "Vue/知识铺垫/async&await/async&await介绍.md",
-    "面试/Vue/路由/9.Vue-router导航守卫有哪些.md",
-    "Vue/知识铺垫/Promise/⭐Promise基本概念.md",
-    "面试/ES6/ES6新特性有哪些.md",
-    "面试/JS/箭头函数和普通函数的区别.md",
-    "ES6/ES6新特性/箭头函数/箭头函数及其生命特点.md",
-    "面试/Webpack/路由懒加载里webpack里的注释字段有去了解过吗.md",
-    "React/Photo/路由懒加载里webpack里的注释字段有去了解过吗-2.png",
-    "React/Photo/路由懒加载里webpack里的注释字段有去了解过吗-1.png",
-    "React/Photo/路由懒加载里webpack里的注释字段有去了解过吗.png",
-    "面试/面试/货拉拉/【面试复盘】货拉拉前端日常实习面经（已offer）.md",
-    "面试/Vue/Vue项目打包部署后访问报404可能是因为什么.md",
-    "面试/JS/九、垃圾回收与内存泄漏/1.浏览器的垃圾回收机制.md",
-    "面试/浏览器原理/浏览器垃圾回收机制/2.哪些操作会造成内存泄漏.md",
-    "面试/JS/前端的内存泄漏怎么理解.md",
-    "面试/JS/九、垃圾回收与内存泄漏/2.哪些情况会导致内存泄漏.md",
-    "React/柴柴_前端教书匠/React基础/8.Hooks进阶",
-    "React/柴柴_前端教书匠/React基础/7.Hooks基础/3.useEffect",
-    "React/柴柴_前端教书匠/React基础/7.Hooks基础/1.Hooks概念理解",
-    "React/柴柴_前端教书匠/React基础/7.Hooks基础/2.useState",
-    "React/柴柴_前端教书匠/React基础/7.Hooks基础",
-    "React/柴柴_前端教书匠/React基础/6.React原理揭秘/4.组件性能优化",
-    "React/柴柴_前端教书匠/React基础/6.React原理揭秘/1.setState()的说明",
-    "React/柴柴_前端教书匠/React基础/6.React原理揭秘",
-    "React/柴柴_前端教书匠/React基础/5.React原理揭秘/4.组件性能优化",
-    "React/柴柴_前端教书匠/React基础/5.React原理揭秘/1.setState()的说明",
-    "React/Photo/井字棋代码分析-2.png",
-    "React/Photo/井字棋代码分析-1.png",
-    "React/Photo/井字棋代码分析.png",
-    "React/Photo/1. Redux数据流架构.png",
-    "React/Photo/1.Redux介绍.png",
-    "React/Photo/Pasted image 20230807051612.png",
-    "React/Photo/8.路由大练习-1.png"
+    "嘉为实习汇总.md",
+    "小米实习汇总.md",
+    "未命名",
+    "赚钱/css.md",
+    "面试/CSS/一、CSS基础/14.CSS3中有哪些新特性.md",
+    "React/React文档/Hooks/useEffect.md",
+    "React/黑马程序员/2.JSX/4.JSX的列表渲染/列表渲染的运用.md",
+    "字节内部课/字节前端训练营/理解CSS/04 变形、过渡、动画.md",
+    "React/React文档/Hooks/useState.md",
+    "实习问题.md",
+    "学业预警与教学质量评估云平台拉取.md",
+    "d.md",
+    "学习.md",
+    "📖学习问题保留.md",
+    "React/Photo/useState-3.png",
+    "React/Photo/useState-2.png",
+    "React/Photo/useState-1.png",
+    "React/Photo/useState.png",
+    "React/React文档/Hooks/未命名",
+    "React/React文档/Hooks/知识前提.md",
+    "React/尚硅谷/组件实例三大属性/refs.md",
+    "React/柴柴_前端教书匠/React基础/8.Hooks进阶/1.useState - 回调函数的参数.md",
+    "React/柴柴_前端教书匠/React基础/8.Hooks进阶/3.useRef.md",
+    "React/柴柴_前端教书匠/React基础/6.React原理揭秘/1.setState()的说明/2.推荐语法.md",
+    "React/柴柴_前端教书匠/React基础/6.React原理揭秘/1.setState()的说明/1.更新数据.md",
+    "React/柴柴_前端教书匠/React基础/5.React组件进阶/2.props校验/1.props校验--场景和使用.md",
+    "React/柴柴_前端教书匠/React基础/4.React组件通信/5.兄弟组件通信.md",
+    "React/柴柴_前端教书匠/React基础/4.React组件通信/4.子传父实现.md",
+    "React/柴柴_前端教书匠/React基础/4.React组件通信/3.props说明.md",
+    "React/柴柴_前端教书匠/React基础/4.React组件通信/2.父传子实现.md",
+    "React/柴柴_前端教书匠/React基础/4.React组件通信/1.组件通信的意义.md",
+    "React/Photo/7.React Hooks和生命周期的关系.png",
+    "React/React文档/生命周期/对比新旧生命",
+    "面试/React/Hooks",
+    "React/Photo/新生命周期.png",
+    "React/Photo/旧生命周期.png",
+    "React/尚硅谷/生命周期",
+    "React/Photo/refs-6.png",
+    "React/Photo/refs-5.png",
+    "React/Photo/refs-4.png",
+    "React/React文档/组件实例三大属性/未命名",
+    "React/尚硅谷/组件实例三大属性",
+    "React/尚硅谷",
+    "React/尚硅谷/9.React扩展/3.Hook",
+    "React/尚硅谷/9.React扩展/2.lazyLoad"
   ]
 }
