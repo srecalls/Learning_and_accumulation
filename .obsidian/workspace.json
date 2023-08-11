@@ -82,66 +82,6 @@
             }
           },
           {
-            "id": "4f4a55492c31de54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "嘉为实习汇总.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6edb0112ded9095d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/黑马程序员/6.React路由基础/4.编程式导航.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cf4cf5bfb60ba148",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "微信小程序/起步/小程序代码的构成/JSON配置文件/7.修改项目首页.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "89e2d1d2686208e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "微信小程序/起步/小程序代码的构成/项目结构/2.小程序页面的组成部分.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c3ba1efacd1789a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "题目/Leetcode/中等/24. 两两交换链表中的节点.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "db93a94aee528d84",
             "type": "leaf",
             "state": {
@@ -190,55 +130,55 @@
             }
           },
           {
-            "id": "631e153c92305c80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/React/Hooks/7.React Hooks和生命周期的关系.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5b7b2916b0494cd7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/柴柴_前端教书匠/React基础/6.React原理揭秘/1.setState()的说明/1.更新数据.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c9b9a2624fb6b89a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "嘉为实习汇总.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2e4e3114a8fdb733",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "小米实习汇总.md",
+                "file": "汇总.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "39555ff7cd12bc47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/React/一、组件基础/3.React 组件中怎么做事件代理?它的原理是什么?.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ea995978a64c0821",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "国内开发者站运营后台.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ac1fbeb9ea2b21d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/React文档/Hooks/useCallback.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 18
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -267,7 +207,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "阴影",
+                "query": "preventDefault",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -290,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "小米实习汇总.md"
+                "file": "React/React文档/Hooks/useCallback.md"
               }
             }
           },
@@ -302,7 +242,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -341,7 +282,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "小米实习汇总.md",
+                "file": "React/React文档/Hooks/useCallback.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -361,7 +302,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "小米实习汇总.md",
+                "file": "React/React文档/Hooks/useCallback.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -392,52 +333,53 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "2e4e3114a8fdb733",
+  "active": "ac1fbeb9ea2b21d2",
   "lastOpenFiles": [
-    "嘉为实习汇总.md",
-    "小米实习汇总.md",
-    "未命名",
-    "赚钱/css.md",
-    "面试/CSS/一、CSS基础/14.CSS3中有哪些新特性.md",
-    "React/React文档/Hooks/useEffect.md",
-    "React/黑马程序员/2.JSX/4.JSX的列表渲染/列表渲染的运用.md",
-    "字节内部课/字节前端训练营/理解CSS/04 变形、过渡、动画.md",
+    "国内开发者站运营后台.md",
+    "React/React文档/Hooks/useCallback.md",
     "React/React文档/Hooks/useState.md",
-    "实习问题.md",
-    "学业预警与教学质量评估云平台拉取.md",
-    "d.md",
-    "学习.md",
-    "📖学习问题保留.md",
+    "面试/React/Hooks/7.React Hooks和生命周期的关系.md",
+    "React/柴柴_前端教书匠/React基础/8.Hooks进阶/未命名.md",
+    "题目/Leetcode/中等/未命名.md",
+    "面试/React/一、组件基础/3.React 组件中怎么做事件代理?它的原理是什么?.md",
+    "汇总.md",
+    "开发过程中的git分支管理.md",
+    "项目README的编写.md",
+    "React/柴柴_前端教书匠/React基础/7.Hooks基础/3.useEffect/4. 清理副作用.md",
+    "React/柴柴_前端教书匠/React基础/6.React原理揭秘/1.setState()的说明/1.更新数据.md",
+    "题目/牛客/Vue题目.md",
+    "题目/Leetcode/简单/2032. 至少在两个数组中出现的值.md",
+    "题目/Leetcode/简单/1122. 数组的相对排序.md",
+    "题目/Leetcode/简单/代金券组合（DP）.md",
+    "题目/Leetcode/中等/24. 两两交换链表中的节点.md",
+    "微信小程序/起步/小程序代码的构成/JSON配置文件/7.修改项目首页.md",
+    "React/黑马程序员/6.React路由基础/4.编程式导航.md",
+    "Readme编写.md",
+    "React/Photo/未命名-3.png",
+    "面试/React/一、组件基础/2.React的事件和普通的HTML事件有什么不同?.md",
+    "面试/React/一、组件基础/1.React事件机制.md",
+    "React/黑马程序员/3.React组件基础/3.React的事件处理/2.事件对象.md",
+    "面试/JS/三、JavaScript基础/30.addEventListener()方法的参数和使用.md",
+    "JavaScript/Web APIs/DOM事件进阶/事件流/阻止默认行为.md",
+    "JavaScript/Web APIs/DOM事件进阶/事件流/阻止冒泡.md",
+    "React/Photo/1.React事件机制.png",
+    "React/Photo/开发过程中的git分支管理.png",
+    "upload-images.jianshu.io/upload_images/2707400-519caa31b6955ed3.png?imageMogr2/auto-orient",
+    "upload-images.jianshu.io/upload_images/2707400-519caa31b6955ed3.png?imageMogr2",
+    "upload-images.jianshu.io/upload_images",
+    "upload-images.jianshu.io",
+    "未命名",
     "React/Photo/useState-3.png",
     "React/Photo/useState-2.png",
     "React/Photo/useState-1.png",
     "React/Photo/useState.png",
     "React/React文档/Hooks/未命名",
-    "React/React文档/Hooks/知识前提.md",
-    "React/尚硅谷/组件实例三大属性/refs.md",
-    "React/柴柴_前端教书匠/React基础/8.Hooks进阶/1.useState - 回调函数的参数.md",
-    "React/柴柴_前端教书匠/React基础/8.Hooks进阶/3.useRef.md",
-    "React/柴柴_前端教书匠/React基础/6.React原理揭秘/1.setState()的说明/2.推荐语法.md",
-    "React/柴柴_前端教书匠/React基础/6.React原理揭秘/1.setState()的说明/1.更新数据.md",
-    "React/柴柴_前端教书匠/React基础/5.React组件进阶/2.props校验/1.props校验--场景和使用.md",
-    "React/柴柴_前端教书匠/React基础/4.React组件通信/5.兄弟组件通信.md",
-    "React/柴柴_前端教书匠/React基础/4.React组件通信/4.子传父实现.md",
-    "React/柴柴_前端教书匠/React基础/4.React组件通信/3.props说明.md",
-    "React/柴柴_前端教书匠/React基础/4.React组件通信/2.父传子实现.md",
-    "React/柴柴_前端教书匠/React基础/4.React组件通信/1.组件通信的意义.md",
     "React/Photo/7.React Hooks和生命周期的关系.png",
     "React/React文档/生命周期/对比新旧生命",
     "面试/React/Hooks",
     "React/Photo/新生命周期.png",
     "React/Photo/旧生命周期.png",
     "React/尚硅谷/生命周期",
-    "React/Photo/refs-6.png",
-    "React/Photo/refs-5.png",
-    "React/Photo/refs-4.png",
-    "React/React文档/组件实例三大属性/未命名",
-    "React/尚硅谷/组件实例三大属性",
-    "React/尚硅谷",
-    "React/尚硅谷/9.React扩展/3.Hook",
-    "React/尚硅谷/9.React扩展/2.lazyLoad"
+    "React/React文档/组件实例三大属性/未命名"
   ]
 }
