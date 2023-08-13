@@ -449,4 +449,157 @@ function ChatRoom({ roomId }) {
     connection.connect();
     return () => connection.disconnect();
   }, [roomId]); // ✅ 仅当 roomId 更改时更改
-  // ...```
+  // ...
+  ```
+现在你的代码变得更简单了并且不需要 `useCallback`。[阅读更多关于移除 Effect 依赖的信息](https://zh-hans.react.dev/learn/removing-effect-dependencies#move-dynamic-objects-and-functions-inside-your-effect)。
+
+
+### 优化自定义 Hook[](https://zh-hans.react.dev/reference/react/useCallback#optimizing-a-custom-hook "Link for 优化自定义 Hook")
+
+如果你正在编写一个 [自定义 Hook](https://zh-hans.react.dev/learn/reusing-logic-with-custom-hooks)，建议将它返回的任何函数包裹在 `useCallback` 中：
+```Jsx
+function useRouter() {
+  const { dispatch } = useContext(RouterStateContext);
+
+  const navigate = useCallback((url) => {
+    dispatch({ type: 'navigate', url });
+  }, [dispatch]);
+
+  const goBack = useCallback(() => {
+    dispatch({ type: 'back' });
+  }, [dispatch]);
+
+  return {
+    navigate,
+    goBack,
+  };
+}
+```
+
+这确保了 Hook 的使用者在需要时能够优化自己的代码。
+
+---
+
+## 疑难解答 [](https://zh-hans.react.dev/reference/react/useCallback#troubleshooting "Link for 疑难解答")
+
+### 我的组件每一次渲染时, `useCallback` 都返回了完全不同的函数 [](https://zh-hans.react.dev/reference/react/useCallback#every-time-my-component-renders-usecallback-returns-a-different-function "Link for this heading")
+
+确保你已经将依赖数组指定为第二个参数！
+
+如果你忘记使用依赖数组，`useCallback` 每一次都将返回一个新的函数：
+```jsx
+function ProductPage({ productId, referrer }) {
+  const handleSubmit = useCallback((orderDetails) => {
+    post('/product/' + productId + '/buy', {
+      referrer,
+      orderDetails,
+    });
+  }); // 🔴 每一次都返回一个新函数：没有依赖项数组
+  // ...
+```
+
+这是将依赖项数组作为第二个参数传递的更正版本：
+
+```jsx
+function ProductPage({ productId, referrer }) {
+  const handleSubmit = useCallback((orderDetails) => {
+    post('/product/' + productId + '/buy', {
+      referrer,
+      orderDetails,
+    });
+  }, [productId, referrer]); // ✅ 必要时返回一个新的函数
+  // ...
+```
+
+如果这没有帮助，那么问题是至少有一个依赖项与之前的渲染不同。你可以通过手动将依赖项记录到控制台来调试此问题：
+
+```jsx
+  const handleSubmit = useCallback((orderDetails) => {
+    // ..
+  }, [productId, referrer]);
+
+  console.log([productId, referrer]);
+```
+
+然后，你可以在控制台中右键单击来自不同重新渲染的数组，并为它们选择“存储为全局变量”。假设第一个被保存为 `temp1`，第二个被保存为 `temp2`，然后你可以使用浏览器控制台检查两个数组中的每个依赖项是否相同：
+```jsx
+Object.is(temp1[0], temp2[0]); // 数组之间的第一个依赖关系是否相同？  
+
+Object.is(temp1[1], temp2[1]); // 数组之间的第二个依赖关系是否相同？  
+
+Object.is(temp1[2], temp2[2]); // 数组之间的每一个依赖关系是否相同...
+```
+
+当你发现是某一个依赖性破坏记忆化时，请尝试将其删除，或者 [也对其进行记忆化](https://zh-hans.react.dev/reference/react/useMemo#memoizing-a-dependency-of-another-hook)。
+
+### 我需要在循环中为每一个列表项调用 `useCallback` 函数，但是这不被允许 [](https://zh-hans.react.dev/reference/react/useCallback#i-need-to-call-usememo-for-each-list-item-in-a-loop-but-its-not-allowed "Link for this heading")
+
+假设 `Chart` 组件被包裹在 [`memo`](https://zh-hans.react.dev/reference/react/memo) 中。你希望在 `ReportList` 组件重新渲染时跳过重新渲染列表中的每个 `Chart`。但是，你不能在循环中调用 `useCallback`。
+
+```jsx
+function ReportList({ items }) {
+  return (
+    <article>
+      {items.map(item => {
+        // 🔴 你不能在循环中调用 useCallback：
+        const handleClick = useCallback(() => {
+          sendReport(item)
+        }, [item]);
+
+        return (
+          <figure key={item.id}>
+            <Chart onClick={handleClick} />
+          </figure>
+        );
+      })}
+    </article>
+  );
+}
+```
+
+相反，为单个项目提取一个组件，然后使用 `useCallback`：
+
+```jsx
+function ReportList({ items }) {
+  return (
+    <article>
+      {items.map(item =>
+        <Report key={item.id} item={item} />
+      )}
+    </article>
+  );
+}
+
+function Report({ item }) {
+  // ✅ 在最顶层调用 useCallback
+  const handleClick = useCallback(() => {
+    sendReport(item)
+  }, [item]);
+
+  return (
+    <figure>
+      <Chart onClick={handleClick} />
+    </figure>
+  );
+}
+```
+
+或者，你可以删除最后一个代码段中的 useCallback，并将 Report 本身包装在 memo 中。如果 `item` props 没有更改，Report 将跳过重新渲染，因此 Chart 也将跳过重新渲染：
+
+```jsx
+function ReportList({ items }) {
+  // ...
+}
+
+const Report = memo(function Report({ item }) {
+  function handleClick() {
+    sendReport(item);
+  }
+
+  return (
+    <figure>
+      <Chart onClick={handleClick} />
+    </figure>
+  );
+});
+```

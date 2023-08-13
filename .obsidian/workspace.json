@@ -87,7 +87,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "题目/Leetcode/简单/2032. 至少在两个数组中出现的值.md",
+                "file": "React/柴柴_前端教书匠/ReactRouter/2.核心内置组件说明/5.编程式导航 useNavigate.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,42 +106,6 @@
             }
           },
           {
-            "id": "59b1a7efd076d492",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/React/Hooks/7.React Hooks和生命周期的关系.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "92ae87a9944b1e47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/柴柴_前端教书匠/React基础/7.Hooks基础/3.useEffect/4. 清理副作用.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2e4e3114a8fdb733",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "汇总.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "39555ff7cd12bc47",
             "type": "leaf",
             "state": {
@@ -154,7 +118,31 @@
             }
           },
           {
-            "id": "ea995978a64c0821",
+            "id": "7e13d465757c8244",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "题目/常见数据结构及方法/String/JS中字符串常用方法总结.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "abef7cae1bac9ed1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/掘金/react-router-dom API 详解，入门（一）.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d0ac8a5aa8c10a32",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -166,19 +154,39 @@
             }
           },
           {
-            "id": "ac1fbeb9ea2b21d2",
+            "id": "15028c6b04f74fdd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/React文档/Hooks/useCallback.md",
+                "file": "React/柴柴_前端教书匠/React基础/1.环境初始化/2. 项目目录说明调整.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9b54189451328cbc",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "a9e20dd4857e717a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -207,7 +215,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "preventDefault",
+                "query": "fetch",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -230,7 +238,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/React文档/Hooks/useCallback.md"
+                "file": "未命名.md"
               }
             }
           },
@@ -243,7 +251,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -282,7 +290,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/React文档/Hooks/useCallback.md",
+                "file": "未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -302,7 +310,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/React文档/Hooks/useCallback.md",
+                "file": "未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -333,35 +341,37 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "ac1fbeb9ea2b21d2",
+  "active": "a9e20dd4857e717a",
   "lastOpenFiles": [
+    "未命名.md",
     "国内开发者站运营后台.md",
-    "React/React文档/Hooks/useCallback.md",
-    "React/React文档/Hooks/useState.md",
-    "面试/React/Hooks/7.React Hooks和生命周期的关系.md",
-    "React/柴柴_前端教书匠/React基础/8.Hooks进阶/未命名.md",
-    "题目/Leetcode/中等/未命名.md",
-    "面试/React/一、组件基础/3.React 组件中怎么做事件代理?它的原理是什么?.md",
+    "React/柴柴_前端教书匠/React基础/1.环境初始化/2. 项目目录说明调整.md",
+    "面试/计算机网络/HTTP/发起http请求的api/⭐发起http的api有哪些.md",
+    "React/柴柴_前端教书匠/React基础/1.环境初始化/1. 使用脚手架创建项目.md",
+    "React/黑马程序员/6.React路由基础/3.路由的执行过程.md",
+    "React/黑马程序员/6.React路由基础/1.React路由介绍.md",
+    "题目/常见数据结构及方法/SCSS/SCSS语法.md",
     "汇总.md",
-    "开发过程中的git分支管理.md",
-    "项目README的编写.md",
-    "React/柴柴_前端教书匠/React基础/7.Hooks基础/3.useEffect/4. 清理副作用.md",
-    "React/柴柴_前端教书匠/React基础/6.React原理揭秘/1.setState()的说明/1.更新数据.md",
-    "题目/牛客/Vue题目.md",
-    "题目/Leetcode/简单/2032. 至少在两个数组中出现的值.md",
-    "题目/Leetcode/简单/1122. 数组的相对排序.md",
-    "题目/Leetcode/简单/代金券组合（DP）.md",
-    "题目/Leetcode/中等/24. 两两交换链表中的节点.md",
-    "微信小程序/起步/小程序代码的构成/JSON配置文件/7.修改项目首页.md",
+    "React/掘金/react-router-dom API 详解，入门（一）.md",
+    "React/黑马程序员/6.React路由基础/2.路由的基本使用.md",
+    "题目/常见数据结构及方法/String/JS中字符串常用方法总结.md",
+    "面试/React/一、组件基础/3.React 组件中怎么做事件代理?它的原理是什么?.md",
+    "React/Photo/react-router-dom API 详解，入门（一）.png",
+    "React/柴柴_前端教书匠/ReactRouter/1.前置知识/2.准备项目环境.md",
+    "React/柴柴_前端教书匠/ReactRouter/1.前置知识/1.前置知识.md",
+    "React/掘金",
+    "React/柴柴_前端教书匠/ReactRouter/2.核心内置组件说明/5.编程式导航 useNavigate.md",
+    "React/黑马程序员/6.React路由基础/5.默认路由.md",
     "React/黑马程序员/6.React路由基础/4.编程式导航.md",
-    "Readme编写.md",
+    "React/黑马程序员/6.React路由基础/6.匹配模式/2.精确匹配.md",
+    "React/黑马程序员/6.React路由基础/总结.md",
+    "React/黑马程序员/6.React路由基础/目标.md",
+    "React/黑马程序员/6.React路由基础/6.匹配模式/1.模糊匹配模式.md",
+    "React/柴柴_前端教书匠/ReactRouter/5.index默认二级路由.md",
+    "React/柴柴_前端教书匠/ReactRouter/6.* 404路由配置.md",
+    "React/柴柴_前端教书匠/ReactRouter/7.useRoutes集中式路由配置.md",
+    "React/柴柴_前端教书匠/ReactRouter/3.路由传参/1. useSearchParams传参.md",
     "React/Photo/未命名-3.png",
-    "面试/React/一、组件基础/2.React的事件和普通的HTML事件有什么不同?.md",
-    "面试/React/一、组件基础/1.React事件机制.md",
-    "React/黑马程序员/3.React组件基础/3.React的事件处理/2.事件对象.md",
-    "面试/JS/三、JavaScript基础/30.addEventListener()方法的参数和使用.md",
-    "JavaScript/Web APIs/DOM事件进阶/事件流/阻止默认行为.md",
-    "JavaScript/Web APIs/DOM事件进阶/事件流/阻止冒泡.md",
     "React/Photo/1.React事件机制.png",
     "React/Photo/开发过程中的git分支管理.png",
     "upload-images.jianshu.io/upload_images/2707400-519caa31b6955ed3.png?imageMogr2/auto-orient",
@@ -378,8 +388,6 @@
     "React/React文档/生命周期/对比新旧生命",
     "面试/React/Hooks",
     "React/Photo/新生命周期.png",
-    "React/Photo/旧生命周期.png",
-    "React/尚硅谷/生命周期",
-    "React/React文档/组件实例三大属性/未命名"
+    "React/尚硅谷/生命周期"
   ]
 }
