@@ -179,7 +179,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "题目/Leetcode/中等/102. 二叉树的层序遍历.md",
                 "mode": "source",
                 "source": false
               }
@@ -215,7 +215,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fetch",
+                "query": "unshift",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -238,7 +238,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.md"
+                "file": "题目/Leetcode/中等/102. 二叉树的层序遍历.md"
               }
             }
           },
@@ -250,8 +250,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -290,7 +289,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名.md",
+                "file": "题目/Leetcode/中等/102. 二叉树的层序遍历.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -310,7 +309,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名.md",
+                "file": "题目/Leetcode/中等/102. 二叉树的层序遍历.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -343,6 +342,11 @@
   },
   "active": "a9e20dd4857e717a",
   "lastOpenFiles": [
+    "题目/Leetcode/简单/145. 二叉树的后序遍历.md",
+    "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md",
+    "面试/JS/操作数组的方法有哪些.md",
+    "面试/JS/三、JavaScript基础/9.数组有哪些原生方法.md",
+    "面试/面试/小米/【2022】小米秋招笔试-前端-卷1.md",
     "未命名.md",
     "国内开发者站运营后台.md",
     "React/柴柴_前端教书匠/React基础/1.环境初始化/2. 项目目录说明调整.md",
@@ -366,11 +370,6 @@
     "React/黑马程序员/6.React路由基础/6.匹配模式/2.精确匹配.md",
     "React/黑马程序员/6.React路由基础/总结.md",
     "React/黑马程序员/6.React路由基础/目标.md",
-    "React/黑马程序员/6.React路由基础/6.匹配模式/1.模糊匹配模式.md",
-    "React/柴柴_前端教书匠/ReactRouter/5.index默认二级路由.md",
-    "React/柴柴_前端教书匠/ReactRouter/6.* 404路由配置.md",
-    "React/柴柴_前端教书匠/ReactRouter/7.useRoutes集中式路由配置.md",
-    "React/柴柴_前端教书匠/ReactRouter/3.路由传参/1. useSearchParams传参.md",
     "React/Photo/未命名-3.png",
     "React/Photo/1.React事件机制.png",
     "React/Photo/开发过程中的git分支管理.png",
