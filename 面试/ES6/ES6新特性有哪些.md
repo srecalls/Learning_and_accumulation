@@ -59,7 +59,7 @@
 
 11.新增了generator
 [[Generator的应用]]
-[[生成器Generator的用法]]
+[[生成器Generator的介绍及用法]]
 12.新增了箭头函数
 
 	不能作为构造函数使用，不能用new

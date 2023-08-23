@@ -7,7 +7,7 @@ HTML:
 ```
 
 CSS:
-
+[[7.transition和animation的区别]]
 ```css
 .slide-in {
   width: 100px;

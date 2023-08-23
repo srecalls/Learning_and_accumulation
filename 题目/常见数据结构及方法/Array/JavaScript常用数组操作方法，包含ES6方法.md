@@ -9,7 +9,20 @@ var arr3 = arr1.concat(arr2);
 console.log(arr1); //[1, 2, 3]
 console.log(arr3); //[1, 2, 3, 4, 5]
 ```
+除了数组作为参数外，`concat()` 方法还可以接受字符串、数字、布尔值等作为参数。在这种情况下，它会将这些值作为单独的元素添加到新数组中。
 
+示例：
+```js
+const array1 = [1, 2, 3];
+const array2 = ['a', 'b', 'c'];
+
+const newArray = array1.concat(array2, 'hello', 42, true);
+console.log(newArray);
+// 输出: [1, 2, 3, 'a', 'b', 'c', 'hello', 42, true]
+```
+在上面的示例中，我们将两个数组 `array1` 和 `array2` 合并，并添加了字符串 `'hello'`、数字 `42` 和布尔值 `true`。
+
+`concat()` 方法可以用于将单个元素或多个元素合并到数组中，无论这些元素是数组还是其他类型的值。
 ## 二、join() 生成 不改变
 
 join() 方法用于把数组中的所有元素放入一个字符串。元素是通过指定的分隔符进行分隔的，默认使用','号分割，不改变原数组。

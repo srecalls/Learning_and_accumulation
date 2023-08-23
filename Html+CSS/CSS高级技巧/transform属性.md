@@ -9,24 +9,58 @@
 （4）**移动`translate`**  
 （5）**矩阵变形`matrix`。**
 
-2.`transform`不会触发回流，和重绘。
+**2.`transform`不会触发回流，和重绘。**
 
 
 ## 二，`transform`各操作使用介绍
 
-1.rotate(xx deg)(2D), rotateX()(3D), rotateY()(3D)：以中心为基点，deg表示旋转的角度，为负数时表示逆时针旋转。
+1.`rotate(xx deg)(2D)`, `rotateX()(3D)`, `rotateY()(3D)`：以中心为基点，deg表示旋转的角度，为负数时表示逆时针旋转。
 
-2.translate(x,y) ，translateX(x) ，translateY(y)：以中心为基点按照设定的x,y参数值,对元素进行进行平移。
+2.`translate(x,y)` ，`translateX(x)` ，`translateY(y)`：以中心为基点按照设定的x,y参数值,对元素进行进行平移。
 
-3.scale(x,y)，scaleX(x,1)， scaleY(1,Y)：缩放基数为1，如果其值大于1元素就放大，反之其值小于1为缩小。
+3.`scale(x,y)`，`scaleX(x,1)`， `scaleY(1,Y)`：缩放基数为1，如果其值大于1元素就放大，反之其值小于1为缩小。
 
-4.skew(x,y)， skewX(x)， skewY(y)：以中心为基点，第一个参数是水平方向扭曲角度，第二个参数是垂直方向扭曲角度。
+4.`skew(x,y)`， `skewX(x)`， `skewY(y)`：以中心为基点，第一个参数是水平方向扭曲角度，第二个参数是垂直方向扭曲角度。
 
+
+非常抱歉，下面是拆分开的`translate()`、`translateX()`、`translateY()`、`scale()`、`scaleX()`、`scaleY()`、`skew()`、`skewX()`、`skewY()`的说明和示例：
+
+2. `translate(x, y)`：以元素中心为基点，按照指定的水平和垂直距离进行平移。
+
+   ```css
+   .element {
+     transform: translate(50px, 100px);
+   }
+   ```
+
+   上述示例将元素在水平方向上平移50像素，在垂直方向上平移100像素。
+
+1. `scale(x, y)`、`scaleX(x)`、`scaleY(y)`：以元素中心为基点，按照指定的水平和垂直比例进行缩放。
+
+   ```css
+   .element {
+     transform: scale(1.5, 0.8);
+   }
+   ```
+
+   上述示例将元素在水平方向上放大1.5倍，在垂直方向上缩小0.8倍。
+
+1. `skew(x, y)`、`skewX(x)`、`skewY(y)`：以元素中心为基点，按照指定的水平和垂直角度进行扭曲。
+
+   ```css
+   .element {
+     transform: skew(30deg, -10deg);
+   }
+   ```
+
+   上述示例将元素在水平方向上扭曲30度，在垂直方向上扭曲-10度。
+
+这些`translate()`、`translateX()`、`translateY()`、`scale()`、`scaleX()`、`scaleY()`、`skew()`、`skewX()`、`skewY()`函数可用于对元素进行平移、缩放和扭曲变换。您可以根据需要调整参数值来实现所需的效果。
 
 ![[Pasted image 20230406043834.png]]
 
 
-三，基点
+## 三，基点
 1.所有操作的默认的基点都在中心位置，我们可以使用transform-origin：(x,y)来改变元素基点。
 
 x可以取left，center ，right，是水平方向取值，也可以取对应的百分值为left=0%;center=50%;right=100%
@@ -57,3 +91,69 @@ y可以取top ，center， bottom，是垂直方向的取值，其中top=0%;cent
 	
 }
 ```
+
+# transform
+
+`transform`属性是CSS中用于对元素进行变换的属性，可以实现平移、旋转、缩放、倾斜等效果。下面是对`transform`属性的详细介绍以及带有示例的说明：
+
+## 1.  平移（Translate）：通过`translate()`函数实现元素在平面上的移动。
+
+   ```css
+   .element {
+     transform: translate(50px, 100px);
+   }
+   ```
+
+   上述示例将元素沿X轴正向移动50像素，沿Y轴正向移动100像素。
+
+## 2.  旋转（Rotate）：通过`rotate()`函数实现元素的旋转效果。
+
+   ```css
+   .element {
+     transform: rotate(45deg);
+   }
+   ```
+
+   上述示例将元素顺时针旋转45度。
+
+## 3. 缩放（Scale）：通过`scale()`函数实现元素的缩放效果。
+
+   ```css
+   .element {
+     transform: scale(1.5);
+   }
+   ```
+
+   上述示例将元素在水平和垂直方向上放大1.5倍。
+
+## 4. 倾斜（Skew）：通过`skew()`函数实现元素的倾斜效果。
+
+   ```css
+   .element {
+     transform: skew(30deg, 10deg);
+   }
+   ```
+
+   上述示例将元素在X轴方向上倾斜30度，在Y轴方向上倾斜10度。
+
+## 5. 综合变换：可以通过组合使用多个变换函数来实现多个效果的叠加。
+
+   ```css
+   .element {
+     transform: translate(50px, 50px) rotate(45deg) scale(1.2);
+   }
+   ```
+
+   上述示例将元素先在平面上平移50像素，然后顺时针旋转45度，最后在水平和垂直方向上放大1.2倍。
+
+## 6. 变换原点（Transform Origin）：通过`transform-origin`属性可以指定变换的原点，默认为元素的中心点。
+
+   ```css
+   .element {
+     transform-origin: top left;
+   }
+   ```
+
+   上述示例将变换的原点设置为元素的左上角。
+
+以上是对`transform`属性及其常见函数的介绍。需要注意的是，`transform`属性可以与其他CSS属性一起使用，如`transition`属性实现平滑过渡效果，以及`animation`属性实现动画效果。通过灵活使用`transform`属性，可以为元素带来丰富的动态效果。

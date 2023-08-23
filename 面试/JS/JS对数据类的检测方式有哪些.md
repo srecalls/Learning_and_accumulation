@@ -23,6 +23,7 @@ console.log(typeof null); // object
 `typeof` 运算符将值的二进制表示与 JavaScript 中的类型标识进行比较，根据比较结果返回一个表示数据类型的字符串。
 
 ## 2. instanceof()
+[[6.instanceof 操作符的实现原理及实现]]
 2.instanceof() 只能判断引用数据类型，不能判断基本数据类型。
  instanceof可以正确判断对象的类型，其内部运行机制是**判断在其原型链中能否找到该类型的原型。**
 
@@ -47,6 +48,7 @@ console.log({} instanceof object); // true
 
 
 ## constructor
+
 3.constructor 几乎可以判断基本数据类型和引用数据类型;如果声明了一个构造函数，并把它的原型指向了Array
 ```js
 console. log((2).constructor === Number); // true

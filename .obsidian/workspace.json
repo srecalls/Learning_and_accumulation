@@ -58,18 +58,6 @@
             }
           },
           {
-            "id": "87bc1ca7f92d46f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/Vue/Vue基础/30道vue面试题/14. v-model 的原理？.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d73210cfd075c3be",
             "type": "leaf",
             "state": {
@@ -82,36 +70,12 @@
             }
           },
           {
-            "id": "db93a94aee528d84",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/柴柴_前端教书匠/ReactRouter/2.核心内置组件说明/5.编程式导航 useNavigate.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "be2579bbb007047a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "题目/牛客/Vue题目.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "39555ff7cd12bc47",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/React/一、组件基础/3.React 组件中怎么做事件代理?它的原理是什么?.md",
+                "file": "React/柴柴_前端教书匠/ReactRouter/3.路由传参/2. useParams传参.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,56 +94,96 @@
             }
           },
           {
-            "id": "abef7cae1bac9ed1",
+            "id": "29cae9a3a133bb6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/掘金/react-router-dom API 详解，入门（一）.md",
+                "file": "实现文件上传进度条.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d0ac8a5aa8c10a32",
+            "id": "4348c6b5f6fa6e7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "国内开发者站运营后台.md",
+                "file": "嘉为实习汇总.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "15028c6b04f74fdd",
+            "id": "8c5a1f046535f04e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/柴柴_前端教书匠/React基础/1.环境初始化/2. 项目目录说明调整.md",
+                "file": "面试/面试/美团面试/❤️美团前端实习2023-06-30.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9b54189451328cbc",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "a9e20dd4857e717a",
+            "id": "ce2264cec7808592",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "题目/Leetcode/中等/102. 二叉树的层序遍历.md",
+                "file": "面试/手写代码/Promise/手写Promise.all.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4ce3ca63b9a7c37f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/面试/美团面试/啊七王子2023美团面试题.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "544b5015682ce282",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "题目/Leetcode/简单/20. 有效的括号.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e66e69778042e9b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "题目/常见数据结构及方法/Number/js的Math常用方法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3adafc6447aa26a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/JS/三、JavaScript基础/25.for...in和for...of的区别.md",
                 "mode": "source",
                 "source": false
               }
@@ -215,7 +219,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "unshift",
+                "query": "for in和for of",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -238,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "题目/Leetcode/中等/102. 二叉树的层序遍历.md"
+                "file": "面试/JS/三、JavaScript基础/25.for...in和for...of的区别.md"
               }
             }
           },
@@ -250,7 +254,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -289,7 +294,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "题目/Leetcode/中等/102. 二叉树的层序遍历.md",
+                "file": "面试/JS/三、JavaScript基础/25.for...in和for...of的区别.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -309,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "题目/Leetcode/中等/102. 二叉树的层序遍历.md",
+                "file": "面试/JS/三、JavaScript基础/25.for...in和for...of的区别.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -340,53 +345,53 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "a9e20dd4857e717a",
+  "active": "3adafc6447aa26a1",
   "lastOpenFiles": [
-    "题目/Leetcode/简单/145. 二叉树的后序遍历.md",
-    "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md",
-    "面试/JS/操作数组的方法有哪些.md",
-    "面试/JS/三、JavaScript基础/9.数组有哪些原生方法.md",
+    "React/Photo/25.for...in和for...of的区别.png",
+    "JavaScript/JavaScript基础/对象/遍历对象.md",
+    "面试/JS/三、JavaScript基础/25.for...in和for...of的区别.md",
+    "题目/Leetcode/简单/20. 有效的括号.md",
+    "题目/Leetcode/简单/14.最长公共前缀.md",
+    "题目/Leetcode/简单/111. 二叉树的最小深度.md",
+    "题目/常见数据结构及方法/Number/js的Math常用方法.md",
+    "React/Photo/111. 二叉树的最小深度.png",
+    "题目/Leetcode/简单/104. 二叉树的最大深度.md",
+    "面试/面试/小米/快手前端一面 秋招.md",
+    "面试/面试/小米/小米 前端  一面+二面  许愿OC.md",
     "面试/面试/小米/【2022】小米秋招笔试-前端-卷1.md",
-    "未命名.md",
-    "国内开发者站运营后台.md",
-    "React/柴柴_前端教书匠/React基础/1.环境初始化/2. 项目目录说明调整.md",
-    "面试/计算机网络/HTTP/发起http请求的api/⭐发起http的api有哪些.md",
-    "React/柴柴_前端教书匠/React基础/1.环境初始化/1. 使用脚手架创建项目.md",
-    "React/黑马程序员/6.React路由基础/3.路由的执行过程.md",
-    "React/黑马程序员/6.React路由基础/1.React路由介绍.md",
-    "题目/常见数据结构及方法/SCSS/SCSS语法.md",
-    "汇总.md",
-    "React/掘金/react-router-dom API 详解，入门（一）.md",
-    "React/黑马程序员/6.React路由基础/2.路由的基本使用.md",
-    "题目/常见数据结构及方法/String/JS中字符串常用方法总结.md",
-    "面试/React/一、组件基础/3.React 组件中怎么做事件代理?它的原理是什么?.md",
-    "React/Photo/react-router-dom API 详解，入门（一）.png",
-    "React/柴柴_前端教书匠/ReactRouter/1.前置知识/2.准备项目环境.md",
-    "React/柴柴_前端教书匠/ReactRouter/1.前置知识/1.前置知识.md",
-    "React/掘金",
-    "React/柴柴_前端教书匠/ReactRouter/2.核心内置组件说明/5.编程式导航 useNavigate.md",
-    "React/黑马程序员/6.React路由基础/5.默认路由.md",
-    "React/黑马程序员/6.React路由基础/4.编程式导航.md",
-    "React/黑马程序员/6.React路由基础/6.匹配模式/2.精确匹配.md",
-    "React/黑马程序员/6.React路由基础/总结.md",
-    "React/黑马程序员/6.React路由基础/目标.md",
-    "React/Photo/未命名-3.png",
-    "React/Photo/1.React事件机制.png",
-    "React/Photo/开发过程中的git分支管理.png",
-    "upload-images.jianshu.io/upload_images/2707400-519caa31b6955ed3.png?imageMogr2/auto-orient",
-    "upload-images.jianshu.io/upload_images/2707400-519caa31b6955ed3.png?imageMogr2",
-    "upload-images.jianshu.io/upload_images",
-    "upload-images.jianshu.io",
-    "未命名",
-    "React/Photo/useState-3.png",
-    "React/Photo/useState-2.png",
-    "React/Photo/useState-1.png",
-    "React/Photo/useState.png",
-    "React/React文档/Hooks/未命名",
-    "React/Photo/7.React Hooks和生命周期的关系.png",
-    "React/React文档/生命周期/对比新旧生命",
-    "面试/React/Hooks",
-    "React/Photo/新生命周期.png",
-    "React/尚硅谷/生命周期"
+    "面试/面试/百度实习/1.md",
+    "面试/面试/百度实习/7.14百度提前批前端一面.md",
+    "面试/手写代码/CSS/实现一个轮播图组件.md",
+    "面试/手写代码/CSS/css动画从屏幕的左边向右滑入，实现方式.md",
+    "面试/CSS/一、CSS基础/7.transition和animation的区别.md",
+    "面试/CSS/position的属性有哪些,区别是什么.md",
+    "Html+CSS/CSS高级技巧/transform属性.md",
+    "React/Photo/7.transition和animation的区别.png",
+    "面试/面试/🌟简历自面/🌟面试模拟（包括遇到的面试题）.md",
+    "题目/Leetcode/简单/94.二叉树的中序遍历.md",
+    "题目/Leetcode/中等/102. 二叉树的层序遍历.md",
+    "题目/Leetcode/中等/105. 从前序与中序遍历序列构造二叉树.md",
+    "题目/Leetcode/简单/144. 二叉树的前序遍历.md",
+    "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md",
+    "题目/Leetcode/简单/剑指 Offer 25. 合并两个排序的链表 ☑️.md",
+    "题目/Leetcode/中等/49. 字母异位词分组.md",
+    "React/Photo/849. 到最近的人的最大距离.png",
+    "React/Photo/Promise.all怎么把成功的和失败的都返回.png",
+    "题目/场景题",
+    "小米实习/前端特殊场景UI适配",
+    "React/Photo/前端特殊场景UI适配-3.png",
+    "React/Photo/前端特殊场景UI适配-2.png",
+    "React/Photo/前端特殊场景UI适配-1.png",
+    "React/Photo/前端特殊场景UI适配.png",
+    "小米实习",
+    "React/Photo/Pasted image 20230821105553.png",
+    "React/Photo/2727. 判断对象是否为空-1.png",
+    "面试/浏览器原理/八、浏览器事件机制",
+    "面试/浏览器原理/进程与线程/未命名",
+    "React/React文档/学习React/添加交互",
+    "React/React文档/学习React/描述UI",
+    "React/React文档/学习React",
+    "面试/面试/小红书",
+    "面试/React/二、数据管理"
   ]
 }

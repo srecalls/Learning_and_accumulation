@@ -1069,3 +1069,116 @@ Number[1] = 123;
 3. 第二次 检测对象 constructor 时就有了属性 1 。
 
 ![[JavaScript题目-10.png]]
+
+
+
+## 1.请问以下JS代码最终输出的结果和num值分别是多少？
+```js
+var test = (function() {
+  var num = 0
+  return () => {
+      return num++
+  }
+}())
+for (var i = 0; i < 20; i++) {
+  test()
+}
+console.log(test());
+```
+
+- [ ] A.20、20
+- [x] B.20、21
+- [ ] C.21、21
+- [ ] D.21、20
+
+官方解析：
+
+test函数的作用就是让num值自增（这里涉及到闭包），只不过因为是num++所以最终返回的值是还没有完成本次自增的num值即20，而num本身已经完成自增是为21。
+
+```js
+var test = (function() {  //test是一个自执行函数，自执行函数里返回了一个箭头函数
+  var num = 0             //故test()的时候是调用执行了箭头函数
+  return () => {
+      return num++
+  }
+}())
+
+
+for (var i = 0; i < 20; i++) {
+  test()                   //调用一次test()就执行一次箭头函数，for循环里调用了20次
+}                          //for循环第一次test()返回了0，第20次返回了19
+console.log(test());       //这里又调用了一次test()，此时test()返回了20，
+                           //而num的值比test()的返回值num++ 大1，故num为21
+
+```
+
+```js
+var test = () 
+
+// 可以将上面的代码拆分开分析一下，下面是()里的代码，外面的()只是为了符合语法。
+// 下面是一个自执行函数，一开始它自己调用自己一次，将箭头函数返回给 var test。
+function() {
+  var num = 0
+  return function() {
+    return num++
+  }
+}()
+
+// 那 var test 现在就是一个函数了。
+// 在返回箭头函数的时候，函数里引用了第6行的num，所以该函数不进行销毁。
+// 如果销毁了，那么test()的时候，num就不翼而飞，找不到了。
+
+// 现在 test就相当于
+var test = function() {
+  return num++;
+}
+
+for (var i = 0; i < 20; i++) {
+  test()
+  // 这里就相当于调用了20次的test，test存储的num也就变成了20
+}
+
+console.log(test());
+// 最后又输出了一次，num+1，变成了21。
+```
+
+## 2.执行以下代码，下列选项中，说法正确的是（）
+```js
+function * gen() {
+    yield 1;
+    yield 2;
+    yield 3;
+}
+```
+
+- [ ] A.gen()执行后返回2
+- [ ] B.gen()执行后返回undefined
+- [ ] C.gen()执行后返回一个Generator对象
+- [ ] D.gen()执行后返回1
+
+官方解析：在函数声明时，由于带有星号，所以gen函数是一个生成器函数，调用生成器函数会返回生成器（Generator）对象，C选项正确。
+
+function* 声明 (function关键字后跟一个星号）定义了一个 生成器函数 ( generator function ) ，它返回一个  Generator   对象。
+
+gen()返回的是一个迭代器，gen().next()返回的是1
+
+genareter包括yeild前面同步代码也要用next执行
+
+
+## 5.触摸事件包括以下哪几种？（）(多选题)
+- [x] A.touchStart
+- [x] B.touchMove
+- [x] C.touchCancel
+- [x] D.touchEnd
+
+	   以下是四种touch事件  
+	   touchstart:     //手指放到屏幕上时触发  
+	   touchmove:      //手指在屏幕上滑动式触发  
+	   touchend:    //手指离开屏幕时触发    
+	   touchcancel:     //系统取消touch事件的时候触发，这个好像比较少用  
+
+	   每个触摸事件被触发后，会生成一个event对象，event对象里额外包括以下三个触摸列表  
+
+	   touches:     //当前屏幕上所有手指的列表  
+	   targetTouches:      //当前dom元素上手指的列表，尽量使用这个代替touches  
+	   changedTouches:     //涉及当前事件的手指的列表，尽量使用这个代替touches  

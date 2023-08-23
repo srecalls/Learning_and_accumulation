@@ -19,6 +19,7 @@ console.log(assignObj);  //{a:1,b:2,c:3,d:4}
 此方法不能实现`深拷贝`，假如源对象的属性值是一个对象的引用，那么它也只指向那个引用。
 
 ## 二、Object.create()
+[[手写Object.create]]
 2. `Object.create()`方法创建一个新对象，使用现有对象来提供新创建对象的`__proto__`。
 ![[Pasted image 20230531172505.png]]
 

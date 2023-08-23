@@ -263,3 +263,48 @@ export default {
 - beforeRouteEnter
 - beforeRouteUpdate
 - beforeRouteLeave
+
+## 1.关于Vue组件生命周期说法错误的是（   ）
+- [ ] A.Vue组件的生命周期可以分成三个大阶段：挂载、更新、卸载
+- [ ] B.挂载阶段中涉及到的钩子函数有：beforeCreate、created、beforeMount、mounted
+- [x] C.更新阶段涉及的钩子函数有：beforeUpdate、updated、activated、deactivated
+- [ ] D.首次进入页面钩子函数的执行顺序：beforeCreate、created、beforeMount、mounted
+
+官方解析：Vue组件的生命周期涉及到的钩子函数和执行顺序是：beforeCreate、created、beforeMount、mounted、beforeUpdate、updated、beforeDestroy、destroyed，activated和deactivated是组件设置了keep-alive时，进入组件和离开组件时分别触发的两个函数
+
+## 2.下列关于Vue和React的描述错误的是（   ）
+
+- [ ] A.Vue进行数据拦截/代理，对数据更敏感，数据驱动视图自更新，而React需要手动驱动数据更新视图
+- [x] B.Vue和React的this都指向当前组件实例
+- [ ] C.Vue和React都能使用jsx进行编程
+- [ ] D.Vue和React都是数据驱动视图的更新
+
+官方解析：React中组件的this并不是当前实例，需要通过bind或箭头函数来修改指向。
+
+   React 函数式组件中 this 为 undefined    
+   React 类式组件中：   
+    constructor、render 中的 this 指向组件实例      
+    普通函数被组件实例调用，this 指向组件实例       
+    普通函数作为事件回调调用，严格模式下 this 指向 undefined，非严格模式下 this 指向 window，需要通过 bind 修改指向       
+    箭头函数没有自己的 this，this 为创建时的上下文，即指向组件实例
+
+
+## 3.现有以下代码, 打印的结果是（   ）
+```js
+new Vue({
+    data: { a: 'first', b: 'second' },
+    created: function () { console.log(this.a) },
+    mounted(){ console.log(this.b) }
+})
+```
+
+- [x] A.'first'
+- [ ] B.'first' 'second'
+- [ ] C.undefined undefined
+- [ ] D.空
+
+官方解析：由于Vue实例没有执行DOM挂载，所以不会执行mounted钩子函数
+
+mounted是vue中的一个钩子函数，一般在初始化页面完成后，再对dom节点进行相关操作。但是题例中没有执行dom挂载，所以mounted不会执行
+
+new的时候有el属性会自动挂载，没有的话需要后面手动挂载
