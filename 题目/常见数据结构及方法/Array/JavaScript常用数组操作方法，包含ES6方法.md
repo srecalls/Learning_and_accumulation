@@ -114,6 +114,8 @@ splice() 方法可删除从 index 处开始的零个或多个元素，并且用�
 2. `deleteCount`（可选）：指定要删除的元素的数量。如果省略此参数或其值大于或等于数组中从 `start` 位置开始的元素数量，则删除从 `start` 位置开始的所有元素。如果 `deleteCount` 的值为 0，则不会删除任何元素。
 3. `item1, item2, ...`（可选）：要添加到数组的新元素，从 `start` 位置开始插入。如果省略所有 `item` 参数，则 `splice()` 方法将仅删除元素并不添加新元素。
 
+**splice出来是个数组**
+
 ```js
 // 参数：  
 // 1.指定修改的开始位置（从0计数）  
@@ -169,7 +171,7 @@ if (!Array.isArray) {
 }
 ```
 
-## 十、sort 排序 生成 不改变
+## 十、sort 排序 不生成 改变
 [[JS数组的排序（sort方法）]]
 按照 Unicode code 位置排序，默认升序
 
@@ -278,7 +280,7 @@ const pos3 = str.lastIndexOf('z'); // 返回 -1
 
 需要注意的是，`indexOf` 和 `lastIndexOf` 方法都是区分大小写的，如果要进行不区分大小写的查找，则可以使用 `toLowerCase` 或 `toUpperCase` 方法将字符串转换为小写或大写后再进行查找。
 
-## 十三、every
+## 十三、every 生成 可以改变
 
 对数组的每一项都运行给定的函数，每一项都返回 ture,则返回 true
 
@@ -308,7 +310,7 @@ console.log(arr); // [2, 5, 8, 3, 4]
 `every()` 方法会遍历数组中的每个元素，并依次调用回调函数进行测试。如果回调函数返回 `false`，则 `every()` 方法立即返回 `false`，不再继续测试数组中的其他元素；否则继续测试下一个元素，直到遍历完整个数组或发现不满足条件的元素为止。
 
 **原理: 每一项都调用回调函数，如果全部return true则为true，有一个为false则为false**
-## 十四、some
+## 十四、some 生成 可以改变
 
 对数组的每一项都运行给定的函数，任意一项都返回 ture,则返回 true
 
@@ -320,7 +322,7 @@ function compare(element, index, array) {
 [12, 5, 8, 1, 4].some(compare); // true
 ```
 **原理：每一项都调用回调函数，有一项返回true则返回true，否则就返回false**
-## 十五、filter
+## 十五、filter 生成 可以改变
 
 对数组的每一项都运行给定的函数，返回 结果为 ture 的项组成的数组
 
@@ -333,7 +335,14 @@ var longWords = words.filter(function(word){
 // Filtered array longWords is ["exuberant", "destruction", "present"]
 ```
 
-## 十六、map
+`Array` 的 `filter` 方法接收一个参数，这个参数是一个回调函数（也称为谓词函数），用于对数组的每个元素进行测试。回调函数接收三个参数：
+
+1. `currentValue`（必需）：当前正在被处理的数组元素。
+2. `index`（可选）：当前正在被处理的元素在数组中的索引。
+3. `array`（可选）：调用 `filter` 方法的数组本身。
+
+回调函数应该返回一个布尔值，表示是否保留当前元素。如果回调函数返回 `true`，则当前元素将被保留在过滤后的数组中；如果返回 `false`，则当前元素将被过滤掉。
+## 十六、map 生成 可以改变
 
 对数组的每一项都运行给定的函数，返回每次函数调用的结果组成一个新数组
 
@@ -355,7 +364,7 @@ console.log(doubles)
 // [undefinded, undefinded, undefinded, undefinded]
 ```
 **原理：每一项都调用回调函数，每一项执行的回调函数返回的数存入数组中，如果不返回则为undefinded**
-## 十七、forEach 数组遍历
+## 十七、forEach 数组遍历 生成 可以改变
 
 ```js
 let arr = [2,4,6,8,10]  
@@ -378,6 +387,7 @@ arr.forEach((element,index) => {
 // 若条件允许，也可以使用 filter() 提前过滤出需要遍历的部分，再用 forEach() 处理。
 ```
 
+
 ```js
 const items = ['item1', 'item2', 'item3'];
 const copy = [];    
@@ -386,7 +396,7 @@ items.forEach(function(item){
 });
 ```
 
-## 十八、reduce
+## 十八、reduce 生成 可以改变
 从左到右为每个数组元素执行一次回调函数，并把上次回调函数的返回值放在一个暂存器中传给下次回调函数，并返回最后一次回调函数的返回值。
 ```js
 // 一、将数组中的值累乘  
@@ -417,7 +427,7 @@ console.log(countedNames) // { 'Alice': 2, 'Bob': 1, 'Tiff': 1, 'Bruce': 1 }
 // 作为第一次调用 callback函数时的第一个参数的值。 如果没有提供初始值，则将使用数组中的第一个元素。在没有初始值的空数组上调用 reduce 将报错。
 ```
 
-## 十九、reduceRight()
+## 十九、reduceRight() 生成 可以改变
 同上，不过遍历顺序变成了从右到左
 
 **原理：每一项都调用回调函数**

@@ -30,6 +30,19 @@ Function.prototype.myCall = function(context) {
 ```
 
 
+
+如果不加第一条的if判断
+```js
+function greet() {
+  console.log(`Hello, ${this.name}!`);
+}
+
+const person = [10, 20, 30];
+
+// 使用 call 方法调用 myApply
+console.log(greet.myApply.call(person)); // Error
+```
+
 运行例子
 ```js
 var year = 2021

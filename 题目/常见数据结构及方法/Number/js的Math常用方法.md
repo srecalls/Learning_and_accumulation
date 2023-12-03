@@ -69,6 +69,69 @@ function getRandom (min, max) {
 console.log(getRandom(0, ary.length-1)); // 输出数组里随机的一个当前项
 ```
 
+### [返回值](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Math/random#%E8%BF%94%E5%9B%9E%E5%80%BC)
+
+一个浮点型伪随机数字，在`0`（包括 0）和`1`（不包括）之间。
+
+## [示例](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Math/random#%E7%A4%BA%E4%BE%8B)
+
+请注意，由于 JavaScript 中的数字是 IEEE 754 浮点数字，具有最近舍入（round-to-nearest-even）的行为，因此以下函数的范围 (不包括`Math.random()` 本身) 并不准确。如果选择了非常大的边界 (2^53 或更高), 在极罕见的情况下会计算通常 - 排除（usually-excluded）的上界。（注：round-to-nearest-even 采用最近舍入的去偶数舍入的方式，对.5 的舍入上，采用取偶数的方式）
+
+### [得到一个大于等于 0，小于 1 之间的随机数](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Math/random#%E5%BE%97%E5%88%B0%E4%B8%80%E4%B8%AA%E5%A4%A7%E4%BA%8E%E7%AD%89%E4%BA%8E_0%EF%BC%8C%E5%B0%8F%E4%BA%8E_1_%E4%B9%8B%E9%97%B4%E7%9A%84%E9%9A%8F%E6%9C%BA%E6%95%B0)
+
+JSCopy to Clipboard
+
+```js
+function getRandom() {
+  return Math.random();
+}
+```
+
+### [得到一个两数之间的随机数](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Math/random#%E5%BE%97%E5%88%B0%E4%B8%80%E4%B8%AA%E4%B8%A4%E6%95%B0%E4%B9%8B%E9%97%B4%E7%9A%84%E9%9A%8F%E6%9C%BA%E6%95%B0)
+
+这个例子返回了一个在指定值之间的随机数。这个值不小于 `min`（有可能等于），并且小于（不等于）`max`。
+
+
+```js
+// 10 - 100
+function getRandomArbitrary(min, max) {
+  return Math.random() * (max - min) + min;
+  10 + 0 - 90
+}
+```
+
+### [得到一个两数之间的随机整数](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Math/random#%E5%BE%97%E5%88%B0%E4%B8%80%E4%B8%AA%E4%B8%A4%E6%95%B0%E4%B9%8B%E9%97%B4%E7%9A%84%E9%9A%8F%E6%9C%BA%E6%95%B4%E6%95%B0)
+
+这个例子返回了一个在指定值之间的随机整数。这个值不小于 `min` （如果 `min` 不是整数，则不小于 `min` 的向上取整数），且小于（不等于）`max`。
+
+JSCopy to Clipboard
+
+```js
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  // 10 - 100
+  return Math.floor(Math.random() * (max - min)) + min; //不含最大值，含最小值
+}
+```
+
+**备注：** 也许很容易想到用 `Math.round()` 来实现，但是这会导致你的随机数处于一个不均匀的分布，这可能不符合你的需求。
+
+### [得到一个两数之间的随机整数，包括两个数在内](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Math/random#%E5%BE%97%E5%88%B0%E4%B8%80%E4%B8%AA%E4%B8%A4%E6%95%B0%E4%B9%8B%E9%97%B4%E7%9A%84%E9%9A%8F%E6%9C%BA%E6%95%B4%E6%95%B0%EF%BC%8C%E5%8C%85%E6%8B%AC%E4%B8%A4%E4%B8%AA%E6%95%B0%E5%9C%A8%E5%86%85)
+
+上一个例子提到的函数 `getRandomInt()` 结果范围包含了最小值，但不含最大值。如果你的随机结果需要同时包含最小值和最大值，怎么办呢？`getRandomIntInclusive()` 函数可以实现。
+
+JSCopy to Clipboard
+
+```js
+function getRandomIntInclusive(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  // 10 - 100
+  return Math.floor(Math.random() * (max - min + 1)) + min; //含最大值，含最小值
+}
+```
+
 ## 【六】`Math.pow()` 指数运算
 	Math.pow()方法返回以第一个参数为底数、第二个参数为幂的指数值。
 

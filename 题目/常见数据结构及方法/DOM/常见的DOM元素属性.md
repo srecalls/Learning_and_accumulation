@@ -1,5 +1,97 @@
 好的，这里汇总一下之前提到的所有常见 DOM 元素属性：
 
+
+- `offsetTop`：`offsetTop`属性返回一个元素相对于其父元素的偏移量（offset）。偏移量是指元素的顶部边缘相对于其最近的已定位祖先元素（position为relative、absolute或fixed）的顶部边缘的距离。如果没有已定位的祖先元素，则偏移量是相对于文档的顶部边缘。返回值是一个整数。
+
+  例子：
+
+  ```html
+  <div id="parent" style="position: relative; top: 50px;">
+    <div id="child" style="position: relative; top: 20px;"></div>
+  </div>
+  ```
+
+  ```javascript
+  const parent = document.getElementById('parent');
+  const child = document.getElementById('child');
+
+  console.log(child.offsetTop); // 输出: 20
+  ```
+
+- `offsetLeft`：`offsetLeft`属性返回一个元素相对于其父元素的偏移量（offset）。偏移量是指元素的左侧边缘相对于其最近的已定位祖先元素（position为relative、absolute或fixed）的左侧边缘的距离。如果没有已定位的祖先元素，则偏移量是相对于文档的左侧边缘。返回值是一个整数。
+
+  例子：
+
+  ```html
+  <div id="parent" style="position: relative; left: 50px;">
+    <div id="child" style="position: relative; left: 20px;"></div>
+  </div>
+  ```
+
+  ```javascript
+  const parent = document.getElementById('parent');
+  const child = document.getElementById('child');
+
+  console.log(child.offsetLeft); // 输出: 20
+  ```
+
+- `offsetWidth`：`offsetWidth`属性返回一个元素的整体宽度，包括其内容区域、内边距和边框的宽度。返回值是一个浮点数（包含小数部分）。
+
+  例子：
+
+  ```html
+  <div id="element" style="width: 200px; padding: 10px; border: 1px solid black;">
+    Hello, World!
+  </div>
+  ```
+
+  ```javascript
+  const element = document.getElementById('element');
+
+  console.log(element.offsetWidth); // 输出: 212（200 + 2*10 + 2*1）
+  ```
+
+- `offsetHeight`：`offsetHeight`属性返回一个元素的整体高度，包括其内容区域、内边距和边框的高度。返回值是一个浮点数（包含小数部分）。
+
+  例子：
+
+  ```html
+  <div id="element" style="height: 100px; padding: 10px; border: 1px solid black;">
+    Hello, World!
+  </div>
+  ```
+
+  ```javascript
+  const element = document.getElementById('element');
+
+  console.log(element.offsetHeight); // 输出: 122（100 + 2*10 + 2*1）
+  ```
+
+- `getComputedStyle()`方法：`getComputedStyle()`是一个用于获取计算样式（computed style）的方法。它返回一个对象，包含指定元素的所有计算样式属性和对应的值。
+
+  例子：
+
+  ```html
+  <div id="element" style="width: 200px; height: 100px; padding: 10px; border: 1px solid black;">
+    Hello, World!
+  </div>
+  ```
+
+  ```javascript
+  const element = document.getElementById('element');
+  const computedStyle = window.getComputedStyle(element);
+
+  console.log(computedStyle.width); // 输出: "200px"
+  console.log(computedStyle.padding); // 输出: "10px"
+  console.log(computedStyle.border); // 输出: "1px solid rgb(0, 0, 0)"
+  ```
+
+  `getComputedStyle()`方法返回的是一个只读对象，其中包含了计算后的样式信息，包括继承的样式和通过CSS样式表定义的样式。
+
+
+
+
+
 1. `id`: 返回或设置元素的 id 属性值。
 
 2. `className` 或 `classList`: 返回或设置元素的类名。

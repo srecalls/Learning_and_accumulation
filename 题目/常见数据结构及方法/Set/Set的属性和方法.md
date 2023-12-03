@@ -15,7 +15,11 @@ const s = new Set(["val1", 1, true, {}, undefined, function fun() {}]);
 ```js
 const s = new Set([1, 1, 2, 3, 4, 4, 5, 6, 7, 4, 2, 1]);
 Array.from(s); //  [1, 2, 3, 4, 5, 6, 7]
+
+
+Set(3) { [ -1, 0, 1 ], [ -1, -1, 2 ], [ -1, 0, 1 ] }
 ```
+
 ## 2.Set实例转数组
 ```js
 const s = new Set([1, 2, 3]);

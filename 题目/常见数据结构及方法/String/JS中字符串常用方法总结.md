@@ -81,7 +81,7 @@ indexOf和lastIndexOf都接收两个参数，第一个是要索引的字符，�
 
 **注意事项**：indexOf,lastIndexOf方法返回 String 对象中的子字符串的位置。如果未找到子字符串，则返回 -1。如果 startindex 为负，则 startindex将被视为零。如果它大于最大索引，则将其视为最大索引。
 
-## 4 .match() 方法
+## 4. match() 方法
 match() 方法可在字符串内检索指定的值，或找到一个或多个正则表达式的匹配。
 
 ```js
@@ -333,6 +333,25 @@ console.log(strArr.join('')) // ABCDEFG
 ```
 
 **注意事项**:字符串排序的方法本身也是借助数组的sort来实现的
+
+## 15.charCodeAt()
+在 JavaScript 中，`charCodeAt()` 是一个字符串方法，用于返回指定索引位置处字符的 Unicode 编码。
+
+`charCodeAt()` 方法可以应用于一个字符串，并接受一个整数参数，表示要获取字符编码的位置（索引）。它返回一个表示该索引位置处字符的 Unicode 编码的整数值。
+
+以下是一个示例：
+
+```javascript
+let str = "Hello";
+let charCode = str.charCodeAt(0);
+console.log(s[0].charCodeAt()) // 输出72
+console.log(charCode); // 输出 72
+```
+
+在这个例子中，`charCodeAt(0)` 返回字符串 `str` 中索引位置为 0 的字符的 Unicode 编码，即字符 'H' 的 Unicode 编码是 72。
+
+可以使用 `charCodeAt()` 方法来获取字符串中任意位置字符的 Unicode 编码。它对于处理字符的编码和处理一些文本操作非常有用。需要注意的是，`charCodeAt()` 方法返回的是一个整数值，表示字符的 Unicode 编码，而不是字符本身。如果要获取字符的实际值，可以使用 `charAt()` 方法或直接通过索引访问字符串中的字符。
+
 
 ## ES6
 ### 15. includes(), startsWith(), endsWith 方法

@@ -54,7 +54,7 @@ console.log({} instanceof object); // true
 console. log((2).constructor === Number); // true
 console. log( (true). constructor === Boolean); // true
 console.log(('str').constructor === String); // true
-console. log(([ ]) . constructor === Array); // true
+console. log(([]) . constructor === Array); // true
 console. log((function() {}). constructor === Function); // true
 console. log(({}) . constructor === Object); // true
 ```

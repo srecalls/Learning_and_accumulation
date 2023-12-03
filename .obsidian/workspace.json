@@ -4,193 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "c1ff08b42cd00d2c",
+        "id": "92e9a0f66747d15f",
         "type": "tabs",
         "children": [
           {
-            "id": "246baf1bef63b273",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📖学习问题保留.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "76d65a2ce717cd2d",
+            "id": "0173ef18d8cd2952",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/面试/🌟简历自面/🌟面试模拟（包括遇到的面试题）.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "55465bcb5ae436e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/Vue/Vue基础/16.为什么组件中的 data 必须是一个函数，然后 return 一个对象，而 new Vue 实例里，data 可以直接是一个对象？.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "25f8f0bf5ad43ca0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/JS/防抖节流原理.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d73210cfd075c3be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "题目/Leetcode/简单/代金券组合（DP）.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "39555ff7cd12bc47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React/柴柴_前端教书匠/ReactRouter/3.路由传参/2. useParams传参.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7e13d465757c8244",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "题目/常见数据结构及方法/String/JS中字符串常用方法总结.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "29cae9a3a133bb6f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "实现文件上传进度条.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4348c6b5f6fa6e7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "嘉为实习汇总.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8c5a1f046535f04e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/面试/美团面试/❤️美团前端实习2023-06-30.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ce2264cec7808592",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/手写代码/Promise/手写Promise.all.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4ce3ca63b9a7c37f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/面试/美团面试/啊七王子2023美团面试题.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "544b5015682ce282",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "题目/Leetcode/简单/20. 有效的括号.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e66e69778042e9b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "题目/常见数据结构及方法/Number/js的Math常用方法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3adafc6447aa26a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/JS/三、JavaScript基础/25.for...in和for...of的区别.md",
+                "file": "面试/面试/小米/【2022】小米秋招笔试-前端-卷2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 14
+        ]
       }
     ],
     "direction": "vertical"
@@ -219,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "for in和for of",
+                "query": "小米",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -242,7 +71,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/JS/三、JavaScript基础/25.for...in和for...of的区别.md"
+                "file": "面试/面试/小米/【2022】小米秋招笔试-前端-卷2.md"
               }
             }
           },
@@ -259,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 393.50130462646484
+    "width": 406.50130462646484
   },
   "right": {
     "id": "04524ac15b70e47e",
@@ -294,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/JS/三、JavaScript基础/25.for...in和for...of的区别.md",
+                "file": "面试/面试/小米/【2022】小米秋招笔试-前端-卷2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -314,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面试/JS/三、JavaScript基础/25.for...in和for...of的区别.md",
+                "file": "面试/面试/小米/【2022】小米秋招笔试-前端-卷2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -322,6 +151,16 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e304a9e6a0a2de33",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -345,53 +184,53 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "3adafc6447aa26a1",
+  "active": "0173ef18d8cd2952",
   "lastOpenFiles": [
-    "React/Photo/25.for...in和for...of的区别.png",
-    "JavaScript/JavaScript基础/对象/遍历对象.md",
-    "面试/JS/三、JavaScript基础/25.for...in和for...of的区别.md",
-    "题目/Leetcode/简单/20. 有效的括号.md",
-    "题目/Leetcode/简单/14.最长公共前缀.md",
-    "题目/Leetcode/简单/111. 二叉树的最小深度.md",
-    "题目/常见数据结构及方法/Number/js的Math常用方法.md",
-    "React/Photo/111. 二叉树的最小深度.png",
-    "题目/Leetcode/简单/104. 二叉树的最大深度.md",
-    "面试/面试/小米/快手前端一面 秋招.md",
-    "面试/面试/小米/小米 前端  一面+二面  许愿OC.md",
     "面试/面试/小米/【2022】小米秋招笔试-前端-卷1.md",
-    "面试/面试/百度实习/1.md",
-    "面试/面试/百度实习/7.14百度提前批前端一面.md",
-    "面试/手写代码/CSS/实现一个轮播图组件.md",
-    "面试/手写代码/CSS/css动画从屏幕的左边向右滑入，实现方式.md",
-    "面试/CSS/一、CSS基础/7.transition和animation的区别.md",
-    "面试/CSS/position的属性有哪些,区别是什么.md",
-    "Html+CSS/CSS高级技巧/transform属性.md",
-    "React/Photo/7.transition和animation的区别.png",
+    "面试/面试/小米/小米一面.md",
+    "面试/面试/小米/小米前端面试.md",
+    "面试/面试/小米/小米 前端  一面+二面  许愿OC.md",
+    "未命名 9.md",
+    "未命名 3.md",
+    "Html+CSS/CSS浮动/清除浮动/清除浮动方法/双伪元素.md",
+    "Html+CSS/网页制作/具体项目/PC端品优购项目/品优购项目制作/网站TDK三大标签SEO优化.md",
     "面试/面试/🌟简历自面/🌟面试模拟（包括遇到的面试题）.md",
-    "题目/Leetcode/简单/94.二叉树的中序遍历.md",
-    "题目/Leetcode/中等/102. 二叉树的层序遍历.md",
-    "题目/Leetcode/中等/105. 从前序与中序遍历序列构造二叉树.md",
-    "题目/Leetcode/简单/144. 二叉树的前序遍历.md",
-    "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md",
-    "题目/Leetcode/简单/剑指 Offer 25. 合并两个排序的链表 ☑️.md",
-    "题目/Leetcode/中等/49. 字母异位词分组.md",
-    "React/Photo/849. 到最近的人的最大距离.png",
-    "React/Photo/Promise.all怎么把成功的和失败的都返回.png",
-    "题目/场景题",
-    "小米实习/前端特殊场景UI适配",
-    "React/Photo/前端特殊场景UI适配-3.png",
-    "React/Photo/前端特殊场景UI适配-2.png",
-    "React/Photo/前端特殊场景UI适配-1.png",
-    "React/Photo/前端特殊场景UI适配.png",
-    "小米实习",
-    "React/Photo/Pasted image 20230821105553.png",
-    "React/Photo/2727. 判断对象是否为空-1.png",
-    "面试/浏览器原理/八、浏览器事件机制",
-    "面试/浏览器原理/进程与线程/未命名",
-    "React/React文档/学习React/添加交互",
-    "React/React文档/学习React/描述UI",
-    "React/React文档/学习React",
-    "面试/面试/小红书",
-    "面试/React/二、数据管理"
+    "⏰Date Schedule.md",
+    "小米文档/招聘/面试题.md",
+    "React/Photo/面试题-40.png",
+    "React/Photo/面试题-39.png",
+    "React/Photo/面试题-38.png",
+    "React/Photo/面试题-37.png",
+    "React/Photo/面试题-36.png",
+    "React/Photo/面试题-35.png",
+    "React/Photo/面试题-34.png",
+    "React/Photo/面试题-33.png",
+    "React/Photo/面试题-32.png",
+    "React/Photo/面试题-31.png",
+    "小米文档/招聘/面试官必看【面试官手册】.md",
+    "未命名 11.md",
+    "积累.md",
+    "小米文档/招聘/飞书招聘系统使用手册【面试官自助约面】.md",
+    "小米文档/技术分享/TypeScript编译工具选择：开发者站前端项目实践.md",
+    "小米文档/技术分享/WebAssembly 及其演进史.md",
+    "小米文档/技术分享/【0511】ECMAScript 2023新特性.md",
+    "小米文档/技术分享/金字塔原理.md",
+    "小米文档/招聘/面试官培训及认证线上运营规则.md",
+    "小米文档/招聘/各位亲爱的小米面试官：.md",
+    "小米文档/知识库/前端/ECMAScript系列/ECMAScript® 2021(ES12) 新特性介绍.md",
+    "小米文档/知识库/前端/ECMAScript系列/ECMAScript® 2020(ES11) 新特性介绍.md",
+    "小米文档/知识库/前端/Ts/使用中的常见问题及答案.md",
+    "小米文档/知识库/前端/ECMAScript系列",
+    "小米文档/知识库/前端/Ts/typescript教程之进阶类型操作(准备中...）.md",
+    "小米文档/知识库/前端/Ts/typescript类型之范型与类型兼容性.md",
+    "小米文档/知识库/前端/Ts",
+    "小米文档/知识库/前端/前端分享文档",
+    "小米文档/知识库/前端/自动化测试",
+    "小米文档/知识库/前端/招聘/前端小题库/前端框架/React",
+    "小米文档/知识库/前端/招聘/前端小题库/前端框架/VUe",
+    "小米文档/知识库/前端/招聘/前端小题库/前端框架",
+    "小米文档/知识库/前端/招聘/前端小题库/浏览器",
+    "小米文档/知识库/前端/招聘/前端小题库/经验与总结",
+    "小米文档/知识库/前端/招聘/前端小题库/V8"
   ]
 }
