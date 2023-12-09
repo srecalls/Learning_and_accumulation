@@ -84,7 +84,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "积累.md"
+                "file": "微信小程序/视图与逻辑/页面导航/声明式导航/1.导航到tabBar页面.md"
               }
             }
           },
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "积累.md",
+                "file": "微信小程序/视图与逻辑/页面导航/声明式导航/1.导航到tabBar页面.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "积累.md",
+                "file": "微信小程序/视图与逻辑/页面导航/声明式导航/1.导航到tabBar页面.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
