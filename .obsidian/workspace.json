@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "微信小程序/视图与逻辑/页面导航/声明式导航/1.导航到tabBar页面.md",
+                "file": "Html+CSS/CSS高级技巧/字体图标/字体图标的引入.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "积累.md",
+                "file": "TypeScript/黑马程序员/TypeScript常用类型/常用类型/类型断言(as <>).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "40901e689f03c0a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TypeScript/黑马程序员/TypeScript常用类型/常用类型/对象类型(object).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -61,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "注释",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "微信小程序/视图与逻辑/页面导航/声明式导航/1.导航到tabBar页面.md"
+                "file": "TypeScript/黑马程序员/TypeScript常用类型/常用类型/对象类型(object).md"
               }
             }
           },
@@ -96,8 +108,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -136,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "微信小程序/视图与逻辑/页面导航/声明式导航/1.导航到tabBar页面.md",
+                "file": "TypeScript/黑马程序员/TypeScript常用类型/常用类型/对象类型(object).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "微信小程序/视图与逻辑/页面导航/声明式导航/1.导航到tabBar页面.md",
+                "file": "TypeScript/黑马程序员/TypeScript常用类型/常用类型/对象类型(object).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,34 +208,35 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "a182c61920d55b1e",
+  "active": "51d51efeaf4fb5b4",
   "lastOpenFiles": [
-    "微信小程序/起步/小程序的宿主环境/组件/6.swiper组件的常用属性.md",
-    "微信小程序/起步/小程序的宿主环境/组件/4.scroll-view组件的基本使用.md",
-    "微信小程序/起步/小程序的宿主环境/组件/3.view组件的基本使用.md",
-    "微信小程序/起步/小程序的宿主环境/组件/1.小程序中组件的分类.md",
-    "微信小程序/起步/小程序的宿主环境/组件/13.image组件的mode属性.md",
-    "积累.md",
-    "Html+CSS/CSS布局/盒子模型/盒子模型的介绍.md",
-    "面试/CSS/盒子水平垂直居中.md",
-    "Html+CSS/CSS基础/字体和文本样式/文本样式/水平居中方法总结 text-align center.md",
-    "微信小程序/视图与逻辑/页面导航/编程式导航/1.导航到tabBar页面.md",
-    "微信小程序/视图与逻辑/页面导航/导航传参/1.声明式导航传参.md",
-    "微信小程序/视图与逻辑/页面导航/导航传参/2.编程式导航传参.md",
-    "微信小程序/视图与逻辑/页面导航/声明式导航/1.导航到tabBar页面.md",
-    "微信小程序/视图与逻辑/页面导航/声明式导航/2.导航到非tabBar页面.md",
-    "微信小程序/视图与逻辑/页面导航/声明式导航/3.后退导航.md",
-    "微信小程序/视图与逻辑/页面导航/编程式导航/3.后退导航.md",
-    "微信小程序/视图与逻辑/页面导航/编程式导航/2.导航到非tabBar页面.md",
-    "微信小程序/视图与逻辑/生命周期/6.页面的生命周期函数.md",
-    "微信小程序/视图与逻辑/生命周期/5.应用的生命周期函数.md",
-    "微信小程序/视图与逻辑/生命周期/3.什么是生命周期函数.md",
-    "微信小程序/视图与逻辑/生命周期/2.生命周期的分类.md",
-    "微信小程序/视图与逻辑/生命周期/1.什么是生命周期.md",
-    "微信小程序/起步/小程序的宿主环境/组件/7.常用的基础内容组件.md",
-    "微信小程序/起步/小程序的宿主环境/组件/5.swiper和swiper-item组件的基本使用.md",
-    "微信小程序/起步/小程序的宿主环境/组件/2.常用的视图容器类组件.md",
-    "微信小程序/起步/小程序的宿主环境/组件/12.image组件的基本使用.md",
+    "TypeScript/黑马程序员/TypeScript初体验/TypeScript初体验.md",
+    "TypeScript/黑马程序员/TypeScript类型声明文件/使用已有的类型说明文件/内置类型声明文件.md",
+    "TypeScript/黑马程序员/TypeScript类型声明文件/使用已有的类型说明文件/第三方库的类型声明文件.md",
+    "TypeScript/黑马程序员/TypeScript类型声明文件/创建自己的类型说明文件/为已有JS文件提供类型声明.md",
+    "TypeScript/黑马程序员/TypeScript类型声明文件/创建自己的类型说明文件/项目内共享类型.md",
+    "TypeScript/黑马程序员/TypeScript类型声明文件/创建自己的类型说明文件/为已有JS文件提供类型声明的概述.md",
+    "TypeScript/黑马程序员/TypeScript类型声明文件/TS的两种文件类型.md",
+    "TypeScript/黑马程序员/TypeScript类型声明文件/类型声明文件概述.md",
+    "TypeScript/黑马程序员/TypeScript高级类型/泛型<type>/简化调用泛型函数.md",
+    "TypeScript/黑马程序员/TypeScript高级类型/映射类型 keyof/索引查询类型.md",
+    "TypeScript/黑马程序员/TypeScript高级类型/映射类型 keyof/映射类型 in 只有type.md",
+    "TypeScript/黑马程序员/TypeScript高级类型/索引签名类型【key/索引签名类型【key】.md",
+    "TypeScript/黑马程序员/TypeScript高级类型/映射类型 keyof/分析泛型工具类型Partial的实现.md",
+    "TypeScript/黑马程序员/TypeScript高级类型/泛型<type>/泛型接口 interface Test<Type>.md",
+    "TypeScript/黑马程序员/TypeScript高级类型/泛型<type>/泛型 <type>.md",
+    "TypeScript/黑马程序员/TypeScript高级类型/泛型<type>/多个泛型变量的情况.md",
+    "TypeScript/黑马程序员/TypeScript高级类型/高级类型概述.md",
+    "TypeScript/黑马程序员/TypeScript高级类型/泛型<type>/泛型工具类型.md",
+    "TypeScript/黑马程序员/TypeScript常用类型/常用类型/typeof.md",
+    "TypeScript/黑马程序员/TypeScript常用类型/常用类型/接口继承(extends).md",
+    "TypeScript/黑马程序员/TypeScript常用类型/常用类型/可选属性(?).md",
+    "TypeScript/黑马程序员/TypeScript常用类型/常用类型/字面量类型(const).md",
+    "TypeScript/黑马程序员/TypeScript高级类型/泛型<type>/泛型类 new Test<>().md",
+    "TypeScript/黑马程序员/TypeScript高级类型/泛型<type>/泛型约束(type【】).md",
+    "TypeScript/黑马程序员/TypeScript高级类型/交叉类型(type)/交叉类型和接口之间的对比说明.md",
+    "TypeScript/黑马程序员/TypeScript高级类型/交叉类型(type)/交叉类型(type).md",
+    "TypeScript/黑马程序员",
     "React/Photo/面试题-40.png",
     "React/Photo/面试题-39.png",
     "React/Photo/面试题-38.png",
@@ -243,7 +255,6 @@
     "小米文档/知识库/前端/招聘/前端小题库/前端框架/VUe",
     "小米文档/知识库/前端/招聘/前端小题库/前端框架",
     "小米文档/知识库/前端/招聘/前端小题库/浏览器",
-    "小米文档/知识库/前端/招聘/前端小题库/经验与总结",
-    "小米文档/知识库/前端/招聘/前端小题库/V8"
+    "小米文档/知识库/前端/招聘/前端小题库/经验与总结"
   ]
 }
