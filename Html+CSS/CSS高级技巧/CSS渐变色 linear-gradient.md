@@ -85,3 +85,40 @@ background-image: linear-gradient(angle, color-stop1, color-stop2);
   background-image: linear-gradient(-90deg, red, yellow);
 }
 ```
+
+
+`linear-gradient` 是 CSS 中用于创建线性渐变色的函数。它允许您在元素的背景、边框或文本等属性中应用从一个颜色到另一个颜色的平滑过渡效果。以下是 `linear-gradient` 函数的详细说明和示例：
+
+语法：
+```css
+linear-gradient([direction], [color-stop1], [color-stop2], ...);
+```
+
+- `[direction]`：表示渐变的方向。可以使用角度值（例如 `45deg` 表示 45 度角）或关键字（例如 `to right` 表示从左到右）来指定渐变的方向。默认值为 `to bottom`，表示从上到下的垂直渐变。
+- `[color-stop1]`, `[color-stop2]`, ...：表示渐变的颜色和位置。您可以指定任意多个颜色和位置（称为颜色停止点），以控制渐变的过渡效果。颜色停止点由颜色值和可选的位置值组成。
+
+示例：
+```css
+div {
+  background: linear-gradient(to right, #ff0000, #00ff00);
+}
+```
+上述示例将 `<div>` 元素的背景应用了一个从红色到绿色的水平渐变。渐变的方向是从左到右（`to right`），颜色停止点为红色 (`#ff0000`) 和绿色 (`#00ff00`)。
+
+您还可以添加更多的颜色停止点来创建更复杂的渐变效果：
+```css
+div {
+  background: linear-gradient(45deg, #ff0000, #00ff00, #0000ff);
+}
+```
+在这个示例中，渐变的方向是 45 度角，颜色停止点为红色 (`#ff0000`)、绿色 (`#00ff00`) 和蓝色 (`#0000ff`)，从左上角开始平滑过渡。
+
+`linear-gradient` 还支持指定颜色停止点的位置，以控制颜色的分布和过渡的速度。例如：
+```css
+div {
+  background: linear-gradient(to bottom, #ff0000 0%, #00ff00 50%, #0000ff 100%);
+}
+```
+在这个示例中，渐变的方向是从上到下，红色 (`#ff0000`) 从顶部开始，绿色 (`#00ff00`) 在距离顶部 50% 的位置开始，蓝色 (`#0000ff`) 在底部结束。
+
+通过调整 `linear-gradient` 函数中的参数，您可以创建各种不同的线性渐变色效果，以实现所需的视觉效果。
