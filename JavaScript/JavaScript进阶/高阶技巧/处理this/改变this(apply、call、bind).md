@@ -145,13 +145,12 @@ for(var i = 0; i < animals.length; i++){
         this.print = function(){
             console.log('#' + i + ' ' + this.species + ': ' + this.name);
         }
-        this.print();
+        this.print(); 
     }).call(animals[i], i); //call调用匿名函数
     // #0 Lion: King
 	// #1 Whale: Fail
 }
 ```
-
 
 ### call方法调用函数并且指定上下文的this
 ```js

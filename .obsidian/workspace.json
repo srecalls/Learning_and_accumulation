@@ -25,19 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "积累.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "23e8be670f86b0fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/代码输出/this/7.代码输出结果.md",
+                "file": "JavaScript/JavaScript进阶/高阶技巧/深浅拷贝/浅拷贝.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/CSS/@import的用法.md",
+                "file": "JavaScript/JavaScript基础/对象/遍历对象.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "一个月",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/CSS/@import的用法.md"
+                "file": "JavaScript/JavaScript进阶/高阶技巧/深浅拷贝/浅拷贝.md"
               }
             }
           },
@@ -159,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/CSS/@import的用法.md",
+                "file": "JavaScript/JavaScript进阶/高阶技巧/深浅拷贝/浅拷贝.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面试/CSS/@import的用法.md",
+                "file": "JavaScript/JavaScript进阶/高阶技巧/深浅拷贝/浅拷贝.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,41 +210,41 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "40901e689f03c0a4",
+  "active": "4f9072b72181ba1a",
   "lastOpenFiles": [
-    "面试/CSS/一、CSS基础/30. z-index属性在什么情况下会失效.md",
-    "面试/CSS/四、场景运用/6. 如何解决 1px 问题？.md",
+    "JavaScript/JavaScript进阶/常看常喜📖.md",
+    "JavaScript/JavaScript进阶/高阶技巧/深浅拷贝/浅拷贝.md",
+    "JavaScript/JavaScript进阶/高阶技巧/处理this/this指向.md",
+    "JavaScript/JavaScript进阶/高阶技巧/处理this/改变this(apply、call、bind).md",
+    "题目/常见数据结构及方法/Number/js的Math常用方法.md",
+    "JavaScript/JavaScript介绍/Javascript是什么.md",
+    "JavaScript/JavaScript介绍/JavaScript的注释.md",
+    "JavaScript/JavaScript介绍/JavaScript的结束符.md",
+    "JavaScript/JavaScript介绍/字面量.md",
+    "JavaScript/JavaScript介绍/输入与输出语法.md",
+    "JavaScript/JavaScript基础/常看常新📖.md",
+    "JavaScript/JavaScript基础/运算符/比较运算符.md",
+    "JavaScript/JavaScript基础/运算符/一元运算符.md",
+    "JavaScript/JavaScript基础/运算符/运算符优先级.md",
+    "JavaScript/JavaScript基础/循环-for/for循环的基本使用.md",
+    "JavaScript/JavaScript基础/循环-for/循环嵌套.md",
+    "JavaScript/JavaScript基础/数组/数组是什么.md",
+    "JavaScript/JavaScript基础/数组/数组的基本使用.md",
+    "JavaScript/JavaScript基础/数组/数组案例.md",
+    "JavaScript/JavaScript基础/数组/操作数组.md",
+    "JavaScript/JavaScript基础/类型转换/隐式转换.md",
+    "JavaScript/JavaScript基础/数据类型/数据类型.md",
+    "JavaScript/JavaScript基础/数据类型/检测数据类型.md",
+    "JavaScript/JavaScript基础/数据类型/基本数据类型/字符串类型 （string）.md",
+    "JavaScript/JavaScript基础/数据类型/基本数据类型/未定义类型 (undefined).md",
+    "JavaScript/JavaScript基础/数据类型/基本数据类型/数字类型 （number）.md",
     "React/Photo/6. 如何解决 1px 问题？.png",
-    "面试/CSS/四、场景运用/5. 设置小于12px的字体.md",
-    "面试/CSS/四、场景运用/4. 画一条0.5px的线.md",
-    "面试/CSS/四、场景运用/3. 实现一个宽高自适应的正方形.md",
-    "Html+CSS/HTML5和CSS3提高/CSS3的新特性/伪元素选择器.md",
-    "面试/CSS/四、场景运用/2. 实现一个扇形.md",
     "React/Photo/2. 实现一个扇形.png",
-    "面试/CSS/四、场景运用/1.实现一个三角形.md",
-    "面试/CSS/三、定位与浮动/9. 对 sticky 定位的理解.md",
-    "面试/CSS/三、定位与浮动/8. absolute与fixed共同点与不同点.md",
-    "面试/CSS/三、定位与浮动/7. display、float、position的关系.md",
-    "面试/CSS/三、定位与浮动/6. position的属性有哪些，区别是什么.md",
     "React/Photo/6. position的属性有哪些，区别是什么-3.png",
     "React/Photo/6. position的属性有哪些，区别是什么-2.png",
     "React/Photo/6. position的属性有哪些，区别是什么-1.png",
     "React/Photo/6. position的属性有哪些，区别是什么.png",
-    "面试/CSS/三、定位与浮动/5. 元素的层叠顺序.md",
     "React/Photo/5. 元素的层叠顺序.png",
-    "面试/CSS/三、定位与浮动/4. 什么是margin重叠问题？如何解决？.md",
-    "面试/CSS/三、定位与浮动/3. 对BFC的理解，如何创建BFC.md",
-    "面试/代码输出/this/7.代码输出结果.md",
-    "Html+CSS/CSS高级技巧/动画效果/2、关键帧应该怎么表示？.md",
-    "Html+CSS/CSS高级技巧/动画效果/4、简写.md",
-    "Html+CSS/CSS高级技巧/动画效果/5、关键帧的书写.md",
-    "Html+CSS/CSS高级技巧/动画效果/1、animation有什么组成？.md",
-    "Html+CSS/CSS高级技巧/动画效果/3、基础知识.md",
-    "Html+CSS/CSS高级技巧/动画效果/6、简单的滑动案例.md",
-    "Html+CSS/CSS高级技巧/动画效果/3、基础知识/8、animation-play-state.md",
-    "面试/CSS/三、定位与浮动/2. 使用 clear 属性清除浮动的原理？.md",
-    "面试/CSS/三、定位与浮动/1. 为什么需要清除浮动？清除浮动的方式.md",
-    "Html+CSS/CSS浮动/浮动 float/浮动布局的注意点.md",
     "面试/CSS/三、定位与浮动",
     "React/Photo/4. 三栏布局的实现-1.png",
     "React/Photo/4. 三栏布局的实现.png",
