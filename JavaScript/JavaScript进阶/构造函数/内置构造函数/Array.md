@@ -1,4 +1,4 @@
-## 创建数组
+	## 创建数组
 ![[Pasted image 20230311144539.png]]
 
 ## 实例方法
@@ -28,3 +28,4 @@ reverse
 findIndex
 
 ![[Pasted image 20230311145925.png]]
+[[JavaScript常用数组操作方法，包含ES6方法]]

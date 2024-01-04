@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/JavaScript进阶/高阶技巧/深浅拷贝/浅拷贝.md",
+                "file": "JavaScript/JavaScript进阶/常看常新📖.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/JavaScript基础/对象/遍历对象.md",
+                "file": "积累.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/JavaScript进阶/高阶技巧/深浅拷贝/浅拷贝.md"
+                "file": "积累.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/JavaScript进阶/高阶技巧/深浅拷贝/浅拷贝.md",
+                "file": "积累.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/JavaScript进阶/高阶技巧/深浅拷贝/浅拷贝.md",
+                "file": "积累.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,9 +210,25 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "4f9072b72181ba1a",
+  "active": "40901e689f03c0a4",
   "lastOpenFiles": [
-    "JavaScript/JavaScript进阶/常看常喜📖.md",
+    "React/Photo/积累-21.png",
+    "JavaScript/JavaScript基础/对象/遍历对象.md",
+    "JavaScript/JavaScript进阶/常看常新📖.md",
+    "JavaScript/JavaScript进阶/函数进阶/函数参数.md",
+    "JavaScript/JavaScript进阶/构造函数/深入对象/实例成员和静态成员.md",
+    "JavaScript/JavaScript进阶/构造函数/深入对象/构造对象的三种方式.md",
+    "JavaScript/JavaScript进阶/构造函数/深入对象/构造函数.md",
+    "JavaScript/JavaScript进阶/构造函数/内置构造函数/String.md",
+    "JavaScript/JavaScript进阶/构造函数/内置构造函数/Object.md",
+    "题目/常见数据结构及方法/String/JS中字符串常用方法总结.md",
+    "JavaScript/JavaScript进阶/构造函数/内置构造函数/Array.md",
+    "JavaScript/JavaScript进阶/构造函数/内置构造函数/内置构造函数说明.md",
+    "JavaScript/JavaScript进阶/高阶技巧/性能优化/总结.md",
+    "JavaScript/JavaScript进阶/高阶技巧/性能优化/节流 throttle.md",
+    "JavaScript/JavaScript进阶/高阶技巧/性能优化/防抖 debounce.md",
+    "面试/手写代码/深拷贝和浅拷贝/实现深拷贝.md",
+    "JavaScript/JavaScript进阶/高阶技巧/深浅拷贝/深拷贝.md",
     "JavaScript/JavaScript进阶/高阶技巧/深浅拷贝/浅拷贝.md",
     "JavaScript/JavaScript进阶/高阶技巧/处理this/this指向.md",
     "JavaScript/JavaScript进阶/高阶技巧/处理this/改变this(apply、call、bind).md",
@@ -222,22 +238,6 @@
     "JavaScript/JavaScript介绍/JavaScript的结束符.md",
     "JavaScript/JavaScript介绍/字面量.md",
     "JavaScript/JavaScript介绍/输入与输出语法.md",
-    "JavaScript/JavaScript基础/常看常新📖.md",
-    "JavaScript/JavaScript基础/运算符/比较运算符.md",
-    "JavaScript/JavaScript基础/运算符/一元运算符.md",
-    "JavaScript/JavaScript基础/运算符/运算符优先级.md",
-    "JavaScript/JavaScript基础/循环-for/for循环的基本使用.md",
-    "JavaScript/JavaScript基础/循环-for/循环嵌套.md",
-    "JavaScript/JavaScript基础/数组/数组是什么.md",
-    "JavaScript/JavaScript基础/数组/数组的基本使用.md",
-    "JavaScript/JavaScript基础/数组/数组案例.md",
-    "JavaScript/JavaScript基础/数组/操作数组.md",
-    "JavaScript/JavaScript基础/类型转换/隐式转换.md",
-    "JavaScript/JavaScript基础/数据类型/数据类型.md",
-    "JavaScript/JavaScript基础/数据类型/检测数据类型.md",
-    "JavaScript/JavaScript基础/数据类型/基本数据类型/字符串类型 （string）.md",
-    "JavaScript/JavaScript基础/数据类型/基本数据类型/未定义类型 (undefined).md",
-    "JavaScript/JavaScript基础/数据类型/基本数据类型/数字类型 （number）.md",
     "React/Photo/6. 如何解决 1px 问题？.png",
     "React/Photo/2. 实现一个扇形.png",
     "React/Photo/6. position的属性有哪些，区别是什么-3.png",
