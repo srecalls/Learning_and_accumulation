@@ -4,47 +4,117 @@
     "type": "split",
     "children": [
       {
-        "id": "92e9a0f66747d15f",
+        "id": "94296d5120221964",
         "type": "tabs",
         "children": [
           {
-            "id": "0173ef18d8cd2952",
+            "id": "d1b62eb5b399172e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Html+CSS/CSS高级技巧/字体图标/字体图标的引入.md",
+                "file": "Vue2和Vue3有哪些.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4f9072b72181ba1a",
+            "id": "234bbe100ebb81e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/JavaScript进阶/常看常新📖.md",
+                "file": "Vue2和Vue3有哪些.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "40901e689f03c0a4",
+            "id": "039b070f9bf7a007",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "积累.md",
+                "file": "Node.js/初识Node.js与内置模块/内置模块/http模块/创建最基本的web服务器.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4b18d4fa8d9a450d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FireUG前端面试/浏览器存储.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a4b89baa79901a64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/代码输出/作用域&变量提示&闭包/3.代码输出结果.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ebbdab20784182cc",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
+          },
+          {
+            "id": "e8a5c83d4b4c526e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/手写代码/Promise/手写Promise.race.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c90885f32535a32b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/计算机网络/HTTP协议/蛋老师HTTP1.1、HTTP2.0、HTTP3.0.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f66091582ce8a939",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/面试/美团面试/美团实习前端一面经验帖.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -68,35 +138,27 @@
             }
           },
           {
-            "id": "a182c61920d55b1e",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "一个月",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "fa755e8e9b67ceed",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
             "id": "be0c182a7a0e7be2",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/JavaScript进阶/常看常新📖.md"
+                "file": "面试/手写代码/Promise/手写Promise.race.md"
+              }
+            }
+          },
+          {
+            "id": "a182c61920d55b1e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "小米一",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
               }
             }
           },
@@ -112,7 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 406.50130462646484
+    "width": 378.50130462646484
   },
   "right": {
     "id": "04524ac15b70e47e",
@@ -147,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/JavaScript进阶/常看常新📖.md",
+                "file": "面试/手写代码/Promise/手写Promise.race.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +229,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/JavaScript进阶/常看常新📖.md",
+                "file": "面试/手写代码/Promise/手写Promise.race.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,53 +272,53 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "4f9072b72181ba1a",
+  "active": "e8a5c83d4b4c526e",
   "lastOpenFiles": [
-    "JavaScript/JavaScript进阶/深入面向对象/原型/对象原型.md",
-    "JavaScript/JavaScript进阶/深入面向对象/原型/constructor属性.md",
-    "JavaScript/JavaScript进阶/深入面向对象/原型/原型.md",
-    "JavaScript/JavaScript进阶/常看常新📖.md",
-    "JavaScript/JavaScript进阶/深入面向对象/原型/原型继承.md",
-    "JavaScript/JavaScript进阶/深入面向对象/构造函数.md",
-    "JavaScript/JavaScript进阶/深入面向对象/编程思想.md",
-    "JavaScript/JavaScript进阶/解构赋值/数组解构.md",
-    "JavaScript/JavaScript进阶/解构赋值/对象解构.md",
-    "JavaScript/JavaScript进阶/解构赋值/遍历数组 forEach方法.md",
-    "JavaScript/JavaScript进阶/函数进阶/箭头函数.md",
-    "JavaScript/JavaScript进阶/函数进阶/函数参数.md",
-    "JavaScript/JavaScript进阶/函数进阶/函数提升.md",
-    "积累.md",
-    "React/Photo/积累-21.png",
-    "JavaScript/JavaScript基础/对象/遍历对象.md",
-    "JavaScript/JavaScript进阶/构造函数/深入对象/实例成员和静态成员.md",
-    "JavaScript/JavaScript进阶/构造函数/深入对象/构造对象的三种方式.md",
-    "JavaScript/JavaScript进阶/构造函数/深入对象/构造函数.md",
-    "JavaScript/JavaScript进阶/构造函数/内置构造函数/String.md",
-    "JavaScript/JavaScript进阶/构造函数/内置构造函数/Object.md",
-    "题目/常见数据结构及方法/String/JS中字符串常用方法总结.md",
-    "JavaScript/JavaScript进阶/构造函数/内置构造函数/Array.md",
-    "JavaScript/JavaScript进阶/构造函数/内置构造函数/内置构造函数说明.md",
-    "JavaScript/JavaScript进阶/高阶技巧/性能优化/总结.md",
-    "JavaScript/JavaScript进阶/高阶技巧/性能优化/节流 throttle.md",
-    "JavaScript/JavaScript进阶/高阶技巧/性能优化/防抖 debounce.md",
-    "React/Photo/6. 如何解决 1px 问题？.png",
-    "React/Photo/2. 实现一个扇形.png",
-    "React/Photo/6. position的属性有哪些，区别是什么-3.png",
-    "React/Photo/6. position的属性有哪些，区别是什么-2.png",
-    "React/Photo/6. position的属性有哪些，区别是什么-1.png",
-    "React/Photo/6. position的属性有哪些，区别是什么.png",
-    "React/Photo/5. 元素的层叠顺序.png",
-    "面试/CSS/三、定位与浮动",
-    "React/Photo/4. 三栏布局的实现-1.png",
-    "React/Photo/4. 三栏布局的实现.png",
-    "面试/CSS/二、页面布局",
-    "Html+CSS/CSS高级技巧/动画效果/3、基础知识",
-    "TypeScript/黑马程序员",
-    "小米文档/知识库/前端/ECMAScript系列",
-    "小米文档/知识库/前端/Ts",
-    "小米文档/知识库/前端/前端分享文档",
-    "小米文档/知识库/前端/自动化测试",
-    "小米文档/知识库/前端/招聘/前端小题库/前端框架/React",
-    "小米文档/知识库/前端/招聘/前端小题库/前端框架/VUe"
+    "面试/手写代码/Promise/手写Promise.race.md",
+    "面试/手写代码/Promise/手写Promise.all.md",
+    "面试/面试/蔚来NIO/上海NIO蔚来 数字座舱 前端实习 一面 面经.md",
+    "面试/JS/七、异步编程/6.Promise.all和Promise.race的区别和使用场景.md",
+    "面试/面试/🌟简历自面/🌟面试模拟（包括遇到的面试题）.md",
+    "面试/面试/蔚来NIO",
+    "面试/Vue/使用Objec.defineProperty来进行数据劫持有什么缺点.md",
+    "面试/面试/美团面试/美团实习前端一面经验帖.md",
+    "面试/面试/美团面试/美团美团前端实习二面面经（隐去敏感问题）.md",
+    "面试/面试/美团面试/美团前端秋招一面.md",
+    "面试/面试/美团面试/❤️美团前端实习2023-06-30.md",
+    "面试/面试/美团面试/美团3.23一面面试题目.md",
+    "面试/面试/美团面试/啊七王子2023美团面试题.md",
+    "面试/面试/美团面试/2022.6.17 美团前端.md",
+    "面试/面试/美团面试/2022.5.19 美团前端一面.md",
+    "面试/面试/美团面试/24暑期美团前端实习-已offer.md",
+    "面试/面试/美团面试/美团一面.md",
+    "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md",
+    "JavaScript/JavaScript基础/数组/操作数组.md",
+    "JavaScript/JavaScript基础/数组/数组的基本使用.md",
+    "面试/面试/美团面试/美团暑期前端一面凉凉.md",
+    "面试/面试/小米/小米一面.md",
+    "面试/面试/小米/快手前端一面 秋招.md",
+    "面试/面试/小米/小米二面.md",
+    "面试/面试/小米/小米 前端  一面+二面  许愿OC.md",
+    "面试/CSS/二、页面布局/5. 水平垂直居中的实现.md",
+    "面试/计算机网络/HTTP协议/蛋老师HTTP1.1、HTTP2.0、HTTP3.0.md",
+    "React/Photo/经典的媒体查询断点.png",
+    "小米实习项目/小米实习/前端特殊场景UI适配",
+    "小米实习项目/小米实习",
+    "小米实习项目/小米文档/技术分享",
+    "小米实习项目/小米文档/质量建设",
+    "小米实习项目/小米文档/我的实习文档",
+    "小米实习项目/小米文档/招聘",
+    "小米实习项目/小米文档/知识库/前端/基础规划与OKR",
+    "小米实习项目/小米文档/知识库/前端/Ts",
+    "小米实习项目/小米文档/知识库/前端/自动化测试",
+    "React/Photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0-2.png",
+    "React/Photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0-1.png",
+    "React/Photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0.png",
+    "React/Photo/7.代码输出结果-1.png",
+    "React/Photo/7.代码输出结果.png",
+    "React/Photo/浏览器存储.png",
+    "React/Photo/Promise理论+实操-13.png",
+    "React/Photo/Promise理论+实操-12.png",
+    "React/Photo/Promise理论+实操-11.png"
   ]
 }

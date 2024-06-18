@@ -8,5 +8,9 @@ HTTP1.0:expires 时间戳响应标头
 HTTP1.1 :Cache -Control响应标头
 
 **协商缓存触发:**
-HTTP1.0:请求头: if-modified-since 响应头: last -modified
-HTTP1.1:请求头: if-none-match 响应头: Etag .
+HTTP1.0:
+	请求头: if-modified-since 
+	响应头: last-modified
+HTTP1.1:
+	请求头: if-none-match
+	响应头: Etag

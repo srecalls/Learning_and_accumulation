@@ -1,3 +1,5 @@
+`作用:
+
 ## constructor属性
 ![[Pasted image 20230311152851.png]]
 

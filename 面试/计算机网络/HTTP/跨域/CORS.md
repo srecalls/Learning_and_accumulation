@@ -8,7 +8,6 @@
 #### 1) 简单请求
 
 只要同时满足以下两大条件，就属于简单请求
-
 条件1：使用下列方法之一：
 
 	- GET
@@ -20,6 +19,7 @@
 	- text/plain
 	- multipart/form-data
 	- application/x-www-form-urlencoded
+
 这几个是常见的HTTP请求的Content-Type类型，表示请求体中的数据格式。下面分别介绍一下它们的含义：
 
 	1. text/plain：表示普通文本格式，即纯文本数据，没有任何格式和样式。在HTTP请求中，通常用于向服务器传递少量的简单数据，比如一些参数或者配置信息等。
@@ -27,11 +27,21 @@
 	3. application/x-www-form-urlencoded：表示URL编码表单数据，通常用于提交表单数据中的简单文本数据。在application/x-www-form-urlencoded格式中，请求体中的数据被编码成键值对的形式，使用等号（=）连接键和值，使用&符号分隔不同的键值对。
 
 请求中的任意 XMLHttpRequestUpload 对象均没有注册任何事件监听器； XMLHttpRequestUpload 对象可以使用 XMLHttpRequest.upload 属性访问。
+##### http请求头中，contentType有哪些
+在HTTP请求头中，用于指定请求体的内容类型的字段是"Content-Type"。Content-Type字段用于告知服务器发送请求时正文部分的媒体类型。
 
+常见的Content-Type值包括但不限于以下几种：
+
+1. application/json：表示请求体中的数据是JSON格式。
+2. application/x-www-form-urlencoded：表示请求体中的数据是经过URL编码的表单数据。
+3. multipart/form-data：表示请求体中的数据是通过多部分形式进行编码的，通常用于文件上传。
+4. text/plain：表示请求体中的数据是纯文本格式。
+5. application/xml：表示请求体中的数据是XML格式。
+6. application/octet-stream：表示请求体中的数据是二进制流数据。
+7. image/jpeg、image/png、image/gif等：表示请求体中的数据是相应的图片格式。
 #### 2) 复杂请求
 
 不符合以上条件的请求就肯定是复杂请求了。 复杂请求的CORS请求，会在正式通信之前，增加一次HTTP查询请求，称为"预检"请求,该请求是 option 方法的，通过该请求来知道服务端是否允许跨域请求。
-
 
 "预检"请求（Preflight request）是在进行跨域请求时，浏览器自动发送的 OPTIONS 请求，用于确定服务端是否允许实际的跨域请求。
 
