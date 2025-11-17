@@ -10,7 +10,7 @@ v-if作用于普通元素时会触发beforeUpdate和updated钩子函数，作用
 
 v-show不影响生命周期。
 
-v-show不支持<template>语法
+`v-show不支持<template>语法`
 
 ### 2. vue中的单向数据流（props)
 

@@ -4,7 +4,7 @@
 **那么scoped的原理是?**
 - 1、为**组件实例** （组件的ID给他标上去，不是标签id，vnode里给他起个id）生成一个**唯一标识**，给**组件**中的**每个标签对应的dom元素添加**一个标签属性，data-V-xxxx
 - 2、给`<style scoped>`中的每个选择器的最后一个选择器添加**一个属性选择器**，原选择器+`[data-V-xxxx]`，如: 原选择器为`.container #id div`，则更改后选择器为`.container #id div[data-V-xxxx]`
-
+[[16.为什么组件中的 data 必须是一个函数，然后 return 一个对象，而 new Vue 实例里，data 可以直接是一个对象？]]
 
 引出另外一个问题:
 如果使用第三方组件，加了scoped之后就可能控制不到第三方组件中的样式（例如Element-ui）

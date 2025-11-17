@@ -7,3 +7,20 @@ Promise.race = function (args) {
   })
 }
 ```
+
+```js
+const pRace = (promises) => {
+  return new Promise((resolve, reject) => {
+    promises.forEach((p) => {
+      p.then(
+        (value) => {
+          resolve(p);
+        },
+        (reason) => {
+          reject(reason);
+        },
+      );
+    });
+  });
+};
+```

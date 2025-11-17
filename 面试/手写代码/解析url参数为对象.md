@@ -2,6 +2,45 @@
 1.URL参数是空字符串或者undefined，那么返回一个空对象，  
 2.如果URL中有重复的键，将这些键对应的值转换为数组，3.URL参数中值为数字、布尔值、空字符或者null，应该正确的解析，4.然后URL如果包含特殊字符，要正确的转义
 好的，针对您提到的边界条件，可以对函数进行如下实现：
+window.location` 是一个包含当前页面 URL 相关信息的对象。它提供了许多属性来访问和操作 URL 的不同部分。下面是 `window.location` 对象的常用属性：
+
+- `window.location.href`：完整的 URL 字符串，包括协议、主机、路径、查询参数和哈希部分。
+- `window.location.protocol`：协议部分，如 "http:" 或 "https:"。
+- `window.location.host`：主机部分，包括域名和端口。
+- `window.location.hostname`：域名部分，不包括端口。
+- `window.location.port`：端口部分。
+- `window.location.pathname`：路径部分，不包括查询参数和哈希部分。
+- `window.location.search`：查询参数部分，包括 "?" 符号。
+- `window.location.hash`：哈希部分，包括 "#" 符号。
+
+使用这些属性，你可以访问和操作当前页面 URL 的不同部分。例如，你可以通过 `window.location.href` 获取完整的 URL，或通过 `window.location.pathname` 获取路径部分。
+
+
+![[解析url参数为对象-1.png]]
+`URLSearchParams` 可以将参数对象转换为查询字符串，并使用 `toString()` 方法将其附加到 URL 的搜索部分。
+![[解析url参数为对象-2.png]]
+
+```js
+
+function urlSearch(href) {
+  let name, value;
+  let str = href; //取得整个地址栏
+  let num = str.indexOf("?");
+  str = str.substr(num + 1); //取得所有参数
+  let arr = str.split("&"); //各个参数放到数组里
+  let json = {};
+  for (let i = 0; i < arr.length; i++) {
+    num = arr[i].indexOf("=");
+    if (num > 0) {
+      name = arr[i].substring(0, num);
+      value = arr[i].substr(num + 1);
+      json[name] = value;
+    }
+  }
+  return json;
+}
+
+```
 
 ```javascript
 function parseUrlParams(url) {

@@ -7,8 +7,6 @@
 - [x] gitee博客贡献
 - [x] leetcode每日一题
 
-#### 小米公司任务
-
 
 ##### 重要事件节点
 https://www.yuque.com/alipayqvfd0cfvgl/daimasuixianglu/vzfw7b5gpm2f74c1?singleDoc#6Coq 

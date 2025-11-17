@@ -1,5 +1,5 @@
 ![[Pasted image 20230316215647.png]]
-
+[[flex：1 完整写法]]
 
 ## flex
 ![[Pasted image 20230316220127.png]]

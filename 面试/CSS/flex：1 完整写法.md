@@ -14,7 +14,7 @@ flex：1 默认是 flex： 1 1 0%
 如果是auto的话，默认就是项目本身大小
 
 ![[Pasted image 20230621144702.png]]
-
+![[flex：1 完整写法.png]]
 [flex：1到底是什么](https://zhuanlan.zhihu.com/p/136223806)
 
 

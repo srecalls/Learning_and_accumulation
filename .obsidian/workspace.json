@@ -8,113 +8,253 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d1b62eb5b399172e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vue2和Vue3有哪些.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "234bbe100ebb81e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vue2和Vue3有哪些.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "039b070f9bf7a007",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Node.js/初识Node.js与内置模块/内置模块/http模块/创建最基本的web服务器.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4b18d4fa8d9a450d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FireUG前端面试/浏览器存储.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a4b89baa79901a64",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/代码输出/作用域&变量提示&闭包/3.代码输出结果.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ebbdab20784182cc",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.3"
-              }
-            }
-          },
-          {
-            "id": "e8a5c83d4b4c526e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/手写代码/Promise/手写Promise.race.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c90885f32535a32b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/计算机网络/HTTP协议/蛋老师HTTP1.1、HTTP2.0、HTTP3.0.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f66091582ce8a939",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/面试/美团面试/美团实习前端一面经验帖.md",
+                "file": "渡一前端题/JavaScript/2. 类型是如何相互转换的.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "2. 类型是如何相互转换的"
+            }
+          },
+          {
+            "id": "f7b96d34278f5733",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/Vue/Vue基础/30道vue面试题/16、你使用过 Vuex 吗？.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "16、你使用过 Vuex 吗？"
+            }
+          },
+          {
+            "id": "b4e99457418aa0db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/性能优化/六、Webpack优化/1. 如何提⾼webpack的打包速度?.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. 如何提⾼webpack的打包速度?"
+            }
+          },
+          {
+            "id": "d448df6ba8495bae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "赚钱/vue.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "vue"
+            }
+          },
+          {
+            "id": "0eee33c551c2baab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/面试/虾皮/shopee前端一面记录.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "shopee前端一面记录"
+            }
+          },
+          {
+            "id": "be6347a7b5290701",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "小米实习项目/小米文档/我的实习文档/webpack从0到1搭建vue项目.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "webpack从0到1搭建vue项目"
+            }
+          },
+          {
+            "id": "b9386fb7868da0d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/代码输出/原型&&继承/8.代码输出结果.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "8.代码输出结果"
+            }
+          },
+          {
+            "id": "1806917a13fcb48d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Webpack/千锋教育/1.6.3 抽离和压缩css.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1.6.3 抽离和压缩css"
+            }
+          },
+          {
+            "id": "55cbbb7aad2fddf0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "题目/Leetcode/鹅厂文化衫问题.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "鹅厂文化衫问题"
+            }
+          },
+          {
+            "id": "3fe8cb681748ca08",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.7.7"
+            }
+          },
+          {
+            "id": "51b73541a59c1ef0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/React/一、组件基础/1.React事件机制.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1.React事件机制"
+            }
+          },
+          {
+            "id": "39b091c928ae7c02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/React/一、组件基础/1.React事件机制.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1.React事件机制"
+            }
+          },
+          {
+            "id": "2cbf0fa09764bc5b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.8.10"
+            }
+          },
+          {
+            "id": "181da9fba30f65fe",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.9.12"
+            }
+          },
+          {
+            "id": "edaf6373d9eb141a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "URLSearchParams用法.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "URLSearchParams用法"
+            }
+          },
+          {
+            "id": "9db252f00fd93882",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "webWorker.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "webWorker"
+            }
+          },
+          {
+            "id": "2a2ec3199faa0c1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "new File() 详细用法介绍.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "new File() 详细用法介绍"
+            }
+          },
+          {
+            "id": "480addd84cd44eb1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "new Blob()的详细用法.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "new Blob()的详细用法"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -133,8 +273,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -142,9 +285,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "面试/手写代码/Promise/手写Promise.race.md"
-              }
+              "state": {},
+              "icon": "lucide-list",
+              "title": "大纲"
             }
           },
           {
@@ -153,13 +296,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "小米一",
+                "query": " React 事件机制",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -167,14 +312,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 378.50130462646484
+    "width": 516.5013046264648
   },
   "right": {
     "id": "04524ac15b70e47e",
@@ -192,7 +339,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -200,7 +349,9 @@
             "type": "leaf",
             "state": {
               "type": "todo",
-              "state": {}
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
             }
           },
           {
@@ -209,10 +360,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/手写代码/Promise/手写Promise.race.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "出链"
             }
           },
           {
@@ -220,7 +372,9 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -229,7 +383,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面试/手写代码/Promise/手写Promise.race.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -237,7 +390,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
             }
           },
           {
@@ -249,7 +404,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
             }
           }
         ],
@@ -262,6 +419,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -272,53 +430,53 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "e8a5c83d4b4c526e",
+  "active": "480addd84cd44eb1",
   "lastOpenFiles": [
-    "面试/手写代码/Promise/手写Promise.race.md",
-    "面试/手写代码/Promise/手写Promise.all.md",
-    "面试/面试/蔚来NIO/上海NIO蔚来 数字座舱 前端实习 一面 面经.md",
-    "面试/JS/七、异步编程/6.Promise.all和Promise.race的区别和使用场景.md",
-    "面试/面试/🌟简历自面/🌟面试模拟（包括遇到的面试题）.md",
-    "面试/面试/蔚来NIO",
-    "面试/Vue/使用Objec.defineProperty来进行数据劫持有什么缺点.md",
-    "面试/面试/美团面试/美团实习前端一面经验帖.md",
-    "面试/面试/美团面试/美团美团前端实习二面面经（隐去敏感问题）.md",
-    "面试/面试/美团面试/美团前端秋招一面.md",
-    "面试/面试/美团面试/❤️美团前端实习2023-06-30.md",
-    "面试/面试/美团面试/美团3.23一面面试题目.md",
-    "面试/面试/美团面试/啊七王子2023美团面试题.md",
-    "面试/面试/美团面试/2022.6.17 美团前端.md",
-    "面试/面试/美团面试/2022.5.19 美团前端一面.md",
-    "面试/面试/美团面试/24暑期美团前端实习-已offer.md",
-    "面试/面试/美团面试/美团一面.md",
-    "题目/常见数据结构及方法/Array/JavaScript常用数组操作方法，包含ES6方法.md",
-    "JavaScript/JavaScript基础/数组/操作数组.md",
-    "JavaScript/JavaScript基础/数组/数组的基本使用.md",
-    "面试/面试/美团面试/美团暑期前端一面凉凉.md",
-    "面试/面试/小米/小米一面.md",
-    "面试/面试/小米/快手前端一面 秋招.md",
-    "面试/面试/小米/小米二面.md",
-    "面试/面试/小米/小米 前端  一面+二面  许愿OC.md",
-    "面试/CSS/二、页面布局/5. 水平垂直居中的实现.md",
-    "面试/计算机网络/HTTP协议/蛋老师HTTP1.1、HTTP2.0、HTTP3.0.md",
-    "React/Photo/经典的媒体查询断点.png",
-    "小米实习项目/小米实习/前端特殊场景UI适配",
-    "小米实习项目/小米实习",
-    "小米实习项目/小米文档/技术分享",
-    "小米实习项目/小米文档/质量建设",
-    "小米实习项目/小米文档/我的实习文档",
-    "小米实习项目/小米文档/招聘",
-    "小米实习项目/小米文档/知识库/前端/基础规划与OKR",
-    "小米实习项目/小米文档/知识库/前端/Ts",
-    "小米实习项目/小米文档/知识库/前端/自动化测试",
-    "React/Photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0-2.png",
-    "React/Photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0-1.png",
-    "React/Photo/蛋老师HTTP1.1、HTTP2.0、HTTP3.0.png",
-    "React/Photo/7.代码输出结果-1.png",
-    "React/Photo/7.代码输出结果.png",
-    "React/Photo/浏览器存储.png",
-    "React/Photo/Promise理论+实操-13.png",
-    "React/Photo/Promise理论+实操-12.png",
-    "React/Photo/Promise理论+实操-11.png"
+    "new File() 详细用法介绍.md",
+    "new Blob()的详细用法.md",
+    "webWorker.md",
+    "FileReader使用详细介绍.md",
+    "URLSearchParams用法.md",
+    "浏览器不支持get里携带body.md",
+    "开发过程中的git分支管理.md",
+    "https.md",
+    "CCNP-Enterprise_副本.md",
+    "Easy Mock 基本用法.md",
+    "字节跳动秋招-深圳-抖音前端一面.md",
+    "学习mentor.md",
+    "⏰Date Schedule.md",
+    "📖学习问题保留.md",
+    "电脑变更注意点.md",
+    "积累.md",
+    "嘉为实习汇总.md",
+    "经验.md",
+    "前端代码【开发日志】(1).md",
+    "前后端分离和不分离的安全问题.md",
+    "实习问题.md",
+    "实现文件上传进度条.md",
+    "未命名.md",
+    "未命名 1.md",
+    "未命名 4.md",
+    "未命名 3.md",
+    "React/Photo/2. 类型是如何相互转换的-13.png",
+    "React/Photo/2. 类型是如何相互转换的-12.png",
+    "React/Photo/Pasted image 20240805065526.png",
+    "React/Photo/2. 类型是如何相互转换的-11.png",
+    "React/Photo/2. 类型是如何相互转换的-10.png",
+    "React/Photo/2. 类型是如何相互转换的-9.png",
+    "React/Photo/2. 类型是如何相互转换的-8.png",
+    "React/Photo/2. 类型是如何相互转换的-7.png",
+    "React/Photo/Pasted image 20240805064348.png",
+    "React/Photo/2. 类型是如何相互转换的-6.png",
+    "周易/六爻",
+    "周易",
+    "渡一前端题/手写代码",
+    "渡一前端题/浏览器原理",
+    "渡一前端题/计算机网络",
+    "渡一前端题/前端工程化",
+    "渡一前端题/性能优化",
+    "渡一前端题/React",
+    "渡一前端题/Vue",
+    "渡一前端题/JavaScript"
   ]
 }

@@ -25,3 +25,5 @@ git merge会有一个合并的提交节点，git rebase则是直线的提交纪�
 ### 3. git reset和git revert的区别
 
 git reset是回退到某个版本，而git revert是撤销某个版本
+
+[[13.v-if和v-show的区别]]
