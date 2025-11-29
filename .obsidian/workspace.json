@@ -245,12 +245,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "new Blob()的详细用法.md",
+                "file": "渡一前端学习/组件级权限控制的最佳实践【渡一教育】.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "new Blob()的详细用法"
+              "title": "组件级权限控制的最佳实践【渡一教育】"
             }
           }
         ],
@@ -432,32 +432,33 @@
   },
   "active": "480addd84cd44eb1",
   "lastOpenFiles": [
-    "new File() 详细用法介绍.md",
-    "new Blob()的详细用法.md",
-    "webWorker.md",
-    "FileReader使用详细介绍.md",
+    "渡一前端学习/国产系统页面动效过多，卡顿怎么优化？【渡一教育】.md",
+    "渡一前端学习/组件级权限控制的最佳实践【渡一教育】.md",
+    "前端面试90%会被问到的场景题：大文件上传了解多少？.md",
+    "未命名 2.md",
+    "linux、操作系统、驱动、ubuntu、虚拟机之间的区别.md",
+    "常见的电脑硬件以及作用.md",
+    "学习mentor.md",
+    "未命名 6.md",
+    "未命名 5.md",
+    "未命名 4.md",
+    "未命名 1.md",
+    "护肤流程.md",
+    "渡一前端学习/vu2 + vue3的区别应该怎么回答.md",
+    "Vue2和Vue3有哪些.md",
+    "渡一前端学习",
     "URLSearchParams用法.md",
+    "webWorker.md",
+    "new Blob()的详细用法.md",
+    "new File() 详细用法介绍.md",
+    "FileReader使用详细介绍.md",
     "浏览器不支持get里携带body.md",
     "开发过程中的git分支管理.md",
     "https.md",
     "CCNP-Enterprise_副本.md",
     "Easy Mock 基本用法.md",
     "字节跳动秋招-深圳-抖音前端一面.md",
-    "学习mentor.md",
     "⏰Date Schedule.md",
-    "📖学习问题保留.md",
-    "电脑变更注意点.md",
-    "积累.md",
-    "嘉为实习汇总.md",
-    "经验.md",
-    "前端代码【开发日志】(1).md",
-    "前后端分离和不分离的安全问题.md",
-    "实习问题.md",
-    "实现文件上传进度条.md",
-    "未命名.md",
-    "未命名 1.md",
-    "未命名 4.md",
-    "未命名 3.md",
     "React/Photo/2. 类型是如何相互转换的-13.png",
     "React/Photo/2. 类型是如何相互转换的-12.png",
     "React/Photo/Pasted image 20240805065526.png",
@@ -476,7 +477,6 @@
     "渡一前端题/前端工程化",
     "渡一前端题/性能优化",
     "渡一前端题/React",
-    "渡一前端题/Vue",
-    "渡一前端题/JavaScript"
+    "渡一前端题/Vue"
   ]
 }
