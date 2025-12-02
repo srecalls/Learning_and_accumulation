@@ -245,12 +245,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "渡一前端学习/websocket心跳机制.md",
+                "file": "护肤.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "websocket心跳机制"
+              "title": "护肤"
             }
           }
         ],
@@ -432,8 +432,10 @@
   },
   "active": "480addd84cd44eb1",
   "lastOpenFiles": [
-    "渡一前端学习/websocket和长轮询的区别.md",
+    "护肤流程.md",
+    "护肤.md",
     "渡一前端学习/websocket心跳机制.md",
+    "渡一前端学习/websocket和长轮询的区别.md",
     "渡一前端学习/websocket是什么？和HTTP是什么区别？长轮询是什么？服务器推是什么？.md",
     "React/Photo/websocket是什么？和HTTP是什么区别？长轮询是什么？服务器推是什么？-15.png",
     "React/Photo/websocket是什么？和HTTP是什么区别？长轮询是什么？服务器推是什么？-14.png",
@@ -457,7 +459,6 @@
     "渡一前端学习/真随机和伪随机.md",
     "渡一前端学习/国产系统页面动效过多，卡顿怎么优化？【渡一教育】.md",
     "运动牢记.md",
-    "护肤流程.md",
     "渡一前端学习/同一个URL地址，如何实现手机打开是移动端页面，电脑打开是Web页面.md",
     "渡一前端学习/浏览器指纹.md",
     "渡一前端学习/方括号和点操作操作符有区别吗.md",
@@ -467,7 +468,6 @@
     "JavaScript/JavaScript进阶/深入面向对象/原型/原型链.md",
     "面试/JS/三、JavaScript基础/1.new操作符的实现原理.md",
     "JavaScript/JavaScript进阶/深入面向对象/原型/constructor属性.md",
-    "面试/手写代码/JavaScript基础/手写Object.create.md",
     "有趣的动效实现",
     "渡一前端学习",
     "周易/六爻",
